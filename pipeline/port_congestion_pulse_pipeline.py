@@ -3,10 +3,8 @@
 import os
 import json
 import yaml
-import sys
 from datetime import datetime, timezone
 from openrouter_llm import analyze_with_llm
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "shared"))
 from data_fetcher import fetch_earthquakes, fetch_exchange_rates, fetch_gdelt, fetch_nasa_firms, safe_fetch
 
 def load_config():
