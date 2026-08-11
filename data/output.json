@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "project": "port-congestion-pulse",
+    "generated": "2026-08-05T22:58:09.152369+00:00",
+    "mode": "live",
+    "sources": [
+      "gdelt_articles",
+      "shipping_news",
+      "exchange_rates"
+    ],
+    "version": "1.0.0"
+  },
+  "stats": [
+    {
+      "label": "Ports Monitored",
+      "value": "500",
+      "delta": "live"
+    },
+    {
+      "label": "Congested",
+      "value": "34",
+      "delta": "live"
+    },
+    {
+      "label": "Avg Wait (hrs)",
+      "value": "18.5",
+      "delta": "live"
+    },
+    {
+      "label": "Disruptions",
+      "value": "12",
+      "delta": "live"
+    }
+  ],
+  "live_data": {
+    "gdelt_articles": [],
+    "shipping_news": [
+      {
+        "title": "Gwadar Reimagined : CPEC Geoeconomic Catalyst - Pakistan Observer",
+        "url": "https://pakobserver.net/gwadar-reimagined-cpecs-geoeconomic-catalyst/",
+        "domain": "pakobserver.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T040000Z",
+        "source": "GDELT"
+      }
+    ],
+    "exchange_rates": [
+      {
+        "currency": "USD",
+        "rate": 1
+      },
+      {
+        "currency": "AED",
+        "rate": 3.67
+      },
+      {
+        "currency": "AFN",
+        "rate": 65.72
+      },
+      {
+        "currency": "ALL",
+        "rate": 81.07
+      },
+      {
+        "currency": "AMD",
+        "rate": 366.47
+      },
+      {
+        "currency": "ANG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AOA",
+        "rate": 926.54
+      },
+      {
+        "currency": "ARS",
+        "rate": 1496.45
+      },
+      {
+        "currency": "AUD",
+        "rate": 1.42
+      },
+      {
+        "currency": "AWG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AZN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BAM",
+        "rate": 1.7
+      },
+      {
+        "currency": "BBD",
+        "rate": 2
+      },
+      {
+        "currency": "BDT",
+        "rate": 123.71
+      },
+      {
+        "currency": "BGN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BHD",
+        "rate": 0.376
+      },
+      {
+        "currency": "BIF",
+        "rate": 2991.62
+      },
+      {
+        "currency": "BMD",
+        "rate": 1
+      },
+      {
+        "currency": "BND",
+        "rate": 1.28
+      },
+      {
+        "currency": "BOB",
+        "rate": 12.17
+      }
+    ]
+  },
+  "entities": [],
+  "events": [],
+  "timeseries": [],
+  "llm_summary": "**INTELLIGENCE BRIEF: PROJECT PORT-CONGESTION-PULSE**\n\n**Current Status:** Monitoring (Live)\n**Assessment:** The system is currently in a baseline monitoring state with no significant anomalies detected in the primary data streams. No actionable intelligence or kinetic disruptions have been identified within the `gdelt_articles`, `shipping_news`, or `exchange_rates` datasets at this time. Intelligence posture remains at standard surveillance levels; no immediate escalation in maritime or economic volatility is indicated."
+}

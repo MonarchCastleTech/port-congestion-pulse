@@ -1,0 +1,26 @@
+# Port Congestion Pulse Configuration
+project:
+  id: port-congestion-pulse
+  name: "Port Congestion Pulse"
+  description: "Real-time global port congestion index."
+
+openrouter:
+  model: "openrouter/free"
+  fallback_model: "openrouter/free"
+
+gdelt_query: "shipping port congestion supply chain"
+include_forex: true
+
+sources:
+  - name: "GDELT"
+
+refresh:
+  interval_hours: 6
+  retry_attempts: 3
+
+scoring:
+  scale: "1-10"
+  thresholds:
+    high: 7
+    medium: 4
+    low: 0
