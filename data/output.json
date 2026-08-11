@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-11T03:21:03.635193+00:00",
+    "generated": "2026-08-11T07:51:16.491444+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,53 +32,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "Moneycontrol Pro Panorama | Container crisis",
-        "url": "https://www.moneycontrol.com/news/business/economy/moneycontrol-pro-panorama-container-crisis-13999862.html",
-        "domain": "moneycontrol.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T094500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Why the Rhine drought is bad news for Germany recovery",
-        "url": "https://www.dw.com/en/why-the-rhine-drought-is-bad-news-for-germanys-recovery/a-78300076",
-        "domain": "dw.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "没人告诉你 ： 判断中国汽车出海火不火 ， 得先看一眼船",
-        "url": "https://www.163.com/dy/article/L3VQULGN0539AECO.html",
-        "domain": "163.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260810T071500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Why the Rhine Drought is Bad News for Germany Recovery",
-        "url": "https://en.tempo.co/read/2117179/why-the-rhine-drought-is-bad-news-for-germanys-recovery",
-        "domain": "en.tempo.co",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T011500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Revue de presse : limpasse des négociations avec Israël accentue la pression militaire et politique sur le Liban",
-        "url": "https://libnanews.com/revue-de-presse-limpasse-des-negociations-avec-israel-accentue-la-pression-militaire-et-politique-sur-le-liban/",
-        "domain": "libnanews.com",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260810T103000Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -162,95 +116,8 @@
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "Moneycontrol Pro Panorama | Container crisis",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T094500Z",
-      "source": "moneycontrol.com"
-    },
-    {
-      "id": 2,
-      "name": "Why the Rhine drought is bad news for Germany recovery",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T163000Z",
-      "source": "dw.com"
-    },
-    {
-      "id": 3,
-      "name": "没人告诉你 ： 判断中国汽车出海火不火 ， 得先看一眼船",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T071500Z",
-      "source": "163.com"
-    },
-    {
-      "id": 4,
-      "name": "Why the Rhine Drought is Bad News for Germany Recovery",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260811T011500Z",
-      "source": "en.tempo.co"
-    },
-    {
-      "id": 5,
-      "name": "Revue de presse : limpasse des négociations avec Israël acce",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T103000Z",
-      "source": "libnanews.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "Moneycontrol Pro Panorama | Container crisis",
-      "url": "https://www.moneycontrol.com/news/business/economy/moneycontrol-pro-panorama-container-crisis-13999862.html",
-      "domain": "moneycontrol.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260810T094500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Why the Rhine drought is bad news for Germany recovery",
-      "url": "https://www.dw.com/en/why-the-rhine-drought-is-bad-news-for-germanys-recovery/a-78300076",
-      "domain": "dw.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260810T163000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "没人告诉你 ： 判断中国汽车出海火不火 ， 得先看一眼船",
-      "url": "https://www.163.com/dy/article/L3VQULGN0539AECO.html",
-      "domain": "163.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260810T071500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Why the Rhine Drought is Bad News for Germany Recovery",
-      "url": "https://en.tempo.co/read/2117179/why-the-rhine-drought-is-bad-news-for-germanys-recovery",
-      "domain": "en.tempo.co",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260811T011500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Revue de presse : limpasse des négociations avec Israël accentue la pression militaire et politique sur le Liban",
-      "url": "https://libnanews.com/revue-de-presse-limpasse-des-negociations-avec-israel-accentue-la-pression-militaire-et-politique-sur-le-liban/",
-      "domain": "libnanews.com",
-      "language": "French",
-      "tone": 0,
-      "seendate": "20260810T103000Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
