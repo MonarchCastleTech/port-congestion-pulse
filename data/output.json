@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-05T22:58:09.152369+00:00",
+    "generated": "2026-08-11T03:21:03.635193+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "shipping_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -33,15 +32,50 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
-    "shipping_news": [
+    "gdelt_articles": [
       {
-        "title": "Gwadar Reimagined : CPEC Geoeconomic Catalyst - Pakistan Observer",
-        "url": "https://pakobserver.net/gwadar-reimagined-cpecs-geoeconomic-catalyst/",
-        "domain": "pakobserver.net",
+        "title": "Moneycontrol Pro Panorama | Container crisis",
+        "url": "https://www.moneycontrol.com/news/business/economy/moneycontrol-pro-panorama-container-crisis-13999862.html",
+        "domain": "moneycontrol.com",
         "language": "English",
         "tone": 0,
-        "seendate": "20260805T040000Z",
+        "seendate": "20260810T094500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Why the Rhine drought is bad news for Germany recovery",
+        "url": "https://www.dw.com/en/why-the-rhine-drought-is-bad-news-for-germanys-recovery/a-78300076",
+        "domain": "dw.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260810T163000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "没人告诉你 ： 判断中国汽车出海火不火 ， 得先看一眼船",
+        "url": "https://www.163.com/dy/article/L3VQULGN0539AECO.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260810T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Why the Rhine Drought is Bad News for Germany Recovery",
+        "url": "https://en.tempo.co/read/2117179/why-the-rhine-drought-is-bad-news-for-germanys-recovery",
+        "domain": "en.tempo.co",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Revue de presse : limpasse des négociations avec Israël accentue la pression militaire et politique sur le Liban",
+        "url": "https://libnanews.com/revue-de-presse-limpasse-des-negociations-avec-israel-accentue-la-pression-militaire-et-politique-sur-le-liban/",
+        "domain": "libnanews.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260810T103000Z",
         "source": "GDELT"
       }
     ],
@@ -56,15 +90,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.72
+        "rate": 65.51
       },
       {
         "currency": "ALL",
-        "rate": 81.07
+        "rate": 80.66
       },
       {
         "currency": "AMD",
-        "rate": 366.47
+        "rate": 366.5
       },
       {
         "currency": "ANG",
@@ -72,11 +106,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 926.54
+        "rate": 925.26
       },
       {
         "currency": "ARS",
-        "rate": 1496.45
+        "rate": 1498.09
       },
       {
         "currency": "AUD",
@@ -92,7 +126,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BBD",
@@ -100,11 +134,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 123.71
+        "rate": 123.59
       },
       {
         "currency": "BGN",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BHD",
@@ -112,7 +146,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.62
+        "rate": 2991.46
       },
       {
         "currency": "BMD",
@@ -124,12 +158,99 @@
       },
       {
         "currency": "BOB",
-        "rate": 12.17
+        "rate": 11.96
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "Moneycontrol Pro Panorama | Container crisis",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260810T094500Z",
+      "source": "moneycontrol.com"
+    },
+    {
+      "id": 2,
+      "name": "Why the Rhine drought is bad news for Germany recovery",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260810T163000Z",
+      "source": "dw.com"
+    },
+    {
+      "id": 3,
+      "name": "没人告诉你 ： 判断中国汽车出海火不火 ， 得先看一眼船",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260810T071500Z",
+      "source": "163.com"
+    },
+    {
+      "id": 4,
+      "name": "Why the Rhine Drought is Bad News for Germany Recovery",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260811T011500Z",
+      "source": "en.tempo.co"
+    },
+    {
+      "id": 5,
+      "name": "Revue de presse : limpasse des négociations avec Israël acce",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260810T103000Z",
+      "source": "libnanews.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "Moneycontrol Pro Panorama | Container crisis",
+      "url": "https://www.moneycontrol.com/news/business/economy/moneycontrol-pro-panorama-container-crisis-13999862.html",
+      "domain": "moneycontrol.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260810T094500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Why the Rhine drought is bad news for Germany recovery",
+      "url": "https://www.dw.com/en/why-the-rhine-drought-is-bad-news-for-germanys-recovery/a-78300076",
+      "domain": "dw.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260810T163000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "没人告诉你 ： 判断中国汽车出海火不火 ， 得先看一眼船",
+      "url": "https://www.163.com/dy/article/L3VQULGN0539AECO.html",
+      "domain": "163.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260810T071500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Why the Rhine Drought is Bad News for Germany Recovery",
+      "url": "https://en.tempo.co/read/2117179/why-the-rhine-drought-is-bad-news-for-germanys-recovery",
+      "domain": "en.tempo.co",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260811T011500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Revue de presse : limpasse des négociations avec Israël accentue la pression militaire et politique sur le Liban",
+      "url": "https://libnanews.com/revue-de-presse-limpasse-des-negociations-avec-israel-accentue-la-pression-militaire-et-politique-sur-le-liban/",
+      "domain": "libnanews.com",
+      "language": "French",
+      "tone": 0,
+      "seendate": "20260810T103000Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
-  "llm_summary": "**INTELLIGENCE BRIEF: PROJECT PORT-CONGESTION-PULSE**\n\n**Current Status:** Monitoring (Live)\n**Assessment:** The system is currently in a baseline monitoring state with no significant anomalies detected in the primary data streams. No actionable intelligence or kinetic disruptions have been identified within the `gdelt_articles`, `shipping_news`, or `exchange_rates` datasets at this time. Intelligence posture remains at standard surveillance levels; no immediate escalation in maritime or economic volatility is indicated."
+  "llm_summary": "Pending API key..."
 }
