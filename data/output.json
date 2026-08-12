@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-12T08:02:38.231952+00:00",
+    "generated": "2026-08-12T14:04:39.828218+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,7 +32,44 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "Saudi Arabia Jeddah port faces congestion as cargo routes shift",
+        "url": "https://www.freshplaza.com/north-america/article/9861916/saudi-arabia-s-jeddah-port-faces-congestion-as-cargo-routes-shift/",
+        "domain": "freshplaza.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T144500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "萬海財報 ／ 第2季獲利年增近10倍 、 賺115 . 35億元 EPS 4 . 11元 | 個股情報 | 股市",
+        "url": "https://udn.com/news/story/7252/9687419",
+        "domain": "udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260812T101500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "How the Rhine drought threatens Germany economic recovery",
+        "url": "https://www.dw.com/en/rhine-river-drought-germany-economy-recovery-shipping-climate-change/a-78300076",
+        "domain": "dw.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T081500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Panama Wants Its Free Zone to Conquer the Caribbean",
+        "url": "https://www.riotimesonline.com/panama-caribbean-export-push-2026/",
+        "domain": "riotimesonline.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260812T094500Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -116,8 +153,78 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "Saudi Arabia Jeddah port faces congestion as cargo routes sh",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260811T144500Z",
+      "source": "freshplaza.com"
+    },
+    {
+      "id": 2,
+      "name": "萬海財報 ／ 第2季獲利年增近10倍 、 賺115 . 35億元 EPS 4 . 11元 | 個股情報 | 股市",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T101500Z",
+      "source": "udn.com"
+    },
+    {
+      "id": 3,
+      "name": "How the Rhine drought threatens Germany economic recovery",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T081500Z",
+      "source": "dw.com"
+    },
+    {
+      "id": 4,
+      "name": "Panama Wants Its Free Zone to Conquer the Caribbean",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260812T094500Z",
+      "source": "riotimesonline.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "Saudi Arabia Jeddah port faces congestion as cargo routes shift",
+      "url": "https://www.freshplaza.com/north-america/article/9861916/saudi-arabia-s-jeddah-port-faces-congestion-as-cargo-routes-shift/",
+      "domain": "freshplaza.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260811T144500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "萬海財報 ／ 第2季獲利年增近10倍 、 賺115 . 35億元 EPS 4 . 11元 | 個股情報 | 股市",
+      "url": "https://udn.com/news/story/7252/9687419",
+      "domain": "udn.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260812T101500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "How the Rhine drought threatens Germany economic recovery",
+      "url": "https://www.dw.com/en/rhine-river-drought-germany-economy-recovery-shipping-climate-change/a-78300076",
+      "domain": "dw.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260812T081500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Panama Wants Its Free Zone to Conquer the Caribbean",
+      "url": "https://www.riotimesonline.com/panama-caribbean-export-push-2026/",
+      "domain": "riotimesonline.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260812T094500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
