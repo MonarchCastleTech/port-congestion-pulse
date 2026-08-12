@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-12T03:08:44.295757+00:00",
+    "generated": "2026-08-12T08:02:38.231952+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,17 +32,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "Saudi Arabia Jeddah port faces congestion as cargo routes shift",
-        "url": "https://www.freshplaza.com/north-america/article/9861916/saudi-arabia-s-jeddah-port-faces-congestion-as-cargo-routes-shift/",
-        "domain": "freshplaza.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T144500Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -126,27 +116,8 @@
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "Saudi Arabia Jeddah port faces congestion as cargo routes sh",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260811T144500Z",
-      "source": "freshplaza.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "Saudi Arabia Jeddah port faces congestion as cargo routes shift",
-      "url": "https://www.freshplaza.com/north-america/article/9861916/saudi-arabia-s-jeddah-port-faces-congestion-as-cargo-routes-shift/",
-      "domain": "freshplaza.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260811T144500Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
