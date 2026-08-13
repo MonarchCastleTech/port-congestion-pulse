@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" role="img" aria-labelledby="title desc">
+  <title id="title">Port Congestion Pulse</title>
+  <desc id="desc">Port Congestion Pulse product logo</desc>
+  <g fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="15" r="5"/><path d="M32 20v34M17 29h30M10 39c4 10 12 15 22 15s18-5 22-15M19 39H9M45 39h10"/></g>
+  <text x="70" y="30" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing=".2">Port Congestion</text>
+  <text x="70" y="51" fill="#2dd4bf" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" letter-spacing=".2">Pulse</text>
+</svg>
