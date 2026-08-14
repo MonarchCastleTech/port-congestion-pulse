@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-14T08:00:03.197556+00:00",
+    "generated": "2026-08-14T14:01:00.218088+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "shipping_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -32,7 +33,118 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "全球航运巨头马士基上调业绩展望 ， 集运市场迎来阶段性供需再平衡 ( 附概念股 ) ",
+        "url": "https://stock.jrj.com.cn/2026/08/14075658101228.shtml",
+        "domain": "stock.jrj.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T004500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+        "url": "https://baijiahao.baidu.com/s?id=1873475543371745720",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+        "url": "https://baijiahao.baidu.com/s?id=1873479035264862899",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strong Vessel Demand , Rates Lift Maersk Outlook",
+        "url": "https://www.marinelink.com/news/strong-vessel-demand-rates-lift-maersk-542088",
+        "domain": "marinelink.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "班列载满  中国清凉 ， 钢铁驼队架起中欧民生纽带",
+        "url": "https://sp.ycwb.com/ikimvkctjo/content_54268929.htm",
+        "domain": "sp.ycwb.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tariffs , war and emission controls : What the state of California port economy ? ",
+        "url": "https://www.capradio.org/articles/2026/08/13/tariffs-war-and-emission-controls-whats-the-state-of-californias-port-economy/",
+        "domain": "capradio.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T220000Z",
+        "source": "GDELT"
+      }
+    ],
+    "shipping_news": [
+      {
+        "title": "全球航运巨头马士基上调业绩展望 ， 集运市场迎来阶段性供需再平衡 ( 附概念股 ) ",
+        "url": "https://stock.jrj.com.cn/2026/08/14075658101228.shtml",
+        "domain": "stock.jrj.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T004500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+        "url": "https://baijiahao.baidu.com/s?id=1873475543371745720",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+        "url": "https://baijiahao.baidu.com/s?id=1873479035264862899",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strong Vessel Demand , Rates Lift Maersk Outlook",
+        "url": "https://www.marinelink.com/news/strong-vessel-demand-rates-lift-maersk-542088",
+        "domain": "marinelink.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "班列载满  中国清凉 ， 钢铁驼队架起中欧民生纽带",
+        "url": "https://sp.ycwb.com/ikimvkctjo/content_54268929.htm",
+        "domain": "sp.ycwb.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tariffs , war and emission controls : What the state of California port economy ? ",
+        "url": "https://www.capradio.org/articles/2026/08/13/tariffs-war-and-emission-controls-whats-the-state-of-californias-port-economy/",
+        "domain": "capradio.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T220000Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -116,8 +228,112 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "全球航运巨头马士基上调业绩展望 ， 集运市场迎来阶段性供需再平衡 ( 附概念股 ) ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T004500Z",
+      "source": "stock.jrj.com.cn"
+    },
+    {
+      "id": 2,
+      "name": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T060000Z",
+      "source": "baijiahao.baidu.com"
+    },
+    {
+      "id": 3,
+      "name": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T071500Z",
+      "source": "baijiahao.baidu.com"
+    },
+    {
+      "id": 4,
+      "name": "Strong Vessel Demand , Rates Lift Maersk Outlook",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260813T154500Z",
+      "source": "marinelink.com"
+    },
+    {
+      "id": 5,
+      "name": "班列载满  中国清凉 ， 钢铁驼队架起中欧民生纽带",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T110000Z",
+      "source": "sp.ycwb.com"
+    },
+    {
+      "id": 6,
+      "name": "Tariffs , war and emission controls : What the state of Cali",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260813T220000Z",
+      "source": "capradio.org"
+    }
+  ],
+  "events": [
+    {
+      "title": "全球航运巨头马士基上调业绩展望 ， 集运市场迎来阶段性供需再平衡 ( 附概念股 ) ",
+      "url": "https://stock.jrj.com.cn/2026/08/14075658101228.shtml",
+      "domain": "stock.jrj.com.cn",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260814T004500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+      "url": "https://baijiahao.baidu.com/s?id=1873475543371745720",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260814T060000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
+      "url": "https://baijiahao.baidu.com/s?id=1873479035264862899",
+      "domain": "baijiahao.baidu.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260814T071500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Strong Vessel Demand , Rates Lift Maersk Outlook",
+      "url": "https://www.marinelink.com/news/strong-vessel-demand-rates-lift-maersk-542088",
+      "domain": "marinelink.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260813T154500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "班列载满  中国清凉 ， 钢铁驼队架起中欧民生纽带",
+      "url": "https://sp.ycwb.com/ikimvkctjo/content_54268929.htm",
+      "domain": "sp.ycwb.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260814T110000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Tariffs , war and emission controls : What the state of California port economy ? ",
+      "url": "https://www.capradio.org/articles/2026/08/13/tariffs-war-and-emission-controls-whats-the-state-of-californias-port-economy/",
+      "domain": "capradio.org",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260813T220000Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
