@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-14T14:01:00.218088+00:00",
+    "generated": "2026-08-14T19:34:48.897935+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -62,15 +62,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Strong Vessel Demand , Rates Lift Maersk Outlook",
-        "url": "https://www.marinelink.com/news/strong-vessel-demand-rates-lift-maersk-542088",
-        "domain": "marinelink.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T154500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "班列载满  中国清凉 ， 钢铁驼队架起中欧民生纽带",
         "url": "https://sp.ycwb.com/ikimvkctjo/content_54268929.htm",
         "domain": "sp.ycwb.com",
@@ -115,15 +106,6 @@
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260814T071500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Strong Vessel Demand , Rates Lift Maersk Outlook",
-        "url": "https://www.marinelink.com/news/strong-vessel-demand-rates-lift-maersk-542088",
-        "domain": "marinelink.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T154500Z",
         "source": "GDELT"
       },
       {
@@ -255,14 +237,6 @@
     },
     {
       "id": 4,
-      "name": "Strong Vessel Demand , Rates Lift Maersk Outlook",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T154500Z",
-      "source": "marinelink.com"
-    },
-    {
-      "id": 5,
       "name": "班列载满  中国清凉 ， 钢铁驼队架起中欧民生纽带",
       "score": 5.0,
       "category": "news",
@@ -270,7 +244,7 @@
       "source": "sp.ycwb.com"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Tariffs , war and emission controls : What the state of Cali",
       "score": 5.0,
       "category": "news",
@@ -304,15 +278,6 @@
       "language": "Chinese",
       "tone": 0,
       "seendate": "20260814T071500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Strong Vessel Demand , Rates Lift Maersk Outlook",
-      "url": "https://www.marinelink.com/news/strong-vessel-demand-rates-lift-maersk-542088",
-      "domain": "marinelink.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260813T154500Z",
       "source": "GDELT"
     },
     {
