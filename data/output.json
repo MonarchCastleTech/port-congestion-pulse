@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-15T02:03:13.253996+00:00",
+    "generated": "2026-08-15T07:10:31.148145+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "shipping_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,35 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "shipping_news": [
-      {
-        "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
-        "url": "https://baijiahao.baidu.com/s?id=1873475543371745720",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260814T060000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "北极航线本周常态化商营 ， 山东正加快  入列  ",
-        "url": "https://baijiahao.baidu.com/s?id=1873479035264862899",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260814T071500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "班列载满  中国清凉 ， 钢铁驼队架起中欧民生纽带",
-        "url": "https://sp.ycwb.com/ikimvkctjo/content_54268929.htm",
-        "domain": "sp.ycwb.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260814T110000Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
