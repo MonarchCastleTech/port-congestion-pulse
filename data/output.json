@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-16T07:17:24.219502+00:00",
+    "generated": "2026-08-16T13:17:19.591924+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
