@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-15T19:00:38.019999+00:00",
+    "generated": "2026-08-16T02:10:13.569693+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -60,7 +60,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 929.12
+        "rate": 925.12
       },
       {
         "currency": "ARS",
@@ -88,7 +88,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.81
+        "rate": 122.85
       },
       {
         "currency": "BGN",
@@ -100,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2995.18
+        "rate": 2995.39
       },
       {
         "currency": "BMD",
