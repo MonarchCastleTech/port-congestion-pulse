@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-17T07:37:13.288896+00:00",
+    "generated": "2026-08-17T13:24:32.552179+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "shipping_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,17 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "shipping_news": [
-      {
-        "title": "郭磊 ： 怎么看近期黄金价格的上涨 ？ ",
-        "url": "https://www.163.com/dy/article/L4HC976T0519IGF7.html",
-        "domain": "163.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260817T023000Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
