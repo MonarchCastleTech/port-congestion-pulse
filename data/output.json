@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-17T19:12:15.812941+00:00",
+    "generated": "2026-08-18T02:04:39.393428+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,7 +32,35 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "Maersk traslada a Tánger su centro logístico ante la congestión de carga de Casablanca",
+        "url": "https://www.larazon.es/economia/maersk-traslada-casablanca-tanger-centro-logistico-congestion-carga-casablanca_202608176a83146ba046ad6ebcb678aa.html",
+        "domain": "larazon.es",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260817T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Transnet ramps up Cape Town port preparations for fruit export season",
+        "url": "https://www.citizen.co.za/business/transnet-ramps-up-cape-town-port-preparations-for-fruit-export-season/",
+        "domain": "citizen.co.za",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "郭磊 ： 怎么看近期黄金价格的上涨 ？ ",
+        "url": "https://www.163.com/dy/article/L4HC976T0519IGF7.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260817T023000Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -44,15 +72,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.3
+        "rate": 65.23
       },
       {
         "currency": "ALL",
-        "rate": 80.25
+        "rate": 80.16
       },
       {
         "currency": "AMD",
-        "rate": 365.77
+        "rate": 365.59
       },
       {
         "currency": "ANG",
@@ -60,7 +88,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 919.86
+        "rate": 927.79
       },
       {
         "currency": "ARS",
@@ -88,7 +116,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.72
+        "rate": 122.68
       },
       {
         "currency": "BGN",
@@ -100,7 +128,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2985.21
+        "rate": 2991.77
       },
       {
         "currency": "BMD",
@@ -112,12 +140,65 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.68
+        "rate": 11.63
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "Maersk traslada a Tánger su centro logístico ante la congest",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260817T150000Z",
+      "source": "larazon.es"
+    },
+    {
+      "id": 2,
+      "name": "Transnet ramps up Cape Town port preparations for fruit expo",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260817T133000Z",
+      "source": "citizen.co.za"
+    },
+    {
+      "id": 3,
+      "name": "郭磊 ： 怎么看近期黄金价格的上涨 ？ ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260817T023000Z",
+      "source": "163.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "Maersk traslada a Tánger su centro logístico ante la congestión de carga de Casablanca",
+      "url": "https://www.larazon.es/economia/maersk-traslada-casablanca-tanger-centro-logistico-congestion-carga-casablanca_202608176a83146ba046ad6ebcb678aa.html",
+      "domain": "larazon.es",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260817T150000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Transnet ramps up Cape Town port preparations for fruit export season",
+      "url": "https://www.citizen.co.za/business/transnet-ramps-up-cape-town-port-preparations-for-fruit-export-season/",
+      "domain": "citizen.co.za",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260817T133000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "郭磊 ： 怎么看近期黄金价格的上涨 ？ ",
+      "url": "https://www.163.com/dy/article/L4HC976T0519IGF7.html",
+      "domain": "163.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260817T023000Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
