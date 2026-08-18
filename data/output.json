@@ -1,11 +1,10 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-18T13:27:34.104689+00:00",
+    "generated": "2026-08-18T19:12:14.712401+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "shipping_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -34,44 +33,6 @@
   ],
   "live_data": {
     "gdelt_articles": [],
-    "shipping_news": [
-      {
-        "title": "Maersk traslada a Tánger su centro logístico ante la congestión de carga de Casablanca",
-        "url": "https://www.larazon.es/economia/maersk-traslada-casablanca-tanger-centro-logistico-congestion-carga-casablanca_202608176a83146ba046ad6ebcb678aa.html",
-        "domain": "larazon.es",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260817T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Transnet ramps up Cape Town port preparations for fruit export season",
-        "url": "https://www.citizen.co.za/business/transnet-ramps-up-cape-town-port-preparations-for-fruit-export-season/",
-        "domain": "citizen.co.za",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260817T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Red Sea blockade threat : Why India trade faces a wider supply - chain shock",
-        "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/red-sea-blockade-threat-why-indias-trade-faces-a-wider-supply-chain-shock/articleshow/133312145.cms",
-        "domain": "economictimes.indiatimes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T054500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Χένρι Τίλμαν στα « ΝΕΑ »: Η Νέα Θαλάσσια Διαδρομή στην Κορυφή του Κόσμου",
-        "url": "https://www.tanea.gr/print/2026/08/18/int/i-nea-thalassia-diadromi-stin-koryfi-tou-kosmou/",
-        "domain": "tanea.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260818T124500Z",
-        "source": "GDELT"
-      }
-    ],
     "exchange_rates": [
       {
         "currency": "USD",
