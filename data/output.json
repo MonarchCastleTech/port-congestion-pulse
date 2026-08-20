@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-19T19:06:17.000376+00:00",
+    "generated": "2026-08-20T02:05:43.928751+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,35 +32,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "Maersk Offers Businesses Tangier - Casablanca Rail Service to Strengthen Supply Chain Performance & Trade Flows – The North Africa Post",
-        "url": "https://northafricapost.com/99699-maersk-offers-businesses-tangier-casablanca-rail-service-to-strengthen-supply-chain-performance-trade-flows.html",
-        "domain": "northafricapost.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260819T021500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "深读丨全球周转最快 ， 福州港如何做到 ？ ",
-        "url": "https://baijiahao.baidu.com/s?id=1873909179889553493",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260819T010000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "How Manufacturers Are Building More Resilient Electronics Supply Chains",
-        "url": "https://augustafreepress.com/commercial/how-manufacturers-are-building-more-resilient-electronics-supply-chains/",
-        "domain": "augustafreepress.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260818T194500Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -72,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.33
+        "rate": 65.25
       },
       {
         "currency": "ALL",
-        "rate": 80.15
+        "rate": 79.93
       },
       {
         "currency": "AMD",
-        "rate": 365.91
+        "rate": 364.58
       },
       {
         "currency": "ANG",
@@ -88,11 +60,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 929.63
+        "rate": 923.56
       },
       {
         "currency": "ARS",
-        "rate": 1494.13
+        "rate": 1497.53
       },
       {
         "currency": "AUD",
@@ -108,7 +80,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.69
+        "rate": 1.68
       },
       {
         "currency": "BBD",
@@ -116,11 +88,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.19
+        "rate": 122.2
       },
       {
         "currency": "BGN",
-        "rate": 1.69
+        "rate": 1.68
       },
       {
         "currency": "BHD",
@@ -128,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2992.38
+        "rate": 2991
       },
       {
         "currency": "BMD",
@@ -136,69 +108,16 @@
       },
       {
         "currency": "BND",
-        "rate": 1.28
+        "rate": 1.27
       },
       {
         "currency": "BOB",
-        "rate": 11.61
+        "rate": 11.56
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "Maersk Offers Businesses Tangier - Casablanca Rail Service t",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260819T021500Z",
-      "source": "northafricapost.com"
-    },
-    {
-      "id": 2,
-      "name": "深读丨全球周转最快 ， 福州港如何做到 ？ ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260819T010000Z",
-      "source": "baijiahao.baidu.com"
-    },
-    {
-      "id": 3,
-      "name": "How Manufacturers Are Building More Resilient Electronics Su",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260818T194500Z",
-      "source": "augustafreepress.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "Maersk Offers Businesses Tangier - Casablanca Rail Service to Strengthen Supply Chain Performance & Trade Flows – The North Africa Post",
-      "url": "https://northafricapost.com/99699-maersk-offers-businesses-tangier-casablanca-rail-service-to-strengthen-supply-chain-performance-trade-flows.html",
-      "domain": "northafricapost.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260819T021500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "深读丨全球周转最快 ， 福州港如何做到 ？ ",
-      "url": "https://baijiahao.baidu.com/s?id=1873909179889553493",
-      "domain": "baijiahao.baidu.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260819T010000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "How Manufacturers Are Building More Resilient Electronics Supply Chains",
-      "url": "https://augustafreepress.com/commercial/how-manufacturers-are-building-more-resilient-electronics-supply-chains/",
-      "domain": "augustafreepress.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260818T194500Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
