@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-20T02:05:43.928751+00:00",
+    "generated": "2026-08-20T07:26:50.065211+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "shipping_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -33,6 +34,26 @@
   ],
   "live_data": {
     "gdelt_articles": [],
+    "shipping_news": [
+      {
+        "title": "孙洪波 ： 航运成本飙升冲击拉美贸易 _ 观点评论 _ 财经 _ 中金在线",
+        "url": "http://news.cnfol.com/guandianpinglun/20260820/32340598.shtml",
+        "domain": "news.cnfol.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T041500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "主动试水中欧北极快航 ， 亿纬锂能为欧洲客户多备一条路",
+        "url": "https://www.163.com/dy/article/L4P8B3GR05198R91.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T041500Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
