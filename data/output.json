@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-21T07:27:34.227366+00:00",
+    "generated": "2026-08-21T13:30:01.573392+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,35 +32,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "三峡航运变局下 ， 宜昌翻坝物流如何告别  靠堵吃饭  ｜城市经纬度",
-        "url": "https://www.yicai.com/news/103326803.html",
-        "domain": "yicai.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260820T101500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Multimodal Corridors Accelerate as European Supply Chains Reconfigure , Says DP World",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69360333-multimodal-corridors-accelerate-as-european-supply-chains-reconfigure-says-dp-world-399.htm",
-        "domain": "finanznachrichten.de",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260820T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ghana Port Demurrage Rises as Payment Systems Fail",
-        "url": "https://www.riotimesonline.com/ghana-gov-port-banking-glitches-demurrage-fuel-2026/",
-        "domain": "riotimesonline.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260820T081500Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -144,61 +116,8 @@
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "三峡航运变局下 ， 宜昌翻坝物流如何告别  靠堵吃饭  ｜城市经纬度",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T101500Z",
-      "source": "yicai.com"
-    },
-    {
-      "id": 2,
-      "name": "Multimodal Corridors Accelerate as European Supply Chains Re",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T074500Z",
-      "source": "finanznachrichten.de"
-    },
-    {
-      "id": 3,
-      "name": "Ghana Port Demurrage Rises as Payment Systems Fail",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T081500Z",
-      "source": "riotimesonline.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "三峡航运变局下 ， 宜昌翻坝物流如何告别  靠堵吃饭  ｜城市经纬度",
-      "url": "https://www.yicai.com/news/103326803.html",
-      "domain": "yicai.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260820T101500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Multimodal Corridors Accelerate as European Supply Chains Reconfigure , Says DP World",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69360333-multimodal-corridors-accelerate-as-european-supply-chains-reconfigure-says-dp-world-399.htm",
-      "domain": "finanznachrichten.de",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260820T074500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Ghana Port Demurrage Rises as Payment Systems Fail",
-      "url": "https://www.riotimesonline.com/ghana-gov-port-banking-glitches-demurrage-fuel-2026/",
-      "domain": "riotimesonline.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260820T081500Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
