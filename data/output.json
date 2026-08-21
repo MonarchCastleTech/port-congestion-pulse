@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-20T19:17:44.116292+00:00",
+    "generated": "2026-08-21T02:11:48.493380+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,53 +32,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "孙洪波 ： 航运成本飙升冲击拉美贸易 _ 观点评论 _ 财经 _ 中金在线",
-        "url": "http://news.cnfol.com/guandianpinglun/20260820/32340598.shtml",
-        "domain": "news.cnfol.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260820T041500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "三峡航运变局下 ， 宜昌翻坝物流如何告别  靠堵吃饭  ｜城市经纬度",
-        "url": "https://www.yicai.com/news/103326803.html",
-        "domain": "yicai.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260820T101500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Multimodal Corridors Accelerate as European Supply Chains Reconfigure , Says DP World",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69360333-multimodal-corridors-accelerate-as-european-supply-chains-reconfigure-says-dp-world-399.htm",
-        "domain": "finanznachrichten.de",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260820T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "主动试水中欧北极快航 ， 亿纬锂能为欧洲客户多备一条路",
-        "url": "https://www.163.com/dy/article/L4P8B3GR05198R91.html",
-        "domain": "163.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260820T041500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ghana Port Demurrage Rises as Payment Systems Fail",
-        "url": "https://www.riotimesonline.com/ghana-gov-port-banking-glitches-demurrage-fuel-2026/",
-        "domain": "riotimesonline.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260820T081500Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -90,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.25
+        "rate": 65.15
       },
       {
         "currency": "ALL",
-        "rate": 79.93
+        "rate": 79.42
       },
       {
         "currency": "AMD",
-        "rate": 364.58
+        "rate": 364.88
       },
       {
         "currency": "ANG",
@@ -106,11 +60,11 @@
       },
       {
         "currency": "AOA",
-        "rate": 923.56
+        "rate": 925.24
       },
       {
         "currency": "ARS",
-        "rate": 1497.53
+        "rate": 1497.29
       },
       {
         "currency": "AUD",
@@ -126,7 +80,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.68
+        "rate": 1.67
       },
       {
         "currency": "BBD",
@@ -134,11 +88,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.2
+        "rate": 122.21
       },
       {
         "currency": "BGN",
-        "rate": 1.68
+        "rate": 1.67
       },
       {
         "currency": "BHD",
@@ -146,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991
+        "rate": 2990.34
       },
       {
         "currency": "BMD",
@@ -158,99 +112,12 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.56
+        "rate": 11.53
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "孙洪波 ： 航运成本飙升冲击拉美贸易 _ 观点评论 _ 财经 _ 中金在线",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T041500Z",
-      "source": "news.cnfol.com"
-    },
-    {
-      "id": 2,
-      "name": "三峡航运变局下 ， 宜昌翻坝物流如何告别  靠堵吃饭  ｜城市经纬度",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T101500Z",
-      "source": "yicai.com"
-    },
-    {
-      "id": 3,
-      "name": "Multimodal Corridors Accelerate as European Supply Chains Re",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T074500Z",
-      "source": "finanznachrichten.de"
-    },
-    {
-      "id": 4,
-      "name": "主动试水中欧北极快航 ， 亿纬锂能为欧洲客户多备一条路",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T041500Z",
-      "source": "163.com"
-    },
-    {
-      "id": 5,
-      "name": "Ghana Port Demurrage Rises as Payment Systems Fail",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260820T081500Z",
-      "source": "riotimesonline.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "孙洪波 ： 航运成本飙升冲击拉美贸易 _ 观点评论 _ 财经 _ 中金在线",
-      "url": "http://news.cnfol.com/guandianpinglun/20260820/32340598.shtml",
-      "domain": "news.cnfol.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260820T041500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "三峡航运变局下 ， 宜昌翻坝物流如何告别  靠堵吃饭  ｜城市经纬度",
-      "url": "https://www.yicai.com/news/103326803.html",
-      "domain": "yicai.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260820T101500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Multimodal Corridors Accelerate as European Supply Chains Reconfigure , Says DP World",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69360333-multimodal-corridors-accelerate-as-european-supply-chains-reconfigure-says-dp-world-399.htm",
-      "domain": "finanznachrichten.de",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260820T074500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "主动试水中欧北极快航 ， 亿纬锂能为欧洲客户多备一条路",
-      "url": "https://www.163.com/dy/article/L4P8B3GR05198R91.html",
-      "domain": "163.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260820T041500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Ghana Port Demurrage Rises as Payment Systems Fail",
-      "url": "https://www.riotimesonline.com/ghana-gov-port-banking-glitches-demurrage-fuel-2026/",
-      "domain": "riotimesonline.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260820T081500Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
