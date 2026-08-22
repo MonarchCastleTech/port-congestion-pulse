@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-21T19:10:07.763667+00:00",
+    "generated": "2026-08-22T02:04:21.537928+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,62 +32,7 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
-      {
-        "title": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產業綜合 | 產經",
-        "url": "https://udn.com/news/story/7241/9706354",
-        "domain": "udn.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T103000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產經",
-        "url": "https://www.cna.com.tw:443/news/afe/202608210246.aspx",
-        "domain": "cna.com.tw",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T103000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產經",
-        "url": "https://www.cna.com.tw/news/afe/202608210246.aspx",
-        "domain": "cna.com.tw",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T111500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "萬海7月獲利年增近20 ％ EPS 2 . 17元",
-        "url": "https://ec.ltn.com.tw/article/breakingnews/5547735",
-        "domain": "ec.ltn.com.tw",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T091500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "萬海7月單月獲利達60 . 84億元 、 EPS2 . 17元 年增19 . 97 % | ETtoday財經雲",
-        "url": "https://finance.ettoday.net/news/3223424",
-        "domain": "finance.ettoday.net",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260821T090000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Oyetola : Lagos , Eastern ports to complement each other",
-        "url": "https://thenationonlineng.net/oyetola-lagos-eastern-ports-to-complement-each-other/",
-        "domain": "thenationonlineng.net",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260821T111500Z",
-        "source": "GDELT"
-      }
-    ],
+    "gdelt_articles": [],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -99,15 +44,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.15
+        "rate": 74.77
       },
       {
         "currency": "ALL",
-        "rate": 79.42
+        "rate": 87.5
       },
       {
         "currency": "AMD",
-        "rate": 364.88
+        "rate": 356.51
       },
       {
         "currency": "ANG",
@@ -115,15 +60,15 @@
       },
       {
         "currency": "AOA",
-        "rate": 925.24
+        "rate": 934.92
       },
       {
         "currency": "ARS",
-        "rate": 1497.29
+        "rate": 1497.45
       },
       {
         "currency": "AUD",
-        "rate": 1.41
+        "rate": 1.4
       },
       {
         "currency": "AWG",
@@ -131,7 +76,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.7
+        "rate": 1.59
       },
       {
         "currency": "BAM",
@@ -143,7 +88,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.21
+        "rate": 121.86
       },
       {
         "currency": "BGN",
@@ -155,7 +100,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2990.34
+        "rate": 2665.4
       },
       {
         "currency": "BMD",
@@ -167,116 +112,12 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.53
+        "rate": 7.01
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產業綜合 | 產經",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T103000Z",
-      "source": "udn.com"
-    },
-    {
-      "id": 2,
-      "name": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產經",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T103000Z",
-      "source": "cna.com.tw"
-    },
-    {
-      "id": 3,
-      "name": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產經",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T111500Z",
-      "source": "cna.com.tw"
-    },
-    {
-      "id": 4,
-      "name": "萬海7月獲利年增近20 ％ EPS 2 . 17元",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T091500Z",
-      "source": "ec.ltn.com.tw"
-    },
-    {
-      "id": 5,
-      "name": "萬海7月單月獲利達60 . 84億元 、 EPS2 . 17元 年增19 . 97 % | ETtoday財經雲",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T090000Z",
-      "source": "finance.ettoday.net"
-    },
-    {
-      "id": 6,
-      "name": "Oyetola : Lagos , Eastern ports to complement each other",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260821T111500Z",
-      "source": "thenationonlineng.net"
-    }
-  ],
-  "events": [
-    {
-      "title": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產業綜合 | 產經",
-      "url": "https://udn.com/news/story/7241/9706354",
-      "domain": "udn.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T103000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產經",
-      "url": "https://www.cna.com.tw:443/news/afe/202608210246.aspx",
-      "domain": "cna.com.tw",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T103000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "貨櫃航運熱絡 業者 ： 運價易漲難跌 、 市場供需健康 | 產經",
-      "url": "https://www.cna.com.tw/news/afe/202608210246.aspx",
-      "domain": "cna.com.tw",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T111500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "萬海7月獲利年增近20 ％ EPS 2 . 17元",
-      "url": "https://ec.ltn.com.tw/article/breakingnews/5547735",
-      "domain": "ec.ltn.com.tw",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T091500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "萬海7月單月獲利達60 . 84億元 、 EPS2 . 17元 年增19 . 97 % | ETtoday財經雲",
-      "url": "https://finance.ettoday.net/news/3223424",
-      "domain": "finance.ettoday.net",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260821T090000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Oyetola : Lagos , Eastern ports to complement each other",
-      "url": "https://thenationonlineng.net/oyetola-lagos-eastern-ports-to-complement-each-other/",
-      "domain": "thenationonlineng.net",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260821T111500Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
