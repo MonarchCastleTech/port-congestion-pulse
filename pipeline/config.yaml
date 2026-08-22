@@ -1,14 +1,14 @@
-# Port Congestion Pulse Configuration
+﻿# Port Congestion Pulse Configuration
 project:
   id: port-congestion-pulse
   name: "Port Congestion Pulse"
   description: "Real-time global port congestion index."
 
 openrouter:
-  model: "openrouter/free"
-  fallback_model: "openrouter/free"
+  model: "z-ai/glm-5.2:free"
+  fallback_model: "google/gemma-4-31b-it:free"
 
-gdelt_query: "shipping port congestion supply chain"
+gdelt_query: "(congestion OR "supply chain" OR shipping OR freight)"
 include_forex: true
 
 sources:
