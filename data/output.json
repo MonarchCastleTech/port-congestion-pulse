@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-22T13:16:55.962059+00:00",
+    "generated": "2026-08-22T15:03:21.722742+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "shipping_news",
       "exchange_rates"
     ],
     "version": "1.0.0"
@@ -33,6 +34,62 @@
   ],
   "live_data": {
     "gdelt_articles": [],
+    "shipping_news": [
+      {
+        "title": "运价比货值还贵 ！ 美东之后 中东航线海运费突破1万美元 舱位为何仍然吃紧 ？ _ 东方财富网",
+        "url": "https://finance.eastmoney.com/a/202608223850161896.html",
+        "domain": "finance.eastmoney.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "运价比货值还贵 ！ 美东之后 ， 中东航线海运费突破1万美元 ， 舱位为何仍然吃紧 ？ ",
+        "url": "https://www.nbd.com.cn/articles/2026-08-22/4551216.html",
+        "domain": "nbd.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T063000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sonowal inaugurates 7 major infrastructure projects worth 427 . 80 crore in Paradip",
+        "url": "http://www.asiabulletin.com/news/279256930/sonowal-inaugurates-7-major-infrastructure-projects-worth-42780-crore-in-paradip",
+        "domain": "asiabulletin.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sonowal inaugurates 7 major infrastructure projects worth 427 . 80 crore in Paradip",
+        "url": "http://www.indiagazette.com/news/279256930/sonowal-inaugurates-7-major-infrastructure-projects-worth-42780-crore-in-paradip",
+        "domain": "indiagazette.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sonowal inaugurates 7 major infrastructure projects worth 427 . 80 crore in Paradip",
+        "url": "http://www.calcuttanews.net/news/279256930/sonowal-inaugurates-7-major-infrastructure-projects-worth-42780-crore-in-paradip",
+        "domain": "calcuttanews.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Shipping Tribune",
+        "url": "https://www.shippingtribune.com/news/shipping/Sarbananda+Sonowal+Inaugurates+Rs+427.80+Crore+Projects+at+Paradip+Port,+Marks+18.5-Metre+Deep-Draft+Capability",
+        "domain": "shippingtribune.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T083000Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
