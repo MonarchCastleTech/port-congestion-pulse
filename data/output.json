@@ -1,93 +1,490 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-22T15:03:21.722742+00:00",
+    "generated": "2026-08-22T17:54:40.099465+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "shipping_news",
       "exchange_rates"
     ],
-    "version": "1.0.0"
+    "source_notes": [
+      "GDELT unavailable; headlines sourced via Google News RSS fallback."
+    ],
+    "version": "1.1.0"
   },
   "stats": [
     {
-      "label": "Ports Monitored",
-      "value": "500",
+      "label": "Articles Tracked",
+      "value": "50",
       "delta": "live"
     },
     {
-      "label": "Congested",
-      "value": "34",
-      "delta": "live"
+      "label": "News Domains",
+      "value": "44",
+      "delta": "deduplicated"
     },
     {
-      "label": "Avg Wait (hrs)",
-      "value": "18.5",
-      "delta": "live"
+      "label": "Tone Index",
+      "value": "50/100 (neutral)",
+      "delta": "GDELT scale"
     },
     {
-      "label": "Disruptions",
-      "value": "12",
-      "delta": "live"
+      "label": "Geo Points",
+      "value": "0",
+      "delta": "geolocated"
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
-    "shipping_news": [
+    "gdelt_articles": [
       {
-        "title": "运价比货值还贵 ！ 美东之后 中东航线海运费突破1万美元 舱位为何仍然吃紧 ？ _ 东方财富网",
-        "url": "https://finance.eastmoney.com/a/202608223850161896.html",
-        "domain": "finance.eastmoney.com",
-        "language": "Chinese",
+        "title": "Kansas City Southern freight train hits car near Old Mill, Waukegan roads in Lake Forest, man seriously injured: police",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeno5aWgwTWF3amZsZUMxb2VjU1VCZkVtcnd4ZnZrOF9ENWc0a2VBSlh1aDNUTlgzMld1aC01TkwtZ1BISGx4d054WHcteDVpYW5BT3p1SFotQmhIYmRzOEFiYmFyamxqNVF3Ym9hVkduWTRsbVRMXzRGalVQMVo0VEt6aXNYd2M1Z1U4a3Y3T3JObmlkVW5ocUxzclUwS2FfbzRweFpJblgyWkdhUVNIWUVndmxwS09zc0EzMmNBVG9jdHVVRlViT1hIQkRxVzBTdmZF0gHYAUFVX3lxTFBpeEZfbkNZNzRTa0M4clNqNTkwc1NxR0ZYNHNlNFl6TURPYXhEdXVoWm1TWGNRRlhEbXM3cHY4eXphNkNCdDJ6azJLOW1EYjViT0hPMkdPS3JzbXUxY2JLT0JnUEFtVzc2Q3hEYTFxQldmU2FqMlNPR2t0NGx0LU9fT1ZkQ240OVQxNnBZZTQxNTh5dkF1X3p6WFItSGNpMEYyZENtNEZKMlJ1NjlKdkYxUjZWNGFtdlZRTnJ1Q0lxb1lWLVVlTUpEYXpjM2Z6cmdpVG13Z0ZiRA?oc=5",
+        "domain": "abc7chicago",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T064500Z",
-        "source": "GDELT"
+        "seendate": "20260821T201310Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "运价比货值还贵 ！ 美东之后 ， 中东航线海运费突破1万美元 ， 舱位为何仍然吃紧 ？ ",
-        "url": "https://www.nbd.com.cn/articles/2026-08-22/4551216.html",
-        "domain": "nbd.com.cn",
-        "language": "Chinese",
+        "title": "INCOG wants public input on 25 Tulsa-area congestion corridors",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeTRrTGtYT2xJdWJZSDBZbEkwWnFPdGQwNnFiUjdoTXlFVnVPYjdZbF9JY1VQaVY2akRMR0tjYW1pcHNUR01YbDdleEFjYkt4Mmt1ajlOLXZScTVLSGpFMm5hUVEzSDhYelo5eEV4clZfYmMxbXluZ2hQM3JzN29nbFBvbFZlQmt3WERBdUNsSFNnZWdWZ2ZsYjVqZDA1WEI5ZW53?oc=5",
+        "domain": "ktul",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T063000Z",
-        "source": "GDELT"
+        "seendate": "20260822T114725Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Sonowal inaugurates 7 major infrastructure projects worth 427 . 80 crore in Paradip",
-        "url": "http://www.asiabulletin.com/news/279256930/sonowal-inaugurates-7-major-infrastructure-projects-worth-42780-crore-in-paradip",
-        "domain": "asiabulletin.com",
-        "language": "English",
+        "title": "RTX's $289 Billion Backlog, Explained",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUEgzNlB3Sm5zR2lwWjd0OFhGXzU0d2lnVkVGVTg3VzYtZmkxeVVkWjlWWUhtak9maDY5TEpmWkZsRHNEYjBvX3NSd2wwZTNTZWh1VTNkbmh0Ukl2MnFJc25DZUd5NlpDWTQ5XzN2RFZQYjg3MnozNUgyYWZiZ09BcVhQZkZLbmdJU1U0bXp2VnE1Nkd3bDRTamI1aE1RZVd4?oc=5",
+        "domain": "yahoofinance",
+        "language": "",
         "tone": 0,
-        "seendate": "20260821T203000Z",
-        "source": "GDELT"
+        "seendate": "20260822T072500Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Sonowal inaugurates 7 major infrastructure projects worth 427 . 80 crore in Paradip",
-        "url": "http://www.indiagazette.com/news/279256930/sonowal-inaugurates-7-major-infrastructure-projects-worth-42780-crore-in-paradip",
-        "domain": "indiagazette.com",
-        "language": "English",
+        "title": "South Korea sending first container ship through Arctic route",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRkpKWF9QdFYtWFp3RU43eWxsTHVlTEhqX195VjRPcWtUWWgtVjBiYndRNmFhVjVfT0g5TnplUHNFN2NhYWxVX1lwbmtnTEpjTVJtRXpVR19id1hkYTJ0NWdIcFduQmtSX1h4SnpWMVNoaEZnZDRSNmdBYTJjaEpLcGFZNzFwOXl0UHlFWTlDa05ERWpOR0FNZUVJQnlPQndDU1REdtIBqgFBVV95cUxNSGxxenB2a0ZyT0Q1RkdKTlJMdVVmbmdaNGM5bkJnTnV4VDdyMnhkdDJuVHlYRVhrMS1EZmRCX0xVWEtkQWxFUnczdERiQ0ZRRHNreFBmUnBMRUgzZXg4SHJfcTItMnZGUXB5VG9DSUhSN3UxOXQyUUpUOWpydThNaEVLdEpXRE5zU2ViTm1WNmVXcDMtUXgzSjJ2Y0tiVVZMMk9XSU5BUDk4dw?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260821T210000Z",
-        "source": "GDELT"
+        "seendate": "20260822T164920Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Sonowal inaugurates 7 major infrastructure projects worth 427 . 80 crore in Paradip",
-        "url": "http://www.calcuttanews.net/news/279256930/sonowal-inaugurates-7-major-infrastructure-projects-worth-42780-crore-in-paradip",
-        "domain": "calcuttanews.net",
-        "language": "English",
+        "title": "Ocean freight market enters holding pattern ahead of September",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDJoRDVCMFFleS1Rd3ZSN0ZrdVpuQ1NIQ1dKN2oxZlZEZkh2ZTBCYXh1LS1IV1lHbDNqSzByRHpKd3R6VUdnaGlfSUZOdmhSUFdtajVOVVhPN1VObmdUVUFYbEhlRU54bFJfUzVTVDhaQkU3NU1MUEU2ZDRFcDNSZXg4U0U3em8xV3pNbjFxQV82eWhaTXRwQmNUSW9NUklzSk1vZWFyUEszUC1oclIxN0E2TXhYMUU?oc=5",
+        "domain": "kvia",
+        "language": "",
         "tone": 0,
-        "seendate": "20260821T213000Z",
-        "source": "GDELT"
+        "seendate": "20260822T151104Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Shipping Tribune",
-        "url": "https://www.shippingtribune.com/news/shipping/Sarbananda+Sonowal+Inaugurates+Rs+427.80+Crore+Projects+at+Paradip+Port,+Marks+18.5-Metre+Deep-Draft+Capability",
-        "domain": "shippingtribune.com",
-        "language": "English",
+        "title": "South Korea to test Arctic shipping route along Russian coast",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nYmYtcGhBNnJ2RXJicGdmRzdjWmo0QTBfSEg0MmE1X2NHdWJDbjFpRmJxVzdzaWczQTE2UzVJMmcwd25USVBIUUJBS1c2ODlXUmdfSFNCZUQ0clV1aF84?oc=5",
+        "domain": "thejerusalempost",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T083000Z",
-        "source": "GDELT"
+        "seendate": "20260822T092104Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The promise and the pitfalls of China’s new Arctic shipping route",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
+        "domain": "theeconomist",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T125902Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "RTX's $289 Billion Backlog, Explained",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV1QwdXlGc19LYURDTGFNdEFZc04xSG1DeUFTdFVXQ2czYVpQXzhqM1g2LVBKX0tldENyMEs4MlRRR1ZFMlRLcERsZ01qaklvTzRzbnpYN0gyb3VuSzl5RjF6S0NsYTAxZmJnTXpDUDFnSzI5dXg1RnQyWGNGeE9YMmczaw?oc=5",
+        "domain": "themotleyfool",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T080500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "ZIM: Q2 Net Income Jumps 167% As Freight Rates Rise 8%, But First-Half Results Remain In The Red",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb1loVjA0cDZwc3Mxazc0UXBIb18wQVgyN2gwWDBXRXZvQ3VGQ29tSHJOQmk0M0pHTHBrTkFyd0IxYkxOb3I5V3pVemZZTXJVNVFtSHVCWG5DMHo5QnFOVDkwTHBfcTVUazVaQWF2ZFBRRVVZUnctZUE4QllMMzZzU2pBOTRwa0g2bVdSN0RSLVJWVV9oYmlFdkRiVS1pejJNNlVvYWJFTFVFQXhtajh3OW530gG3AUFVX3lxTFBzTnRfa19yd3JqcEt5d1JfU0ZNajFCMnp3UWIzSmxXbHpIR1ZtM2tHamZUYWEyYzJDZWVpZXR3dWRRWk5VclBaaWpQeHkxYUtxa0wyc2dRTjhyRFRCNVpBTmpHVjFkS2paS0NYdjJscFJXVGpWQ0FCejRJSzdCVHVoWjdoT3RoZWRpem9MVnNZbV9GcWdhQjVLdUxCamdpRTlTM0FZNTdiTjd4el9iODhQNmNzWk9xZw?oc=5",
+        "domain": "pulse2.0",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T144700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Va. health dept. improves nursing home inspection backlog, reforms sanction criteria for facilities",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeWZzQVIwTEFQUnFNV0Z3Z0FpUGFGd09hQzByX2RhOHRoUWtTVWJod2NLSVUxajAzM2xkbkFCYmRZemljcjl2Qzg3cFhfb2NVenlJMXdwOHc1eFV0WllUQUlSQWZXblY1YTJ3QkpPbE40R1Rtc1Q4VkVxMzdySVljTlVlR3RPYkxVal80eHpYUm5jdjI4STFDZzBJYkM4SDdhc1NvS2diZDNLYnZwN0NSWlJYSDR4NHdDOW8tYUxlQnItZkhtLXBj?oc=5",
+        "domain": "henricocitizen",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T145956Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Teamsters reveal TP Freight’s sudden shutdown",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc3NJdDJ4blBKcFIzbWdRMFZtVnlNR2hlaVBMOG8xSklzc085VnBZNW8zYWxMc1NNVkhpSFdIekQ3akdXRm9QSVV2b0NXU1VxOEZaVlp5dUN6Ync2c010T1lqbFdDYml3ZU5JTnhTcTdhYkJHTndwNlBPRDBLREJTMFZyamY?oc=5",
+        "domain": "freightwaves",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T122602Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Driver seriously hurt after freight train hits car in Lake Forest, Illinois; Metra trains delayed",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREp0alRSMHRkR0IxTFZfbi1iZ2R2ZlRTaXlCejVXRVZNRUVQcUF0d0QwUWduNWFzZ3VPRVVUYms5SDJiQXNRc1luZWR1NnpRUUJ0OGpDQTNWU1cwZDdFTllPVDA4SDdONFFjODRPNXZtY2RISUdiNkdKd3FxU3ZoRnNLQk5VaDZZM2xVNnVjS0ZXbjZKbHl0YkFfdVdLUm5SZk13TnkxY0w2REFFcnBV?oc=5",
+        "domain": "cbsnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T194400Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Global Shipping Data Challenges Trump Administration’s Claims on Strait of Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdWExTmFvckdNckFJN0FUR3ZDZE10VmhIbUpvWXVBQlQ2cGR6NklhbDh3dWMwaHhsOGdYUUFNaURWRDRDTFViNGt3cF9fRVk1eW82QUdkTVRXSTJmOEVoRlVRNUdpZjZxcHpDRy1kQ2U5bTZUOHA0Z212ZWV2NlNxSUROZmFYaWZzZ0JrdEViMkFaQ1J5UzFZX281YjItbjdRUWc?oc=5",
+        "domain": "wananewsagency",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T154950Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "South Korea ship to test alternative Arctic route as Mideast conflict disrupts shipping",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPajk5a01VOExwTzhvLUo3RVlMdDMxS0VOT3M3c0xMaFdkdzByUTJ6ZXQ5UXRCam92QURxRldRdXBhdVlfUUtNX0J0NjRob1UyZ19uOFU4MnlJTUhNRjZpcnNkTTlvMlN5RmdHYkFrRVVtSDJHc29tcFNkTkFSazU4bkljdEJtNkpUZjFEdjZycWRhajJ1ZmhINlIzd1BzTFIxU1lFWFhwZFkzSF92SG52X2paSUxjSm5IemtacFRUbUNwYmhKczd0dFc2QWg?oc=5",
+        "domain": "france24",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T024712Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hormuz shipping unchanged amid US-Iran stalemate, data shows",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2wyclNjWVpvOTM3X0dCUjJNdEhZYkYwOC0taHk5bnNRXzZ2d3R2V092Z0pNTlBiVDdzejJXS0ozSnc1aGRjenhxbXRUY3RsMjgzUV9wSkFlTEJxbk1VbUFvbDZMTjhwTXpzR2lJVndmanZhUDhudjFlMUNVdVptcjlQYXZ1UTczRnVNM3pIUTQzQ3ctcUxwd2VYalFHYXRXdzJHemNSOUE5Vmwzdzd0NFNEcw?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T124308Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "FERC approves SPP ‘topology optimization’ plan for cutting grid congestion",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMHhVM3Y3X1dOMXFZOXlvM1VXbll0ckZmQkxfVVlFb1FXb2xkdGMzZ1lXeUpLLUZwdnEzQTBkTDBVNjYtemtDVFMyQ1lOME9pWmZuZm5ySzg4MjFDU21tU1VkeHdsaWdEN3FHaHlwZXQwZkdaSHQ1X1lLQ284dmJFXzZZcWtycWp3cnpnbEROZVI?oc=5",
+        "domain": "utilitydive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T152027Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Brenham street repair backlog grows to 25%, prompts calls to increase funding",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZHBwNUFwODJpTHpYUzJhX05XZkdZNGRfRDRtREVsc3MyTEsza0Z0ZXBVa3BPelV6YTUzb25Ya1dURTV6dnUzNVA5MzZlWjFYMzJ1bFpKZ2RpUlNpUzdQZW5fc0lMekdUX3BRd29DbDRzZkJKTVNBUUNkUnFlN1ZNRmVMbHhNN0Z5QVZrX0VSaU9yWThCYXlHTnBvSklnNVFqTEZMNXVqdm5sMDVtNE9fcktDYXkzZUlWc0dzZC1uelVpUTNIQnJGcDhLRHVHNGgwWHV6MGQ3T1FwMTVWam51eHVzd19wTm54ZExlLWdmaWhVMHpqTFpxRTlmejBtQnM0OXhzT1pEc1U?oc=5",
+        "domain": "southtexasnews.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T073100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Panama Canal to reduce shipping as ‘extreme’ El Nino approaches",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHhyNm1QYU03LW1fUmlRMHpzcUgwcHA1T3E1WDdKZERGVXpRcndBQ2ZnNVlLRllPdzVidHZlVlpWaUNjQlZnVlgta1FzSTdKd2V3V3A2MWFmQVBlMExhRlgtSjl6RFVOTFQ3VHFJakxISVpDU3NFQTlZdmo4Nm8tWWdVZ0M4Z0xJTG1qVUZKaF84dDcweTAyT2hDdUQ0S19CQ3NMYzQxZUtQY2ZXdlN2Z1Nn0gG3AUFVX3lxTFAzLWczeUlybXBKSUhRWHFPYVA1d1Z0VWgzTk5GUzVuem01aTZodHRWNHF5X2JYTFNsSGdpbW5tU0o5THpBQlBySWhraHV0LWZYNDZMM0JJY1V6bG9OcTFoZmNwRW83UmxwaVhHTmFhTTYydF8xcnlyQkVTcUN4THpGS2ZyV2FOYWQ3emRiejIzMzNwTzBnbURtVzJ3dEdRajNIVGM0WmlYdV9uQ0VKallUMlBQcFkxUQ?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T080203Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Freight Distress Report: More than 7,000 jobs cut in new wave of closures",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQm8yeHpxN3dtbmIwTFlQQ1RabDNkek9YMGtOQWxWXzVaVXY5MlRMM0FsaXRRaHVrUmFvWFctOWduNHdLUGVTTDA2cDhPWTExRDdNQ0RoRjI1ajNLRkxjZ1hCUzY4QjlVODFOTHYzQWoyaE5na1lSOHJlaU1vamNNUzlxOENpU0RnTGNXWVdCT1FZM0xqVlp0aVdOYkR2RFh3S3Jlelo3WHA?oc=5",
+        "domain": "freightwaves",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260819T131619Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Panama Canal to limit shipping ahead of extreme weather during El Nino",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdHZpVXdUNWdXbXNLYU55bVpUTzE4VEJCUWtLM0MtSXZTdnp6cTRTT0tlWXlaZ1RsRjJneWw3NGQySl9VVE93NzU0VlJCMTFmWmxmY2NteURoSjJwaTJpRE54dG9UM0ZQQkU4S2o1RVU0Y0lPRVdUQ1JJc2pGRW1vaTY0ejZXWk41X1pNcUtEMXdDU3lid3QxQTNKYUFoWWx5SkhkUG9jbnh4azZxV1Q4S9IBtgFBVV95cUxQenBfVENqN2pnSEJJanNjTVFMTlU0cW8tLTdkenhiMk9Ddm9nNkNhbTlydE5CQnhKeXZzWWhneC1ONUtGZy1VZG9XRFJveEowallBYWcxMm9MRU5uV285ZU9YMHgtei1mYl9KOVlUQVFSUTVSYmpnN0JVdFp0ZmFQM0lmQjhmNVhOZUkzdmw1a3d5TnhhVWVlOWJldUZCc0l1WFdsZklXRUtBcDdPTTBTRURoOUdoQQ?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T012539Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Mom holding baby shot over school supplies, SCOTUS allows ballroom construction",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOGNaNkplbGxoZF9XeVAxcG9ZSndUVlBRRlN2Xy13aDduc2tiZzhSYWJvdUh5cC1ySGthd1N6Mm5qSC1nLVl4dWJNdUd5TGxpZEJ0VUU4WFRWRDRrSEVzT2dQZE40Yl9iYm5zQm5YZHlOQzE4THRiNHNqbUhRR0lhTW04SFdWQ1lPNG9XSFk4M21ldlFDRzlPYjFNMXBkamRxUVNuQmlkYlp3R01DcFRDYzZnbXg1VTV0eXYtRkZUTdIBxAFBVV95cUxOTTdaXzA4ckhBSG1Fei1mZEJkendsV19YWjRqMlBTNDROSjJMMmxhbHlXbTNVQU50akhtbXl1MGh5WklNYy0tcFZwMnpDdHBfaklhNzEybHZLMXNpanN4NFhMYS1oN2l5VFV5bXh1NmU5all6S2ZUbDVtdE1LM0VCT3pVNnpCMzZScFp2enVfWG5kUVRBN2U3YWNIVksxdGlwX2dnQTBtbjhPVmtpeTVKZzZMR3lGdlpZTHd1YUJZV1VpcHJn?oc=5",
+        "domain": "fox5dc",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T002149Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "MCPS facing $3 billion maintenance backlog",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQy1BVzJQSUp6bk9GMUx4TzFaVjFRRG5RWHNxaVp0SGNnWGI2NTZxMGEwc3NtcU5mNWJCdjJ1bzNVcXpIX1F4eXFpQlFvVVNqa0l4NFRBbk0wclFyQnYzR1FUUUs0eG5yaFFqM3R6VHNncjhVM2RfdTk2NDRBMzV0UlJYWTFnZUtBSjZLTFg4X2wyT3lWaDhIUmRvd2xyczZOMUHSAaoBQVVfeXFMUHRTWUVtVnNDUFFQSmE4amxiQnNHZ21FODhlZDI5eUFlQ1k2eERvUWpZSDNRTVpVVzZXcHNTbGtneUQyVmJDX2NQd0tQdFZORk0wWU14YUJ4Y2VvT0VJZXozclpEdUNEVTdLZDBpMnhOWWRkTVc2SEhqZ1o3MndUUHFzekpIS1ZGbmdrNUxTTXV6NzdoOEJrZXZrQ29PSU9ydEUzRUQteU4yN0E?oc=5",
+        "domain": "nbc4washington",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T204823Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Panama canal to reduce shipping as El Niño strikes vital route",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUDhBcDd0cG51VFJTZDltR1ozLWFHZkIwTjVlbTU1UkZ1U2h1TWNyY3RBQktIU3FKbmpYemFXNmlXUDh6QmRLcXVza3ZyM2JkOUw4cEVUbjhGR1VEdm1NV3lZX3FPZEZrdjhHOE5QMlBvOVMwb0EtNkpiUFJhcS1rMElBZlpiWUIxMktGcXFsQzFKSndC?oc=5",
+        "domain": "theguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T130500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Rocket Lab: Mars Ambition & Growing Backlog Outweighs Delayed Neutron Timing (Rating Upgrade)",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQXNGUF9BUWI3SFFZVnpGSVpBNElydS1aQ1hpWXdnSGRXbkhEMkY0YnM0a3BYUVZIUXV1b0lsTkdqdXhySjQyS3ZXZkZFTll4X0ZPbzZNeFcyemFCSTI0dUdMTVJKRUZfT2dUWkRZR2tKbTJ2RkxZNjNzR0hCZzdFS0NsRS1GWVlGQUVVdEFxTjZUQ1RBbUdURHpiQWUtQTlrWVVRTWFydEEwVVgtYjI1cGJVVzFhUTZqaGc?oc=5",
+        "domain": "seekingalpha",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Panama Canal to trim daily shipping slots due to El Niño",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUDAybFlqLVV2dmpkTzU1d3o3MjhDN2JUT0ZWMXcxbEl6RHRnMEl3YVgwbGVyelVrNGdHQnBlUGRqN3JkT2JZOFFSVFhtUk5ucVhrbWZJazltOFo2T3haS21uVzA1YVBoWUxvUEZPZWtmOG5PR0hHOGE2RGZjRlJpRlBWQzNGZTM2bllkOWVDSUp4QlliWi1xR1lFZ2xpdnlpUzY4?oc=5",
+        "domain": "supplychaindive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T215541Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "War, drought, 120% rate hikes: inside the global shipping crisis",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORFZDOGlKNVhTYW9kWVdrckVxN0ZiY3hHOVFrNWJSVTVvZE1vcWV3eTZUOGRnQWFGTFY4YVl6bTE3a0haZmF2QnRUMlYzRS0wTTJ4YlJrcm1YM04wMDc0WVI5TTRTdU9tV0dqbU5oVUZoZG1DaWZOMFBMRUd0WHBBRUdJdlpveGl0T3RvSm50VFFsUlpqVFgyVGFhUkpSTGVYaTBNMzViQQ?oc=5",
+        "domain": "thetimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T170000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "MCPS facing $3 billion maintenance backlog",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVdyLVJVbG45UlYtU0h0RTdaMVhiZGJlNEFjODFudGF0YUlHY1VOcnhmaXpmN29aWHFQb0tyQV9oVE1MX2JxcUM0Rlc2eXA4X3hQOERHQ3Y1Q3pxblVSRGRLdm1QVUVXTXl3Qko1YjJCR3p3LS1zUy1xcUV5bDRmMTRFbi1US2xOZE5yRUN3dUlXaGNsT1Z3blNqaUc1WktMQ3dEejdWMVhrUdIBsgFBVV95cUxNak1TUHlreUxqVE1RQjRXcm5PbUZMU0JtMXhkMG9JNi15VkFXRXhTOW45X3RFZmQ4T0tac3lXVXVvUjRQTHNkS09Cb09vemdJRTNXZkJqaW5YQTlGZjBIbWpWRFBKUmtWWW02TUFXSkVtRDNNU1ZEM2ZMUWZuVi1aVzR4cWl0SWxpbF9BNm9ra2VWN2l2bTI0MDdwVnYtSzV1REJ0U3FIQ2p2WjJPb1owZG13?oc=5",
+        "domain": "nbc4washington",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T204823Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3ek9UMzBJR2h5cVJkbzFpUzY5dkprSXNTNjZjR0RwWEc1RFlxSWlnWGtFaFg1bm5LUUpDUWhfZGRETW9PN1RiWEhxdXN2dUxVeFRZNjJhQ2tJYk1PUnZJYXRISk9oMGdWS1dTYUNiWQ?oc=5",
+        "domain": "npr",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T162234Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "India joins China and South Korea in push for Arctic shipping routes",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc1pyclIxTHpsUGhSVHBacmNDcjI5ckw1QlZ1U1QtTVN0U2ZGYjJjanBEMGNFdmh1enRDMk1BRUNmRGdFamtuZ0c1aHBCdjRfZTdDeFFLZ2pqSnk4emxSM3NlRnZ0WTBFdXYzVENmTE5jYVRDdUh1cURlNC0zek14UU1UVVJ1dUozOHZOWWJrWHlGbjZFOFJRVThPX0hxUEszWVE0ejczZTNFWGZwWWtHUjJvaWF5X0ktU3fSAboBQVVfeXFMTVYwNV90OTQyLTJ6Wl9yRjZ3X1A4SGlXY3dKU2FlNXJaXzhfQ3BHc3k2Z3dBQXVaTFdDNUJYRFE1d0twQkZucWUweWdtcW12X2lNOGhRSENtX3J1dDl3am42ZTZXLUlIcmkyTG5mX3Z1UzR2ZVV2bkNQaXVGNERXcDkxMm5HTmFpemVyZ2hFTk5EbE90MjJCVGo4MnR4TDdqbWJDU2NKUHBRWk5KbFRiUUJZak1tdmpzU053?oc=5",
+        "domain": "southchinamorningpost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T060033Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Aselsan's order backlog nears $30B, CEO reveals",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2JLSnJwdEs5aFNhb0dnYVpvVUpVMDVrdlVDNHYwQXZwZnNuSEtXUU9STTFvZWpfdlE5TTBzUDdLblZwNEtHYVlwb3NSWjVFVE5IdEtLS2pBOGl2cmRMUVc0ZzJxSGVJSE4xdW5DWnd4Y3Q0RGM2RFdnbTdCSTM2ekV6a0VvNTBDZWhyUnpNTUtpdw?oc=5",
+        "domain": "trkiyetoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T141234Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Freight Car Bogie Suspension Springs Market to Reach Index 142 by 2035 on Replacement Demand",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQXzM2SHJOeG9ncTRSRFVBUlhhYTBLOGJPeGhETGdZSFZHY2VpNlcxbk12ZXpsME9aUG1pYlIwVWszZmlHaUNtc1BtRDJYMWhZTjd6eVZPYkNsQjJqbjc5TUNuUkxtbFM2WGZfWW12Q0QwWTRaYUhvUDJGTkFxWDlwSWtCNU9KX1Z0NmVmd0VoWnBWVU5vTnhRUkFCWjlpVXNnOXVPRXBmMXlJclNyUHA4T2t5djR1aVBwQVBlZDNzaw?oc=5",
+        "domain": "indexbox",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T125118Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia's thawing Arctic is speeding up shipping, with growing risks for whales, waters, and ice",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTnJfT0V6TzUzMG1WdXVjb0NNZ2Q2bGNoNFhlanl0ZS03VkpZRDdfaUg5ZDRFeXlGYmxTYVFtS0lDUzhCNWZRbEFwb3pzUEFKZVUzVXlka1lYM1J1TlA0SW5nUFVqam8yZzhzbXhHdjRhQ3VjQjh5M0NjWHlCdHN4YkZsYTRfX0VtTXkwMklCOElqNEJwUGlpY1NIMGlTb3Vh?oc=5",
+        "domain": "yahoo",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T061100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Wood County officials warn of tax bill backlog tied to state paperwork error",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLVoyV1E4djE5Um1MOFhWU1lhcHd2ZTctR1pCX1VfZDhMTENHWGVqN3BlaXByY3JQMkxoODkxYTIyRHZPUGJwMHVmODN0Qm9GQTlLWUhLZzFkcUxuNEt1SlRqQkxZeFBsVUlkczlzcmZYTXNRcjZUcUQwUG9URWxyMmtabi1wMzRLeGxfbXp3LW9ONGdMcHh0aElKWW1ZcW5OSWs5ZXpn0gG6AUFVX3lxTE54YVdQRGNDTWY2b01mcWk3eTRyTTZsTVJ1QVVmd3dCdkl2Mm5EcVp5WDhqc3htNmhYYmVOdndRd0Yyd0NNUUdCTjhxbHhMSjZBdFI2U05ZRk9DTFJXaHo4NE5MYWpaSERhc1N0ZmQwYUVDZVhIVkwtUzFhSTlFOHZKRTVMdXA2cGpuVXEwRDcwVENMSzN6cWZnZGJHX1R5X1pvMnJGTjh6OTQzR1I2TzFiM3gta1I0SExkQQ?oc=5",
+        "domain": "wtap",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T221800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Arctic shipping a daunting prospect in hotly contested region",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUNDU1J5cXlGeUpzcjd4V2p4MWs0NU1iQUxqZ1hwX2VPTENPM3VxQndPV0ZCbGtNZ000ek1Bdk5acVBJMHQzdzdLUjJJYXRFRTZSZVFrQU1MSFROLWxSNWRramp0cHVpZ1N1UHYtU3RHQkhIRENpcmttdTA0UThnYnRUN3dLckoyX2RXdGEtdC1vZw?oc=5",
+        "domain": "macaubusiness",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T165007Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Coupling Draft Gear Friction Blocks Market Rail Freight Growth Drives 3.4% CAGR to 2035 - News and Statistics",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRWExa2hQMWcxbGVteDlwWkRkTjBuYlEtV3VoNEowR01MaElzZjhNVWtZVVRJS3ZaRzV3dThZOHE3Ymtzbk1kQ01nRHJ1UXVmcjJXNDlrbnZFOUdicktsUFk4YU9YblFwTHpjRmFsOURuMkZRU2R1TGZ4WG1EU3NxTXJ1cFRKd2hOQjJfUThUa0RWTDNwVjkzZkVESFJrdFJNbU5IcWV4WTVSQWFCLVBVZWFXeEFPRGZGNnRVOV9yYWlXcUhFalFfT0dn?oc=5",
+        "domain": "indexbox",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T162121Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Port Delays and Congestion Absorb 5% of Industry’s TEU Capacity",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVUpycUxvMndqVjhmMW1oZms5ajJEMl80dW9wNWRVZVhJejRjNHFRNDBjYy1wR1RvMmdlbTFMV3FLTFlEN3cya1RLbzJ5Tm43cm1KbS1Sci04VHRySFlXQ1llZ2JkYWhWWUswTFIyc0ktQkxoVGJZTmVCemVvN2FkdFEzSFpRZDRPTWxTZHRQdXV0NVJQQXd2LXM4YzVUREZnOUcxTg?oc=5",
+        "domain": "themaritimeexecutive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T195113Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "'Rural discrimination': How USPS shipping cost increase for rural ZIP codes impacts some small businesses",
+        "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQY1JqVWNkbVZaVGk1SEljVDJDandkbE94VmNFUVFnWV9NRDFCRTBGRmIzODUzNm9mRURwRnhZdXFiOEJ4eDdXSHFkQ0V5YTBVYmkwbmJSUG9iOTJLYVhWSjRmamJVRDFIX3VhcFJ6Y1FJSUgwY2FYTm5pdm1VYWI4NVdGRm9wcUhzdlZWZTkwVXFlX1dXRFE1YVM5ekxXZlJGZHB4NnpteTZUS21ERE1SUEpoS3lJUVFTTmlJVGd1b3R0S1QxM3pVallwdW1FMUJ5by1jZkZfNGhhdGVpdkc5M0VxdmwtRV9DOFlkenF3MHhnNDNKZVcwdTY3bk8wMWtQV0k0c3g0UnpBOFgzWFFqUzhYSXM1NWgxVG8zTlc0OUtra3ROVlhMY9IBrgJBVV95cUxPWWVHY3dMbjlJMTNLbmFiUVJOZVJ3YzhTWmNLc29BVE1ocTJpS3NvM2tmQ1FGWHJhVzUzY0NtLXdfUHE0NEFMc3dfLTlGc1FwMnFZUk1GMzB3aWV6cE1mZ1puU3F6c2Zrem9JUDE4WDBuajlfMy1sMDI0ODkwcWxuRnVFS01KM1dBRkxvUmNKa3JoaTJIREZqNTJYZHhaaC1NZHlma0RrNDRGcFhCVG10WFlsUWIwOE5UcC1XYk5GMGJtc0Q3djBMRk5VcV9od2w1a19uOFM1WmVGNkZBS0JJNnJYcWVud0sxczhHUU1iYmp5QjA3aDBkQ29FREJVYnEwd0VHSmNFOFdpeUxYdGxhbnFiQ1BGUGFvTDJjMzlxVlJTSXItZndoQXR2bmdmdw?oc=5",
+        "domain": "thegrandjunctiondailysentinel",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T061500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US Military Faces $285B Maintenance Backlog as Funding Falls Short",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFZSdl96RWNTeVRydkMxVkJ4WElLVXVpNFVPSkxvMHJ5cGp0S1RiamptNnhmc3o5NnZTWE9FajZBS0hEdE1iU3dkYmFHU2FjNlROTk01R09aWU1wUHg0ZC03dS0ydTN3c3VZeldEUHlyVkxjTnNEV0pIYkJfOHpaTENIM3lOT0dRZmI4X2Z1VGljVVFaZFgxeG8teVI2TDVub1U2MnBFT1dSak1C?oc=5",
+        "domain": "news.google.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T115008Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "North American Transborder Freight increased 19.9% in June 2026 from June 2025",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN1daOTIyRDFORHI4c05IcWx1SEhNMUFMelNNSEtBOU1IODlfNThPUTJGMDBwckNVU1pJQUZvTzBabUlkOTFmMEwtbmo2NTA0VUx5R3JTUU9IWkFrYnVOU0h3Mzl0OXdPTENnWExib1FwVnJvRmhyOW15OFJsM0hDZ2tZSVF5QmZDMGp5RGR5ZERZNXVEMjliejA4U3BGQQ?oc=5",
+        "domain": "bts.gov",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260819T150114Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Bill Gates makes $180 million bet on backbone of America’s economy",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORjBtWVJXNUE4OU54Y2x3MDdGZ0Fvc2NwR2VkaXVKa3RCTXFvTlJRS0JuTkVRc1Z0QWtQelE1UmdUajIwNm5Ya01MX0U2TzhpRXI3bzlGWkVVSzlXUWJUakRuU2tOVDI4bWlPeGtHM1g2Y2NtRFBuRTZwdGZNLURHWWFlY1VQLVcxU2thaGl0MjNvdTlVaUhzdXdud2lXSzZ0Ukc4VGhmbGhCMVd0M0pUSVhOTS1kbHRQOFM5M01nQzFGS21feWR1elRkd3FEQm9lY1EzMko1bTFaYnphUk9uQkRVNG1yYU8zMi03cTd4Uld5SlpoODYzWlhB?oc=5",
+        "domain": "thestreet.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T153300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The drone war is coming for global shipping",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ29rdHBYR25aYlZ5Um85dGxtWWs1cjd2SVBTMFQ1cGFQcGI4Q2ZjamNydVA4dkdCWktrY0FWdnJlNWpTbzE1ajhWUEpiOVRzZ3Y0aGszTDV3bVdFR21Kc1BWY2tyMDRBekhGVVhycFZUX0hIaUd0UG16MExuYVl0dURwU1hsS19kMEQ5SW9RcXV5SnZBckl6YkZMeFBleE13cnZz?oc=5",
+        "domain": "politico.eu",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T030000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NYC congestion pricing report – Environment & Health Data Portal",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3FscmtDWDlKN3hsbWRLcXBBM1Q5c2ZpZUlOVDYyc3Z4MHI0UnZkaDdlRUZtemJoV3k2TFFSUHljQnVvNWVOUVNnb3p2UEtTUThHcTA2dUFYSklaZHdvaWphWUFnZ0RiSlFXWENMdWdUaGRkQlV5V0puNGxEVHlLaXB0WkI2Z2QyUndxQkNn?oc=5",
+        "domain": "nyc.gov",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260814T174607Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Hapag-Lloyd introduces Central Europe congestion surcharge",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSVc5XzFYS3VwSVprRXdlVTJYUjg4MEpCMXZ3dDVQV29YU3o5NnM0QVF0elA4WWVpRm1rOVdzbENDZEhJV192emFzNDdvMUZpemhna1R0b2lJNFd5WXpJOEZGWVlyOVlqdTZKdWNtbm53c1FGWkxsNTVVSmdIdGF3TC1NVGJ0U0lmeklxc015OA?oc=5",
+        "domain": "containernews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T120046Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "MCPS Details $3 Billion Maintenance Backlog Across 211 Facilities",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNkY3NlJ2ck9GOHROVzktbXVMTE1HQ2t5UE1qUXU1akdFMEFyc2g4NnIzdm9TZDdjT3NZczZOM0dVQV80bG1xeUtMdkh4aDBDQlptcl9JNm1tclkwTUJuUWVNUTQ5TUlXdUhXRTJES1BCbU1TeHlNUF9Ha0xyTDVBa2I3UFdhd2NlR2c5NmdPeUpiZTBkYnpjMEdnb3NnZw?oc=5",
+        "domain": "themocoshow-",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T141410Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Einride Orders 500 Tesla Semis for Five-State Electric Freight Rollout",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xZG5UZzFXREV1UEFLNlJzZHdUbG5VbHhHamFJejFJQlhZd1FxSURqdUg3STZTQUZDcmF4c25DMmJJUnhRcXlSQmk5X1FUWjVHYWd0U0lrMGtMS1Y1Nm42bXI4QVpSMXRDVkpZMkNn?oc=5",
+        "domain": "act-news.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T192350Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China’s NewNew Shipping Line Pushes Deeper Into Arctic With First Murmansk Container Run",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYUE0eVpyNGFlUnVRSElrNVduWGQ3NnZUOWx3NGVoRVdvcVhPMFlPbmJyWFdEYUJhbkdOMDF4TXB1cWxEN0w0OXBudktMdHdwb3BMOGJ4eGU3SmE4bno3UUduYmlfeWRlZVBjNjRVRVZzd2JBQ19ZazJRYThXUGFaMFZVd1czTnc0UlJwR2dSMi11NXpxck1yaFlnczFHSE5CME9KVWdGcFdyWUJRZUE?oc=5",
+        "domain": "gcaptain",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T203829Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Why OSI Systems (OSIS) Is Down 9.4% After Record Backlog And Delayed Revenue Conversion",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV3E4VENwOGJNOW8wT0VZT0tCbjAzWXBqOXhkeHZoMGFNbGlaTEdCZGRjZXBpR1FSaHg5bklVNWxmMm10TE5BVWRiczBxX3BMUENDeVpYYWtvMnlYaHRaNmdEdXY5emV1MzJRTWlad2psRUdWSl9TZkFwMlhhcTNXeThjN01lU0JkcFhOZnRMcXcwNm9G?oc=5",
+        "domain": "yahoofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T071243Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "1 teen killed, another injured while trying to get off moving freight train in North Portland",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWRFS1RpdmQ2ODRiMXlDZVpEUm9WNFZ0MmVfaHM5OUFZODJNX3FLREhVLWFyRXJ2Z0NkS0t6ZXJBcHVQajNrTEQ4Q0J5aUJIWTFQUjkzS0h5cXl4YjZPa25QTHRGSnE0SjRGb0VQMkpqSWpPZ0dLR3RtLWVHSWdWVlhuY2Z0aVVBTjc0MEJiWC1sVXlOOEo3TGVqQ2Vwa2JPNnlyM3ZOVF9fc3Vn?oc=5",
+        "domain": "kgw",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260818T064500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Driving test backlog keeping Neets out of work",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVBjbWtkbWZsSXR3eHBzcXBFRktyY3d4clBaSW0xV3NQeW1YYUc3c2E5YlZ6YmE3NlJDeW01Y1pFVWlFb1J0UFZVZ0xBdlhTUlBKaXhwYlZvZGF5SXd3SEVqXzBoekNYanNQMUFPWGg5M3ZNT21KZFdWdGFpS2xZWkw0OFZicFFsMS1HSVEzS1Q5OGR0Zmc?oc=5",
+        "domain": "thetelegraph",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T160000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "TCK Order Backlog Hits Record High",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PdUpBOFZydVptSDZpUVJCR3ZMWS1aLXlQbFlQQXVuQTlROG4yR21Talg5QzNGb1MyLWx2TTJZTDRnclhHVHV1UWVnVmpIQTNZOWcyRzJSaktRNms1SnZyOUtwc0dqT2c?oc=5",
+        "domain": "thelec.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T063046Z",
+        "source": "GoogleNews"
       }
     ],
     "exchange_rates": [
@@ -174,7 +571,143 @@
     ]
   },
   "entities": [],
-  "events": [],
+  "events": [
+    {
+      "title": "Kansas City Southern freight train hits car near Old Mill, Waukegan roads in Lake Forest, man seriously injured: police",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeno5aWgwTWF3amZsZUMxb2VjU1VCZkVtcnd4ZnZrOF9ENWc0a2VBSlh1aDNUTlgzMld1aC01TkwtZ1BISGx4d054WHcteDVpYW5BT3p1SFotQmhIYmRzOEFiYmFyamxqNVF3Ym9hVkduWTRsbVRMXzRGalVQMVo0VEt6aXNYd2M1Z1U4a3Y3T3JObmlkVW5ocUxzclUwS2FfbzRweFpJblgyWkdhUVNIWUVndmxwS09zc0EzMmNBVG9jdHVVRlViT1hIQkRxVzBTdmZF0gHYAUFVX3lxTFBpeEZfbkNZNzRTa0M4clNqNTkwc1NxR0ZYNHNlNFl6TURPYXhEdXVoWm1TWGNRRlhEbXM3cHY4eXphNkNCdDJ6azJLOW1EYjViT0hPMkdPS3JzbXUxY2JLT0JnUEFtVzc2Q3hEYTFxQldmU2FqMlNPR2t0NGx0LU9fT1ZkQ240OVQxNnBZZTQxNTh5dkF1X3p6WFItSGNpMEYyZENtNEZKMlJ1NjlKdkYxUjZWNGFtdlZRTnJ1Q0lxb1lWLVVlTUpEYXpjM2Z6cmdpVG13Z0ZiRA?oc=5",
+      "domain": "abc7chicago",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260821T201310Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "INCOG wants public input on 25 Tulsa-area congestion corridors",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeTRrTGtYT2xJdWJZSDBZbEkwWnFPdGQwNnFiUjdoTXlFVnVPYjdZbF9JY1VQaVY2akRMR0tjYW1pcHNUR01YbDdleEFjYkt4Mmt1ajlOLXZScTVLSGpFMm5hUVEzSDhYelo5eEV4clZfYmMxbXluZ2hQM3JzN29nbFBvbFZlQmt3WERBdUNsSFNnZWdWZ2ZsYjVqZDA1WEI5ZW53?oc=5",
+      "domain": "ktul",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T114725Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "RTX's $289 Billion Backlog, Explained",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUEgzNlB3Sm5zR2lwWjd0OFhGXzU0d2lnVkVGVTg3VzYtZmkxeVVkWjlWWUhtak9maDY5TEpmWkZsRHNEYjBvX3NSd2wwZTNTZWh1VTNkbmh0Ukl2MnFJc25DZUd5NlpDWTQ5XzN2RFZQYjg3MnozNUgyYWZiZ09BcVhQZkZLbmdJU1U0bXp2VnE1Nkd3bDRTamI1aE1RZVd4?oc=5",
+      "domain": "yahoofinance",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T072500Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "South Korea sending first container ship through Arctic route",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRkpKWF9QdFYtWFp3RU43eWxsTHVlTEhqX195VjRPcWtUWWgtVjBiYndRNmFhVjVfT0g5TnplUHNFN2NhYWxVX1lwbmtnTEpjTVJtRXpVR19id1hkYTJ0NWdIcFduQmtSX1h4SnpWMVNoaEZnZDRSNmdBYTJjaEpLcGFZNzFwOXl0UHlFWTlDa05ERWpOR0FNZUVJQnlPQndDU1REdtIBqgFBVV95cUxNSGxxenB2a0ZyT0Q1RkdKTlJMdVVmbmdaNGM5bkJnTnV4VDdyMnhkdDJuVHlYRVhrMS1EZmRCX0xVWEtkQWxFUnczdERiQ0ZRRHNreFBmUnBMRUgzZXg4SHJfcTItMnZGUXB5VG9DSUhSN3UxOXQyUUpUOWpydThNaEVLdEpXRE5zU2ViTm1WNmVXcDMtUXgzSjJ2Y0tiVVZMMk9XSU5BUDk4dw?oc=5",
+      "domain": "aljazeera",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T164920Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Ocean freight market enters holding pattern ahead of September",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDJoRDVCMFFleS1Rd3ZSN0ZrdVpuQ1NIQ1dKN2oxZlZEZkh2ZTBCYXh1LS1IV1lHbDNqSzByRHpKd3R6VUdnaGlfSUZOdmhSUFdtajVOVVhPN1VObmdUVUFYbEhlRU54bFJfUzVTVDhaQkU3NU1MUEU2ZDRFcDNSZXg4U0U3em8xV3pNbjFxQV82eWhaTXRwQmNUSW9NUklzSk1vZWFyUEszUC1oclIxN0E2TXhYMUU?oc=5",
+      "domain": "kvia",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T151104Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "South Korea to test Arctic shipping route along Russian coast",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nYmYtcGhBNnJ2RXJicGdmRzdjWmo0QTBfSEg0MmE1X2NHdWJDbjFpRmJxVzdzaWczQTE2UzVJMmcwd25USVBIUUJBS1c2ODlXUmdfSFNCZUQ0clV1aF84?oc=5",
+      "domain": "thejerusalempost",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T092104Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "The promise and the pitfalls of China’s new Arctic shipping route",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
+      "domain": "theeconomist",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260820T125902Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "RTX's $289 Billion Backlog, Explained",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV1QwdXlGc19LYURDTGFNdEFZc04xSG1DeUFTdFVXQ2czYVpQXzhqM1g2LVBKX0tldENyMEs4MlRRR1ZFMlRLcERsZ01qaklvTzRzbnpYN0gyb3VuSzl5RjF6S0NsYTAxZmJnTXpDUDFnSzI5dXg1RnQyWGNGeE9YMmczaw?oc=5",
+      "domain": "themotleyfool",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T080500Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "ZIM: Q2 Net Income Jumps 167% As Freight Rates Rise 8%, But First-Half Results Remain In The Red",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb1loVjA0cDZwc3Mxazc0UXBIb18wQVgyN2gwWDBXRXZvQ3VGQ29tSHJOQmk0M0pHTHBrTkFyd0IxYkxOb3I5V3pVemZZTXJVNVFtSHVCWG5DMHo5QnFOVDkwTHBfcTVUazVaQWF2ZFBRRVVZUnctZUE4QllMMzZzU2pBOTRwa0g2bVdSN0RSLVJWVV9oYmlFdkRiVS1pejJNNlVvYWJFTFVFQXhtajh3OW530gG3AUFVX3lxTFBzTnRfa19yd3JqcEt5d1JfU0ZNajFCMnp3UWIzSmxXbHpIR1ZtM2tHamZUYWEyYzJDZWVpZXR3dWRRWk5VclBaaWpQeHkxYUtxa0wyc2dRTjhyRFRCNVpBTmpHVjFkS2paS0NYdjJscFJXVGpWQ0FCejRJSzdCVHVoWjdoT3RoZWRpem9MVnNZbV9GcWdhQjVLdUxCamdpRTlTM0FZNTdiTjd4el9iODhQNmNzWk9xZw?oc=5",
+      "domain": "pulse2.0",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T144700Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Va. health dept. improves nursing home inspection backlog, reforms sanction criteria for facilities",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeWZzQVIwTEFQUnFNV0Z3Z0FpUGFGd09hQzByX2RhOHRoUWtTVWJod2NLSVUxajAzM2xkbkFCYmRZemljcjl2Qzg3cFhfb2NVenlJMXdwOHc1eFV0WllUQUlSQWZXblY1YTJ3QkpPbE40R1Rtc1Q4VkVxMzdySVljTlVlR3RPYkxVal80eHpYUm5jdjI4STFDZzBJYkM4SDdhc1NvS2diZDNLYnZwN0NSWlJYSDR4NHdDOW8tYUxlQnItZkhtLXBj?oc=5",
+      "domain": "henricocitizen",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T145956Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Teamsters reveal TP Freight’s sudden shutdown",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc3NJdDJ4blBKcFIzbWdRMFZtVnlNR2hlaVBMOG8xSklzc085VnBZNW8zYWxMc1NNVkhpSFdIekQ3akdXRm9QSVV2b0NXU1VxOEZaVlp5dUN6Ync2c010T1lqbFdDYml3ZU5JTnhTcTdhYkJHTndwNlBPRDBLREJTMFZyamY?oc=5",
+      "domain": "freightwaves",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260820T122602Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Driver seriously hurt after freight train hits car in Lake Forest, Illinois; Metra trains delayed",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREp0alRSMHRkR0IxTFZfbi1iZ2R2ZlRTaXlCejVXRVZNRUVQcUF0d0QwUWduNWFzZ3VPRVVUYms5SDJiQXNRc1luZWR1NnpRUUJ0OGpDQTNWU1cwZDdFTllPVDA4SDdONFFjODRPNXZtY2RISUdiNkdKd3FxU3ZoRnNLQk5VaDZZM2xVNnVjS0ZXbjZKbHl0YkFfdVdLUm5SZk13TnkxY0w2REFFcnBV?oc=5",
+      "domain": "cbsnews",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260821T194400Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Global Shipping Data Challenges Trump Administration’s Claims on Strait of Hormuz",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdWExTmFvckdNckFJN0FUR3ZDZE10VmhIbUpvWXVBQlQ2cGR6NklhbDh3dWMwaHhsOGdYUUFNaURWRDRDTFViNGt3cF9fRVk1eW82QUdkTVRXSTJmOEVoRlVRNUdpZjZxcHpDRy1kQ2U5bTZUOHA0Z212ZWV2NlNxSUROZmFYaWZzZ0JrdEViMkFaQ1J5UzFZX281YjItbjdRUWc?oc=5",
+      "domain": "wananewsagency",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T154950Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "South Korea ship to test alternative Arctic route as Mideast conflict disrupts shipping",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPajk5a01VOExwTzhvLUo3RVlMdDMxS0VOT3M3c0xMaFdkdzByUTJ6ZXQ5UXRCam92QURxRldRdXBhdVlfUUtNX0J0NjRob1UyZ19uOFU4MnlJTUhNRjZpcnNkTTlvMlN5RmdHYkFrRVVtSDJHc29tcFNkTkFSazU4bkljdEJtNkpUZjFEdjZycWRhajJ1ZmhINlIzd1BzTFIxU1lFWFhwZFkzSF92SG52X2paSUxjSm5IemtacFRUbUNwYmhKczd0dFc2QWg?oc=5",
+      "domain": "france24",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260822T024712Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Hormuz shipping unchanged amid US-Iran stalemate, data shows",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2wyclNjWVpvOTM3X0dCUjJNdEhZYkYwOC0taHk5bnNRXzZ2d3R2V092Z0pNTlBiVDdzejJXS0ozSnc1aGRjenhxbXRUY3RsMjgzUV9wSkFlTEJxbk1VbUFvbDZMTjhwTXpzR2lJVndmanZhUDhudjFlMUNVdVptcjlQYXZ1UTczRnVNM3pIUTQzQ3ctcUxwd2VYalFHYXRXdzJHemNSOUE5Vmwzdzd0NFNEcw?oc=5",
+      "domain": "reuters",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260820T124308Z",
+      "source": "GoogleNews"
+    }
+  ],
   "timeseries": [],
   "llm_summary": ""
 }
