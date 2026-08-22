@@ -8,7 +8,7 @@ openrouter:
   model: "z-ai/glm-5.2:free"
   fallback_model: "google/gemma-4-31b-it:free"
 
-gdelt_query: "(congestion OR "supply chain" OR shipping OR freight)"
+gdelt_query: "(congestion OR shipping OR freight OR backlog)"
 include_forex: true
 
 sources:
