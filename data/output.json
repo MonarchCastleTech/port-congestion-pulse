@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-23T13:20:21.402801+00:00",
+    "generated": "2026-08-23T19:03:34.935661+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -18,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "39",
+      "value": "42",
       "delta": "deduplicated"
     },
     {
@@ -44,6 +44,15 @@
         "source": "GDELT"
       },
       {
+        "title": "上海将形成  四主多辅  铁路客运枢纽格局 _ 央广网",
+        "url": "https://www.cnr.cn/shanghai/gstjshanghai/20260824/t20260824_527788486.shtml",
+        "domain": "cnr.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260823T181500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Freight costs surge 372 % after strike",
         "url": "https://tribune.com.pk/story/2625309/freight-costs-surge-372-after-strike",
         "domain": "tribune.com.pk",
@@ -53,48 +62,12 @@
         "source": "GDELT"
       },
       {
-        "title": "上海发布重磅规划 ： 2030年轨交里程达1260公里 ， 东方枢纽上海东站建成",
-        "url": "https://baijiahao.baidu.com/s?id=1874234608709873363",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Indian Railways runs first double - stack long - haul container train from Mumbai Jawaharlal Nehru Port Trust to Vadodara",
-        "url": "https://www.moneycontrol.com/news/business/indian-railways-runs-first-double-stack-long-haul-container-train-from-mumbai-s-jawaharlal-nehru-port-trust-to-vadodara-14013051.html",
-        "domain": "moneycontrol.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T183000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Railways operates first double - stack long - haul container train from Jawaharlal Nehru Port Trust , Mumbai",
-        "url": "https://aninews.in/news/national/general-news/railways-operates-first-double-stack-long-haul-container-train-from-jawaharlal-nehru-port-trust-mumbai20260822222400/",
-        "domain": "aninews.in",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T180000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Double - Stack Container Train : భారత రైల్వేలో సరికొత్త రికార్డు .. తొలి",
         "url": "https://vaartha.com/national/indian-railways-first-double-stack-long-haul-container-train/765451/",
         "domain": "vaartha.com",
         "language": "Telugu",
         "tone": 0,
         "seendate": "20260823T044500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Indian Railways runs first double - stack long - haul container train from JNPT",
-        "url": "https://timesofindia.indiatimes.com/city/mumbai/indian-railways-runs-first-double-stack-long-haul-container-train-from-jnpt/articleshow/133425489.cms",
-        "domain": "timesofindia.indiatimes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
         "source": "GDELT"
       },
       {
@@ -134,48 +107,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Турецкий полковник призвал власти закрыть проливы для Украины",
-        "url": "https://ria.ru/20260822/turtsija-2112560425.html",
-        "domain": "ria.ru",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260822T180000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Time . ai",
-        "url": "https://time.mk/ai/4157a21ba4/mk/",
-        "domain": "time.mk",
-        "language": "Macedonian",
-        "tone": 0,
-        "seendate": "20260822T161500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Ναυτιλία : Οι γεωπολιτικές εντάσεις και η « μπλοκαρισμένη » χωρητικότητα « φουσκώνουν » ξανά τους ναύλους",
         "url": "https://www.newsbeast.gr/financial/arthro/13307690/naftilia-oi-geopolitikes-entaseis-kai-i-blokarismeni-choritikotita-fouskonoun-xana-tous-navlous",
         "domain": "newsbeast.gr",
         "language": "Greek",
         "tone": 0,
         "seendate": "20260823T084500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Union Minister Sonowal makes tea on new PNG stove at worker home in Odisha",
-        "url": "https://www.tribuneindia.com/news/india/union-minister-sonowal-makes-tea-on-new-png-stove-at-workers-home-in-odisha/",
-        "domain": "tribuneindia.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Định hướng nguồn lực vào nhu cầu thực , góp phần ổn định mặt bằng nhà ở",
-        "url": "https://baomoi.com/dinh-huong-nguon-luc-vao-nhu-cau-thuc-gop-phan-on-dinh-mat-bang-nha-o-c55891596.epi",
-        "domain": "baomoi.com",
-        "language": "Vietnamese",
-        "tone": 0,
-        "seendate": "20260822T171500Z",
         "source": "GDELT"
       },
       {
@@ -188,21 +125,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Hàng hóa qua thương mại điện tử sẽ phải làm thủ tục hải quan",
-        "url": "https://vnexpress.net/hang-hoa-qua-thuong-mai-dien-tu-se-phai-lam-thu-tuc-hai-quan-5112332.html",
-        "domain": "vnexpress.net",
-        "language": "Vietnamese",
-        "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Mua , bán hàng với nước ngoài qua sàn online phải định danh điện tử",
         "url": "https://vnexpress.net/mua-ban-hang-voi-nuoc-ngoai-qua-san-online-phai-dinh-danh-dien-tu-5112332.html",
         "domain": "vnexpress.net",
         "language": "Vietnamese",
         "tone": 0,
         "seendate": "20260823T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Hàng hóa qua thương mại điện tử sẽ phải làm thủ tục hải quan",
+        "url": "https://vnexpress.net/hang-hoa-qua-thuong-mai-dien-tu-se-phai-lam-thu-tuc-hai-quan-5112332.html",
+        "domain": "vnexpress.net",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260823T044500Z",
         "source": "GDELT"
       },
       {
@@ -215,24 +152,6 @@
         "source": "GDELT"
       },
       {
-        "title": "外交難度高 實務障礙大 南韓為何執意測試北極海運航線 ？ - 趨勢",
-        "url": "https://www.chinatimes.com/realtimenews/20260822003346-260408",
-        "domain": "chinatimes.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260822T161500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ποιοι παράγοντες ανεβάζουν τα ναύλα στα containers",
-        "url": "https://www.euro2day.gr/news/world/article/2365108/poioi-paragontes-anevazoyn-ta-nayla-sta-containers.html",
-        "domain": "euro2day.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260822T141500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Rà soát , đề xuất giải pháp tháo gỡ vướng mắc cho các dự án tồn đọng , kéo dài",
         "url": "https://www.tinnhanhchungkhoan.vn/ra-soat-de-xuat-giai-phap-thao-go-vuong-mac-cho-cac-du-an-ton-dong-keo-dai-post396355.html",
         "domain": "tinnhanhchungkhoan.vn",
@@ -242,12 +161,12 @@
         "source": "GDELT"
       },
       {
-        "title": "越来越多中国船 ， 正在绕开马六甲 ， 新加坡被断财路开始着急了 ？ ",
-        "url": "https://www.vava8.com/index.php?app=index&act=view&id=133162",
-        "domain": "vava8.com",
-        "language": "Chinese",
+        "title": "Nangal Chaudhary hub gets rail link , Haryana eyes global logistics leap",
+        "url": "https://timesofindia.indiatimes.com/city/chandigarh/nangal-chaudhary-hub-gets-rail-link-haryana-eyes-global-logistics-leap/articleshow/133444225.cms",
+        "domain": "timesofindia.indiatimes.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260823T113000Z",
+        "seendate": "20260823T181500Z",
         "source": "GDELT"
       },
       {
@@ -260,21 +179,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Circulația feroviară , afectată între Bălănoaia și Stănești după defectarea unui tren de marfă . Un tren de călători , oprit la Giurgiu Nord",
-        "url": "https://www.mediafax.ro/social/circulatia-feroviara-afectata-intre-balanoaia-si-stanesti-dupa-defectarea-unui-tren-de-marfa-un-tren-de-calatori-oprit-la-giurgiu-nord-23794433",
-        "domain": "mediafax.ro",
-        "language": "Romanian",
+        "title": "越来越多中国船 ， 正在绕开马六甲 ， 新加坡被断财路开始着急了 ？ ",
+        "url": "https://www.vava8.com/index.php?app=index&act=view&id=133162",
+        "domain": "vava8.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260822T141500Z",
+        "seendate": "20260823T113000Z",
         "source": "GDELT"
       },
       {
-        "title": "Restaurant Review : Zig Zag Oyster Bar",
-        "url": "https://www.newyorker.com/culture/the-food-scene/consider-the-oyster-bar",
-        "domain": "newyorker.com",
-        "language": "English",
+        "title": "Apple iPhone 17 de 512 GB Sálvia | PIX - Canaltech Ofertas",
+        "url": "https://ofertas.canaltech.com.br/apple-iphone-17-de-512-gb-salvia-pix/",
+        "domain": "ofertas.canaltech.com.br",
+        "language": "Portuguese",
         "tone": 0,
-        "seendate": "20260823T113000Z",
+        "seendate": "20260823T050000Z",
         "source": "GDELT"
       },
       {
@@ -296,15 +215,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Apple iPhone 17 de 512 GB Sálvia | PIX - Canaltech Ofertas",
-        "url": "https://ofertas.canaltech.com.br/apple-iphone-17-de-512-gb-salvia-pix/",
-        "domain": "ofertas.canaltech.com.br",
-        "language": "Portuguese",
-        "tone": 0,
-        "seendate": "20260823T050000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Азербайджанские грузоперевозки превысили 16 млн тонн",
         "url": "https://vestikavkaza.ru/news/azerbajdzanskie-gruzoperevozki-prevysili-16-mln-tonn.html",
         "domain": "vestikavkaza.ru",
@@ -314,21 +224,30 @@
         "source": "GDELT"
       },
       {
-        "title": "Macet di KM 34 Jalintim Palembang - Kayuagung , Antrean BBM Jadi Penyebabnya",
-        "url": "https://palembang.tribunnews.com/sumsel/1326522/macet-di-km-34-jalintim-palembang-kayuagung-antrean-bbm-jadi-penyebabnya",
-        "domain": "palembang.tribunnews.com",
-        "language": "Indonesian",
+        "title": "Thủ tướng yêu cầu hoàn thành rà soát dự án tồn đọng trước ngày 15 / 9",
+        "url": "https://thoibaotaichinhvietnam.vn/thu-tuong-yeu-cau-hoan-thanh-ra-soat-du-an-ton-dong-truoc-ngay-15-9-202775.html",
+        "domain": "thoibaotaichinhvietnam.vn",
+        "language": "Vietnamese",
         "tone": 0,
-        "seendate": "20260822T134500Z",
+        "seendate": "20260823T140000Z",
         "source": "GDELT"
       },
       {
-        "title": "Microsoft Has Something Nvidia Doesnt and Here Why it Matters",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-something-nvidia-doesn-t-170029951.html",
-        "domain": "finance.yahoo.com",
+        "title": "Restaurant Review : Zig Zag Oyster Bar",
+        "url": "https://www.newyorker.com/culture/the-food-scene/consider-the-oyster-bar",
+        "domain": "newyorker.com",
         "language": "English",
         "tone": 0,
-        "seendate": "20260822T173000Z",
+        "seendate": "20260823T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strait of Hormuz Crisis and Tougher US Sanctions : How Rising US – Iran Tensions Are Impacting UAE Travel , Oil Trade and Gulf Security Today",
+        "url": "https://gulfnews.com/world/mena/us-iran-standoff-strait-of-hormuz-tensions-new-us-sanctions-and-flight-changes-key-evening-updates-for-uae-residents-on-august-23-1.500649796",
+        "domain": "gulfnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260823T181500Z",
         "source": "GDELT"
       },
       {
@@ -359,15 +278,6 @@
         "source": "GDELT"
       },
       {
-        "title": "INCOG wants public input on 25 Tulsa - area congestion corridors",
-        "url": "https://ktul.com/news/local/incog-wants-public-input-on-25-tulsa-area-congestion-corridors-08-22-2026",
-        "domain": "ktul.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "不只霍尔木兹海峡 ， 全球多条海上能源通道亮红灯",
         "url": "https://www.yangtse.com/news/txs/202608/t20260823_385471.html",
         "domain": "yangtse.com",
@@ -377,12 +287,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Power Bank 30000mAh , Basike Carregador Portátil com Cabo | PIX + EXCLUSIVO AMAZON PRIME",
-        "url": "https://ofertas.canaltech.com.br/power-bank-30000mah-basike-carregador-portatil-com-cabo-pix-exclusivo-amazon-prime/",
-        "domain": "ofertas.canaltech.com.br",
-        "language": "Portuguese",
+        "title": "Ceste tudi danes v znamenju zastojev",
+        "url": "https://www.delo.si/novice/slovenija/ceste-tudi-danes-v-znamenju-zastojev",
+        "domain": "delo.si",
+        "language": "Slovenian",
         "tone": 0,
-        "seendate": "20260822T144500Z",
+        "seendate": "20260823T140000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Is GE Vernova Under $1 , 000 a Bargain or a Trap ? Here the Honest Answer . ",
+        "url": "https://www.fool.com/investing/2026/08/23/ge-vernova-under-1000-bargain-trap-answer-gev/?source=iedfolrf0000001",
+        "domain": "fool.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260823T144500Z",
         "source": "GDELT"
       },
       {
@@ -413,30 +332,12 @@
         "source": "GDELT"
       },
       {
-        "title": "The Gas Turbine Shortage Just Became AI Biggest Constraint  | Peak Oil News and Message Boards",
-        "url": "https://peakoil.com/consumption/the-gas-turbine-shortage-just-became-ais-biggest-constraint",
-        "domain": "peakoil.com",
+        "title": "Is GE Vernova Under $1 , 000 a Bargain or a Trap ? Here the Honest Answer . ",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-under-1-000-130300789.html",
+        "domain": "finance.yahoo.com",
         "language": "English",
         "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ảnh hưởng bão số 4 và mưa lũ gây thiệt hại tại nhiều địa phương",
-        "url": "https://baotintuc.vn/thoi-su/anh-huong-bao-so-4-va-mua-lu-gay-thiet-hai-tai-nhieu-dia-phuong-20260822193612905.htm",
-        "domain": "baotintuc.vn",
-        "language": "Vietnamese",
-        "tone": 0,
-        "seendate": "20260822T133000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "De Bs 6 , 96 a más de Bs 11 por dólar : la brecha que tensiona negociación de fletes entre YPFB y cisterneros",
-        "url": "https://eju.tv/2026/08/de-bs-696-a-mas-de-bs-11-por-dolar-la-brecha-que-tensiona-negociacion-de-fletes-entre-ypfb-y-cisterneros/",
-        "domain": "eju.tv",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260822T231500Z",
+        "seendate": "20260823T133000Z",
         "source": "GDELT"
       },
       {
@@ -449,12 +350,12 @@
         "source": "GDELT"
       },
       {
-        "title": "ప్రత్యామ్నాయ మార్గాలతో ఆదాయం",
-        "url": "https://www.eenadu.net/telugu-news/districts/tamilnadu-news/704/126150928",
-        "domain": "eenadu.net",
-        "language": "Telugu",
+        "title": "De Bs 6 , 96 a más de Bs 11 por dólar : la brecha que tensiona negociación de fletes entre YPFB y cisterneros",
+        "url": "https://eju.tv/2026/08/de-bs-696-a-mas-de-bs-11-por-dolar-la-brecha-que-tensiona-negociacion-de-fletes-entre-ypfb-y-cisterneros/",
+        "domain": "eju.tv",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260822T213000Z",
+        "seendate": "20260822T231500Z",
         "source": "GDELT"
       },
       {
@@ -467,12 +368,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Η Κύπρος κερδίζει έδαφος στον παγκόσμιο χάρτη του εμπορίου",
-        "url": "https://economytoday.sigmalive.com/i-kypros-kerdizei-edafos-ston-pagkosmio-xarti-toy-emporioy/",
-        "domain": "economytoday.sigmalive.com",
-        "language": "Greek",
+        "title": "The Gas Turbine Shortage Just Became AI Biggest Constraint  | Peak Oil News and Message Boards",
+        "url": "https://peakoil.com/consumption/the-gas-turbine-shortage-just-became-ais-biggest-constraint",
+        "domain": "peakoil.com",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260823T083000Z",
+        "seendate": "20260823T044500Z",
         "source": "GDELT"
       },
       {
@@ -482,6 +383,105 @@
         "language": "Malayalam",
         "tone": 0,
         "seendate": "20260823T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Bangkok Post - Southern border rail track closed after being bombed",
+        "url": "https://www.bangkokpost.com/thailand/general/3306560/southern-border-rail-track-closed-after-being-bombed",
+        "domain": "bangkokpost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260823T093000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Огромно задръстване към Гърция , трафикът е интензивен и наобратно",
+        "url": "https://www.focus-news.net/novini/Bylgaria/Ogromno-zadrustvane-kum-Gurciya-trafikut-e-intenziven-i-naobratno-3014046",
+        "domain": "focus-news.net",
+        "language": "Bulgarian",
+        "tone": 0,
+        "seendate": "20260823T121500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ప్రత్యామ్నాయ మార్గాలతో ఆదాయం",
+        "url": "https://www.eenadu.net/telugu-news/districts/tamilnadu-news/704/126150928",
+        "domain": "eenadu.net",
+        "language": "Telugu",
+        "tone": 0,
+        "seendate": "20260822T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Uber von Güterzug zerquetscht - Fahrer überlebt",
+        "url": "https://www1.wdr.de/nrw/bergisches-land/kreis-mettmann/uber-unfall-gueterzug-feuerwehr-rettung-100.html",
+        "domain": "wdr.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260823T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ప్రశాంత వాతావరణంలో అమ్మవారి దర్శనం .. - Andhra Prabha | Telugu News Daily , Latest Telugu News , Latest తెలుగు వార్తలు and LIVE Updates | Breaking News in AP and Telangana",
+        "url": "https://prabhanews.com/chairman-gandhi-oversaw-the-facilities-for-devotees/",
+        "domain": "prabhanews.com",
+        "language": "Telugu",
+        "tone": 0,
+        "seendate": "20260823T121500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Η Κύπρος κερδίζει έδαφος στον παγκόσμιο χάρτη του εμπορίου",
+        "url": "https://economytoday.sigmalive.com/i-kypros-kerdizei-edafos-ston-pagkosmio-xarti-toy-emporioy/",
+        "domain": "economytoday.sigmalive.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260823T083000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Noul sistem de taxare rutieră TollRo intră în vigoare la 1 octombrie , anunță CNAIR . Ce șoferi vor plăti în funcție de kilometri parcurși",
+        "url": "https://www.romaniatv.net/noul-sistem-de-taxare-rutiera-tollro-intra-in-vigoare-la-1-octombrie-anunta-cnair-ce-soferi-vor-plati-in-functie-de-kilometrii-parcursi_9763108.html",
+        "domain": "romaniatv.net",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260823T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "India Lawan Macet Pegunungan Pakai Kereta Gantung , Puncak Bogor Masih Andalkan One Way",
+        "url": "https://www.tribunnews.com/internasional/7872572/india-lawan-macet-pegunungan-pakai-kereta-gantung-puncak-bogor-masih-andalkan-one-way",
+        "domain": "tribunnews.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260823T160000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "تحرير 45 محضرًا ورفع إشغالات في حملات مكبرة بأبو تشت ونقادة بقنا",
+        "url": "https://www.dostor.org/5676769",
+        "domain": "dostor.org",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260823T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Güterzug prallt gegen Auto - Fahrer befreit sich selbst",
+        "url": "https://www.die-glocke.de/blick-in-die-welt/nrw/artikel/gueterzug-prallt-gegen-auto-fahrer-befreit-sich-selbst-1787477702",
+        "domain": "die-glocke.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260823T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Hàng nghìn m³ đất đá sạt lở , nhiều tuyến đường ở Lào Cai bị đe dọa",
+        "url": "https://baomoi.com/hang-nghin-m3-dat-da-sat-lo-nhieu-tuyen-duong-o-lao-cai-bi-de-doa-c55896610.epi",
+        "domain": "baomoi.com",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260823T144500Z",
         "source": "GDELT"
       }
     ],
@@ -580,6 +580,15 @@
       "source": "GDELT"
     },
     {
+      "title": "上海将形成  四主多辅  铁路客运枢纽格局 _ 央广网",
+      "url": "https://www.cnr.cn/shanghai/gstjshanghai/20260824/t20260824_527788486.shtml",
+      "domain": "cnr.cn",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260823T181500Z",
+      "source": "GDELT"
+    },
+    {
       "title": "Freight costs surge 372 % after strike",
       "url": "https://tribune.com.pk/story/2625309/freight-costs-surge-372-after-strike",
       "domain": "tribune.com.pk",
@@ -589,48 +598,12 @@
       "source": "GDELT"
     },
     {
-      "title": "上海发布重磅规划 ： 2030年轨交里程达1260公里 ， 东方枢纽上海东站建成",
-      "url": "https://baijiahao.baidu.com/s?id=1874234608709873363",
-      "domain": "baijiahao.baidu.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260822T150000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Indian Railways runs first double - stack long - haul container train from Mumbai Jawaharlal Nehru Port Trust to Vadodara",
-      "url": "https://www.moneycontrol.com/news/business/indian-railways-runs-first-double-stack-long-haul-container-train-from-mumbai-s-jawaharlal-nehru-port-trust-to-vadodara-14013051.html",
-      "domain": "moneycontrol.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260822T183000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Railways operates first double - stack long - haul container train from Jawaharlal Nehru Port Trust , Mumbai",
-      "url": "https://aninews.in/news/national/general-news/railways-operates-first-double-stack-long-haul-container-train-from-jawaharlal-nehru-port-trust-mumbai20260822222400/",
-      "domain": "aninews.in",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260822T180000Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Double - Stack Container Train : భారత రైల్వేలో సరికొత్త రికార్డు .. తొలి",
       "url": "https://vaartha.com/national/indian-railways-first-double-stack-long-haul-container-train/765451/",
       "domain": "vaartha.com",
       "language": "Telugu",
       "tone": 0,
       "seendate": "20260823T044500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Indian Railways runs first double - stack long - haul container train from JNPT",
-      "url": "https://timesofindia.indiatimes.com/city/mumbai/indian-railways-runs-first-double-stack-long-haul-container-train-from-jnpt/articleshow/133425489.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260822T143000Z",
       "source": "GDELT"
     },
     {
@@ -670,24 +643,6 @@
       "source": "GDELT"
     },
     {
-      "title": "Турецкий полковник призвал власти закрыть проливы для Украины",
-      "url": "https://ria.ru/20260822/turtsija-2112560425.html",
-      "domain": "ria.ru",
-      "language": "Russian",
-      "tone": 0,
-      "seendate": "20260822T180000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Time . ai",
-      "url": "https://time.mk/ai/4157a21ba4/mk/",
-      "domain": "time.mk",
-      "language": "Macedonian",
-      "tone": 0,
-      "seendate": "20260822T161500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Ναυτιλία : Οι γεωπολιτικές εντάσεις και η « μπλοκαρισμένη » χωρητικότητα « φουσκώνουν » ξανά τους ναύλους",
       "url": "https://www.newsbeast.gr/financial/arthro/13307690/naftilia-oi-geopolitikes-entaseis-kai-i-blokarismeni-choritikotita-fouskonoun-xana-tous-navlous",
       "domain": "newsbeast.gr",
@@ -697,12 +652,57 @@
       "source": "GDELT"
     },
     {
-      "title": "Union Minister Sonowal makes tea on new PNG stove at worker home in Odisha",
-      "url": "https://www.tribuneindia.com/news/india/union-minister-sonowal-makes-tea-on-new-png-stove-at-workers-home-in-odisha/",
-      "domain": "tribuneindia.com",
+      "title": "В Черном море при атаке на турецкое судно погиб моряк",
+      "url": "https://ria.ru/20260822/ataka-2112576781.html",
+      "domain": "ria.ru",
+      "language": "Russian",
+      "tone": 0,
+      "seendate": "20260822T204500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Mua , bán hàng với nước ngoài qua sàn online phải định danh điện tử",
+      "url": "https://vnexpress.net/mua-ban-hang-voi-nuoc-ngoai-qua-san-online-phai-dinh-danh-dien-tu-5112332.html",
+      "domain": "vnexpress.net",
+      "language": "Vietnamese",
+      "tone": 0,
+      "seendate": "20260823T070000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Hàng hóa qua thương mại điện tử sẽ phải làm thủ tục hải quan",
+      "url": "https://vnexpress.net/hang-hoa-qua-thuong-mai-dien-tu-se-phai-lam-thu-tuc-hai-quan-5112332.html",
+      "domain": "vnexpress.net",
+      "language": "Vietnamese",
+      "tone": 0,
+      "seendate": "20260823T044500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "এলাকার উন্নয়নে কাজ করার প্রত্যয় ঢাকাস্থ গাজীপুর সাংবাদিক ফোরামের",
+      "url": "https://www.ntvbd.com/bangladesh/news-1792161",
+      "domain": "ntvbd.com",
+      "language": "Bengali",
+      "tone": 0,
+      "seendate": "20260823T061500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Rà soát , đề xuất giải pháp tháo gỡ vướng mắc cho các dự án tồn đọng , kéo dài",
+      "url": "https://www.tinnhanhchungkhoan.vn/ra-soat-de-xuat-giai-phap-thao-go-vuong-mac-cho-cac-du-an-ton-dong-keo-dai-post396355.html",
+      "domain": "tinnhanhchungkhoan.vn",
+      "language": "Vietnamese",
+      "tone": 0,
+      "seendate": "20260823T063000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Nangal Chaudhary hub gets rail link , Haryana eyes global logistics leap",
+      "url": "https://timesofindia.indiatimes.com/city/chandigarh/nangal-chaudhary-hub-gets-rail-link-haryana-eyes-global-logistics-leap/articleshow/133444225.cms",
+      "domain": "timesofindia.indiatimes.com",
       "language": "English",
       "tone": 0,
-      "seendate": "20260822T163000Z",
+      "seendate": "20260823T181500Z",
       "source": "GDELT"
     }
   ],
