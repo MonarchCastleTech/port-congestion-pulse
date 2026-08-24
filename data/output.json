@@ -1,14 +1,14 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-23T19:03:34.935661+00:00",
+    "generated": "2026-08-24T01:18:36.358710+00:00",
     "mode": "live",
     "sources": [
-      "gdelt_articles",
+      "news_articles",
       "exchange_rates"
     ],
     "source_notes": [],
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "stats": [
     {
@@ -18,471 +18,471 @@
     },
     {
       "label": "News Domains",
-      "value": "42",
+      "value": "43",
       "delta": "deduplicated"
     },
     {
       "label": "Tone Index",
       "value": "50/100 (neutral)",
-      "delta": "GDELT scale"
+      "delta": "news scale"
     },
     {
-      "label": "Geo Points",
-      "value": "0",
-      "delta": "geolocated"
+      "label": "Live Feeds",
+      "value": "2",
+      "delta": "connected"
     }
   ],
   "live_data": {
-    "gdelt_articles": [
+    "news_articles": [
       {
-        "title": "First double - stack long - haul container train covers 422 km from JNPT to Vadodara",
-        "url": "https://timesofindia.indiatimes.com/city/allahabad/first-double-stack-long-haul-container-train-covers-422-km-from-jnpt-to-vadodara/articleshow/133429316.cms",
-        "domain": "timesofindia.indiatimes.com",
-        "language": "English",
+        "title": "Three Studies Confirm Viability of Year-Round Shipping in the Hudson Bay",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzZvakFLUHBmMmRfd3dkdUg1ZS1ZSTlLVXd1bDl5dExlRV9TekozWXpoZmhBODd4c212bmV6MTk3cGZaU3NSeFBnc1NqTGxyUTE5R0lKTi1hYWxOanUxU1ZkMEN2S2t4OHlfRm5ybnF6U2xIVEZHQUk0RzNMYUJ0blFoWW1pTFMyQlNBek9sRkxzbFM4SnFkNlV5djZyWFNvLXZueTlVRUtlbTV0Rmw0Yw?oc=5",
+        "domain": "themaritimeexecutive",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T193000Z",
-        "source": "GDELT"
+        "seendate": "20260823T213452Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "上海将形成  四主多辅  铁路客运枢纽格局 _ 央广网",
-        "url": "https://www.cnr.cn/shanghai/gstjshanghai/20260824/t20260824_527788486.shtml",
-        "domain": "cnr.cn",
-        "language": "Chinese",
+        "title": "Shipping traffic through the Strait of Hormuz surges as vessels increasingly use US-backed Oman route",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc2lheklJNkN3dFh2UjV1b1ZnY0NHVWtfdjBmYUdUUm85dExKQ3g5ZjRERzQyd25FN1RiREdYWmhCM2p5M1R3aGI1Tm12T0ZWaTVwbVYwZ2NZOXZENG04dUFEUkJuYjhtOGRyazFMRFdsb2RCQmNjUTRxOVJ0ZlVkVXAxNTEtYzdSN1I4d0tQQWxqc18zcl9UQW92bElaNVBJbnVkYmltaFFwaHJsX0k3b1lMR3pVcjQtNHV4V1dSYzZPMkx2cktUX1g3VzZRUlpxVkpzVElDRDh2czFpMUI2OGtyRmRXdw?oc=5",
+        "domain": "i24news",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T181500Z",
-        "source": "GDELT"
+        "seendate": "20260823T055300Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Freight costs surge 372 % after strike",
-        "url": "https://tribune.com.pk/story/2625309/freight-costs-surge-372-after-strike",
-        "domain": "tribune.com.pk",
-        "language": "English",
+        "title": "China builds new-crop US soybean purchases ahead of shipping season",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRUNVYUs0QkJfRTF5X3RIMjJDdWZfQllVNkhLS3ZJYlJteGthR0RMaVp3dXMtSGprVlcxRmN5VGs5UnRoSHJlSGJrVDNoMms3Smc0bU5YNFoydUE3azJOR2hsMzBTcVpGTGVfaGpVZ1pzMGU3cmhKT1FuYVpUTng5bjJQZ1A1YTFZb3I5TWtuOUtId3M3b29obE8yc3BNTk9NNm5hcDVR?oc=5",
+        "domain": "thepigsite",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T213000Z",
-        "source": "GDELT"
+        "seendate": "20260823T233000Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Double - Stack Container Train : భారత రైల్వేలో సరికొత్త రికార్డు .. తొలి",
-        "url": "https://vaartha.com/national/indian-railways-first-double-stack-long-haul-container-train/765451/",
-        "domain": "vaartha.com",
-        "language": "Telugu",
+        "title": "Kansas City Southern freight train hits car near Old Mill, Waukegan roads in Lake Forest, man seriously injured: police",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeno5aWgwTWF3amZsZUMxb2VjU1VCZkVtcnd4ZnZrOF9ENWc0a2VBSlh1aDNUTlgzMld1aC01TkwtZ1BISGx4d054WHcteDVpYW5BT3p1SFotQmhIYmRzOEFiYmFyamxqNVF3Ym9hVkduWTRsbVRMXzRGalVQMVo0VEt6aXNYd2M1Z1U4a3Y3T3JObmlkVW5ocUxzclUwS2FfbzRweFpJblgyWkdhUVNIWUVndmxwS09zc0EzMmNBVG9jdHVVRlViT1hIQkRxVzBTdmZF0gHYAUFVX3lxTFBpeEZfbkNZNzRTa0M4clNqNTkwc1NxR0ZYNHNlNFl6TURPYXhEdXVoWm1TWGNRRlhEbXM3cHY4eXphNkNCdDJ6azJLOW1EYjViT0hPMkdPS3JzbXUxY2JLT0JnUEFtVzc2Q3hEYTFxQldmU2FqMlNPR2t0NGx0LU9fT1ZkQ240OVQxNnBZZTQxNTh5dkF1X3p6WFItSGNpMEYyZENtNEZKMlJ1NjlKdkYxUjZWNGFtdlZRTnJ1Q0lxb1lWLVVlTUpEYXpjM2Z6cmdpVG13Z0ZiRA?oc=5",
+        "domain": "abc7chicago",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
+        "seendate": "20260821T201310Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "交通强国济南答卷里 ， 哪些最让你  真香 ？ ",
-        "url": "https://baijiahao.baidu.com/s?id=1874293746258354402",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260823T064500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Matson ( NYSE : MATX ) and Performance Shipping ( NASDAQ : PSHG ) Head to Head Analysis",
-        "url": "https://www.themarketsdaily.com/2026/08/23/matson-nysematx-and-performance-shipping-nasdaqpshg-head-to-head-analysis.html",
-        "domain": "themarketsdaily.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "发新疆西藏不再贵｜运价直降 80 %， 时效提速 ， 申通打通全域包邮壁垒 - 热点资讯 - ITBear科技资讯",
-        "url": "https://www.itbear.com.cn/html/2026-08/1515345.html",
-        "domain": "itbear.com.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260823T050000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "建强枢纽提能级 ， 无缝衔接提质效 ， 湖北交通强国试点助推支点建设",
-        "url": "https://baijiahao.baidu.com/s?id=1874305039605548330",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
+        "title": "Borderlands Mexico: Criminal groups keep pressure on Mexican freight networks",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTGlQRHdJaUVxX0xYbjVPMVNxTktHMmtGWlU5SW85R2VLM3lvc09FTHFRRkNlWE5teDMzd0wxM2l3clVmWGJCRjY1N2ZGZVdkMkpXZFVlaGk3NXU5T1RtQ0JwbWpwa0NwZWs4UzBLSFpwcGVLS2dLbmJOLTU2aERpdjZ6d3Q0SzUyZzdRbUFUb1RCQTE0QWhDTEV6bWpmN3dodk1qelVCQXN4VDhzdW1n?oc=5",
+        "domain": "freightwaves",
+        "language": "",
         "tone": 0,
         "seendate": "20260823T110000Z",
-        "source": "GDELT"
+        "source": "GoogleNews"
       },
       {
-        "title": "Ναυτιλία : Οι γεωπολιτικές εντάσεις και η « μπλοκαρισμένη » χωρητικότητα « φουσκώνουν » ξανά τους ναύλους",
-        "url": "https://www.newsbeast.gr/financial/arthro/13307690/naftilia-oi-geopolitikes-entaseis-kai-i-blokarismeni-choritikotita-fouskonoun-xana-tous-navlous",
-        "domain": "newsbeast.gr",
-        "language": "Greek",
+        "title": "Stamford 'noncompliant' with HUD due to backlog of unspent federal grants: 'I’m very disappointed'",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTlQ5SDc2Vy15LXM1a3VDTnRNZHNMVE42RUZzX3FLd0FYYm51V3pVNk42UVVHTGdCQlFBQ3ZydWNIbWwtdEV0aHNYWE1HQjZUX0NtSVlIWS1ZdDZTNlBrRXRjcHRhWUZiMWpWTW5rSXZBV1JPQlFiUFo4RjhnaVBuYTVkcmEzYWhpZHJNcVdKcVhuUDA?oc=5",
+        "domain": "stamfordadvocate",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T084500Z",
-        "source": "GDELT"
+        "seendate": "20260823T090722Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "В Черном море при атаке на турецкое судно погиб моряк",
-        "url": "https://ria.ru/20260822/ataka-2112576781.html",
-        "domain": "ria.ru",
-        "language": "Russian",
+        "title": "The promise and the pitfalls of China’s new Arctic shipping route",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
+        "domain": "theeconomist",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T204500Z",
-        "source": "GDELT"
+        "seendate": "20260820T125902Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Mua , bán hàng với nước ngoài qua sàn online phải định danh điện tử",
-        "url": "https://vnexpress.net/mua-ban-hang-voi-nuoc-ngoai-qua-san-online-phai-dinh-danh-dien-tu-5112332.html",
-        "domain": "vnexpress.net",
-        "language": "Vietnamese",
+        "title": "Breakingviews - ZIM’s shipping boom softens deal shipwreck",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdFBpQ0dLMmVrNVBteHBSVlN5TnkzLWdGXzEyYkxXYUV4WXAtZlMzN040R09pc1ByY1hCUDBtTldVZHJON3RjM2VRck5oa1l6blpLdkMzREYzR0h1N3RwMGZOb1BtZ293cndJLXBvRW1TTDFLT0dkcWxvNlQwT2IwZDJ2UWdpS1ctV1dHMHVKeV9tTnBiMDk2NUlnR0xCVk95cVhCZw?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T100319Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Lexington parks, facilities need thousands of accessibility fixes. How should city address the backlog?",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3NaSWxULTFCakZMOTFnT0ItQTd6TGxqdjQ5LTE0Y2Jka2N2eXg4a1p0S0ZwTDNmQ0REWVRibFd6bDJ4aGhvanZOS3N5RFN2eG1jQUZJaXctMnE3ck10QWlZZWQ4YjZWNDZJcWdFdkotdmIzUmZxTGFfLUJPZ3VLX1RmQldvSXgzbUpvbU5zMjhMM2prNnU3bkZzbFJVRG5iRUlTTDRVOHg2REpJYzh0UmZHVjFpcjh4d3J1eGh2UWFCbTVrSkE?oc=5",
+        "domain": "civiclex",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T210544Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump warns ship registries to be target of ‘Economic D-Day’",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ3ZGZWZGVE9PTEdoR29TNTdMYmU4aG1OSzVXcmRRcHk2Q2Fqd1JJNVFieHRGakFKeHRzOXFxRGR3akpDcU1tZ0NVOXlBeFZURmJOQ0ZEOGpUVGE4M1hoU05oZnJ2QXl0ZlUwdGZ1MGJ3OTRiX3RGbGRFVm1KQloyMENXYm84WGdaZVR6bDVzMlo1VThiZzMxWmZ2bmIxRVAtUEN4OVduUmt1UQ?oc=5",
+        "domain": "shippingtelegraph",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T005927Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Twenty one-week driving test backlog locks NEETs out of a job, new research reveals",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GSUVjdVRzRkhlaUxZN2VBeGFtNWJXd3hvTUxFYXZremV4TmZUbHpOTUV4X0JfOXZaWDhoTG01ZW4wVXQ3SkZBYml1SklleFRXZG1wbjFYMFBjNWhpSy1lYVczVmJOcGZQNHhUam5kdkY3bU5sYmxqdg?oc=5",
+        "domain": "thecentreforsocialjustice",
+        "language": "",
         "tone": 0,
         "seendate": "20260823T070000Z",
-        "source": "GDELT"
+        "source": "GoogleNews"
       },
       {
-        "title": "Hàng hóa qua thương mại điện tử sẽ phải làm thủ tục hải quan",
-        "url": "https://vnexpress.net/hang-hoa-qua-thuong-mai-dien-tu-se-phai-lam-thu-tuc-hai-quan-5112332.html",
-        "domain": "vnexpress.net",
-        "language": "Vietnamese",
+        "title": "Panama Canal to limit shipping ahead of extreme weather during El Nino",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdHZpVXdUNWdXbXNLYU55bVpUTzE4VEJCUWtLM0MtSXZTdnp6cTRTT0tlWXlaZ1RsRjJneWw3NGQySl9VVE93NzU0VlJCMTFmWmxmY2NteURoSjJwaTJpRE54dG9UM0ZQQkU4S2o1RVU0Y0lPRVdUQ1JJc2pGRW1vaTY0ejZXWk41X1pNcUtEMXdDU3lid3QxQTNKYUFoWWx5SkhkUG9jbnh4azZxV1Q4S9IBtgFBVV95cUxQenBfVENqN2pnSEJJanNjTVFMTlU0cW8tLTdkenhiMk9Ddm9nNkNhbTlydE5CQnhKeXZzWWhneC1ONUtGZy1VZG9XRFJveEowallBYWcxMm9MRU5uV285ZU9YMHgtei1mYl9KOVlUQVFSUTVSYmpnN0JVdFp0ZmFQM0lmQjhmNVhOZUkzdmw1a3d5TnhhVWVlOWJldUZCc0l1WFdsZklXRUtBcDdPTTBTRURoOUdoQQ?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
+        "seendate": "20260821T012539Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "এলাকার উন্নয়নে কাজ করার প্রত্যয় ঢাকাস্থ গাজীপুর সাংবাদিক ফোরামের",
-        "url": "https://www.ntvbd.com/bangladesh/news-1792161",
-        "domain": "ntvbd.com",
-        "language": "Bengali",
+        "title": "FERC approves SPP ‘topology optimization’ plan for cutting grid congestion",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMHhVM3Y3X1dOMXFZOXlvM1VXbll0ckZmQkxfVVlFb1FXb2xkdGMzZ1lXeUpLLUZwdnEzQTBkTDBVNjYtemtDVFMyQ1lOME9pWmZuZm5ySzg4MjFDU21tU1VkeHdsaWdEN3FHaHlwZXQwZkdaSHQ1X1lLQ284dmJFXzZZcWtycWp3cnpnbEROZVI?oc=5",
+        "domain": "utilitydive",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T061500Z",
-        "source": "GDELT"
+        "seendate": "20260820T152027Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Rà soát , đề xuất giải pháp tháo gỡ vướng mắc cho các dự án tồn đọng , kéo dài",
-        "url": "https://www.tinnhanhchungkhoan.vn/ra-soat-de-xuat-giai-phap-thao-go-vuong-mac-cho-cac-du-an-ton-dong-keo-dai-post396355.html",
-        "domain": "tinnhanhchungkhoan.vn",
-        "language": "Vietnamese",
+        "title": "Ben Gurion Airport and workers agree to ease post-strike backlog, but next crisis looms",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMlU0NUlzRno5V2p3RThybXRQWEw4ZmtxWHdHdlZ6VzFDZ0pxWG1mRGNMekRSZEY5MGwyX1IwOVZUOEVZdHM1WjRjWXhBMm5jaWJqQXBrYkwycHoxS096VWU3c05yV1hfZUw2NFp6LU90VEtHMnVlcHNDekpwQm1fZzJzWThPQ3VVT3I1NGJOamRubkVSVnhlbjBMNl92ZHBGZjFTUW5Ia2xvQnJuV1FUdDRUaWttTC1h0gG-AUFVX3lxTE9ZNUlPWW1nOUUxeWRxSkZuVEhwcVU5UTlXdE9DUGI2QmNFdFVzQkl0SnJCT01xRFY5QmRpdDNSZk9ZMUpHeGNhd0dMbWc0MlpGeTBwbG5kZzFrODFwWjhzYUZZb20tR2ZoSHlkeGVwMUtfVERmQ0xKRXlhVWc5U2JWZ1NjdFVaY1dTOWl4YUtMV2xfQlJYRHBqQVU2Yk0zOEktZWNuaDdBRGQ3STZxZGdKVlpWZFdYUnNCSExHMWc?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T063000Z",
-        "source": "GDELT"
+        "seendate": "20260823T172400Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Nangal Chaudhary hub gets rail link , Haryana eyes global logistics leap",
-        "url": "https://timesofindia.indiatimes.com/city/chandigarh/nangal-chaudhary-hub-gets-rail-link-haryana-eyes-global-logistics-leap/articleshow/133444225.cms",
-        "domain": "timesofindia.indiatimes.com",
-        "language": "English",
+        "title": "Sovereign Satellite Strategy Expands AST SpaceMobile Backlog Amid Constellation Deployment Risks",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa0xSV2g1eVlldGFRVHpxRTZIOE9CNThDdTVTa2p1eGhYS3RDSkFhZ3VsdUtHekxWZnNmRTkxMklEbGhPQnBWS1lMTmxFa0M4ZlFFSW9BVldiS1VvY3VlX2w5N0tWT3FtNFNtV0xRRTNIaTZvWlJYeGt4RmpGLS1tMzlBLWM4MXZKUS1HY1lNaDE5N2xLNVhzaGtRX1FLeTRtMXN0clBJUW9lLWNOWUZUb0ZtTVFKNFdLSmcyRUpKblRqTlhVdmNJ?oc=5",
+        "domain": "satnews.com",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T181500Z",
-        "source": "GDELT"
+        "seendate": "20260823T133154Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Что произошло за ночь 23 августа . Главное",
-        "url": "https://iz.ru/2153493/2026-08-23/chto-proizoshlo-za-noch-23-avgusta-glavnoe",
-        "domain": "iz.ru",
-        "language": "Russian",
+        "title": "Carrier ETA vs Predicted ETA: Watch the Gap",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UYkp6dENfUXQzOFJzSjZ6anZ0aURNeDVVc011MUtPWWhQMWlScVBDTG9BT0RhU3ltNTRvVmJfNGJXRHcteW1nOHRFWHNLY2JnZjEwZFhxU2x5R3JoWnNCQkZhVUo3U1NlLW1iNmNoalMzV1EteFE?oc=5",
+        "domain": "theloadstar",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
+        "seendate": "20260823T230534Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "越来越多中国船 ， 正在绕开马六甲 ， 新加坡被断财路开始着急了 ？ ",
-        "url": "https://www.vava8.com/index.php?app=index&act=view&id=133162",
-        "domain": "vava8.com",
-        "language": "Chinese",
+        "title": "Climate Change Presented China With A New Potential Shipping Route For These Stressful Economic Times: The Arctic",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiRjN3UWlEY3puNXlGNW9NenZKbF9UV241SXR1SkozeHdyQkRhTkJ3ZnZvMmdyQ1pTSm1iUHplN20yMlNOY3psZlNpbFRGMS1LcldvNzR6NjFyUHlvb1JDRXZkTnBONUg4djktaUQ4cTNiUmdUWWdKd1I0Y1lIQQ?oc=5",
+        "domain": "jalopnik",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T113000Z",
-        "source": "GDELT"
+        "seendate": "20260823T192500Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Apple iPhone 17 de 512 GB Sálvia | PIX - Canaltech Ofertas",
-        "url": "https://ofertas.canaltech.com.br/apple-iphone-17-de-512-gb-salvia-pix/",
-        "domain": "ofertas.canaltech.com.br",
-        "language": "Portuguese",
+        "title": "New Arctic shipping route leaves West divided over Russia",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNFpLUmxPcmRRNF90V1dPVEYxT1BQa2kyaFdqcDNTek1vVHl2R1ZNWEpDRWFKSVQzWnNiVWhucVBBblhCZXhmdDhWYWpsY1RWMXl0TEREc3BMeE1xNmw3cG52WVJWT3pacFJjNDF2UExMTTFOMFBFY05rSkVyVnhSc2tWVHVJWnVBQnk4R1pqNzJJVjlT?oc=5",
+        "domain": "yahoo",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T050000Z",
-        "source": "GDELT"
+        "seendate": "20260823T184110Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Lâmpada Inteligente Elgin Smart Color 10W RGB Wifi - Compatível com Alexa e Google Home | PIX",
-        "url": "https://ofertas.canaltech.com.br/lampada-inteligente-elgin-smart-color-10w-rgb-wifi-compativel-com-alexa-e-google-home/",
-        "domain": "ofertas.canaltech.com.br",
-        "language": "Portuguese",
+        "title": "Oxford traders count cost of extended congestion charge",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nS2hORHdLWVZ1anVpb09MOFI1b3JEYmNVRmM4TF92WGRoMXhqbjhwYlNSYUVYMC1oR2t4UTBVbDkya2M1Y3pNMWg5ZURmRC1xZ3ExdlBXRnA5QQ?oc=5",
+        "domain": "bbc",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T050000Z",
-        "source": "GDELT"
+        "seendate": "20260823T172236Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Roteador TP - Link Wi - Fi 6 AX1500 banda dupla , 4 portas gigabit",
-        "url": "https://ofertas.canaltech.com.br/roteador-tp-link-wi-fi-6-ax1500-banda-dupla-4-portas-gigabit/",
-        "domain": "ofertas.canaltech.com.br",
-        "language": "Portuguese",
+        "title": "Hormuz shipping unchanged amid US-Iran stalemate, data shows",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2wyclNjWVpvOTM3X0dCUjJNdEhZYkYwOC0taHk5bnNRXzZ2d3R2V092Z0pNTlBiVDdzejJXS0ozSnc1aGRjenhxbXRUY3RsMjgzUV9wSkFlTEJxbk1VbUFvbDZMTjhwTXpzR2lJVndmanZhUDhudjFlMUNVdVptcjlQYXZ1UTczRnVNM3pIUTQzQ3ctcUxwd2VYalFHYXRXdzJHemNSOUE5Vmwzdzd0NFNEcw?oc=5",
+        "domain": "reuters",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T050000Z",
-        "source": "GDELT"
+        "seendate": "20260820T124308Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Азербайджанские грузоперевозки превысили 16 млн тонн",
-        "url": "https://vestikavkaza.ru/news/azerbajdzanskie-gruzoperevozki-prevysili-16-mln-tonn.html",
-        "domain": "vestikavkaza.ru",
-        "language": "Russian",
+        "title": "Driver seriously hurt after freight train hits car in Lake Forest, Illinois; Metra trains delayed",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREp0alRSMHRkR0IxTFZfbi1iZ2R2ZlRTaXlCejVXRVZNRUVQcUF0d0QwUWduNWFzZ3VPRVVUYms5SDJiQXNRc1luZWR1NnpRUUJ0OGpDQTNWU1cwZDdFTllPVDA4SDdONFFjODRPNXZtY2RISUdiNkdKd3FxU3ZoRnNLQk5VaDZZM2xVNnVjS0ZXbjZKbHl0YkFfdVdLUm5SZk13TnkxY0w2REFFcnBV?oc=5",
+        "domain": "cbsnews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T083000Z",
-        "source": "GDELT"
+        "seendate": "20260821T194400Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Thủ tướng yêu cầu hoàn thành rà soát dự án tồn đọng trước ngày 15 / 9",
-        "url": "https://thoibaotaichinhvietnam.vn/thu-tuong-yeu-cau-hoan-thanh-ra-soat-du-an-ton-dong-truoc-ngay-15-9-202775.html",
-        "domain": "thoibaotaichinhvietnam.vn",
-        "language": "Vietnamese",
+        "title": "Panama canal to reduce shipping as El Niño strikes vital route",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUDhBcDd0cG51VFJTZDltR1ozLWFHZkIwTjVlbTU1UkZ1U2h1TWNyY3RBQktIU3FKbmpYemFXNmlXUDh6QmRLcXVza3ZyM2JkOUw4cEVUbjhGR1VEdm1NV3lZX3FPZEZrdjhHOE5QMlBvOVMwb0EtNkpiUFJhcS1rMElBZlpiWUIxMktGcXFsQzFKSndC?oc=5",
+        "domain": "theguardian",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T140000Z",
-        "source": "GDELT"
+        "seendate": "20260821T130500Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Restaurant Review : Zig Zag Oyster Bar",
-        "url": "https://www.newyorker.com/culture/the-food-scene/consider-the-oyster-bar",
-        "domain": "newyorker.com",
-        "language": "English",
+        "title": "Zelenskyy Says Putin Rejected Black Sea Shipping Truce Offer",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTWhUSjNtSEsxeU1IeXd4MWs2bEdFLVhQWU5wVXA4a0RvaVV6dWQ0UERDV1JuMndqQlY0VWM2cU5lU3JjUTU1d0t2ODR5R05neGthRHpISnZYOUVyT1VuMl8xYkRtM3lydjFlYmhiMy00TzlobU1zUkxkYVlkNDNmN3N3UlplNkRKVGc?oc=5",
+        "domain": "gcaptain",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T113000Z",
-        "source": "GDELT"
+        "seendate": "20260823T131012Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Strait of Hormuz Crisis and Tougher US Sanctions : How Rising US – Iran Tensions Are Impacting UAE Travel , Oil Trade and Gulf Security Today",
-        "url": "https://gulfnews.com/world/mena/us-iran-standoff-strait-of-hormuz-tensions-new-us-sanctions-and-flight-changes-key-evening-updates-for-uae-residents-on-august-23-1.500649796",
-        "domain": "gulfnews.com",
-        "language": "English",
+        "title": "Zelenskyy Says Putin Rejected Black Sea Shipping Truce Offer",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLVoyeXFuYjdueWMwODhLLUVJWWZGYVBpR1hhMzdpOWs5T29VNlc4NUx1cmJSeDVUMlp6RTkxdDBQMGhEWXZoZXhZWlhTVEtiLXdvcEtfSEFQY25kdnZwT1VnWkRWVV9ncmpJRkNuczNraXg4YjBmcHlpWGxxMFN6QlZGa09rMjVSLXFYMVdFOXdZYlJnOU9qN0YyUHJ0MEpTc3gweW1nRUdGMk9lX2ZiRGxhQ2M?oc=5",
+        "domain": "bloomberg.com",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T181500Z",
-        "source": "GDELT"
+        "seendate": "20260823T154127Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Data Centers Dont Just Need Power -- They Need Cooling . Trane and Carrier Sell It . ",
-        "url": "https://www.fool.com/investing/2026/08/22/data-centers-dont-just-need-power-they-need-coolin/?source=iedfolrf0000001",
-        "domain": "fool.com",
-        "language": "English",
+        "title": "Driver in critical condition after intentionally causing crash involving car, freight train in Lake Forest",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSVNaSGFNTnBwaEpLN1k4RXA4TFJJd2tSNUV4S3QyQi1xelpIeGtWUi1TeDlWVmFlelBPNWtkU1VPckluaUdobzFRXzVTeDRtNGNJR00ycE9sSHRZNWR5WTlKZEFFb1VoNUpXbXRHaWJTT3NQV29mZjVxcTdGVHg5YW1Ka3gxX0pkSm5WQ3dxN1o4SjhWM1FlLUpDWjRCZzF6NGtZVVh3elplbmlfT1BSNm9QSzhMVS1MNEs1T05lZzhXQVNpc1lZOExzbzNLMm8zYzN2VlhzLWJuTHBVbVVYTXpqUGJ5Wm8?oc=5",
+        "domain": "lakeandmchenrycountyscanner",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T230000Z",
-        "source": "GDELT"
+        "seendate": "20260821T203804Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "不只霍尔木兹海峡 ， 全球多条海上能源通道亮红灯",
-        "url": "https://baijiahao.baidu.com/s?id=1874301515333435999",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
+        "title": "MCPS facing $3 billion maintenance backlog",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQy1BVzJQSUp6bk9GMUx4TzFaVjFRRG5RWHNxaVp0SGNnWGI2NTZxMGEwc3NtcU5mNWJCdjJ1bzNVcXpIX1F4eXFpQlFvVVNqa0l4NFRBbk0wclFyQnYzR1FUUUs0eG5yaFFqM3R6VHNncjhVM2RfdTk2NDRBMzV0UlJYWTFnZUtBSjZLTFg4X2wyT3lWaDhIUmRvd2xyczZOMUHSAaoBQVVfeXFMUHRTWUVtVnNDUFFQSmE4amxiQnNHZ21FODhlZDI5eUFlQ1k2eERvUWpZSDNRTVpVVzZXcHNTbGtneUQyVmJDX2NQd0tQdFZORk0wWU14YUJ4Y2VvT0VJZXozclpEdUNEVTdLZDBpMnhOWWRkTVc2SEhqZ1o3MndUUHFzekpIS1ZGbmdrNUxTTXV6NzdoOEJrZXZrQ29PSU9ydEUzRUQteU4yN0E?oc=5",
+        "domain": "nbc4washington",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T090000Z",
-        "source": "GDELT"
+        "seendate": "20260821T204823Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "不只霍尔木兹海峡 ， 全球多条海上能源通道亮红灯",
-        "url": "https://baijiahao.baidu.com/s?id=1874305479910951377",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
+        "title": "South Korea sending first container ship through Arctic route",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRkpKWF9QdFYtWFp3RU43eWxsTHVlTEhqX195VjRPcWtUWWgtVjBiYndRNmFhVjVfT0g5TnplUHNFN2NhYWxVX1lwbmtnTEpjTVJtRXpVR19id1hkYTJ0NWdIcFduQmtSX1h4SnpWMVNoaEZnZDRSNmdBYTJjaEpLcGFZNzFwOXl0UHlFWTlDa05ERWpOR0FNZUVJQnlPQndDU1REdtIBqgFBVV95cUxNSGxxenB2a0ZyT0Q1RkdKTlJMdVVmbmdaNGM5bkJnTnV4VDdyMnhkdDJuVHlYRVhrMS1EZmRCX0xVWEtkQWxFUnczdERiQ0ZRRHNreFBmUnBMRUgzZXg4SHJfcTItMnZGUXB5VG9DSUhSN3UxOXQyUUpUOWpydThNaEVLdEpXRE5zU2ViTm1WNmVXcDMtUXgzSjJ2Y0tiVVZMMk9XSU5BUDk4dw?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T123000Z",
-        "source": "GDELT"
+        "seendate": "20260822T164920Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "不只霍尔木兹海峡 ， 全球多条海上能源通道亮红灯",
-        "url": "https://www.yangtse.com/news/txs/202608/t20260823_385471.html",
-        "domain": "yangtse.com",
-        "language": "Chinese",
+        "title": "Hub Group earnings up next as freight recovery meets execution risk",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY1Y5czNCMDRNNHlTZlR3T2tBcHhfV20zWV9UcVY4TUFGd0V2NjU3MzVCclFzMkpvMUNnbDJXdlhkR1dsdW1GMlpxS3R4VmZEZlJRQ1doRGprOEd0Z3A3NURUSGVobmM0NnB3VktncW9tV1pyd2FPQ3p2MThjVG5FMnFFMW9mclhudDZGQktHZkRGLUxZSkd3dV9TUDhQckJvVFRIYkcxMFRvRnBWLU5ub1ZlR2dzMkN6MVdrcQ?oc=5",
+        "domain": "investing.com",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T090000Z",
-        "source": "GDELT"
+        "seendate": "20260823T133748Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Ceste tudi danes v znamenju zastojev",
-        "url": "https://www.delo.si/novice/slovenija/ceste-tudi-danes-v-znamenju-zastojev",
-        "domain": "delo.si",
-        "language": "Slovenian",
+        "title": "Rhine Freight Rates Spike 378% As Europe Narrowly Avoids Full Supply Crisis",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS1FnMlBrRkt4RVlLTkw3dUJIZks4MzRIN3dTZ1pIMV9mQzVsekZLN3JKX3IyVmQ1cTVnbVpvQ3M0dUxGd1BLUVhSeVRuN1NTWUtoTmRPMlhzOFF3SEVnblVEUUJIWU9fWTNkNWpLSlJ6SDczc2JjWkZ1R0tIelNsazFpWnlSZ0NfOXVVVnBCanFLejVJY2xUMkp1TTQ2THNZRGFTZ25iUUFUMXkzM3JVRnljdjRPaW5VQm5LWUladEc?oc=5",
+        "domain": "foreignpolicyjournal.com",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T140000Z",
-        "source": "GDELT"
+        "seendate": "20260823T195500Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Is GE Vernova Under $1 , 000 a Bargain or a Trap ? Here the Honest Answer . ",
-        "url": "https://www.fool.com/investing/2026/08/23/ge-vernova-under-1000-bargain-trap-answer-gev/?source=iedfolrf0000001",
-        "domain": "fool.com",
-        "language": "English",
+        "title": "Backlog orders are projected to double from the end of last year, presenting an investment opportunity for semiconductor equipment manufacturers.",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQejBSUTlFd0IzSXVuczdHRk1NV0FXREg5TG5ucE0zZVRHcmZPdHFzOXprbXY3d3dhTzVHOFJ3VTRRaGl4cWUyU2tPaFdqSDlJUEUxZzlDcXA0NlJmU1Q5TGtEVW1Mc2dUOWh6SU41RDd3bHZtTWRCTlA5YWN5QkU2UVlRV1NSQU94aW5kbElBSHJtaWxYczEyT21TdUQ?oc=5",
+        "domain": "moomoo",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T144500Z",
-        "source": "GDELT"
+        "seendate": "20260823T235414Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "The Gas Turbine Shortage Just Became AI Biggest Constraint",
-        "url": "https://oilprice.com/Energy/Energy-General/The-Gas-Turbine-Shortage-Just-Became-AIs-Biggest-Constraint.html",
-        "domain": "oilprice.com",
-        "language": "English",
+        "title": "Iran dismisses new US sanctions as desperate as Hormuz shipping standstill continues",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOWlibFl5SlhiVzZpTDgtb3lBYzFhc0tOLXlWdGR2S1A4WU5qTUhKTVhNWWhMQ0NwOGM3RnpKOEQ0QW00M2c1QUlaUDdmMWdla3E1MUdBWHNpdExyempaR2NLaTBfbk9YeF9pSjVsZHRPVFl5TWZRbGpRMGItRXRwa0FqdkYwOEhrT3psTEozSFduSy1nd2o3b2xranNDX29zQ0JoWmJtY3UtcWhSQV9LQ2piUVRVVlA3R2VDN3hsZEU?oc=5",
+        "domain": "investinglive",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T220000Z",
-        "source": "GDELT"
+        "seendate": "20260823T205444Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Proyek Underpass dan Jembatan di Cimahi Bikin Macet Parah , Pemkot Beri Penjelasan",
-        "url": "https://jabar.tribunnews.com/metro-bandung/1182249/proyek-underpass-dan-jembatan-di-cimahi-bikin-macet-parah-pemkot-beri-penjelasan",
-        "domain": "jabar.tribunnews.com",
-        "language": "Indonesian",
+        "title": "Churchill Port Year-Round Shipping Feasible: Studies - News and Statistics",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNjdMVlBFb3RnWDdVcWhkWlU2ZUo1Yk5xcms1UF9BSjJkRGRSRHFpdFFOd3NjcGZnR28zN1liOV9FOXpTLVRqa0s0MjBSbk9MRjRVVkdweFNGYi1wOU9qS21Jc29mMi1JanNLTE1Pb0J5VkRqQ2plaE9OMld6YW5QTmRjcjNTZi1BSm9PdWI5TkYxOEdXSnI2RQ?oc=5",
+        "domain": "indexbox",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T084500Z",
-        "source": "GDELT"
+        "seendate": "20260823T215000Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "ഇരുനിലകളിൽ ഒരു ചരക്ക് ട്രെയിൻ : ഇന്ത്യൻ റെയിൽവേയുടെ ആദ്യത്തെ ഡബിൾ ഡെക്ക് ലോങ് ഹോൾ കണ്ടെയ്നർ ട്രെയിൻ സർവിസ് ആരംഭിച്ചു | Indian Railways has launched its first double - stack long - haul container train service",
-        "url": "https://www.madhyamam.com/business/biz-news/indian-railways-has-launched-its-first-double-stack-long-haul-container-train-service-1548294",
-        "domain": "madhyamam.com",
-        "language": "Malayalam",
+        "title": "Nuclear Shipping Endorsed by Port of Corpus Christi: Investment Implications",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVlZXc1k3WDhmdU1WVXkwOWZZOU51NVAtNTl5UDFqc2NsRHljV1V0LU9KelA5aUt6VmpKOGRwbUhTV1BZaDl5TkJ0R1hla2dPOUZVZWpoS1M5SkNtV2xaT2NqeG02SDNra1A4Z0l0NXdKdVAwZHVCQlpCRTlHU3hxMUlyRFpSeDNtUWN5Ymh5ZnR4WEFmclJJLVhYWFJQdUNPRW9WT2htU2s?oc=5",
+        "domain": "indexbox",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T061500Z",
-        "source": "GDELT"
+        "seendate": "20260824T001200Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Is GE Vernova Under $1 , 000 a Bargain or a Trap ? Here the Honest Answer . ",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-under-1-000-130300789.html",
-        "domain": "finance.yahoo.com",
-        "language": "English",
+        "title": "NYC congestion pricing report – Environment & Health Data Portal",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3FscmtDWDlKN3hsbWRLcXBBM1Q5c2ZpZUlOVDYyc3Z4MHI0UnZkaDdlRUZtemJoV3k2TFFSUHljQnVvNWVOUVNnb3p2UEtTUThHcTA2dUFYSklaZHdvaWphWUFnZ0RiSlFXWENMdWdUaGRkQlV5V0puNGxEVHlLaXB0WkI2Z2QyUndxQkNn?oc=5",
+        "domain": "nyc.gov",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T133000Z",
-        "source": "GDELT"
+        "seendate": "20260814T174607Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Time . ai",
-        "url": "https://time.mk/ai/3bc5133141/mk/",
-        "domain": "time.mk",
-        "language": "Macedonian",
+        "title": "Lala disrupts shipping and attendance for Made in Hawaii festival vendors",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSG1tUzZacVZTVkRDSXVyV3VBZjQ5Mzh1bUlVWDd1MjZjZTFWYUhEdEJjM0xRbmlPVWZScWFKMlFZTEJvWWJqeGU5TlhQNktxMkE1cTMzLWFGWGxyM0M0Vm1YbVJuMzJldmNaUDctZThZRFcxTHhwX2gweDE0VFRTVjYyRklmdXdkQkkwS0dCZHVwclZTcGNzTjJua0labzVoZGlUSmZXY9IBuwFBVV95cUxOekxnUkUxdnh5V1Y2NW8zSDZWQlVkYXhYLXZqZnN0aVdvUU5sck5xVFZzZHJxa0FqM193VkpfVnAwRXp4by1YUzlYNG91RDVPcUxBenJmU3p1SDFHZXZpLWdCeVo0TzhBOFRZbTBRLWQyaW9RcllwZ3Jrb0hxcU5kUTAyNzh3VEstckpDY3dvajdzSXRJc3JEeVdWT051bC1zUDhBZzZVbkJhVE9PQWthVU9raWVuNk1LajVJ?oc=5",
+        "domain": "hawaiinewsnow",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T113000Z",
-        "source": "GDELT"
+        "seendate": "20260823T043600Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "De Bs 6 , 96 a más de Bs 11 por dólar : la brecha que tensiona negociación de fletes entre YPFB y cisterneros",
-        "url": "https://eju.tv/2026/08/de-bs-696-a-mas-de-bs-11-por-dolar-la-brecha-que-tensiona-negociacion-de-fletes-entre-ypfb-y-cisterneros/",
-        "domain": "eju.tv",
-        "language": "Spanish",
+        "title": "Ameresco: A $1.5 Billion AI Power Backlog Changes The Story (NYSE:AMRC)",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1hCZWg0QmdoX2lQbXN6LS13ZE5aUkQzZkdXWFJHNzNFSUVpYnBmUE9tZEliMzU5UEt1c2RHV1p2T3laSzVseWtaWVB4VFFwdUxRaXJnTmpVX0YzS0FfTjNmWHJfZi04ejJpOGViTTY5MVZRenExZk1hZGFzYm00dEF3QVptWG9ZUlhkS1o3V3BZQVBKRUthX2Y4R2xYdw?oc=5",
+        "domain": "seekingalpha",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T231500Z",
-        "source": "GDELT"
+        "seendate": "20260823T082936Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Юрист рассказал , что поменяется в правилах провоза животных с 1 сентября",
-        "url": "https://russian.rt.com/russia/news/1673188-zhivotnye-provoz-zhivotnyh-rossiya",
-        "domain": "russian.rt.com",
-        "language": "Russian",
+        "title": "Lala disrupts shipping and attendance for Made in Hawaii festival vendors",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUJHOTFWc2tCWGl1eXRQbkxPanNlU3NMR3hiV3dRNHQzUUcxVlNpV0NFM3dkQXNsWWt1X3o1am84TGxRZEoxa3JNNEhHcmVHTjNib21zYm1SWVJueFc3YVZwSnczLTd5VkZXODBLenpJZ0pSUkNOM0FtUzBZZkE4YXl2dnNHM3hYRFpBQTVybzFER3pFRFgyT2sySUZRb1JvSlhzeWppNXJ1OU1Pd0x3?oc=5",
+        "domain": "hawaiinewsnow",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T120000Z",
-        "source": "GDELT"
+        "seendate": "20260823T090332Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "The Gas Turbine Shortage Just Became AI Biggest Constraint  | Peak Oil News and Message Boards",
-        "url": "https://peakoil.com/consumption/the-gas-turbine-shortage-just-became-ais-biggest-constraint",
-        "domain": "peakoil.com",
-        "language": "English",
+        "title": "The drone war is coming for global shipping",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ29rdHBYR25aYlZ5Um85dGxtWWs1cjd2SVBTMFQ1cGFQcGI4Q2ZjamNydVA4dkdCWktrY0FWdnJlNWpTbzE1ajhWUEpiOVRzZ3Y0aGszTDV3bVdFR21Kc1BWY2tyMDRBekhGVVhycFZUX0hIaUd0UG16MExuYVl0dURwU1hsS19kMEQ5SW9RcXV5SnZBckl6YkZMeFBleE13cnZz?oc=5",
+        "domain": "politico.eu",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
+        "seendate": "20260821T030000Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "ഹെലികോപ്റ്ററില്‍ പറന്നിറങ്ങി , ഇന്ത്യന്‍ നാവികനെ  തൂക്കി  ബ്രിട്ടിഷ് കമാന്‍ഡോകള്‍ ; ബലിയാടാക്കിയെന്ന് ഭാര്യ​ | united kingdom Detains Indian Tanker Captain Ajay Pant Over Russian Sanctions",
-        "url": "https://www.manoramanews.com/gulf-and-global/world/2026/08/23/uk-detains-indian-captain-ajay-pant-russian-oil-tanker-sanctions-row.html",
-        "domain": "manoramanews.com",
-        "language": "Malayalam",
+        "title": "North American Transborder Freight increased 19.9% in June 2026 from June 2025",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN1daOTIyRDFORHI4c05IcWx1SEhNMUFMelNNSEtBOU1IODlfNThPUTJGMDBwckNVU1pJQUZvTzBabUlkOTFmMEwtbmo2NTA0VUx5R3JTUU9IWkFrYnVOU0h3Mzl0OXdPTENnWExib1FwVnJvRmhyOW15OFJsM0hDZ2tZSVF5QmZDMGp5RGR5ZERZNXVEMjliejA4U3BGQQ?oc=5",
+        "domain": "bts.gov",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T040000Z",
-        "source": "GDELT"
+        "seendate": "20260819T150114Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Bangkok Post - Southern border rail track closed after being bombed",
-        "url": "https://www.bangkokpost.com/thailand/general/3306560/southern-border-rail-track-closed-after-being-bombed",
-        "domain": "bangkokpost.com",
-        "language": "English",
+        "title": "Half-year horizon: The shipping cases shaping 2026",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ1BuQVNsSFlSczc5cVJKdmduYTAyaTVISTV5Z1pUM3lkbmRONlIyRkFrbGRwZ2ZlNVN6TnlzSEdMUVE1LU02SXpWMEJCMmpSYTNXUkg4QkNoMW1LaUlZd0lrRlRBSENucWVUTjRRQldwMUEtbzR1TGxOWTQ4Q2EweEktTC1nbnNnd2dwMmNIcjM?oc=5",
+        "domain": "hellenicshippingnews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T093000Z",
-        "source": "GDELT"
+        "seendate": "20260823T211934Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Огромно задръстване към Гърция , трафикът е интензивен и наобратно",
-        "url": "https://www.focus-news.net/novini/Bylgaria/Ogromno-zadrustvane-kum-Gurciya-trafikut-e-intenziven-i-naobratno-3014046",
-        "domain": "focus-news.net",
-        "language": "Bulgarian",
+        "title": "Egypt forges strategic partnerships with global port operators, shipping lines: Transport minister",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPejhtM21VdkFua3dFejF0WWdFRGh4WWloYjgyVWZmY2hVV0lSZS1SdmZNSENKd1BYajl1X0ZCNmVXQ3JBZ2tuYVZ3U2tLOXJsQXp1VDBwOFFtRnNDQ1NCdnJ3YzBSUWZDNnFJWDdZS2g2RTVmWHlBN1VnaE8yTW8xVDNtbnEwdmFFWnpDNkExR1Z2d2FBQVlNRHZoclB1Z0VHTG1BNDZ2Qm4wc2pELTladHZ6aUtMQlZLMGEwMFZHUXNncVdZNlBMNktkM3dvU2I1WEs0THZ3?oc=5",
+        "domain": "dailynewsegypt",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T121500Z",
-        "source": "GDELT"
+        "seendate": "20260823T190851Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "ప్రత్యామ్నాయ మార్గాలతో ఆదాయం",
-        "url": "https://www.eenadu.net/telugu-news/districts/tamilnadu-news/704/126150928",
-        "domain": "eenadu.net",
-        "language": "Telugu",
+        "title": "Arctic shipping a daunting prospect in hotly contested region",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKRXlzRHk0dkp2QVZ5YmFna2hqTUlYVXZ0Z1BsZmx5bDh4a2pfaGJBakU2MVBjRDVRb0cyX3lnM1RxM1JfQUh6MG5wQTl4Vlh6VzIyT1hESlJvV0pWdmhQLU5adWNjRmZwclRZYXVScFY4TXBuOERUSVFOaXpVVGs?oc=5",
+        "domain": "phys.org",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T213000Z",
-        "source": "GDELT"
+        "seendate": "20260822T153001Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Uber von Güterzug zerquetscht - Fahrer überlebt",
-        "url": "https://www1.wdr.de/nrw/bergisches-land/kreis-mettmann/uber-unfall-gueterzug-feuerwehr-rettung-100.html",
-        "domain": "wdr.de",
-        "language": "German",
+        "title": "Patriot Memory’s “Lifetime Warranty” Service Is Forcing A Customer To Pay More Than 80% Of The RAM’s Price In Shipping Cost, Saying It’s A Company Policy",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BTERtTWZFekpjdzh0WmNSMTRUZW5lNDAxLVA4WHcxLUNFX0UwcGRqcXZrMVhUcndvdElTM0l6LXZVSXMwdS1uSVNJS0s4c2tXY0lnbHZxNV9nX2lXcUpHRktMejUtaU00M3JKeTFjanBwb2gxWkhRY29TdmdrUdIBgwFBVV95cUxObUpLOURZWlFGT004MDlPbFRwdW9pM3JmdzltUm9LM043SC1WamNZNmhzRFhkN2N4YmprQy12anVvQ054V3o5bGIxekowb0ZrY2UtOGt6Y2EteEs1OWhWamxDdGlnZU11Y1pPaTlHRV9pdUxiU1VDclFBMnlMRTFuZ3BMdw?oc=5",
+        "domain": "wccftech",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T071500Z",
-        "source": "GDELT"
+        "seendate": "20260823T174336Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "ప్రశాంత వాతావరణంలో అమ్మవారి దర్శనం .. - Andhra Prabha | Telugu News Daily , Latest Telugu News , Latest తెలుగు వార్తలు and LIVE Updates | Breaking News in AP and Telangana",
-        "url": "https://prabhanews.com/chairman-gandhi-oversaw-the-facilities-for-devotees/",
-        "domain": "prabhanews.com",
-        "language": "Telugu",
+        "title": "Panama Canal adjusts daily slots amid reduced rainfall",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUZzcjg0Z1VZMkNDYmp6RG04bU9YbkZzeUpLOVg4a1pZOXpwT0V4Wnd5Slh3dF9wQ21pR3NfM2dEUzlrMnNuR1BtZVN2OEtieW5xOEFIaVI0NTc0S2k0WkxLSUNQRGVvd0tYNmdBNnYzc2NQanJJaERjY2pIVXpHbnlzOThaRC1MQi1XRjhRUXlKUnNmNXVqVlZBYjQ5dF9aUVJ4SA?oc=5",
+        "domain": "shippingtelegraph",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T121500Z",
-        "source": "GDELT"
+        "seendate": "20260824T005915Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Η Κύπρος κερδίζει έδαφος στον παγκόσμιο χάρτη του εμπορίου",
-        "url": "https://economytoday.sigmalive.com/i-kypros-kerdizei-edafos-ston-pagkosmio-xarti-toy-emporioy/",
-        "domain": "economytoday.sigmalive.com",
-        "language": "Greek",
+        "title": "MCPS facing $3 billion maintenance backlog",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaVdyLVJVbG45UlYtU0h0RTdaMVhiZGJlNEFjODFudGF0YUlHY1VOcnhmaXpmN29aWHFQb0tyQV9oVE1MX2JxcUM0Rlc2eXA4X3hQOERHQ3Y1Q3pxblVSRGRLdm1QVUVXTXl3Qko1YjJCR3p3LS1zUy1xcUV5bDRmMTRFbi1US2xOZE5yRUN3dUlXaGNsT1Z3blNqaUc1WktMQ3dEejdWMVhrUdIBsgFBVV95cUxNak1TUHlreUxqVE1RQjRXcm5PbUZMU0JtMXhkMG9JNi15VkFXRXhTOW45X3RFZmQ4T0tac3lXVXVvUjRQTHNkS09Cb09vemdJRTNXZkJqaW5YQTlGZjBIbWpWRFBKUmtWWW02TUFXSkVtRDNNU1ZEM2ZMUWZuVi1aVzR4cWl0SWxpbF9BNm9ra2VWN2l2bTI0MDdwVnYtSzV1REJ0U3FIQ2p2WjJPb1owZG13?oc=5",
+        "domain": "nbc4washington",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T083000Z",
-        "source": "GDELT"
+        "seendate": "20260821T204823Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Noul sistem de taxare rutieră TollRo intră în vigoare la 1 octombrie , anunță CNAIR . Ce șoferi vor plăti în funcție de kilometri parcurși",
-        "url": "https://www.romaniatv.net/noul-sistem-de-taxare-rutiera-tollro-intra-in-vigoare-la-1-octombrie-anunta-cnair-ce-soferi-vor-plati-in-functie-de-kilometrii-parcursi_9763108.html",
-        "domain": "romaniatv.net",
-        "language": "Romanian",
+        "title": "A job in trucking helped Ryan Lowell write about a $10 million drug heist",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ1FoWVhYOGs2LThxUEYxNVhreTQ1a3pMN1dWVVFBUW00RktPZEt4ZURpTGoxVFZuQTIyOUllVnZBQ0ZVSVEtVGZXYW9Cbi1wTEduTk9XODZSQ3RJNDhkWWRNc3NCSWo2RFUxYy1EOWUxVElmX2YtU3cyX29oWnFTejdod1lEMGEwZzhFeUxUUENoZm1XcFJOcE9oMkxLZGVJY2NJZ3JLUjBrYmFlZm5XdQ?oc=5",
+        "domain": "orangecountyregister",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T131500Z",
-        "source": "GDELT"
+        "seendate": "20260823T145252Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "India Lawan Macet Pegunungan Pakai Kereta Gantung , Puncak Bogor Masih Andalkan One Way",
-        "url": "https://www.tribunnews.com/internasional/7872572/india-lawan-macet-pegunungan-pakai-kereta-gantung-puncak-bogor-masih-andalkan-one-way",
-        "domain": "tribunnews.com",
-        "language": "Indonesian",
+        "title": "South Korea ship to test alternative Arctic route as Mideast conflict disrupts shipping",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPajk5a01VOExwTzhvLUo3RVlMdDMxS0VOT3M3c0xMaFdkdzByUTJ6ZXQ5UXRCam92QURxRldRdXBhdVlfUUtNX0J0NjRob1UyZ19uOFU4MnlJTUhNRjZpcnNkTTlvMlN5RmdHYkFrRVVtSDJHc29tcFNkTkFSazU4bkljdEJtNkpUZjFEdjZycWRhajJ1ZmhINlIzd1BzTFIxU1lFWFhwZFkzSF92SG52X2paSUxjSm5IemtacFRUbUNwYmhKczd0dFc2QWg?oc=5",
+        "domain": "france24",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T160000Z",
-        "source": "GDELT"
+        "seendate": "20260822T024712Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "تحرير 45 محضرًا ورفع إشغالات في حملات مكبرة بأبو تشت ونقادة بقنا",
-        "url": "https://www.dostor.org/5676769",
-        "domain": "dostor.org",
-        "language": "Arabic",
+        "title": "LAU: Record revenue and EBIT growth achieved; focus shifts to value extraction and secondary freight",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQVmxjSVVTVmJ3X3ExdFJlVEdwaUlXVTB1dUtOT0xiempGNTcxMWpneWxublJWOUFJY08wZG56S0FFOE9LV05Qajc3YlN2X1JvOVJoLXA3d3JSZ1dmV283NW5FUF9TaXdNOHFUR2pEUERFZDZ2UjlHdTJwbUpGYzhFNS0ySVRJQTdDSFRFdHBJVWUyd0lJZklVRm82RW5LcGFqdE40b2x5VlZraWdvWTg5X3c2MXp5Q0ZubldKZG9ONkg0T3pRd29QLThOaUp3TVlyZ3F5Z1VWNjNKYllxTDQ5LWwxVVdVTmRfUFlkSnQzX1NBRm5FdHljSmI4NDkzd19vX1AyODJKR3RVcnVvaUE?oc=5",
+        "domain": "tradingview",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T110000Z",
-        "source": "GDELT"
+        "seendate": "20260823T221055Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Güterzug prallt gegen Auto - Fahrer befreit sich selbst",
-        "url": "https://www.die-glocke.de/blick-in-die-welt/nrw/artikel/gueterzug-prallt-gegen-auto-fahrer-befreit-sich-selbst-1787477702",
-        "domain": "die-glocke.de",
-        "language": "German",
+        "title": "Port Delays and Congestion Absorb 5% of Industry’s TEU Capacity",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVUpycUxvMndqVjhmMW1oZms5ajJEMl80dW9wNWRVZVhJejRjNHFRNDBjYy1wR1RvMmdlbTFMV3FLTFlEN3cya1RLbzJ5Tm43cm1KbS1Sci04VHRySFlXQ1llZ2JkYWhWWUswTFIyc0ktQkxoVGJZTmVCemVvN2FkdFEzSFpRZDRPTWxTZHRQdXV0NVJQQXd2LXM4YzVUREZnOUcxTg?oc=5",
+        "domain": "themaritimeexecutive",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T114500Z",
-        "source": "GDELT"
+        "seendate": "20260821T195113Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Hàng nghìn m³ đất đá sạt lở , nhiều tuyến đường ở Lào Cai bị đe dọa",
-        "url": "https://baomoi.com/hang-nghin-m3-dat-da-sat-lo-nhieu-tuyen-duong-o-lao-cai-bi-de-doa-c55896610.epi",
-        "domain": "baomoi.com",
-        "language": "Vietnamese",
+        "title": "Va. health dept. improves nursing home inspection backlog, reforms sanction criteria for facilities",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWXVVcjVLcUhrRXNWRm5Nak9xOXRLNkNMUW1NM0ZrSVdqMk15YzAycFE2MG1yeGhIdXRELTJaOVdDUnkxQXUtQ2pydUdzcFZLc2JfS0N1T2t6TUt3WmZmNGRzUTlvX0dZODVnTWJfajUwQ3IzU1VwYXNwc1VERnI2QTF3M1ZrNmFuU3F1M0VzS1haSmcwTXlKbXdleTM2dnZCc3ZYaWlyWnNjbTIwSlpqUHBEbHdtaE4wQ3JTU1VQcDJOMGwxa1hTNkk3Zw?oc=5",
+        "domain": "wtop",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T144500Z",
-        "source": "GDELT"
+        "seendate": "20260822T224312Z",
+        "source": "GoogleNews"
       }
     ],
     "exchange_rates": [
@@ -496,15 +496,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 64.54
+        "rate": 65.13
       },
       {
         "currency": "ALL",
-        "rate": 79.12
+        "rate": 79.13
       },
       {
         "currency": "AMD",
-        "rate": 361.76
+        "rate": 363.76
       },
       {
         "currency": "ANG",
@@ -512,7 +512,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 916.63
+        "rate": 917.36
       },
       {
         "currency": "ARS",
@@ -528,7 +528,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.69
+        "rate": 1.7
       },
       {
         "currency": "BAM",
@@ -540,7 +540,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 121.6
+        "rate": 122.31
       },
       {
         "currency": "BGN",
@@ -552,7 +552,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2966.62
+        "rate": 2972.35
       },
       {
         "currency": "BMD",
@@ -564,148 +564,148 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.44
+        "rate": 11.51
       }
     ]
   },
   "entities": [],
   "events": [
     {
-      "title": "First double - stack long - haul container train covers 422 km from JNPT to Vadodara",
-      "url": "https://timesofindia.indiatimes.com/city/allahabad/first-double-stack-long-haul-container-train-covers-422-km-from-jnpt-to-vadodara/articleshow/133429316.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "language": "English",
+      "title": "Three Studies Confirm Viability of Year-Round Shipping in the Hudson Bay",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVzZvakFLUHBmMmRfd3dkdUg1ZS1ZSTlLVXd1bDl5dExlRV9TekozWXpoZmhBODd4c212bmV6MTk3cGZaU3NSeFBnc1NqTGxyUTE5R0lKTi1hYWxOanUxU1ZkMEN2S2t4OHlfRm5ybnF6U2xIVEZHQUk0RzNMYUJ0blFoWW1pTFMyQlNBek9sRkxzbFM4SnFkNlV5djZyWFNvLXZueTlVRUtlbTV0Rmw0Yw?oc=5",
+      "domain": "themaritimeexecutive",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T193000Z",
-      "source": "GDELT"
+      "seendate": "20260823T213452Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "上海将形成  四主多辅  铁路客运枢纽格局 _ 央广网",
-      "url": "https://www.cnr.cn/shanghai/gstjshanghai/20260824/t20260824_527788486.shtml",
-      "domain": "cnr.cn",
-      "language": "Chinese",
+      "title": "Shipping traffic through the Strait of Hormuz surges as vessels increasingly use US-backed Oman route",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc2lheklJNkN3dFh2UjV1b1ZnY0NHVWtfdjBmYUdUUm85dExKQ3g5ZjRERzQyd25FN1RiREdYWmhCM2p5M1R3aGI1Tm12T0ZWaTVwbVYwZ2NZOXZENG04dUFEUkJuYjhtOGRyazFMRFdsb2RCQmNjUTRxOVJ0ZlVkVXAxNTEtYzdSN1I4d0tQQWxqc18zcl9UQW92bElaNVBJbnVkYmltaFFwaHJsX0k3b1lMR3pVcjQtNHV4V1dSYzZPMkx2cktUX1g3VzZRUlpxVkpzVElDRDh2czFpMUI2OGtyRmRXdw?oc=5",
+      "domain": "i24news",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T181500Z",
-      "source": "GDELT"
+      "seendate": "20260823T055300Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Freight costs surge 372 % after strike",
-      "url": "https://tribune.com.pk/story/2625309/freight-costs-surge-372-after-strike",
-      "domain": "tribune.com.pk",
-      "language": "English",
+      "title": "China builds new-crop US soybean purchases ahead of shipping season",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRUNVYUs0QkJfRTF5X3RIMjJDdWZfQllVNkhLS3ZJYlJteGthR0RMaVp3dXMtSGprVlcxRmN5VGs5UnRoSHJlSGJrVDNoMms3Smc0bU5YNFoydUE3azJOR2hsMzBTcVpGTGVfaGpVZ1pzMGU3cmhKT1FuYVpUTng5bjJQZ1A1YTFZb3I5TWtuOUtId3M3b29obE8yc3BNTk9NNm5hcDVR?oc=5",
+      "domain": "thepigsite",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T213000Z",
-      "source": "GDELT"
+      "seendate": "20260823T233000Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Double - Stack Container Train : భారత రైల్వేలో సరికొత్త రికార్డు .. తొలి",
-      "url": "https://vaartha.com/national/indian-railways-first-double-stack-long-haul-container-train/765451/",
-      "domain": "vaartha.com",
-      "language": "Telugu",
+      "title": "Kansas City Southern freight train hits car near Old Mill, Waukegan roads in Lake Forest, man seriously injured: police",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeno5aWgwTWF3amZsZUMxb2VjU1VCZkVtcnd4ZnZrOF9ENWc0a2VBSlh1aDNUTlgzMld1aC01TkwtZ1BISGx4d054WHcteDVpYW5BT3p1SFotQmhIYmRzOEFiYmFyamxqNVF3Ym9hVkduWTRsbVRMXzRGalVQMVo0VEt6aXNYd2M1Z1U4a3Y3T3JObmlkVW5ocUxzclUwS2FfbzRweFpJblgyWkdhUVNIWUVndmxwS09zc0EzMmNBVG9jdHVVRlViT1hIQkRxVzBTdmZF0gHYAUFVX3lxTFBpeEZfbkNZNzRTa0M4clNqNTkwc1NxR0ZYNHNlNFl6TURPYXhEdXVoWm1TWGNRRlhEbXM3cHY4eXphNkNCdDJ6azJLOW1EYjViT0hPMkdPS3JzbXUxY2JLT0JnUEFtVzc2Q3hEYTFxQldmU2FqMlNPR2t0NGx0LU9fT1ZkQ240OVQxNnBZZTQxNTh5dkF1X3p6WFItSGNpMEYyZENtNEZKMlJ1NjlKdkYxUjZWNGFtdlZRTnJ1Q0lxb1lWLVVlTUpEYXpjM2Z6cmdpVG13Z0ZiRA?oc=5",
+      "domain": "abc7chicago",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T044500Z",
-      "source": "GDELT"
+      "seendate": "20260821T201310Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "交通强国济南答卷里 ， 哪些最让你  真香 ？ ",
-      "url": "https://baijiahao.baidu.com/s?id=1874293746258354402",
-      "domain": "baijiahao.baidu.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260823T064500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Matson ( NYSE : MATX ) and Performance Shipping ( NASDAQ : PSHG ) Head to Head Analysis",
-      "url": "https://www.themarketsdaily.com/2026/08/23/matson-nysematx-and-performance-shipping-nasdaqpshg-head-to-head-analysis.html",
-      "domain": "themarketsdaily.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260823T044500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "发新疆西藏不再贵｜运价直降 80 %， 时效提速 ， 申通打通全域包邮壁垒 - 热点资讯 - ITBear科技资讯",
-      "url": "https://www.itbear.com.cn/html/2026-08/1515345.html",
-      "domain": "itbear.com.cn",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260823T050000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "建强枢纽提能级 ， 无缝衔接提质效 ， 湖北交通强国试点助推支点建设",
-      "url": "https://baijiahao.baidu.com/s?id=1874305039605548330",
-      "domain": "baijiahao.baidu.com",
-      "language": "Chinese",
+      "title": "Borderlands Mexico: Criminal groups keep pressure on Mexican freight networks",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTGlQRHdJaUVxX0xYbjVPMVNxTktHMmtGWlU5SW85R2VLM3lvc09FTHFRRkNlWE5teDMzd0wxM2l3clVmWGJCRjY1N2ZGZVdkMkpXZFVlaGk3NXU5T1RtQ0JwbWpwa0NwZWs4UzBLSFpwcGVLS2dLbmJOLTU2aERpdjZ6d3Q0SzUyZzdRbUFUb1RCQTE0QWhDTEV6bWpmN3dodk1qelVCQXN4VDhzdW1n?oc=5",
+      "domain": "freightwaves",
+      "language": "",
       "tone": 0,
       "seendate": "20260823T110000Z",
-      "source": "GDELT"
+      "source": "GoogleNews"
     },
     {
-      "title": "Ναυτιλία : Οι γεωπολιτικές εντάσεις και η « μπλοκαρισμένη » χωρητικότητα « φουσκώνουν » ξανά τους ναύλους",
-      "url": "https://www.newsbeast.gr/financial/arthro/13307690/naftilia-oi-geopolitikes-entaseis-kai-i-blokarismeni-choritikotita-fouskonoun-xana-tous-navlous",
-      "domain": "newsbeast.gr",
-      "language": "Greek",
+      "title": "Stamford 'noncompliant' with HUD due to backlog of unspent federal grants: 'I’m very disappointed'",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTlQ5SDc2Vy15LXM1a3VDTnRNZHNMVE42RUZzX3FLd0FYYm51V3pVNk42UVVHTGdCQlFBQ3ZydWNIbWwtdEV0aHNYWE1HQjZUX0NtSVlIWS1ZdDZTNlBrRXRjcHRhWUZiMWpWTW5rSXZBV1JPQlFiUFo4RjhnaVBuYTVkcmEzYWhpZHJNcVdKcVhuUDA?oc=5",
+      "domain": "stamfordadvocate",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T084500Z",
-      "source": "GDELT"
+      "seendate": "20260823T090722Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "В Черном море при атаке на турецкое судно погиб моряк",
-      "url": "https://ria.ru/20260822/ataka-2112576781.html",
-      "domain": "ria.ru",
-      "language": "Russian",
+      "title": "The promise and the pitfalls of China’s new Arctic shipping route",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
+      "domain": "theeconomist",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T204500Z",
-      "source": "GDELT"
+      "seendate": "20260820T125902Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Mua , bán hàng với nước ngoài qua sàn online phải định danh điện tử",
-      "url": "https://vnexpress.net/mua-ban-hang-voi-nuoc-ngoai-qua-san-online-phai-dinh-danh-dien-tu-5112332.html",
-      "domain": "vnexpress.net",
-      "language": "Vietnamese",
+      "title": "Breakingviews - ZIM’s shipping boom softens deal shipwreck",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdFBpQ0dLMmVrNVBteHBSVlN5TnkzLWdGXzEyYkxXYUV4WXAtZlMzN040R09pc1ByY1hCUDBtTldVZHJON3RjM2VRck5oa1l6blpLdkMzREYzR0h1N3RwMGZOb1BtZ293cndJLXBvRW1TTDFLT0dkcWxvNlQwT2IwZDJ2UWdpS1ctV1dHMHVKeV9tTnBiMDk2NUlnR0xCVk95cVhCZw?oc=5",
+      "domain": "reuters",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260821T100319Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Lexington parks, facilities need thousands of accessibility fixes. How should city address the backlog?",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3NaSWxULTFCakZMOTFnT0ItQTd6TGxqdjQ5LTE0Y2Jka2N2eXg4a1p0S0ZwTDNmQ0REWVRibFd6bDJ4aGhvanZOS3N5RFN2eG1jQUZJaXctMnE3ck10QWlZZWQ4YjZWNDZJcWdFdkotdmIzUmZxTGFfLUJPZ3VLX1RmQldvSXgzbUpvbU5zMjhMM2prNnU3bkZzbFJVRG5iRUlTTDRVOHg2REpJYzh0UmZHVjFpcjh4d3J1eGh2UWFCbTVrSkE?oc=5",
+      "domain": "civiclex",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260823T210544Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Trump warns ship registries to be target of ‘Economic D-Day’",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ3ZGZWZGVE9PTEdoR29TNTdMYmU4aG1OSzVXcmRRcHk2Q2Fqd1JJNVFieHRGakFKeHRzOXFxRGR3akpDcU1tZ0NVOXlBeFZURmJOQ0ZEOGpUVGE4M1hoU05oZnJ2QXl0ZlUwdGZ1MGJ3OTRiX3RGbGRFVm1KQloyMENXYm84WGdaZVR6bDVzMlo1VThiZzMxWmZ2bmIxRVAtUEN4OVduUmt1UQ?oc=5",
+      "domain": "shippingtelegraph",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260824T005927Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Twenty one-week driving test backlog locks NEETs out of a job, new research reveals",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GSUVjdVRzRkhlaUxZN2VBeGFtNWJXd3hvTUxFYXZremV4TmZUbHpOTUV4X0JfOXZaWDhoTG01ZW4wVXQ3SkZBYml1SklleFRXZG1wbjFYMFBjNWhpSy1lYVczVmJOcGZQNHhUam5kdkY3bU5sYmxqdg?oc=5",
+      "domain": "thecentreforsocialjustice",
+      "language": "",
       "tone": 0,
       "seendate": "20260823T070000Z",
-      "source": "GDELT"
+      "source": "GoogleNews"
     },
     {
-      "title": "Hàng hóa qua thương mại điện tử sẽ phải làm thủ tục hải quan",
-      "url": "https://vnexpress.net/hang-hoa-qua-thuong-mai-dien-tu-se-phai-lam-thu-tuc-hai-quan-5112332.html",
-      "domain": "vnexpress.net",
-      "language": "Vietnamese",
+      "title": "Panama Canal to limit shipping ahead of extreme weather during El Nino",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdHZpVXdUNWdXbXNLYU55bVpUTzE4VEJCUWtLM0MtSXZTdnp6cTRTT0tlWXlaZ1RsRjJneWw3NGQySl9VVE93NzU0VlJCMTFmWmxmY2NteURoSjJwaTJpRE54dG9UM0ZQQkU4S2o1RVU0Y0lPRVdUQ1JJc2pGRW1vaTY0ejZXWk41X1pNcUtEMXdDU3lid3QxQTNKYUFoWWx5SkhkUG9jbnh4azZxV1Q4S9IBtgFBVV95cUxQenBfVENqN2pnSEJJanNjTVFMTlU0cW8tLTdkenhiMk9Ddm9nNkNhbTlydE5CQnhKeXZzWWhneC1ONUtGZy1VZG9XRFJveEowallBYWcxMm9MRU5uV285ZU9YMHgtei1mYl9KOVlUQVFSUTVSYmpnN0JVdFp0ZmFQM0lmQjhmNVhOZUkzdmw1a3d5TnhhVWVlOWJldUZCc0l1WFdsZklXRUtBcDdPTTBTRURoOUdoQQ?oc=5",
+      "domain": "aljazeera",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T044500Z",
-      "source": "GDELT"
+      "seendate": "20260821T012539Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "এলাকার উন্নয়নে কাজ করার প্রত্যয় ঢাকাস্থ গাজীপুর সাংবাদিক ফোরামের",
-      "url": "https://www.ntvbd.com/bangladesh/news-1792161",
-      "domain": "ntvbd.com",
-      "language": "Bengali",
+      "title": "FERC approves SPP ‘topology optimization’ plan for cutting grid congestion",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMHhVM3Y3X1dOMXFZOXlvM1VXbll0ckZmQkxfVVlFb1FXb2xkdGMzZ1lXeUpLLUZwdnEzQTBkTDBVNjYtemtDVFMyQ1lOME9pWmZuZm5ySzg4MjFDU21tU1VkeHdsaWdEN3FHaHlwZXQwZkdaSHQ1X1lLQ284dmJFXzZZcWtycWp3cnpnbEROZVI?oc=5",
+      "domain": "utilitydive",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T061500Z",
-      "source": "GDELT"
+      "seendate": "20260820T152027Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Rà soát , đề xuất giải pháp tháo gỡ vướng mắc cho các dự án tồn đọng , kéo dài",
-      "url": "https://www.tinnhanhchungkhoan.vn/ra-soat-de-xuat-giai-phap-thao-go-vuong-mac-cho-cac-du-an-ton-dong-keo-dai-post396355.html",
-      "domain": "tinnhanhchungkhoan.vn",
-      "language": "Vietnamese",
+      "title": "Ben Gurion Airport and workers agree to ease post-strike backlog, but next crisis looms",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMlU0NUlzRno5V2p3RThybXRQWEw4ZmtxWHdHdlZ6VzFDZ0pxWG1mRGNMekRSZEY5MGwyX1IwOVZUOEVZdHM1WjRjWXhBMm5jaWJqQXBrYkwycHoxS096VWU3c05yV1hfZUw2NFp6LU90VEtHMnVlcHNDekpwQm1fZzJzWThPQ3VVT3I1NGJOamRubkVSVnhlbjBMNl92ZHBGZjFTUW5Ia2xvQnJuV1FUdDRUaWttTC1h0gG-AUFVX3lxTE9ZNUlPWW1nOUUxeWRxSkZuVEhwcVU5UTlXdE9DUGI2QmNFdFVzQkl0SnJCT01xRFY5QmRpdDNSZk9ZMUpHeGNhd0dMbWc0MlpGeTBwbG5kZzFrODFwWjhzYUZZb20tR2ZoSHlkeGVwMUtfVERmQ0xKRXlhVWc5U2JWZ1NjdFVaY1dTOWl4YUtMV2xfQlJYRHBqQVU2Yk0zOEktZWNuaDdBRGQ3STZxZGdKVlpWZFdYUnNCSExHMWc?oc=5",
+      "domain": "thetimesofisrael",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T063000Z",
-      "source": "GDELT"
+      "seendate": "20260823T172400Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Nangal Chaudhary hub gets rail link , Haryana eyes global logistics leap",
-      "url": "https://timesofindia.indiatimes.com/city/chandigarh/nangal-chaudhary-hub-gets-rail-link-haryana-eyes-global-logistics-leap/articleshow/133444225.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "language": "English",
+      "title": "Sovereign Satellite Strategy Expands AST SpaceMobile Backlog Amid Constellation Deployment Risks",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa0xSV2g1eVlldGFRVHpxRTZIOE9CNThDdTVTa2p1eGhYS3RDSkFhZ3VsdUtHekxWZnNmRTkxMklEbGhPQnBWS1lMTmxFa0M4ZlFFSW9BVldiS1VvY3VlX2w5N0tWT3FtNFNtV0xRRTNIaTZvWlJYeGt4RmpGLS1tMzlBLWM4MXZKUS1HY1lNaDE5N2xLNVhzaGtRX1FLeTRtMXN0clBJUW9lLWNOWUZUb0ZtTVFKNFdLSmcyRUpKblRqTlhVdmNJ?oc=5",
+      "domain": "satnews.com",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T181500Z",
-      "source": "GDELT"
+      "seendate": "20260823T133154Z",
+      "source": "GoogleNews"
     }
   ],
   "timeseries": [],
-  "llm_summary": ""
+  "llm_summary": "The live snapshot tracks 50 articles from 43 deduplicated news sources, with a neutral tone index of 50/100 and two active feeds, indicating a balanced but information‑rich environment. Headlines reveal both pressure points—surging Hormuz traffic via a US‑backed Oman route, criminal groups straining Mexican freight networks, and a serious freight‑train collision in Illinois—and potential alleviators, such as research supporting year‑round shipping in Hudson Bay and China’s pre‑season soybean purchases that signal upcoming demand. Overall, the data suggest mixed congestion signals: while certain corridors are experiencing heightened activity and safety incidents, emerging capacity options and strong commodity demand could offset some strain. As this is a news‑sample analysis, it reflects reported sentiment rather than verified ground‑truth conditions."
 }
