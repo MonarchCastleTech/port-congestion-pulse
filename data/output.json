@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-24T01:18:36.358710+00:00",
+    "generated": "2026-08-24T02:11:19.020722+00:00",
     "mode": "live",
     "sources": [
       "news_articles",
@@ -18,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "43",
+      "value": "42",
       "delta": "deduplicated"
     },
     {
@@ -80,6 +80,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "The promise and the pitfalls of China’s new Arctic shipping route",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
+        "domain": "theeconomist",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T125902Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Stamford 'noncompliant' with HUD due to backlog of unspent federal grants: 'I’m very disappointed'",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTlQ5SDc2Vy15LXM1a3VDTnRNZHNMVE42RUZzX3FLd0FYYm51V3pVNk42UVVHTGdCQlFBQ3ZydWNIbWwtdEV0aHNYWE1HQjZUX0NtSVlIWS1ZdDZTNlBrRXRjcHRhWUZiMWpWTW5rSXZBV1JPQlFiUFo4RjhnaVBuYTVkcmEzYWhpZHJNcVdKcVhuUDA?oc=5",
         "domain": "stamfordadvocate",
@@ -89,12 +98,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "The promise and the pitfalls of China’s new Arctic shipping route",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
-        "domain": "theeconomist",
+        "title": "Oxford traders count cost of extended congestion charge",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nS2hORHdLWVZ1anVpb09MOFI1b3JEYmNVRmM4TF92WGRoMXhqbjhwYlNSYUVYMC1oR2t4UTBVbDkya2M1Y3pNMWg5ZURmRC1xZ3ExdlBXRnA5QQ?oc=5",
+        "domain": "bbc",
         "language": "",
         "tone": 0,
-        "seendate": "20260820T125902Z",
+        "seendate": "20260823T172236Z",
         "source": "GoogleNews"
       },
       {
@@ -107,21 +116,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Lexington parks, facilities need thousands of accessibility fixes. How should city address the backlog?",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3NaSWxULTFCakZMOTFnT0ItQTd6TGxqdjQ5LTE0Y2Jka2N2eXg4a1p0S0ZwTDNmQ0REWVRibFd6bDJ4aGhvanZOS3N5RFN2eG1jQUZJaXctMnE3ck10QWlZZWQ4YjZWNDZJcWdFdkotdmIzUmZxTGFfLUJPZ3VLX1RmQldvSXgzbUpvbU5zMjhMM2prNnU3bkZzbFJVRG5iRUlTTDRVOHg2REpJYzh0UmZHVjFpcjh4d3J1eGh2UWFCbTVrSkE?oc=5",
-        "domain": "civiclex",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T210544Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Trump warns ship registries to be target of ‘Economic D-Day’",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ3ZGZWZGVE9PTEdoR29TNTdMYmU4aG1OSzVXcmRRcHk2Q2Fqd1JJNVFieHRGakFKeHRzOXFxRGR3akpDcU1tZ0NVOXlBeFZURmJOQ0ZEOGpUVGE4M1hoU05oZnJ2QXl0ZlUwdGZ1MGJ3OTRiX3RGbGRFVm1KQloyMENXYm84WGdaZVR6bDVzMlo1VThiZzMxWmZ2bmIxRVAtUEN4OVduUmt1UQ?oc=5",
         "domain": "shippingtelegraph",
         "language": "",
         "tone": 0,
         "seendate": "20260824T005927Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Lexington parks, facilities need thousands of accessibility fixes. How should city address the backlog?",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3NaSWxULTFCakZMOTFnT0ItQTd6TGxqdjQ5LTE0Y2Jka2N2eXg4a1p0S0ZwTDNmQ0REWVRibFd6bDJ4aGhvanZOS3N5RFN2eG1jQUZJaXctMnE3ck10QWlZZWQ4YjZWNDZJcWdFdkotdmIzUmZxTGFfLUJPZ3VLX1RmQldvSXgzbUpvbU5zMjhMM2prNnU3bkZzbFJVRG5iRUlTTDRVOHg2REpJYzh0UmZHVjFpcjh4d3J1eGh2UWFCbTVrSkE?oc=5",
+        "domain": "civiclex",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T210544Z",
         "source": "GoogleNews"
       },
       {
@@ -152,15 +161,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ben Gurion Airport and workers agree to ease post-strike backlog, but next crisis looms",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMlU0NUlzRno5V2p3RThybXRQWEw4ZmtxWHdHdlZ6VzFDZ0pxWG1mRGNMekRSZEY5MGwyX1IwOVZUOEVZdHM1WjRjWXhBMm5jaWJqQXBrYkwycHoxS096VWU3c05yV1hfZUw2NFp6LU90VEtHMnVlcHNDekpwQm1fZzJzWThPQ3VVT3I1NGJOamRubkVSVnhlbjBMNl92ZHBGZjFTUW5Ia2xvQnJuV1FUdDRUaWttTC1h0gG-AUFVX3lxTE9ZNUlPWW1nOUUxeWRxSkZuVEhwcVU5UTlXdE9DUGI2QmNFdFVzQkl0SnJCT01xRFY5QmRpdDNSZk9ZMUpHeGNhd0dMbWc0MlpGeTBwbG5kZzFrODFwWjhzYUZZb20tR2ZoSHlkeGVwMUtfVERmQ0xKRXlhVWc5U2JWZ1NjdFVaY1dTOWl4YUtMV2xfQlJYRHBqQVU2Yk0zOEktZWNuaDdBRGQ3STZxZGdKVlpWZFdYUnNCSExHMWc?oc=5",
-        "domain": "thetimesofisrael",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T172400Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Sovereign Satellite Strategy Expands AST SpaceMobile Backlog Amid Constellation Deployment Risks",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa0xSV2g1eVlldGFRVHpxRTZIOE9CNThDdTVTa2p1eGhYS3RDSkFhZ3VsdUtHekxWZnNmRTkxMklEbGhPQnBWS1lMTmxFa0M4ZlFFSW9BVldiS1VvY3VlX2w5N0tWT3FtNFNtV0xRRTNIaTZvWlJYeGt4RmpGLS1tMzlBLWM4MXZKUS1HY1lNaDE5N2xLNVhzaGtRX1FLeTRtMXN0clBJUW9lLWNOWUZUb0ZtTVFKNFdLSmcyRUpKblRqTlhVdmNJ?oc=5",
         "domain": "satnews.com",
@@ -179,6 +179,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Ben Gurion Airport and workers agree to ease post-strike backlog, but next crisis looms",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMlU0NUlzRno5V2p3RThybXRQWEw4ZmtxWHdHdlZ6VzFDZ0pxWG1mRGNMekRSZEY5MGwyX1IwOVZUOEVZdHM1WjRjWXhBMm5jaWJqQXBrYkwycHoxS096VWU3c05yV1hfZUw2NFp6LU90VEtHMnVlcHNDekpwQm1fZzJzWThPQ3VVT3I1NGJOamRubkVSVnhlbjBMNl92ZHBGZjFTUW5Ia2xvQnJuV1FUdDRUaWttTC1h0gG-AUFVX3lxTE9ZNUlPWW1nOUUxeWRxSkZuVEhwcVU5UTlXdE9DUGI2QmNFdFVzQkl0SnJCT01xRFY5QmRpdDNSZk9ZMUpHeGNhd0dMbWc0MlpGeTBwbG5kZzFrODFwWjhzYUZZb20tR2ZoSHlkeGVwMUtfVERmQ0xKRXlhVWc5U2JWZ1NjdFVaY1dTOWl4YUtMV2xfQlJYRHBqQVU2Yk0zOEktZWNuaDdBRGQ3STZxZGdKVlpWZFdYUnNCSExHMWc?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T172400Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Climate Change Presented China With A New Potential Shipping Route For These Stressful Economic Times: The Arctic",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiRjN3UWlEY3puNXlGNW9NenZKbF9UV241SXR1SkozeHdyQkRhTkJ3ZnZvMmdyQ1pTSm1iUHplN20yMlNOY3psZlNpbFRGMS1LcldvNzR6NjFyUHlvb1JDRXZkTnBONUg4djktaUQ4cTNiUmdUWWdKd1I0Y1lIQQ?oc=5",
         "domain": "jalopnik",
@@ -188,21 +197,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "New Arctic shipping route leaves West divided over Russia",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNFpLUmxPcmRRNF90V1dPVEYxT1BQa2kyaFdqcDNTek1vVHl2R1ZNWEpDRWFKSVQzWnNiVWhucVBBblhCZXhmdDhWYWpsY1RWMXl0TEREc3BMeE1xNmw3cG52WVJWT3pacFJjNDF2UExMTTFOMFBFY05rSkVyVnhSc2tWVHVJWnVBQnk4R1pqNzJJVjlT?oc=5",
-        "domain": "yahoo",
+        "title": "Panama canal to reduce shipping as El Niño strikes vital route",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUDhBcDd0cG51VFJTZDltR1ozLWFHZkIwTjVlbTU1UkZ1U2h1TWNyY3RBQktIU3FKbmpYemFXNmlXUDh6QmRLcXVza3ZyM2JkOUw4cEVUbjhGR1VEdm1NV3lZX3FPZEZrdjhHOE5QMlBvOVMwb0EtNkpiUFJhcS1rMElBZlpiWUIxMktGcXFsQzFKSndC?oc=5",
+        "domain": "theguardian",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T184110Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Oxford traders count cost of extended congestion charge",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nS2hORHdLWVZ1anVpb09MOFI1b3JEYmNVRmM4TF92WGRoMXhqbjhwYlNSYUVYMC1oR2t4UTBVbDkya2M1Y3pNMWg5ZURmRC1xZ3ExdlBXRnA5QQ?oc=5",
-        "domain": "bbc",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T172236Z",
+        "seendate": "20260821T130500Z",
         "source": "GoogleNews"
       },
       {
@@ -224,12 +224,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Panama canal to reduce shipping as El Niño strikes vital route",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUDhBcDd0cG51VFJTZDltR1ozLWFHZkIwTjVlbTU1UkZ1U2h1TWNyY3RBQktIU3FKbmpYemFXNmlXUDh6QmRLcXVza3ZyM2JkOUw4cEVUbjhGR1VEdm1NV3lZX3FPZEZrdjhHOE5QMlBvOVMwb0EtNkpiUFJhcS1rMElBZlpiWUIxMktGcXFsQzFKSndC?oc=5",
-        "domain": "theguardian",
+        "title": "Zelenskyy Says Putin Rejected Black Sea Shipping Truce Offer",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLVoyeXFuYjdueWMwODhLLUVJWWZGYVBpR1hhMzdpOWs5T29VNlc4NUx1cmJSeDVUMlp6RTkxdDBQMGhEWXZoZXhZWlhTVEtiLXdvcEtfSEFQY25kdnZwT1VnWkRWVV9ncmpJRkNuczNraXg4YjBmcHlpWGxxMFN6QlZGa09rMjVSLXFYMVdFOXdZYlJnOU9qN0YyUHJ0MEpTc3gweW1nRUdGMk9lX2ZiRGxhQ2M?oc=5",
+        "domain": "bloomberg.com",
         "language": "",
         "tone": 0,
-        "seendate": "20260821T130500Z",
+        "seendate": "20260823T154127Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "MCPS facing $3 billion maintenance backlog",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQy1BVzJQSUp6bk9GMUx4TzFaVjFRRG5RWHNxaVp0SGNnWGI2NTZxMGEwc3NtcU5mNWJCdjJ1bzNVcXpIX1F4eXFpQlFvVVNqa0l4NFRBbk0wclFyQnYzR1FUUUs0eG5yaFFqM3R6VHNncjhVM2RfdTk2NDRBMzV0UlJYWTFnZUtBSjZLTFg4X2wyT3lWaDhIUmRvd2xyczZOMUHSAaoBQVVfeXFMUHRTWUVtVnNDUFFQSmE4amxiQnNHZ21FODhlZDI5eUFlQ1k2eERvUWpZSDNRTVpVVzZXcHNTbGtneUQyVmJDX2NQd0tQdFZORk0wWU14YUJ4Y2VvT0VJZXozclpEdUNEVTdLZDBpMnhOWWRkTVc2SEhqZ1o3MndUUHFzekpIS1ZGbmdrNUxTTXV6NzdoOEJrZXZrQ29PSU9ydEUzRUQteU4yN0E?oc=5",
+        "domain": "nbc4washington",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T204823Z",
         "source": "GoogleNews"
       },
       {
@@ -242,30 +251,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Zelenskyy Says Putin Rejected Black Sea Shipping Truce Offer",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLVoyeXFuYjdueWMwODhLLUVJWWZGYVBpR1hhMzdpOWs5T29VNlc4NUx1cmJSeDVUMlp6RTkxdDBQMGhEWXZoZXhZWlhTVEtiLXdvcEtfSEFQY25kdnZwT1VnWkRWVV9ncmpJRkNuczNraXg4YjBmcHlpWGxxMFN6QlZGa09rMjVSLXFYMVdFOXdZYlJnOU9qN0YyUHJ0MEpTc3gweW1nRUdGMk9lX2ZiRGxhQ2M?oc=5",
-        "domain": "bloomberg.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T154127Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Driver in critical condition after intentionally causing crash involving car, freight train in Lake Forest",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSVNaSGFNTnBwaEpLN1k4RXA4TFJJd2tSNUV4S3QyQi1xelpIeGtWUi1TeDlWVmFlelBPNWtkU1VPckluaUdobzFRXzVTeDRtNGNJR00ycE9sSHRZNWR5WTlKZEFFb1VoNUpXbXRHaWJTT3NQV29mZjVxcTdGVHg5YW1Ka3gxX0pkSm5WQ3dxN1o4SjhWM1FlLUpDWjRCZzF6NGtZVVh3elplbmlfT1BSNm9QSzhMVS1MNEs1T05lZzhXQVNpc1lZOExzbzNLMm8zYzN2VlhzLWJuTHBVbVVYTXpqUGJ5Wm8?oc=5",
         "domain": "lakeandmchenrycountyscanner",
         "language": "",
         "tone": 0,
         "seendate": "20260821T203804Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "MCPS facing $3 billion maintenance backlog",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQy1BVzJQSUp6bk9GMUx4TzFaVjFRRG5RWHNxaVp0SGNnWGI2NTZxMGEwc3NtcU5mNWJCdjJ1bzNVcXpIX1F4eXFpQlFvVVNqa0l4NFRBbk0wclFyQnYzR1FUUUs0eG5yaFFqM3R6VHNncjhVM2RfdTk2NDRBMzV0UlJYWTFnZUtBSjZLTFg4X2wyT3lWaDhIUmRvd2xyczZOMUHSAaoBQVVfeXFMUHRTWUVtVnNDUFFQSmE4amxiQnNHZ21FODhlZDI5eUFlQ1k2eERvUWpZSDNRTVpVVzZXcHNTbGtneUQyVmJDX2NQd0tQdFZORk0wWU14YUJ4Y2VvT0VJZXozclpEdUNEVTdLZDBpMnhOWWRkTVc2SEhqZ1o3MndUUHFzekpIS1ZGbmdrNUxTTXV6NzdoOEJrZXZrQ29PSU9ydEUzRUQteU4yN0E?oc=5",
-        "domain": "nbc4washington",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T204823Z",
         "source": "GoogleNews"
       },
       {
@@ -314,12 +305,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Churchill Port Year-Round Shipping Feasible: Studies - News and Statistics",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNjdMVlBFb3RnWDdVcWhkWlU2ZUo1Yk5xcms1UF9BSjJkRGRSRHFpdFFOd3NjcGZnR28zN1liOV9FOXpTLVRqa0s0MjBSbk9MRjRVVkdweFNGYi1wOU9qS21Jc29mMi1JanNLTE1Pb0J5VkRqQ2plaE9OMld6YW5QTmRjcjNTZi1BSm9PdWI5TkYxOEdXSnI2RQ?oc=5",
-        "domain": "indexbox",
+        "title": "NYC congestion pricing report – Environment & Health Data Portal",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3FscmtDWDlKN3hsbWRLcXBBM1Q5c2ZpZUlOVDYyc3Z4MHI0UnZkaDdlRUZtemJoV3k2TFFSUHljQnVvNWVOUVNnb3p2UEtTUThHcTA2dUFYSklaZHdvaWphWUFnZ0RiSlFXWENMdWdUaGRkQlV5V0puNGxEVHlLaXB0WkI2Z2QyUndxQkNn?oc=5",
+        "domain": "nyc.gov",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T215000Z",
+        "seendate": "20260814T174607Z",
         "source": "GoogleNews"
       },
       {
@@ -332,30 +323,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NYC congestion pricing report – Environment & Health Data Portal",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3FscmtDWDlKN3hsbWRLcXBBM1Q5c2ZpZUlOVDYyc3Z4MHI0UnZkaDdlRUZtemJoV3k2TFFSUHljQnVvNWVOUVNnb3p2UEtTUThHcTA2dUFYSklaZHdvaWphWUFnZ0RiSlFXWENMdWdUaGRkQlV5V0puNGxEVHlLaXB0WkI2Z2QyUndxQkNn?oc=5",
-        "domain": "nyc.gov",
+        "title": "Churchill Port Year-Round Shipping Feasible: Studies - News and Statistics",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNjdMVlBFb3RnWDdVcWhkWlU2ZUo1Yk5xcms1UF9BSjJkRGRSRHFpdFFOd3NjcGZnR28zN1liOV9FOXpTLVRqa0s0MjBSbk9MRjRVVkdweFNGYi1wOU9qS21Jc29mMi1JanNLTE1Pb0J5VkRqQ2plaE9OMld6YW5QTmRjcjNTZi1BSm9PdWI5TkYxOEdXSnI2RQ?oc=5",
+        "domain": "indexbox",
         "language": "",
         "tone": 0,
-        "seendate": "20260814T174607Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Lala disrupts shipping and attendance for Made in Hawaii festival vendors",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSG1tUzZacVZTVkRDSXVyV3VBZjQ5Mzh1bUlVWDd1MjZjZTFWYUhEdEJjM0xRbmlPVWZScWFKMlFZTEJvWWJqeGU5TlhQNktxMkE1cTMzLWFGWGxyM0M0Vm1YbVJuMzJldmNaUDctZThZRFcxTHhwX2gweDE0VFRTVjYyRklmdXdkQkkwS0dCZHVwclZTcGNzTjJua0labzVoZGlUSmZXY9IBuwFBVV95cUxOekxnUkUxdnh5V1Y2NW8zSDZWQlVkYXhYLXZqZnN0aVdvUU5sck5xVFZzZHJxa0FqM193VkpfVnAwRXp4by1YUzlYNG91RDVPcUxBenJmU3p1SDFHZXZpLWdCeVo0TzhBOFRZbTBRLWQyaW9RcllwZ3Jrb0hxcU5kUTAyNzh3VEstckpDY3dvajdzSXRJc3JEeVdWT051bC1zUDhBZzZVbkJhVE9PQWthVU9raWVuNk1LajVJ?oc=5",
-        "domain": "hawaiinewsnow",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T043600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ameresco: A $1.5 Billion AI Power Backlog Changes The Story (NYSE:AMRC)",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1hCZWg0QmdoX2lQbXN6LS13ZE5aUkQzZkdXWFJHNzNFSUVpYnBmUE9tZEliMzU5UEt1c2RHV1p2T3laSzVseWtaWVB4VFFwdUxRaXJnTmpVX0YzS0FfTjNmWHJfZi04ejJpOGViTTY5MVZRenExZk1hZGFzYm00dEF3QVptWG9ZUlhkS1o3V3BZQVBKRUthX2Y4R2xYdw?oc=5",
-        "domain": "seekingalpha",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T082936Z",
+        "seendate": "20260823T215000Z",
         "source": "GoogleNews"
       },
       {
@@ -368,6 +341,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Ameresco: A $1.5 Billion AI Power Backlog Changes The Story (NYSE:AMRC)",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1hCZWg0QmdoX2lQbXN6LS13ZE5aUkQzZkdXWFJHNzNFSUVpYnBmUE9tZEliMzU5UEt1c2RHV1p2T3laSzVseWtaWVB4VFFwdUxRaXJnTmpVX0YzS0FfTjNmWHJfZi04ejJpOGViTTY5MVZRenExZk1hZGFzYm00dEF3QVptWG9ZUlhkS1o3V3BZQVBKRUthX2Y4R2xYdw?oc=5",
+        "domain": "seekingalpha",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T082936Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "The drone war is coming for global shipping",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ29rdHBYR25aYlZ5Um85dGxtWWs1cjd2SVBTMFQ1cGFQcGI4Q2ZjamNydVA4dkdCWktrY0FWdnJlNWpTbzE1ajhWUEpiOVRzZ3Y0aGszTDV3bVdFR21Kc1BWY2tyMDRBekhGVVhycFZUX0hIaUd0UG16MExuYVl0dURwU1hsS19kMEQ5SW9RcXV5SnZBckl6YkZMeFBleE13cnZz?oc=5",
         "domain": "politico.eu",
@@ -377,21 +359,21 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Lala disrupts shipping and attendance for Made in Hawaii festival vendors",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSG1tUzZacVZTVkRDSXVyV3VBZjQ5Mzh1bUlVWDd1MjZjZTFWYUhEdEJjM0xRbmlPVWZScWFKMlFZTEJvWWJqeGU5TlhQNktxMkE1cTMzLWFGWGxyM0M0Vm1YbVJuMzJldmNaUDctZThZRFcxTHhwX2gweDE0VFRTVjYyRklmdXdkQkkwS0dCZHVwclZTcGNzTjJua0labzVoZGlUSmZXY9IBuwFBVV95cUxOekxnUkUxdnh5V1Y2NW8zSDZWQlVkYXhYLXZqZnN0aVdvUU5sck5xVFZzZHJxa0FqM193VkpfVnAwRXp4by1YUzlYNG91RDVPcUxBenJmU3p1SDFHZXZpLWdCeVo0TzhBOFRZbTBRLWQyaW9RcllwZ3Jrb0hxcU5kUTAyNzh3VEstckpDY3dvajdzSXRJc3JEeVdWT051bC1zUDhBZzZVbkJhVE9PQWthVU9raWVuNk1LajVJ?oc=5",
+        "domain": "hawaiinewsnow",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T043600Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "North American Transborder Freight increased 19.9% in June 2026 from June 2025",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN1daOTIyRDFORHI4c05IcWx1SEhNMUFMelNNSEtBOU1IODlfNThPUTJGMDBwckNVU1pJQUZvTzBabUlkOTFmMEwtbmo2NTA0VUx5R3JTUU9IWkFrYnVOU0h3Mzl0OXdPTENnWExib1FwVnJvRmhyOW15OFJsM0hDZ2tZSVF5QmZDMGp5RGR5ZERZNXVEMjliejA4U3BGQQ?oc=5",
         "domain": "bts.gov",
         "language": "",
         "tone": 0,
         "seendate": "20260819T150114Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Half-year horizon: The shipping cases shaping 2026",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ1BuQVNsSFlSczc5cVJKdmduYTAyaTVISTV5Z1pUM3lkbmRONlIyRkFrbGRwZ2ZlNVN6TnlzSEdMUVE1LU02SXpWMEJCMmpSYTNXUkg4QkNoMW1LaUlZd0lrRlRBSENucWVUTjRRQldwMUEtbzR1TGxOWTQ4Q2EweEktTC1nbnNnd2dwMmNIcjM?oc=5",
-        "domain": "hellenicshippingnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260823T211934Z",
         "source": "GoogleNews"
       },
       {
@@ -413,12 +395,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Patriot Memory’s “Lifetime Warranty” Service Is Forcing A Customer To Pay More Than 80% Of The RAM’s Price In Shipping Cost, Saying It’s A Company Policy",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BTERtTWZFekpjdzh0WmNSMTRUZW5lNDAxLVA4WHcxLUNFX0UwcGRqcXZrMVhUcndvdElTM0l6LXZVSXMwdS1uSVNJS0s4c2tXY0lnbHZxNV9nX2lXcUpHRktMejUtaU00M3JKeTFjanBwb2gxWkhRY29TdmdrUdIBgwFBVV95cUxObUpLOURZWlFGT004MDlPbFRwdW9pM3JmdzltUm9LM043SC1WamNZNmhzRFhkN2N4YmprQy12anVvQ054V3o5bGIxekowb0ZrY2UtOGt6Y2EteEs1OWhWamxDdGlnZU11Y1pPaTlHRV9pdUxiU1VDclFBMnlMRTFuZ3BMdw?oc=5",
-        "domain": "wccftech",
+        "title": "Half-year horizon: The shipping cases shaping 2026",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ1BuQVNsSFlSczc5cVJKdmduYTAyaTVISTV5Z1pUM3lkbmRONlIyRkFrbGRwZ2ZlNVN6TnlzSEdMUVE1LU02SXpWMEJCMmpSYTNXUkg4QkNoMW1LaUlZd0lrRlRBSENucWVUTjRRQldwMUEtbzR1TGxOWTQ4Q2EweEktTC1nbnNnd2dwMmNIcjM?oc=5",
+        "domain": "hellenicshippingnews",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T174336Z",
+        "seendate": "20260823T211934Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nuclear Maritime Propulsion: Investment Implications of Port Corpus Christi's Endorsement - News and Statistics",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUGNBZjZiUkFiU1h1WWk3VjdpRjZXRnZOc1ZWeFdqLWZmQWNGS0VrZmwzbk84aG5TdjU2QTdwREZtQnduMDlwSTdhakZDSHdDcFdMeENEQ0JlZ0ZTRWI1LXRlNlo0czY1LUg5ZDItOEhkalBwN0pRZ2NlWWI3UTFrTllXLURVWlVGRkRXTWo4SlZwekhiUTk1RVVwcUdaTHowNTA1ZGR0cnh5Tl9vRjNXcXMzaWFxSklLcUxXTg?oc=5",
+        "domain": "indexbox",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260824T001100Z",
         "source": "GoogleNews"
       },
       {
@@ -440,12 +431,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "A job in trucking helped Ryan Lowell write about a $10 million drug heist",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ1FoWVhYOGs2LThxUEYxNVhreTQ1a3pMN1dWVVFBUW00RktPZEt4ZURpTGoxVFZuQTIyOUllVnZBQ0ZVSVEtVGZXYW9Cbi1wTEduTk9XODZSQ3RJNDhkWWRNc3NCSWo2RFUxYy1EOWUxVElmX2YtU3cyX29oWnFTejdod1lEMGEwZzhFeUxUUENoZm1XcFJOcE9oMkxLZGVJY2NJZ3JLUjBrYmFlZm5XdQ?oc=5",
-        "domain": "orangecountyregister",
+        "title": "Patriot Memory’s “Lifetime Warranty” Service Is Forcing A Customer To Pay More Than 80% Of The RAM’s Price In Shipping Cost, Saying It’s A Company Policy",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BTERtTWZFekpjdzh0WmNSMTRUZW5lNDAxLVA4WHcxLUNFX0UwcGRqcXZrMVhUcndvdElTM0l6LXZVSXMwdS1uSVNJS0s4c2tXY0lnbHZxNV9nX2lXcUpHRktMejUtaU00M3JKeTFjanBwb2gxWkhRY29TdmdrUdIBgwFBVV95cUxObUpLOURZWlFGT004MDlPbFRwdW9pM3JmdzltUm9LM043SC1WamNZNmhzRFhkN2N4YmprQy12anVvQ054V3o5bGIxekowb0ZrY2UtOGt6Y2EteEs1OWhWamxDdGlnZU11Y1pPaTlHRV9pdUxiU1VDclFBMnlMRTFuZ3BMdw?oc=5",
+        "domain": "wccftech",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T145252Z",
+        "seendate": "20260823T174336Z",
         "source": "GoogleNews"
       },
       {
@@ -458,12 +449,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "LAU: Record revenue and EBIT growth achieved; focus shifts to value extraction and secondary freight",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQVmxjSVVTVmJ3X3ExdFJlVEdwaUlXVTB1dUtOT0xiempGNTcxMWpneWxublJWOUFJY08wZG56S0FFOE9LV05Qajc3YlN2X1JvOVJoLXA3d3JSZ1dmV283NW5FUF9TaXdNOHFUR2pEUERFZDZ2UjlHdTJwbUpGYzhFNS0ySVRJQTdDSFRFdHBJVWUyd0lJZklVRm82RW5LcGFqdE40b2x5VlZraWdvWTg5X3c2MXp5Q0ZubldKZG9ONkg0T3pRd29QLThOaUp3TVlyZ3F5Z1VWNjNKYllxTDQ5LWwxVVdVTmRfUFlkSnQzX1NBRm5FdHljSmI4NDkzd19vX1AyODJKR3RVcnVvaUE?oc=5",
-        "domain": "tradingview",
+        "title": "A job in trucking helped Ryan Lowell write about a $10 million drug heist",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ1FoWVhYOGs2LThxUEYxNVhreTQ1a3pMN1dWVVFBUW00RktPZEt4ZURpTGoxVFZuQTIyOUllVnZBQ0ZVSVEtVGZXYW9Cbi1wTEduTk9XODZSQ3RJNDhkWWRNc3NCSWo2RFUxYy1EOWUxVElmX2YtU3cyX29oWnFTejdod1lEMGEwZzhFeUxUUENoZm1XcFJOcE9oMkxLZGVJY2NJZ3JLUjBrYmFlZm5XdQ?oc=5",
+        "domain": "orangecountyregister",
         "language": "",
         "tone": 0,
-        "seendate": "20260823T221055Z",
+        "seendate": "20260823T145252Z",
         "source": "GoogleNews"
       },
       {
@@ -482,6 +473,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260822T224312Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "MCPS: district experiencing growing $3B maintenance backlog",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSWFJeXVuUTA0Q1pBTTBlN0FBbzJEV0xDUHc4VlNsUW1Ka2d1cWhfYTgwQjk0NDluN0xYX3JEalF3WmJ2bVRHZER5c3dhSW5HaWphR0VZOGVWNFBfN2FJWFFPNFdGZnBmYnpwSW1BT0lGZTYwMkFPWkZ1c2hRT2YtbjBscEpzdloyV3pkU1ptd2tSNERtRk5BNmhheUNaMWM?oc=5",
+        "domain": "bethesdamagazine",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T153014Z",
         "source": "GoogleNews"
       }
     ],
@@ -616,6 +616,15 @@
       "source": "GoogleNews"
     },
     {
+      "title": "The promise and the pitfalls of China’s new Arctic shipping route",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
+      "domain": "theeconomist",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260820T125902Z",
+      "source": "GoogleNews"
+    },
+    {
       "title": "Stamford 'noncompliant' with HUD due to backlog of unspent federal grants: 'I’m very disappointed'",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTlQ5SDc2Vy15LXM1a3VDTnRNZHNMVE42RUZzX3FLd0FYYm51V3pVNk42UVVHTGdCQlFBQ3ZydWNIbWwtdEV0aHNYWE1HQjZUX0NtSVlIWS1ZdDZTNlBrRXRjcHRhWUZiMWpWTW5rSXZBV1JPQlFiUFo4RjhnaVBuYTVkcmEzYWhpZHJNcVdKcVhuUDA?oc=5",
       "domain": "stamfordadvocate",
@@ -625,12 +634,12 @@
       "source": "GoogleNews"
     },
     {
-      "title": "The promise and the pitfalls of China’s new Arctic shipping route",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONTY4R09CZjVtWHBDMUx6U2prTWdnRE12VlFLa0EtOFVvRUYzTlNjbEVwMDdTS2R5NEdSTVY0NnRheS1FYjRYZ2hQQTBPWm5qT0x0S0VOdzVRZHpxV3N0NWEzQ0hVX0NfN0VHUEdYR0N4SEJJN3EtcjhkN1FBUHZ3Y3dkRndKSU9JQjVFVkJCYkdnRmtqajVxR19kQlBybWl0dXg0QVNSZmtkdGM?oc=5",
-      "domain": "theeconomist",
+      "title": "Oxford traders count cost of extended congestion charge",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nS2hORHdLWVZ1anVpb09MOFI1b3JEYmNVRmM4TF92WGRoMXhqbjhwYlNSYUVYMC1oR2t4UTBVbDkya2M1Y3pNMWg5ZURmRC1xZ3ExdlBXRnA5QQ?oc=5",
+      "domain": "bbc",
       "language": "",
       "tone": 0,
-      "seendate": "20260820T125902Z",
+      "seendate": "20260823T172236Z",
       "source": "GoogleNews"
     },
     {
@@ -643,21 +652,21 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Lexington parks, facilities need thousands of accessibility fixes. How should city address the backlog?",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3NaSWxULTFCakZMOTFnT0ItQTd6TGxqdjQ5LTE0Y2Jka2N2eXg4a1p0S0ZwTDNmQ0REWVRibFd6bDJ4aGhvanZOS3N5RFN2eG1jQUZJaXctMnE3ck10QWlZZWQ4YjZWNDZJcWdFdkotdmIzUmZxTGFfLUJPZ3VLX1RmQldvSXgzbUpvbU5zMjhMM2prNnU3bkZzbFJVRG5iRUlTTDRVOHg2REpJYzh0UmZHVjFpcjh4d3J1eGh2UWFCbTVrSkE?oc=5",
-      "domain": "civiclex",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260823T210544Z",
-      "source": "GoogleNews"
-    },
-    {
       "title": "Trump warns ship registries to be target of ‘Economic D-Day’",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ3ZGZWZGVE9PTEdoR29TNTdMYmU4aG1OSzVXcmRRcHk2Q2Fqd1JJNVFieHRGakFKeHRzOXFxRGR3akpDcU1tZ0NVOXlBeFZURmJOQ0ZEOGpUVGE4M1hoU05oZnJ2QXl0ZlUwdGZ1MGJ3OTRiX3RGbGRFVm1KQloyMENXYm84WGdaZVR6bDVzMlo1VThiZzMxWmZ2bmIxRVAtUEN4OVduUmt1UQ?oc=5",
       "domain": "shippingtelegraph",
       "language": "",
       "tone": 0,
       "seendate": "20260824T005927Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Lexington parks, facilities need thousands of accessibility fixes. How should city address the backlog?",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3NaSWxULTFCakZMOTFnT0ItQTd6TGxqdjQ5LTE0Y2Jka2N2eXg4a1p0S0ZwTDNmQ0REWVRibFd6bDJ4aGhvanZOS3N5RFN2eG1jQUZJaXctMnE3ck10QWlZZWQ4YjZWNDZJcWdFdkotdmIzUmZxTGFfLUJPZ3VLX1RmQldvSXgzbUpvbU5zMjhMM2prNnU3bkZzbFJVRG5iRUlTTDRVOHg2REpJYzh0UmZHVjFpcjh4d3J1eGh2UWFCbTVrSkE?oc=5",
+      "domain": "civiclex",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260823T210544Z",
       "source": "GoogleNews"
     },
     {
@@ -688,15 +697,6 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Ben Gurion Airport and workers agree to ease post-strike backlog, but next crisis looms",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMlU0NUlzRno5V2p3RThybXRQWEw4ZmtxWHdHdlZ6VzFDZ0pxWG1mRGNMekRSZEY5MGwyX1IwOVZUOEVZdHM1WjRjWXhBMm5jaWJqQXBrYkwycHoxS096VWU3c05yV1hfZUw2NFp6LU90VEtHMnVlcHNDekpwQm1fZzJzWThPQ3VVT3I1NGJOamRubkVSVnhlbjBMNl92ZHBGZjFTUW5Ia2xvQnJuV1FUdDRUaWttTC1h0gG-AUFVX3lxTE9ZNUlPWW1nOUUxeWRxSkZuVEhwcVU5UTlXdE9DUGI2QmNFdFVzQkl0SnJCT01xRFY5QmRpdDNSZk9ZMUpHeGNhd0dMbWc0MlpGeTBwbG5kZzFrODFwWjhzYUZZb20tR2ZoSHlkeGVwMUtfVERmQ0xKRXlhVWc5U2JWZ1NjdFVaY1dTOWl4YUtMV2xfQlJYRHBqQVU2Yk0zOEktZWNuaDdBRGQ3STZxZGdKVlpWZFdYUnNCSExHMWc?oc=5",
-      "domain": "thetimesofisrael",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260823T172400Z",
-      "source": "GoogleNews"
-    },
-    {
       "title": "Sovereign Satellite Strategy Expands AST SpaceMobile Backlog Amid Constellation Deployment Risks",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa0xSV2g1eVlldGFRVHpxRTZIOE9CNThDdTVTa2p1eGhYS3RDSkFhZ3VsdUtHekxWZnNmRTkxMklEbGhPQnBWS1lMTmxFa0M4ZlFFSW9BVldiS1VvY3VlX2w5N0tWT3FtNFNtV0xRRTNIaTZvWlJYeGt4RmpGLS1tMzlBLWM4MXZKUS1HY1lNaDE5N2xLNVhzaGtRX1FLeTRtMXN0clBJUW9lLWNOWUZUb0ZtTVFKNFdLSmcyRUpKblRqTlhVdmNJ?oc=5",
       "domain": "satnews.com",
@@ -707,5 +707,5 @@
     }
   ],
   "timeseries": [],
-  "llm_summary": "The live snapshot tracks 50 articles from 43 deduplicated news sources, with a neutral tone index of 50/100 and two active feeds, indicating a balanced but information‑rich environment. Headlines reveal both pressure points—surging Hormuz traffic via a US‑backed Oman route, criminal groups straining Mexican freight networks, and a serious freight‑train collision in Illinois—and potential alleviators, such as research supporting year‑round shipping in Hudson Bay and China’s pre‑season soybean purchases that signal upcoming demand. Overall, the data suggest mixed congestion signals: while certain corridors are experiencing heightened activity and safety incidents, emerging capacity options and strong commodity demand could offset some strain. As this is a news‑sample analysis, it reflects reported sentiment rather than verified ground‑truth conditions."
+  "llm_summary": ""
 }
