@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-26T13:39:40.943111+00:00",
+    "generated": "2026-08-26T21:12:23.580921+00:00",
     "mode": "live",
     "sources": [
       "news_articles",
@@ -18,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "42",
+      "value": "44",
       "delta": "deduplicated"
     },
     {
@@ -35,12 +35,183 @@
   "live_data": {
     "news_articles": [
       {
+        "title": "FedEx Freight expected to take over as Truck Series title sponsor",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcGZVR25VeDV5OWVYQUZ2R0thRUFMQ3VRYWY4a1JFbWRWb2kwdk5uRUZpTnNNcHAxdjA1ejBLZmZfS1pjZVJ6M0NpaWw4TjdFZWE0MWsybl9ZZ0FpdmtfYi1kS1h3TDMtX3FrY3JLM2o4bklJTVV3a0owMEhBblFrSTBWYUM5SkttVHptM2lWX1JkX001RFE?oc=5",
+        "domain": "jayski",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T200345Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Boston Scientific’s ordering, shipping disrupted in cyberattack",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ3Z5U3FjQmlybGpFTnhlell5djBiNlE2RjFLZllNME1UNXYyRWRrRE84RjFucnB6SnowWU5nbk95Y1R5bloxaVVfUjg3MXlvUVBtVFlpekxCQzVoQjdPcElGdlFic2RSNk1WdHMtUWhEUXUwa0MzVkhJNTNPZ2YtRGtENWYzeEVHZTNmc29HTEVJOUZOd3FXcjBWNmxKdkQxRnBQeA?oc=5",
+        "domain": "medtechdive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T190546Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Freight recovery may not be long-term",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoOElZVkZ2T3BYTHAxZnNhVHoyWm9BSWpNTzczaDh1Z1BrRWNiS3RPLVZJem1MazNEM1pCaEpaV09zbm5ua0JwdXdINWlGbXdrdHVsWTFsLTJGX2pSeC1oUVdGSzc3VGthbHJrck9n?oc=5",
+        "domain": "landlinemedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T184304Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Boston Scientific says cyberattack disrupted order processing, shipping",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjRDR0FuNUNXcmx1NDZIRktNdjdpdUV6R2lfeWU3bEFpYmFwZGlubEdQMG9PNUNrYV9LVU9jQ1hpc1dhVU1YZ3VsdERjTlRNT1lFX3QtVEFpdEdDVVhxQk5UOXlTNFlUdmxUc0JBS29aVEdNVG91RWl5UkExcjJPeENsQlMtLWJJM0JiOEJPY1BUR1UwYTdObzZmcWZQc3FDWGl2WGxpc05IMlEyNnNNc1d3?oc=5",
+        "domain": "cybersecuritydive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T150430Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NASCAR near deal with FedEx Freight to be main Truck Series sponsor: Sources",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdktycVNfQnpvRzltVHVkb3ZEbWdsQ29PNF9jYU5wcF9fbDlOaW9HS2VSLWlJSXA1WFd0M2RyZ0tRYzcwa0tBMGF5NXNKNkxTMEZOd203bGJsRUlEczlHMi1ncnBJUTQyTzAtQWdoNGY2VE1Oc3VVZEVOdVg3MF9sMzFtdkxXS1F5Qk1tMG43dVFjbTNPYU13NERn?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T191018Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Midwest dedicated carrier Behnke buys AG Freight",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb0lDU0poNXNlY1FfeTdBV0doVENWUU43bFR5YWFlM1RhRkZaLWx0Ykw4MVJNSF8wcTY4c0U5YWR4bDlDMzFHWDlKQXJLUWxwMTRlcHh3OWFrbTROX2JxZFhLdTFkNVhkT3lQT0J6aGVtdlJ3Ri1COS0wbTMyc093UTFybFVBYi00WHc?oc=5",
+        "domain": "freightwaves",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T154241Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Boston Scientific hit by cyberattack, customer shipping impacted",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeHY2MHZoeUlKaGkzenY5T2hWUUhReTItdy0tVlE5cGFYbzNndzkwc29teUIwRVlISERBLTBseHd1SjNkdXVBQ0drSVBRYmtEN21qalBfdHdOTW1jMlI2d2R6dmhFX0E4UktEUUZRWVlpNXZOQXRWaEQxVjJjNU5GMk1hNE1ndkNEeUhvSzZ5Wks5TFVBYXFxb2p3?oc=5",
+        "domain": "worcesterbusinessjournal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T161124Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Port Congestion Sets New Record at 4.3M TEU in Stranded Volume",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFhxSmdQZEswX1dCZmVYUGtWQ3RlRUo0QkwtWEZOUUF1emhUVUZsdU5uRGVwZUdRU2VvRnFfXzZvRnhtOU5TeC0tMldVSTVxdkpJZHZZOGJaQ0thM2x1Z0lodERWTUJNTnBhTEU0YmE0NnIyQy1TZ1N3WDdrVmVNLVYyWXEtQ21vYjRFVm85dkNtUjl0eXQ1TTd4MTdnalY1aXc4?oc=5",
         "domain": "themaritimeexecutive",
         "language": "",
         "tone": 0,
         "seendate": "20260825T205107Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Shipping holiday packages with US Postal Service to cost more this year - See the temporary price increases",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ0o4OHF2N09UeEFNM2ZRVFBQc1Q1Z29pS3BjVUZXTXd5dnpvRXp5dnhldEFsMnFVVVc4TF90ZlQ0Ni1tcnJOaDVmOEU0RC13UjVQR2pxd1hWcWFrMlJNeDZoaXBkbFhYdmhvbnVNZ09SU1k3NVg4SFJzbG56V1lMNUt6SQ?oc=5",
+        "domain": "livenowfromfox",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T155114Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Council weighs options to address $74 million accessibility backlog",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR3l3MWZCbkthLU1DaE5QTUNVS2w3U3gzM0NEOXdLdXAwTnp3NHVRM2pUV0VtSXE0a0RwbDZKYXZ6U252d0R2UE5mbE5MajkwdXoxMkY1d2M1a2ZqNEFnWlJVaEo5TmdvM3ZUWENpWUJYdmstMmZqME5WOE5mNzhDVUJ6VFdkSTRueUFOZTQ1dG9Ic2JwQzJScw?oc=5",
+        "domain": "civiclex",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T180001Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmRMbWljSjVuaVByZ1FNOHNsa0xSdXFFR0cyazFGRkdVSHlCXzlTdHJaRkZzdnU3aXpmdXRjMFgwNDMtelRYUXRhYU5zd0JxYk5INXJ1Z1lJLXRpd1A5Q2s2cjlQY1htSkxsSjFDbTN0T1JINmJIQjltenI0U01Yci1ibTdxaUJuVmNlRlVuWnNuV0RMMDBCRGNKdXJGeDh6?oc=5",
+        "domain": "yahoofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T150600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How to cut hidden freight costs and protect your margins",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd0o4c2lkSW8xa3RmaE9fcUd1TEhmSm5PUi1HbnkxdXhZTVpUdlNmUHBXWXhkdGlPTmdFbWVSXzV0VnAwTjNKREJnZkV5UURaU1N1ZkJUVElLLWx0X2ZHcm95a0dzcVdzMzJmLUVUUU5keU90YUJXYkZmZmZha1gxcFMxZU0zNHJDdl9oSW1mR0RYbGJneEtCZklNeWtjUE9lc1d1X2VuRUpRQQ?oc=5",
+        "domain": "newhopenetwork",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T205544Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "$124M approved for I-5 freight lanes and safety upgrades in Shasta County",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUWdNd3hTTU43QTNuZUV4ejdfcmVVSG5wdjBnWURfNDE1WFE0XzRFbXZfTTloTmhJSWVSMXhKT1NzMkYyTG1ERFdmSm1qRkxTVGdINmtBNEhQeS1WWlZFRmxmanZTZUw0ZDV6Zkl2ejJ0M3FneG9MWFlXQW5lRnRpRzJ1V0cyMVhidjFubHlxUnZrSXpGTW5pbmVaWWJESnlac3BSZw?oc=5",
+        "domain": "krcr",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T173455Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Push to tackle $23 billion backlog for National Park Service repairs",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVktIOGRXVV9BN19BT0RHakcyOTdmSXRnZ2hOU3ZCSWpNOWNMZ21Ca25mdTk5MEJWQXpTcmJZbHZfRWlfWmRfT2lObldTcVBNTzBEV1Rhd1lSTTQ1aWhJMnNpSGRUaGhFeDJkaWY4bi1rd1ZfSlN5QzJrMUVfY3p1dnB3Vm5nZXRadnJiZWJCZzV6R1VpUmZsN0lmR0syZmFn?oc=5",
+        "domain": "wtopnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T165317Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Saudi Arabia considers introducing cheaper insurance to increase shipping in Middle East - report",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CaHdrbXFXR1VRVEFFSjdyYVRtTUg0d1BLN0dYNUVzcWkwOGMwajRydWdZSmZqQnM3b3phaUllMTRGSHJkT1BfclF3ZjhXbk5qenIzYmxVb1gyM1Fq?oc=5",
+        "domain": "thejerusalempost",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T163516Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Truckers finally see end to freight recession as capacity fallout continues, demand firms",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVXZuOEZwak1DUHU2cFVIeUphQjFxUHJRRmpqNXRDRmJJQkFrOWhwbEZXWmFkV0l5SDVGYUQzTVBQaTNwM2xqYUZNcGpMaFNfckFpRFdqcG9yaE4tVnd5UzBTQk1jaWl6YlpnOUhETW0wOXllaV9YdUFkWTJHRmNWMF85THhiS3ZhX0JKTXM4dFViSF9jcGY4WGl0bmt1STBXbS1LYW5VOWtyTEk0dFlSY3dwdWhoWmNZQlA0OXRTYmZkSnJaOGxxSjBn?oc=5",
+        "domain": "dcvelocity",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T165140Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMkFxQ0tKejgtSkszMlpJSjQwRnFHUGpUUUk5d1YtQnpjMWFHOTk0eHQ1dWJ1LW1LcG4yb0wwYUtVM3VjTWdfQVFUcXpkUXRubUJOUGtjU05haW4wcnhBSXJKc1dqb2FVWkJJdmpfZTdsaDF1TjhKaEd3ZmU2dl9iVUpseFFlemtWRG85cm1DQzFjRnU2R05wSV8yY1RmNmRLa053RkdpUWRRdDJudDdLdjVwSnBaOWItX0lqWExzOHFzbTVuN1NyRG5ZVGE?oc=5",
+        "domain": "internationalatomicenergyagency",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T053035Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Freight Market Talk: Pawan Joshi of E2open",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZXJKQTlOcTlDc2J2RHJJU29QUFQ5Nk5mZFJSM0JlT1RuWUJPMjZwYUZ5OFN1cko4bF90QkIwU0tyRmdGdHY1Y3F0QldMWFRtRy1NNVYtQnlBS3I1Vkg2M2trSHZRSmd3cW1uLXVRS3JPTmNENkRON3E5cFViR2Ywbw?oc=5",
+        "domain": "freightwaves",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T193101Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Oil and Grain Exports Plummet as Ukraine and Russia Attack Shipping",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVnVfWnM1a20zRlpDRW1wUmJNRVNtdzcxUC1vcHJqaDFkYTZTXzY0eTM0alV4Z1NGenZESmFzMjZCZHFYZFBCOVl3U0hCZk5OQWtGdi16b2ZKdzdoSEVUQVh2QnpvTHhOR2FuY3VxNm1EUmNJTXNWVXZuMEEzS2VaX19PdzdXeEZqX25VR213NHFZU0lfSGpmV1lNa0s1aWl1elhvMXVOeTBMdw?oc=5",
+        "domain": "themaritimeexecutive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T190559Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "India Maps 5-Year Plan to Build Shipping Independence with 100 New Ships",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd3RIdDFpVHI4MzRkbzlCSUFIVGt2cFA3S1lWN0g1LU1FVEpzZ18wVjV5azhIZF9yMF9uMWxTTnNCZFA4cE00Ukp1UC1tUDlDdlYxckVZR0NlY1J2MUNVN3pLSU9XSWhSRWtBd2hOY0I0d3A1R0JmTUdXVlVGblp1RXliZXlSbXBwSEVDRlJ2ei10OWU4TDFQaC0wb0FMdGhET25xMkRZN2VIMFhDVk9TNw?oc=5",
+        "domain": "themaritimeexecutive",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T204632Z",
         "source": "GoogleNews"
       },
       {
@@ -53,84 +224,48 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV0RuV3RmZTl0aWFqUWpWSHkza0MyTjFRT2RHZFJNdEMwbWhwTGh5Um13YXVmTWNrNTBpMS1NbWNBZExDTkJMbHlNWFV3WlNZZTd0T3ZGaXU4MUxsbWQ3ell6a2xTQkd4M2JwRDJ0NGJYR1dyUHBCTFdaRWtYYjVFRQ?oc=5",
+        "domain": "thehackernews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T113600Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "DBMatic And Weforsea Shipping Launch Maritime Data Company MariControl",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTWtmTWZDeTBJZzcxRU9aMVozaTZVYmQzUHh1YXlUNFFSWVYyT0pFQWllcUhtXzhwRF9CcVVvQnhFUDJnUWkySmFnS3hhVGo0OU9DWVlEaU5NNDViYWlxSW8zazdvWGExLTdTeXdGRC04ZEZhZUVVNzJ1alZtODZUeV9CYk9wbVRMNzFfUmY4YXg2bnFsR0tvcUZMc0VJQzQ1QjNsbTFwbjlqbVB2cFI2UEJDM1kzcGs4?oc=5",
+        "domain": "oceannewstechnology",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T141653Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Freight's supply-driven upturn: How long will rates rise?",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQay1mNFFPOGlodlc1MG14OFhWWWo1eTQzay1KY0d2Z2Z5Q09OdjVCYXlNU3ZfY0tBeDc3am9MZnZyYjVYblEyMllqMFFHTW1xUC1zOWEtN204VFBrRGgtZXluOVphM0tNcjRuNm41bElhX2c3emJfbDI3UmVhTEt2UXNtR0ctTDRrUFRKOWlEdU1pY0YyemZSZnRHUmotMThyNjdYUThSVnJFUzFrb3FIeV9hOFpmVWhn?oc=5",
         "domain": "fleetowner",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T131424Z",
+        "seendate": "20260826T133251Z",
         "source": "GoogleNews"
       },
       {
-        "title": "NHTSA Facing Implementation Backlog On Mandated Safety Rules",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRbF9WWWFNaEt6RjFaU3FlNXI4cEhTUktzZ240SzVQMnpWNVNaR0ZZVDIxSmVqbW85enA3RWliN21XOUszRVBPaDRBaFg2R2JTMk9ocy1sdDhnQlM2Q0VHeTBodmxkQlZpcTc0WDNiemp5ejBnbVk4?oc=5",
-        "domain": "legis1",
+        "title": "As $2.7B interchange project advances, federal officials praise SC for clearing up congestion",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYzFiX2hhRV9KOVkycFJlRWh2WFVPVGxsOWkwV2hFMUNmX0FxNF91RE10SnBBRVhBbGhQUU5XcG16YWhwMHVudTBoRHRQNWt1QkI2NHlaUXJMelREcl9VS3doM00tOWFzNlRpRFRHTi1KVFBvdmZIaU40TmJPSmxNYnQ2bjlYWkw4R1dQZWhHX1JyZWxCT19Va0hTLTlUcUgtT0NVQjl4Y2trT0dsb0ZZa2J2N1R6Y0V3QVQ3WkRtV2N3LXRlOTQ5Rm9n?oc=5",
+        "domain": "southcarolinadailygazette",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T131022Z",
+        "seendate": "20260826T202121Z",
         "source": "GoogleNews"
       },
       {
-        "title": "USPS Raising Mail, Shipping Prices For the Holidays",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hejlWUHFoV3J1VHp6X29iZmkycWFKaUg2ZWVRdm9uUkZJTUgwZ1dvYm5JaDh3QnM1TTM1VmVsV3pVTVRjSW1VQU03a1o5S1hrUGhjZFRRRWlWOVdPWTFaVkpBZzZMZw?oc=5",
-        "domain": "newstalk870",
+        "title": "USPS proposes holiday shipping price hikes for 2026 peak season",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUUluT1dRTzJiWDk0M05xOEZpM2R5NnFKOWt6MkZwNEFadkFvdDE0QzlnTXRFWHhsRTNscTU3UjRQOE1CRkFpSWRMcTZBX002OGRQYlh5NFZXWlJ3eS1DYnBPNWRFVndRRjBJdzZPMXRITUluZ1NSbWY2Q2p0MF9sQjFFOTdwMms3WVZVUzYxMnNOSFAwWlh6R3U1RkdlZFlSYl9NNQ?oc=5",
+        "domain": "scrippsnews",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T124543Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE96cjBibnU4b2hJd3VMYWZhS2EtUXhudDdYaWdhbUJWaEx5OF9sd3BwdFA5dUhUTlBFeTl6QVYzcVMwdEJEWS1jOEg0Y2VtQVZSLW95bFYwMkxWSGxwZ1FrYzNMNk54T3N3TFJOcTBST0JDUdIBd0FVX3lxTFBzOWdXTm5HXzl0SkxEc2VPLXpDeVRJZnk4YTJjRndaZmZrVG03Yy1kMlplOV9EVzFkWWlkalFOMlZoZVlSWVF4c2hVOVZvdDBHUVRFbVhwdFpsZ1BnbmMyQ1VJYndaMDNpNTh5cDNlbG9NbUgxSWlR?oc=5",
-        "domain": "cnbc",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T171625Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran, Oman discuss temporary shipping lane through Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObjRTcll2S1lXWWkxcGhOdU5vVFVfVnpad2d4bk5oV0x1Ry1LT1B0T2ZCcXcwRXBXbDJSVl9jN3VJakF3M29OQko2MGR0WE1CZFJrWl9BUldISzFBQVdDOUxreDE4SWpubUcwS05BN2lXRmI1Z3BHY0d3VE5UMW5WZ1pXSjZKOUxqaVNGd1VYNUhLS0tNUm4xMmJxRm1xREZ5YmRlclhqQ1Z4Q2PSAbABQVVfeXFMT2NrREp4YkVlbWhqeFRPbGJhMU1aYlVOR3dsbTc3WG1rd3VaaWVqNGEzYUxaS2RXdXpBY0pqNDlhaG9oMm5vZFZ3WEFLOXk3aDFYZ1poaVhhblNaUjdDX0ZuMGgwNlRHOE5BLUdaQnRGYjYwdElVOEJ1Zm5ZblljOEZnQXBLOHBGRDZmUERIRnZWTFZWQTAtSU5LQWFDaDZIWWo4bHF1ZEpBN094UjllTUo?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T200210Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran and Oman Propose Temporary Shipping Lane Through Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUZOalZ4bXJaTmhzTnBxbmREOW9KMHQtdEg4WVdqU2h6UDYzUUluOTIxOVA0aUtqOXhrSUdzLWhTbDkxdGV2dldIaUR6ZEN2NU12aU45YTJ4NVJWWlYzTWNaamhGS0pEMnY1cEhPQmJVZTFSSEJ0czBzaGdHWjJ0OXhRTUxqVGdQM09Td3FoMV9FYVZGWGtlcDlZZFFxZjVQclJPUVhBNlFFZw?oc=5",
-        "domain": "themedialine",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T082215Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Usps Proposes Temporary Price Hike For Holiday Shipping Season",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUtuZms5RzA0eTJqMVI1SzluTkFPcy1ROEpjVUtRY1ptNUlyZVdpdW93RC16aW5nYjk0TWFFWnB5WWtPRDJudk1Pb3E1SjNMWlRLUXpwRkthTVFSSFFuZXlQQm9iZlZUc3RHTVhBQ2pNcGl6NHAyQVZmdDJidlhMTnlzOWJkTjdxNTU0WnVYbTBRWGpjU3VVTmc4RGV6Y0o4QUoyY0xxMzRoNGxEdHpNODBwNVVWX0c3eHNuQzRQNGRtemU0?oc=5",
-        "domain": "news12longisland",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T103815Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Shipping Oil Through Hormuz Costs $20 Million, Total CEO Says",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGFqcF9mVjBxWXpaV3lIUmx6QjRVbWNoaHRXNklaQ3BfZ3RIOVBhTzN4ZmZXcXJIeVZWcndDWE5Pa3ExQ0k0aVVsVHo2WnRDSG9nNjVjYkEtRHFFRnNPbjlkOEZCdW9IME1sQ2pmRmNDOG93THpiNzJGblNlSzRKMXJ6dzFfZlZxdS1EcHNR?oc=5",
-        "domain": "yahoofinance",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T143313Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "USPS seeks holiday shipping rate increases for package deliveries",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmxSNXNhV3Jtb0tSODZrZnZqcmt4b2I1WUVoRURQa05za3gyQTA1TEY1Q3JENE1XYUhUR0w1Xy1VOGpBSEFBcnp2Y3dORzduaEUtcmc5TFhMa0Fzd29LV0ZYelNhYmQtY3RqSlNxLUx1ZnFxRnJoOXFCNUpUd3ozQjJLZDFjd002QTMzdURkcmVVRm5rWmJkdUFjUXhSaEEwcnBhc0RDbzl3TnMzSk5peERwWmJ1LUE5LVF6aFJqMWdWMmw2VEdHTTd0ZTFEeEowNlNrazFqT2MtSDR2?oc=5",
-        "domain": "cbs19.tv",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T110600Z",
+        "seendate": "20260826T142256Z",
         "source": "GoogleNews"
       },
       {
@@ -143,192 +278,84 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Legislative committee reviews DA funding formula amid Brown County case backlog",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY2c3WlJvcnF2MWlGcmRxU3k4ZXdydVY0VHY2MW0yZHN1OW1uNUhuTTFnRnl1dExpOG4wZG1seUpMRHMwa0hka1FVMHVjRWFUTXRGV3hQN0RUQlFVVnpIMlBsbVZTV0JfYkstVWdzZkpEZGtyckhZZ0tiYWdveU9ib0dSYXJ0ZnJEYUtaUXllM2hVbGxfY21oakFUdnJzQWhKWnRnMXg3QmxpcjIydDVNX1dR0gHGAUFVX3lxTFBZWmVoMUhwZ212OFQ4VG9WNmpiVHJRcERSVnRMb21jSFV2SWVReDUxXzZESlYzYXdxNFFNOGFid2JnN2hVT0NiZFlQQlNBU2dNWm1PaDNZNUlNWUpqZUEzWURkU3dFWWFOZVFJcmFaLWY5eFB6NmhjcEZUUlV4azVyZjV4eW9yRVdDZmxGZ0RKRkRpeEw1c0ltcFM0RTN1cmxIQ2Z1eUNXWXNTWWtMWnRUUEl5MHZLRHRaRVUtUmt6Wm5nazdJQQ?oc=5",
-        "domain": "wbay",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T031500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "ACHD proposes Star Road widening project to ease Treasure Valley congestion",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0lsUFlsQmRjVFVMVEt1Y1RJTG02a0ZnZXZBYWxXRU1DWERsZXhrWE5kTE9WUHVMU3NkYndYWE5vMEN3QjBTMVhZUWllSFpDMnVMOEJZWDg4VUoyRGFWYWJZUk01Y1RYTlVtMW04ZFYxRkJ3akUtb05NdGw3ZmJTTkZiWEttWnRvTUF2MFdXTk1OcEZ0TlBaV0NZTlNnR2thS1lLcUdR?oc=5",
-        "domain": "idahonews6",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T132915Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "New York City Found Congestion Pricing Improves Air Quality",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORllDbXBnVmxXb3FqVE93akJUbXpIdmVoQ0syVGw5Y2JQUjBCVTJMYWdmZi1yYjFqVC1NT1p5dFlWZDZmZlhWVGl5Y3VlQm9tZXM1TjJXcEtwUzc5OHhTZm41dWJVR1NVZGtuZU9jV1NEeTFySE9zbFdtSnA0NjlZRTdnMUJ3MV85cldCX2o2RQ?oc=5",
-        "domain": "cleaningmaintenancemanagement",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T093011Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Global port congestion hits record 4.3 million TEUs",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbFlmcjR2c01GVXdiakRPVFRuWUlYTlB5blNIZkRnZ2ZTYVhreGcxV3N4dFlic1J1S1FEamEzaGx6THB0WlFHMkxEWUlTN3Q2LWxXUXBqU0tOb3pPVFV3QThhaWliUlh2V1hlUzFHNGMtN0R3VkNVa3BrTDV6MGtYWjZsTmpBNkxZN0JGdjJsdUhpX2ZFQ0lzU2pQTDE0aXB4bzNN?oc=5",
-        "domain": "porttechnology",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T095119Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Hyperscale Data Subsidiary Gresham Worldwide Announces $5.4 Million in New Defense Sector Orders Bringing Backlog to Approximately $53.7 Million",
-        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPNXNIdk92aDZfel90OEJQM3Z2VTZYVy1mZUFhVDA3cnNDYXBhNDlsdXlMM1pLNTg3dEVqVnBLMzVGU09jN3FyelJUckhYNVZRZGIwUE1JMTRxd2lfOGZfcFo2UFJTT1JtUTZCQklEV3JTZkFKSTF5OFdnM2VIZXNNOWhQS3RydnBuTHlrWkpPN1JyOVlGdzk4U0dFcXE3ZFd5NnZ1MkJNLVlSR1BrbFF2bllFc0hfQklabEFRY1I0UUtheVNubEduWDVwUTFMcEhKWWp0OXZiVTdnT3VETE5sOGVtemVPVkc3ckZhekNGMHQyUnBWSW5JdEtxcnpvM3NudFQ1STNXWHVLa1hPMmRxTlJhWkUzNXloSlRBUWJhajVqYW9k?oc=5",
-        "domain": "prnewswire",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T103000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran, Oman agree on temporary Hormuz route: What we know",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWTFrTGFKUWsycWlaTDVOb1pjUUJCSXJVblBLN1pzYUtJVlQzSktVZzJHdHVUQU1CWjYzQllDdHVrc2xVcTlPSVp4VGYxUThRdzRXT0xYMFFQYzRjVm12LTdobXRzR0tFNDQ3aXZhYzVpekRiRFZMMlZqMUJfb2xkSFFYYmcxcTRJWnY2Q29hNmxhLXhjdm83NER2TdIBoAFBVV95cUxPdlVzYWJtNU1rVzQyNUYzRlQ3amdSV1ZocVdVSjU4UUo5a1drTTl1d3Q2d24wYjRsZVNFcmVrazRGR2stNzIyajBYYTQ1ajhKLTN3QXI1Z0hnUkZpRWQxc0JmQm40WkRld0wwRE5sQnlCeXZjVGZGdTU2bUt5cnZ1M3pod19nRGw3VzB0bDhMb0NfWWNHNE9ERmxRQXFNTGhF?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T120813Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Oracle Jumps as $638 Billion Backlog Outruns Cash Burn",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd1UtVlJSX1p5YlhDaGxOc3BldTc1dGRhLVlYTy1ScWpkRUlucEtoeXpzbS1LSkl5c2ZacEU0NWI2YWJ6Rm1JM3ktcElKNUFHSzQwQnRUV2s1LWVGUHdKeERmRWtyY3pHOXJhQnE1Sk12RExpVGpESVVWZjJBcXJTOWJKSnY1Ykc5dlV1UzR4ZWNidFRhZF9UUzR3NHRKZw?oc=5",
+        "title": "Shipping Oil Through Hormuz Costs $20 Million, Total CEO Says",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGFqcF9mVjBxWXpaV3lIUmx6QjRVbWNoaHRXNklaQ3BfZ3RIOVBhTzN4ZmZXcXJIeVZWcndDWE5Pa3ExQ0k0aVVsVHo2WnRDSG9nNjVjYkEtRHFFRnNPbjlkOEZCdW9IME1sQ2pmRmNDOG93THpiNzJGblNlSzRKMXJ6dzFfZlZxdS1EcHNR?oc=5",
         "domain": "yahoofinance",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T194801Z",
+        "seendate": "20260824T143313Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Shipping turmoil threatening global food supplies: UN",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVTFRUmszTllPUVdxSjB2aGpuTFlaSllqUWExT1hxd25uU2djUFBIRWVjVnJfYWNlRzhUbjVCSEV0SkxKVW1NSWhEc3pCOFE1RnhYc0Nua0I4TlFPekJLcEJveUtONGs2YU5NNGpvcUVDVTAySzRhTVI2anhHQkFFUXhB?oc=5",
-        "domain": "chinadailyglobaledition",
+        "title": "Navigating Nuclear: From Atoms for Peace to a New Course for Commercial Nuclear Shipping Under ATLAS",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdDNUUk5Gd194bVduSkxCUHkyTlRQaE9WQUg0LTYweUo2c1FvZFVIZmhULThKNExLcElmSWRIWHhScmxrdXRaTFJHTGJwWTJzeS15ZWgzdzhRNm9wZURtS3Fnb0NpdEtFSnBuYTJQU28wMmlpajBoYm1HVXJ4YnRlb3lWNFJPR3lNTzltdjlEY0t2dC1VQzNTb2tQTGJBblhkMFV2a1NuUHlnWE9COHliWGp1R2s?oc=5",
+        "domain": "thenationallawreview",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T012922Z",
+        "seendate": "20260826T175624Z",
         "source": "GoogleNews"
       },
       {
-        "title": "RXO's curve freight market forecast...",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwUVVXdV9LdGpteHFqZ3dsVU9yN1ZOLXVTTldyLXpEUGVCcl9fN0pEQ2UxWEtZdVhneTJIX2R5bElZRUlTTVh2TWVJZE0yWTJqTjEzWjZDM2RvZUcybUlRNlFmbDNXZ3pKVmpj?oc=5",
-        "domain": "theloadstar",
+        "title": "NHTSA Facing Implementation Backlog On Mandated Safety Rules",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRbF9WWWFNaEt6RjFaU3FlNXI4cEhTUktzZ240SzVQMnpWNVNaR0ZZVDIxSmVqbW85enA3RWliN21XOUszRVBPaDRBaFg2R2JTMk9ocy1sdDhnQlM2Q0VHeTBodmxkQlZpcTc0WDNiemp5ejBnbVk4?oc=5",
+        "domain": "legis1",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T081545Z",
+        "seendate": "20260826T131022Z",
         "source": "GoogleNews"
       },
       {
-        "title": "U.S. Postal Service Announces Temporary Price Change for 2026 Holiday Shipping Season",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbjg1dnNjT09LbFdvUDE2TFhyZnZZREZibXVKTm1QRWUxYVR5UXhzYk8xeUpJMUZlRHpmWnAzTEVTTG5BWWdlODNJWjFsWi1SZFlQLTM3bUlPN1lGZVV2Y1Z0QXZ2R01uN0xqcThRUE5OY1hNSW5RTGpjS21iN2t6b0wwMzgwUUl3VUNiQ0xqVkRmMkVzQTFIYkpjekxYWDhnaC1KN0hXdHJBWTNlQm5nanlacXdxMnF6SG1zMzVYY3VXdl9Gc2dCbEpHWXAyelUydVFlSkdB?oc=5",
-        "domain": "prnewswire",
+        "title": "Brainerd man killed after vehicle struck by freight train in Cass County",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmlqWEI5TnVreS1CTk5PT1F6TVVQSzhIenQ0NDJuTUc3RkdfX0prNlplaTR4emVkc2FtR2FfS2V5UTNVdVkyZDhaT2NJakhXenU4MHZHajJyYUZrLXlxVkhaTVdiazRYUUlkeExsRkZpY3F0SWp3VXVXdXlzZ3I5NzFBakdKVUhoZXhGdk5na1BzUXh0Qkh0MlNUal9Vdw?oc=5",
+        "domain": "fox9minneapolis-st.paul",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T181500Z",
+        "seendate": "20260826T183209Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Descartes Acquires Tai for $100 Million, Expanding Its Freight Brokerage Technology Stack",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS1F5RmVsQ0w1NlR4VS1PWkU3SllGaTlRRDg5em9CdG9FVEdTYUtRcjd3Yk5RWmZISjgxdGFtQkFvWV95b2NRcEpOenJ6R1BMUGwzczkwd0xpQWExTjluUFpGNExmb2ZEMzRPVWFrcTQtQmtFYlFma2VCZkgyQzAxLTZLVjhGRFRxYnZINl9HV3ZqcktMVWxGeFhPSDd4SGtuVU0xQkU1aGk0ZFhkLU1uWjczV25IczBxRVA4TWVjOW9FcmYwVmY1OGFLQQ?oc=5",
-        "domain": "logisticsviewpoints",
+        "title": "Holiday USPS shipping prices could rise, especially for heavy packages",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUjJrWjFvTzhZbzMwUU9ZLUNIZnhNSTQ5VXh2QkcyV2lRSm5MeWxYaEtJRS10a2lRRlRnWVA3WFhia3RYN1RubjV6NFdZTUxsUDlqamNoNmtwSUZKTTlqbTZyTi1oZU9uajlTY0QxS0Y5QkdfRURlVTZlbl9SWVJSbnUxN01XdnM?oc=5",
+        "domain": "midlanddailynews",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T182732Z",
+        "seendate": "20260826T203343Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Microsoft Stalls as $678 Billion Backlog Meets Falling Yields",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ2JtcXhwYk1JVnNENjZ2ZDVZSmNLd3BjNEpLMWF3cU5qc19IRGw1dWFTNDdTckx1cDkwTzVDcG9WaF9KVFBLZnVkVFA0M1ZmanBJM2lrcmV5UTZLSnNVTUszenh5dTVrOUc2OXBOQmVoUFR5cUFtNDk0U0QtRUJvUDQzLUlETjhPdWhFR2prVmo5V2Nobm1Sd3NoaUtWYUN5dmJV?oc=5",
+        "title": "Pembroke Pines freight company files Chapter 7 with $5M in debts",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOFI0dkdOUnMtcWxOUEpFYzktRU5UMHN2bk00bVpFYjRhMUtFNExlQmVYem9lUk5fUDVzRzFuUVljX2tFVzZOejJYV0JneDVDRmZKZXZsT2ZFN0dvanMzYlBDWDQ2Yzl3Y1BEVmRBUTNkZ2t6SVV6d2NzbEVlanJnNmJRS2VnSlJWVF9xTGVZY3Ftc2FXbnItXzJHdTcwOEZSdXIxNQ?oc=5",
+        "domain": "thebusinessjournals",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T192500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump tightens economic sanctions as Iran and Oman discuss joint shipping route in Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RcjJtdHdCRVZ3eW4zM19uM0U4c2pfSGYtU2NJOVotTU5xRS1iTWlpUzJBcG0xRmwzc3N5Tk9lUzRRM0lvb19TQkhRaFNzeW5KejhwVEZiTHppbEE?oc=5",
+        "domain": "foxbusiness",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T182919Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Survey details impact of shipping fees, returns experience on consumers",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNjhMY2lSQTRLUTByQmVPejBMRjN6TFJsdFFOTzBMUVR3c0ZEVDRBUy1ST05lQW85WExVZUtnLTU3RUxUeVFaRjFoNEJDTV9Db2kwb0w4ZzQ4X0Yya3VqZ2J0eFJfdXMyclBEWC1vVklFZUwtcDRVUTY1b3lxMlRPNDFQYnh3RVgtQ1p4VmliTkZDbXlF?oc=5",
+        "domain": "chainstoreage",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T174816Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "SHIP.com Introduces AI Shipping Manager and Agentic Commerce Tools for Online Sellers",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSkNQVGpYYnZlb2RfWUpvMkUxU3JkMkt5akI3TUFGVy1EUEVGa3R1Y0lZZ1IwcDFYbS00alBodGJZQmJmRGh0bVBBcGIwMXF2b0RxRGVXZkh5Q3dSSC1Ib2dqYkQ2aWxjVnh3Q19mcXM2TmVnRzBZdkNxbVJQWkFXV3FaUWhGeVA1UHRiVzU3VkxmdHk3elBlSi10WQ?oc=5",
         "domain": "yahoofinance",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T194052Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ohio freight summit focuses on trade, jobs and infrastructure",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXR6NTBZVlpPRTQ4U1l3VmdXTGItNG1fNFpyQ0tXZkNUX3BuSmozWkZkaGdaLXc0RmZ6SGZEUWplRk00djI5aW1teUtjXzNnQW5lR1MzTHFLRHZDTEJiejM4UnFjNjR5UnptMzBvejRzTFpfMktBeHA2N0RFYzQwMUo5UmV3XzhBU2NoeUxQV2I3SDZfczhGMElCYVBkZWhYRW50akgxa2I0Q3pJQWQzN0FYSDFZT0Js0gG-AUFVX3lxTFAtb2tmZW0ySzBNLS0wSmhCQmtlUHdCbUJaVmw3OWwwbVZNY29UdTZkVk5GeDFZNWVrRGdnTVh6TnJ3aml4Y2k0X0dTNlp3Z3ZSNndzbll3MjFvWWdrel8zaGozLVZvM0tsQmcxOFMybnh4ZkVYX3R3TTVFakJUVkhmSF9uaC1sV1hhWlJHbTNCa3VwZjdSM2FoaVNMZ2ozczNfa3ZUaHBlalFrdzc5QUJHNEZ4NWhwTjVNeVFCREE?oc=5",
-        "domain": "nbc4wcmh-tv",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T210000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Indian workers seeking U.S. green cards could face 179-year wait, report finds",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObDBub1NieUZTSXcySnFFb2ZIOU9DZGktS2k0eUpJc2VTRjJfN18wRXl4OExOaFlfS0Vvd2pya05LLUcwd3hNSXZmdG4zcVpQel9yNlkwX0lUWllWOFJySUJiMm1MaTg3d3oyRDA4ZEtLclk3ekU0VDdfejFuYzI2MU5lZWREd1pUZFE?oc=5",
-        "domain": "sanfranciscochronicle",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T130730Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Steelton duo charged with shipping narcotics, using kids to help traffic drugs: police",
-        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNRTVGV3hUemlBb3ZrcTVjeURVaHFnYWRydzNGNzBOdUF3UGNZNXRLTTFfU3hZdWd2WVl2NC1fQnM1SEFMWFNNZlZvbGtWNnZRMmNHcXRldW5nQjJsV1FwM1lxSWtLMTY4bkY4RzRuUFFhcU5NSlJIYVItN215ajhycDNtZ3NkMjVwNmpoYTdyWkpScXJQWkJHWDB1NkVrUGJhTFJiX0hTc2Y1YndXbC01MmFNV0ZuT3ZWUE1ERFhfR0Z1MTQyMmxJMlQ0eEY2cWlmY0tLSzBCR2dNTTdGSU0zaWNza1BmOVdERVRUTFZ5UEl6MWdsWmdOVUh6Z25BWGZPZE53dWxYWFdycVFmbkJtbTNVdkxNUGdXZjBQR2t3Vjk?oc=5",
-        "domain": "local21news.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T090025Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV0RuV3RmZTl0aWFqUWpWSHkza0MyTjFRT2RHZFJNdEMwbWhwTGh5Um13YXVmTWNrNTBpMS1NbWNBZExDTkJMbHlNWFV3WlNZZTd0T3ZGaXU4MUxsbWQ3ell6a2xTQkd4M2JwRDJ0NGJYR1dyUHBCTFdaRWtYYjVFRQ?oc=5",
-        "domain": "thehackernews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T113600Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Port Delays and Congestion Absorb 5% of Industry’s TEU Capacity",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVUpycUxvMndqVjhmMW1oZms5ajJEMl80dW9wNWRVZVhJejRjNHFRNDBjYy1wR1RvMmdlbTFMV3FLTFlEN3cya1RLbzJ5Tm43cm1KbS1Sci04VHRySFlXQ1llZ2JkYWhWWUswTFIyc0ktQkxoVGJZTmVCemVvN2FkdFEzSFpRZDRPTWxTZHRQdXV0NVJQQXd2LXM4YzVUREZnOUcxTg?oc=5",
-        "domain": "themaritimeexecutive",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T195113Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Gatik Raises $200 Million to Expand Driverless Freight Operations",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWnBDQmVUNGlybFRfdE1HWkhrOXVaQkxNY0xLWFhFWTNEd2lNdkYzRlRkN0IzM0YyLUVoM25IeDN3TmVzODVFNkYxLThDTjlDNWlhLVV2Z3ZaanJLQWllMTRseHV2MzFUaGRJZjVzdjhteU10QUoxM2EtajFvaGxHNzRwbDliN0tZSnNGc1ZQUnhMME54MklkRTRQdkZVam9mdzVPZVFR?oc=5",
-        "domain": "citybiz",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T100242Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Freight Pricing: Who REALLY Holds the Power?",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ3I3T2ZuLWhzWXhSd3RyZjdsZDVCRUNyX1dQSWVGdFhGNGIteXBjbTBETFJ3Wk83S2k2ODd3ZTk5bWhuUkljZ21GZnBuMlJnUHZWOEltYlFnV0kyMFRlWTliMl9JOXdkWXpNclB4LVp5ZGZHWTltcUNnZERCSFJzRVZ3?oc=5",
-        "domain": "freightwaves",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T184127Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Freight Market Health: What 13.57% Rejections Mean",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTnE4aW9HSmdMTWhyZFU5ZFkxTDQxT2VGSkRrU1JWWVhyRm0zTHVNWmx6VElqVzc2cUo5WDM4UU0ydm93MV9SVWtSLU01YXg3MjNsVVNpNlM1aFIyOGhiSGFnaVFLdjdtbkJwUmt1TVU3ZFBzRmdOTG54Y0hLTThEdzR0Skw4UnRYQWc?oc=5",
-        "domain": "freightwaves",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T183045Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Remington's New Subsonic Rifle Loads Now Shipping",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc3JfYkQ5YXRsSWVWcDM0LUJHckxGRGhOVVpQRkpDdWNWbGF6OWg3eVk2czdkTUJpUzZma21VaVgtVzdYb3hZUmkwRTV5MkdhSWNjcDFLTVFTaFdYMUt4U2dqeElEOGVBS3J4OHQ1ellTRVptRkxUOVlLb05lUFdrWHpPcXhrS1MzWlVzbzZWSDBEeDBIall3a0lNaGU?oc=5",
-        "domain": "outdoorwire",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T100158Z",
+        "seendate": "20260826T155900Z",
         "source": "GoogleNews"
       },
       {
@@ -341,57 +368,75 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Staffing Nearly Doubled in East Hampton Building Department as Litigation, Backlog Battle Drag On",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQal9JTGdQcU1lZnc4ZnpCeXRlRE1yNHZIVVJfTzFCajdFNVhaanM5Ykg1ZzFTUzVnRDZMR2ZWR1FuZHVNYzNnMjY4bGN2emFTX3JKems1RWdteHdjUGJOa0tIa2JodFpEZ2hYZWtNLXQzSGxTVXFBMmFNLXdqdjVnek8taEkyN1NUMjJNMmU1OW9rOTV0T1ZLbWFubkc2TllLaFMxQklPdDJGcTg?oc=5",
-        "domain": "27east",
+        "title": "NASCAR closing in on Memphis co. as new Truck Series title sponsor",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUNoSHhlc0JyV2ROdW9nZ1lsVDI4WUtDdjBBVUpPTzY3aUFZMEc1QVg2cFM4a0l2WGVMeUVJd3lJTFJtSUtWNHhKVUU2T2E4eEtWSG1JaEQxQkU4UTl2TDl3MjZJcVNIVkN4dEFNclVRVnZNM1NiWmhDTVR2TW5iMWYwS2lBaGFzNUx4ZWl0Ykk5YzlOOC1fWWEwanFsNUFUNWtFUGkyTQ?oc=5",
+        "domain": "thebusinessjournals",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T185700Z",
+        "seendate": "20260826T204800Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Global Container Port Congestion Reaches New High With 4.3 Million TEU Vessel Capacity Waiting To Berth",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMDVjVHE5SC1FZEtyQVlJelU1SmtTVk9UQnV6M3VsTzlDZXJUY0lhSVRtQmczLTRvWkJ3TjJJd2NodVJtb1ZlN2FtcF9ybmVpWEVCWkQ2MDBYdVlFS29HOXpYRkxYYm44YjRHLUpiSjNrQ0VTcGo1SnE5d2wxRzcxS3pnYUM5YVR1bzJjTXhTY0w4ckJobER0Y3hPV0V2aW14VmRRVWdtZHVNSlhZczRoN3JiT3VKbmZ5R1o5OXRBdFJkenh4OUZweU1NQTlvc2s?oc=5",
-        "domain": "marineinsight",
+        "title": "Temporary USPS Price Hikes Coming October 4th For Holiday-Related Mail, Shipping",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hejlWUHFoV3J1VHp6X29iZmkycWFKaUg2ZWVRdm9uUkZJTUgwZ1dvYm5JaDh3QnM1TTM1VmVsV3pVTVRjSW1VQU03a1o5S1hrUGhjZFRRRWlWOVdPWTFaVkpBZzZMZw?oc=5",
+        "domain": "newstalk870",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T090004Z",
+        "seendate": "20260826T124543Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Qatar, Iran discuss proposal for temporary shipping corridor through Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMFhpeFhSNjhXWHZEOUQzVE5vMVNFMDJGcjl3dUdLMHItMUxqZ3FpTkNCcWlVNVNsWGpWekpSWHAxYzItbkNOWHB5ckEyWWFPVERVaDJ6bWhYcXB5TmdGd0hRVWViTm1zbzU0MmhGRHhNSFJ1c01kR0Z3SnhDN1dwRDZ0YnhlRVE0cURuXzRMT0lIeXRFdGpETG95eVVqYl83blY0SFd2VXNXVEVqTHNEOFZjYlpKSTM3ZHBPTEFQUGtBUVdZLUNF0gHMAUFVX3lxTE5UeDI1RGRwWXdoZzB0aEI4cEpOX2hlQ0I2UHVNRjlTY1RDQ1BKRVdsQi1TV3JfbVVaVm5nQ09qM2RBWXBSVmFYRzdXNW4tYjlzUklWRDR6cHNYWklBam5lYTdKckZtbEV5UlJuQU4tQWZVRmxLYXYwTVZuUExXOXExSmZud0FXaG5wZllYNjhjYjZGNEhXdVlFYjIxdW1tOW9fSVpWOGxNWXBuX1NoUlpqSHpPS1pwZHE5UUpVZ0NLRzgyaTYyNTJzMnNwbA?oc=5",
-        "domain": "middleeastmonitor",
+        "title": "Nike Is Shipping Less On Purpose, And That Is The Case For Nike Stock",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVS1GakpTYXV3YTFkeVpIQnlVb2NVdlcydngyTVBHcVBneUNFa0Z1SWI5b2NraEh4Q2Q3VFliOGFvZ3dUblE0aHIxUmo0NDVDU0VqSGdRWmhoQnZ5Mm83a3ZMeXBuVTNjSjZXTV9oakpOOGFoWVBXellBQlp3bUhMZkJ2aE41MDhMTUpBRWlVdWdLTUNiUEZwQWw0MDlXUUpWSVRBdzJxR0NrLXBRVzRzTUQ2bnBGMUpyX2szNmRCMEFKbEVwUUg0?oc=5",
+        "domain": "trefis",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T074200Z",
+        "seendate": "20260826T170420Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Iran, Oman Agree on Revenue Sharing for Hormuz Strait Shipping, IRGC Official Says",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUY0S2Y3WGtxb3Vwa1RYang4NFpLWTlaVmRoZVZUM3hfeWw1TkdyWTZBaE1VWnIyZ2syeFNHZi1WX2EwZUd0TkxFR19WX2l6YURTa0xHUWVMcUc2Q0RmaWNoNDVaVGVNejNFVTZNcUNnVklmSHktSVliMTQ5aVJydktWYndnTExEMTRsS0pzZklUbjR0MTNkTGFvUzh4dnpHS2dhNXcxV2N5WTNCLWc?oc=5",
-        "domain": "caspianpost",
+        "title": "Iran and Oman Propose Temporary Shipping Lane Through Strait of Hormuz",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUZOalZ4bXJaTmhzTnBxbmREOW9KMHQtdEg4WVdqU2h6UDYzUUluOTIxOVA0aUtqOXhrSUdzLWhTbDkxdGV2dldIaUR6ZEN2NU12aU45YTJ4NVJWWlYzTWNaamhGS0pEMnY1cEhPQmJVZTFSSEJ0czBzaGdHWjJ0OXhRTUxqVGdQM09Td3FoMV9FYVZGWGtlcDlZZFFxZjVQclJPUVhBNlFFZw?oc=5",
+        "domain": "themedialine",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T130308Z",
+        "seendate": "20260826T082215Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Iran and Oman are negotiating a joint shipping corridor through the Strait of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX0I5VndFUHNzdXYycnhaRy1lWmJBVzdzQWdIQU9pRU5Sc1N0dDVONGtvalNpU0xETnY2VDB0Z1VLSlFrVmYxZnduQnNHZkNLREx5cWV2eHd6WUtCOG9NdUszcDlRWlNvNDF0VFJ3UU80MG1CT09BNDRBcldkckRjUHNWOA?oc=5",
-        "domain": "qz.com",
+        "title": "Nuclear power will fuel the shipping industry, Chris Wright predicts",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZHoxdGMzaDBBOXFtMlkzQVkwc3lBMXdGWEQxTUFtSUNIOHJlQU5URk0tYU9Ka2gtN25CMVQyRW1PaHJOMGtKM201RnFtbk9oc2F6UGVHaFpxVElOd1JSSndSUjFJazZwU3Ywb3VSLUdMcDg2UUx0alFuQzdDSGpYQnZVWE9LTVdMSHBxM0VQTDcwNFRWZ0FPMVVJZ1VZaU0tVHNQcmtRNm40b3ZTdE1kekwzYnBERHgxQ2o1ZVA0ODJNREFyYTM2enpB?oc=5",
+        "domain": "washingtonexaminer",
         "language": "",
         "tone": 0,
-        "seendate": "20260825T234756Z",
+        "seendate": "20260826T144400Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Gatik sees autonomous freight demand accelerate as it plans major fleet expansion",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMUFMYnN5TEFLSFhuTDNSVENmYUtqV053YTZQN0pmLUg4WGNKVnBTU1ZoVllmaktwR2diUmRXMzdMbUI5VEk3Sk9OQ0p5UW92UVd4Nl9wTUlEWGlxbEx5cF9rVjl5YXZva1ZlbWZCQ2Q5RGZNT1lqWFFmaEY5NXJCNUR3NERHSG9Qc0doMlpjR096b1BVb3FHLWdQZk1QZkFlWXFrWDBrYXJqYU1rcE9nNjRfSXc0WjFHMVR2dzA0WmUwcXJqcWRoQ19B?oc=5",
-        "domain": "trucknews",
+        "title": "USPS Holiday Shipping Prices Are Changing for Montana",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iY1lreGxqQWpJQzlMOWQzMDNfQ2JvQ1BjVUM4ai04UFNTQUt3WGx3SmxQTGRzaUtSR2VVUy03bDlPWm54eG0zc2F0OGkwdGI5Nk10cWxlZW9uN012bGZMS2hkcHFUUWxZNVJDMEg5ZEg?oc=5",
+        "domain": "newstalkkgvo",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T113952Z",
+        "seendate": "20260826T153804Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "ADNOC and KPC lease supertankers for oil shipping to Asia",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU2VvWEhWVTR4aWFzcTdBbmhmNExRTEc2LWhrQVF2Rk1FWW42NlpiUUNwOFZmcmREcEdJQWF2ZkN4d1U2RV9tVTA0MEpWMWhIUjhfdlpYN1RCeVBzZmtGMzNfaGxRNzVOMW5RdUVIV2FnVVFUY2Y1cGdLRjY1QjNWeElveGFnU2Jka2prVDVfZVBQMW1TSFI5QkR3NkJENkVyRzhYVQ?oc=5",
+        "domain": "marinenewsmagazine",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260826T152711Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE96cjBibnU4b2hJd3VMYWZhS2EtUXhudDdYaWdhbUJWaEx5OF9sd3BwdFA5dUhUTlBFeTl6QVYzcVMwdEJEWS1jOEg0Y2VtQVZSLW95bFYwMkxWSGxwZ1FrYzNMNk54T3N3TFJOcTBST0JDUdIBd0FVX3lxTFBzOWdXTm5HXzl0SkxEc2VPLXpDeVRJZnk4YTJjRndaZmZrVG03Yy1kMlplOV9EVzFkWWlkalFOMlZoZVlSWVF4c2hVOVZvdDBHUVRFbVhwdFpsZ1BnbmMyQ1VJYndaMDNpNTh5cDNlbG9NbUgxSWlR?oc=5",
+        "domain": "cnbc",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260825T171625Z",
         "source": "GoogleNews"
       },
       {
@@ -404,84 +449,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "ENH: Record Q2 earnings and strong backlog support continued high shareholder distributions",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORmkxbHFtb0pEbU96WVprWHNLYjROLVZrbXA1UExJeDZvWEc0OVVqSUlueVBlby1DS0wyN2YxN0Y4bTM3U2NOTkFSeXZlT3RENXh1d3BWcjhUMnBUS1BXUnVSVmMxVzlyUkpldXN6NUwwX3lBaXJFUWNGRm00WG5vc3h1SF9PSjJ1bEVRb1VRcXJydzdBR1d4TWZkQW5oSzdFT1liU3lyRXVkMHRpRDVhTTBfOEEwZml2c1VuV3F6QmJaaTNma3JtNS1WbDdOS3ZnYm5lR2pSWTFxN0FZUnVzLXlUNFVxZ1ljR0tjUUFoNDlpTlBTVzNmMGk5eWZXYjJ3NVNySnJFWUY?oc=5",
-        "domain": "tradingview",
+        "title": "Ship.com launches AI shipping tools for online sellers",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUm4yNzI3eXJIQ3JaUzU1eUlUSFB3c2RnX0dGNXFMSjZyUWNzby1IUmF3UldmTXFJWTYzYkdwX0Z5U2MwQ1pWeXNDLXpSUTc2YmZoTXpNZ3RKRHE3ZkNWOHVuRFVQS01CRjhET2ZDcWIwYWNwdmNlSWExdTE0dkpXWHZjdGhVWVpVY2xKNGl6XzU?oc=5",
+        "domain": "massmarketretailers",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T091956Z",
+        "seendate": "20260826T153134Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Sinotrans shipping profits climb despite weaker group earnings",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMEpCQ0xLUjh2MFhDa0RfVVd5TnEzbmdjQkdSdUduYXFxaUNaNUloU0NwZjVBd2tNUmFYS1o5OWNTZTRsaFhNc1p1UmZwT3FRNWx6Qkk4bFRpWnQ4MUJ4eHBGVUtGV010UXB6NHVlN1pnZmdSVDc3cDlwNEVWS3BXdno4MjUwWGZGT0hFZDIwZFRfNzdzMjlmU1M3b3NwbFgxVGZaTUNjWFp2RVhHVEotNXMzcHB2T0k?oc=5",
-        "domain": "tradewindsnews",
+        "title": "Alphabet Reports $514 Billion Backlog in its Cloud Segment",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeVNiVzVSZldtc3BiYVFzUXlTcmUtTzNaX0JzckF0Nl9zbDJ1YTdVTGRWbzMzc19fdjhPVlFtZUFEYTVJZHlDbFdHWXhvMW0yNmFwMFJsS25ocUJ6bk12dGV3MVJkRzFwZmNhS2VEZTYzNUlWM01IM2NfcFJ0S3k5VXd1eWxESW9adllsLXlGNUNTN2h1OEFz?oc=5",
+        "domain": "themotleyfool",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T085241Z",
+        "seendate": "20260826T173900Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Iran, Oman Discuss Temporary Shipping Corridor Through Strait Of Hormuz",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSHNBZWp2VUZFYVNSMlkzcWYzWkxtWG1peXFOZF9ZR2tzdllFbzBCTXVuTUFEWTNjMF92cHpjT1pJdzJiMGg2V0JVUWZrSUtQbDFURG5xak96WTFJUEV6SkJXdUQxZWstU1VELTgxZktWc0EwUFVEYXNOSUVvSVYzeUpHMWQ1ZHp4cHIwV1ZKTXdDQWFsZmpMeW5ZRUZteEtUellr?oc=5",
-        "domain": "marineinsight",
+        "title": "Usps Proposes Temporary Price Hike For Holiday Shipping Season",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1VRWlRTaEJ2YnVsalBUTmJzVVlNSFRuVHNRMzNfVjRneWVRZERWVldfSWZLU1JuLXZYWnUzVWhfTGRDSGwwMk1uM3JOTmlPQVEyZTFIMFBFOUVYSGpwTkM0LWZBQlBtY3JiQW5RejI4UXRvcGd6by0yUVhnajIxa21GQ1BiUW4zTnlFNW5GWGs2SXplR1FmdHpQLUZTd1BPQkJhVDNubGlRMml3TDhBU1g2X0wxaGtvVkNwLUlKd2RZMzQ?oc=5",
+        "domain": "news12newjersey",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T105748Z",
+        "seendate": "20260826T105409Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Container Shipping Nears Return to Suez by End-2026 | Red Sea Crisis Update - News and Statistics",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHA5Q0V6b0tHNXA2c1dPTWp2bU5wM0dyeDVzVl85STlxV3N1NTl1UDA2a0NuNzlDYXp3U1FkdXp4XzBYREhNQ1N0bm5SYzZXdms1SHhOTEM2Yzk0V1cxanVWVkFWNEZ3c1I1SFdxUWtac2F3d0Y5dG41UlZDVlBpYktaTnZCSFlM?oc=5",
-        "domain": "indexbox",
+        "title": "How could Panama Canal shipping cuts affect the global economy?",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbnFLYVhYMG5lSXJGT3BoeHM0RUVIb0c3bGpESDItVjRleXBSMzVTd1RDaVd3QnhMMVFDLVBpLVNxZkJBWWxkQnJsRzNfYkprX3pQLTBTbHQxMWJmN2N6Q1RINW1fLWk3LW1rRWYzeGFQNTJsYklXZHo1bF9rQnB4aGxYaXQxQ0Nt?oc=5",
+        "domain": "yahoofinanceuk",
         "language": "",
         "tone": 0,
-        "seendate": "20260826T101100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Price of Shipping Is Going Up for the Holidays, USPS Confirms, but Says Increase Won’t Last Forever",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbkZfal92TVJDVVRpQUl0dWphN29zMWJsazRGZlVHUmZMc1JQdmREM0I4d2x3QUhkOXJFbEdSTzRpaHRkaFRUNkRBZDkxYmVNd1FDVzdLYU8xTDdsYlljc3A5WG1MV2c4NU42WVNaNlhvVmNlLWFhLUl1UERJUG1mVjBoNlB3d0wzN3NRMkpRUzNyd1FGSTl2SGx1MERLQVliTkxz?oc=5",
-        "domain": "people.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T011035Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "IANA says intermodal freight activity could dip in August",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcWxkWGFOZlhPU09rWmVNX2tRY0gzZ2dMNF96MTdnelliLVJPcTdzZFNtU0FHTlNPV0d4QzRCQzJRMHFZQUVtSkhTQUdiekVMY2JwUFJINUtHbEgwbUZ0d1FQNkM5MnNVVjBVNWswU0lYTXJZQ3hkRERYVFFJa0NpeHBnS0R0cHFrVFBiMTlZejVzemRBOU5CdndHMlNhOGpCSUNkUExkNG9hNEhtQXVN?oc=5",
-        "domain": "dcvelocity",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T221031Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Judges say Montana public defender backlog taking a toll in Great Falls city court",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVGUxYmJZMWFtTkdvUV9KMVFDbmhhT0pydHByS0U2NlgwTENFZi0wb2pYOXFhNVVhWkFNSUZLeHpjbHNoeUpQS21BaGVYZ2tzNkJnbW5SSmdvWm9yaEc4YkZzNVc3UEd1blZVczU1MmVKOUlvT1FfV0dSbDU3X2pkMW01dFpLeHN1UkV3WVNpd3JIdG9HM0Iwb0FId1VWdlVvSVIweVN3?oc=5",
-        "domain": "apnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T192700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Utah explores nuclear reactors small enough to fit in shipping containers",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSklWZjh1VTVhN1BveVVCcEREclFGcUIwTnZFOXU3M2JpYW1qMkh0cFo3MW9SVWtKQi13U20zRHRaUU83d085S2tsZ1FUbmNYVnBpbVR6THk1WVpXSkh2SWJqNFlxaU55WTJ3YmJDQVBzUTR6a1p0UEJtZ21XdC02VGROT3BicFBXQnB4aVJHMW1LQ0xmQ2trNEhvVllEV0FMSnRnSHNzcEdVNEJ6SU1HVlRYZi10cldhRF8xYXp4VHAyNk52MFY4VXQ5dlJicFlvUGdNY2F4dEJHLTV4RE53VlM0cnBzXzQyQ2tJRXNOSWRtaHVLaFd3Qg?oc=5",
-        "domain": "hanfordsentinel",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T002225Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Gatik raises $200M to scale driverless freight to thousands",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xcFJXQ2JBTEVTMWd5bzA1RnE0VHlvRy0tUjBaTWN5eTBlRVFyd0hLUWUzQTJKTjFkZVdwdWszUEM3T2hTNkR0aUwxWTFWSjBYcTRUeF9DZm5FRldEZ1N3Qi1sU1JaOXVHNWtVOHVuUmo0bV9mQ0E?oc=5",
-        "domain": "freightwaves",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T175646Z",
+        "seendate": "20260826T171938Z",
         "source": "GoogleNews"
       }
     ],
@@ -571,6 +571,69 @@
   "entities": [],
   "events": [
     {
+      "title": "FedEx Freight expected to take over as Truck Series title sponsor",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcGZVR25VeDV5OWVYQUZ2R0thRUFMQ3VRYWY4a1JFbWRWb2kwdk5uRUZpTnNNcHAxdjA1ejBLZmZfS1pjZVJ6M0NpaWw4TjdFZWE0MWsybl9ZZ0FpdmtfYi1kS1h3TDMtX3FrY3JLM2o4bklJTVV3a0owMEhBblFrSTBWYUM5SkttVHptM2lWX1JkX001RFE?oc=5",
+      "domain": "jayski",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260826T200345Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Boston Scientific’s ordering, shipping disrupted in cyberattack",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ3Z5U3FjQmlybGpFTnhlell5djBiNlE2RjFLZllNME1UNXYyRWRrRE84RjFucnB6SnowWU5nbk95Y1R5bloxaVVfUjg3MXlvUVBtVFlpekxCQzVoQjdPcElGdlFic2RSNk1WdHMtUWhEUXUwa0MzVkhJNTNPZ2YtRGtENWYzeEVHZTNmc29HTEVJOUZOd3FXcjBWNmxKdkQxRnBQeA?oc=5",
+      "domain": "medtechdive",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260826T190546Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Freight recovery may not be long-term",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoOElZVkZ2T3BYTHAxZnNhVHoyWm9BSWpNTzczaDh1Z1BrRWNiS3RPLVZJem1MazNEM1pCaEpaV09zbm5ua0JwdXdINWlGbXdrdHVsWTFsLTJGX2pSeC1oUVdGSzc3VGthbHJrck9n?oc=5",
+      "domain": "landlinemedia",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260826T184304Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Boston Scientific says cyberattack disrupted order processing, shipping",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjRDR0FuNUNXcmx1NDZIRktNdjdpdUV6R2lfeWU3bEFpYmFwZGlubEdQMG9PNUNrYV9LVU9jQ1hpc1dhVU1YZ3VsdERjTlRNT1lFX3QtVEFpdEdDVVhxQk5UOXlTNFlUdmxUc0JBS29aVEdNVG91RWl5UkExcjJPeENsQlMtLWJJM0JiOEJPY1BUR1UwYTdObzZmcWZQc3FDWGl2WGxpc05IMlEyNnNNc1d3?oc=5",
+      "domain": "cybersecuritydive",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260826T150430Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "NASCAR near deal with FedEx Freight to be main Truck Series sponsor: Sources",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdktycVNfQnpvRzltVHVkb3ZEbWdsQ29PNF9jYU5wcF9fbDlOaW9HS2VSLWlJSXA1WFd0M2RyZ0tRYzcwa0tBMGF5NXNKNkxTMEZOd203bGJsRUlEczlHMi1ncnBJUTQyTzAtQWdoNGY2VE1Oc3VVZEVOdVg3MF9sMzFtdkxXS1F5Qk1tMG43dVFjbTNPYU13NERn?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260826T191018Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Midwest dedicated carrier Behnke buys AG Freight",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb0lDU0poNXNlY1FfeTdBV0doVENWUU43bFR5YWFlM1RhRkZaLWx0Ykw4MVJNSF8wcTY4c0U5YWR4bDlDMzFHWDlKQXJLUWxwMTRlcHh3OWFrbTROX2JxZFhLdTFkNVhkT3lQT0J6aGVtdlJ3Ri1COS0wbTMyc093UTFybFVBYi00WHc?oc=5",
+      "domain": "freightwaves",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260826T154241Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Boston Scientific hit by cyberattack, customer shipping impacted",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeHY2MHZoeUlKaGkzenY5T2hWUUhReTItdy0tVlE5cGFYbzNndzkwc29teUIwRVlISERBLTBseHd1SjNkdXVBQ0drSVBRYmtEN21qalBfdHdOTW1jMlI2d2R6dmhFX0E4UktEUUZRWVlpNXZOQXRWaEQxVjJjNU5GMk1hNE1ndkNEeUhvSzZ5Wks5TFVBYXFxb2p3?oc=5",
+      "domain": "worcesterbusinessjournal",
+      "language": "",
+      "tone": 0,
+      "seendate": "20260826T161124Z",
+      "source": "GoogleNews"
+    },
+    {
       "title": "Port Congestion Sets New Record at 4.3M TEU in Stranded Volume",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFhxSmdQZEswX1dCZmVYUGtWQ3RlRUo0QkwtWEZOUUF1emhUVUZsdU5uRGVwZUdRU2VvRnFfXzZvRnhtOU5TeC0tMldVSTVxdkpJZHZZOGJaQ0thM2x1Z0lodERWTUJNTnBhTEU0YmE0NnIyQy1TZ1N3WDdrVmVNLVYyWXEtQ21vYjRFVm85dkNtUjl0eXQ1TTd4MTdnalY1aXc4?oc=5",
       "domain": "themaritimeexecutive",
@@ -580,129 +643,66 @@
       "source": "GoogleNews"
     },
     {
-      "title": "The Shipping News Stars",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcEJWcXU1RTdSYm9vTGFlYVVySGRuUGJ5MFZPNGpjR1RSV0c0LUJPbFoySFF1a2JJQlRVZWpOLWcxRUJrX25yTVE4bmRhRUJpWnR3QzRDVnJJMGJiOXRXbFktdmg1U2ViQVZ2bWlkOV9PSENPRTQwc0ExWC1iNjVyM2FGa05CaUV5U2VxQWxwODNJVER5SGU2bG5ycUVnTTItemxzSFBHcGhfX3Nqb1lON3NzVGtfZDIyUkhFVnRLalZjMlNQa292ZnZVY0FUWjBiYnhPRXJpSHBSTHdhNFpPU2RxZkp1N01Bb1pCUTZZM0NnbUREd1RpNQ?oc=5",
-      "domain": "columbiajournalismreview",
+      "title": "Shipping holiday packages with US Postal Service to cost more this year - See the temporary price increases",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ0o4OHF2N09UeEFNM2ZRVFBQc1Q1Z29pS3BjVUZXTXd5dnpvRXp5dnhldEFsMnFVVVc4TF90ZlQ0Ni1tcnJOaDVmOEU0RC13UjVQR2pxd1hWcWFrMlJNeDZoaXBkbFhYdmhvbnVNZ09SU1k3NVg4SFJzbG56V1lMNUt6SQ?oc=5",
+      "domain": "livenowfromfox",
       "language": "",
       "tone": 0,
-      "seendate": "20260826T100043Z",
+      "seendate": "20260826T155114Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Freight's supply-driven upturn: How long will rates rise?",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQay1mNFFPOGlodlc1MG14OFhWWWo1eTQzay1KY0d2Z2Z5Q09OdjVCYXlNU3ZfY0tBeDc3am9MZnZyYjVYblEyMllqMFFHTW1xUC1zOWEtN204VFBrRGgtZXluOVphM0tNcjRuNm41bElhX2c3emJfbDI3UmVhTEt2UXNtR0ctTDRrUFRKOWlEdU1pY0YyemZSZnRHUmotMThyNjdYUThSVnJFUzFrb3FIeV9hOFpmVWhn?oc=5",
-      "domain": "fleetowner",
+      "title": "Council weighs options to address $74 million accessibility backlog",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR3l3MWZCbkthLU1DaE5QTUNVS2w3U3gzM0NEOXdLdXAwTnp3NHVRM2pUV0VtSXE0a0RwbDZKYXZ6U252d0R2UE5mbE5MajkwdXoxMkY1d2M1a2ZqNEFnWlJVaEo5TmdvM3ZUWENpWUJYdmstMmZqME5WOE5mNzhDVUJ6VFdkSTRueUFOZTQ1dG9Ic2JwQzJScw?oc=5",
+      "domain": "civiclex",
       "language": "",
       "tone": 0,
-      "seendate": "20260826T131424Z",
+      "seendate": "20260826T180001Z",
       "source": "GoogleNews"
     },
     {
-      "title": "NHTSA Facing Implementation Backlog On Mandated Safety Rules",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRbF9WWWFNaEt6RjFaU3FlNXI4cEhTUktzZ240SzVQMnpWNVNaR0ZZVDIxSmVqbW85enA3RWliN21XOUszRVBPaDRBaFg2R2JTMk9ocy1sdDhnQlM2Q0VHeTBodmxkQlZpcTc0WDNiemp5ejBnbVk4?oc=5",
-      "domain": "legis1",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T131022Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "USPS Raising Mail, Shipping Prices For the Holidays",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hejlWUHFoV3J1VHp6X29iZmkycWFKaUg2ZWVRdm9uUkZJTUgwZ1dvYm5JaDh3QnM1TTM1VmVsV3pVTVRjSW1VQU03a1o5S1hrUGhjZFRRRWlWOVdPWTFaVkpBZzZMZw?oc=5",
-      "domain": "newstalk870",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T124543Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE96cjBibnU4b2hJd3VMYWZhS2EtUXhudDdYaWdhbUJWaEx5OF9sd3BwdFA5dUhUTlBFeTl6QVYzcVMwdEJEWS1jOEg0Y2VtQVZSLW95bFYwMkxWSGxwZ1FrYzNMNk54T3N3TFJOcTBST0JDUdIBd0FVX3lxTFBzOWdXTm5HXzl0SkxEc2VPLXpDeVRJZnk4YTJjRndaZmZrVG03Yy1kMlplOV9EVzFkWWlkalFOMlZoZVlSWVF4c2hVOVZvdDBHUVRFbVhwdFpsZ1BnbmMyQ1VJYndaMDNpNTh5cDNlbG9NbUgxSWlR?oc=5",
-      "domain": "cnbc",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260825T171625Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Iran, Oman discuss temporary shipping lane through Strait of Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObjRTcll2S1lXWWkxcGhOdU5vVFVfVnpad2d4bk5oV0x1Ry1LT1B0T2ZCcXcwRXBXbDJSVl9jN3VJakF3M29OQko2MGR0WE1CZFJrWl9BUldISzFBQVdDOUxreDE4SWpubUcwS05BN2lXRmI1Z3BHY0d3VE5UMW5WZ1pXSjZKOUxqaVNGd1VYNUhLS0tNUm4xMmJxRm1xREZ5YmRlclhqQ1Z4Q2PSAbABQVVfeXFMT2NrREp4YkVlbWhqeFRPbGJhMU1aYlVOR3dsbTc3WG1rd3VaaWVqNGEzYUxaS2RXdXpBY0pqNDlhaG9oMm5vZFZ3WEFLOXk3aDFYZ1poaVhhblNaUjdDX0ZuMGgwNlRHOE5BLUdaQnRGYjYwdElVOEJ1Zm5ZblljOEZnQXBLOHBGRDZmUERIRnZWTFZWQTAtSU5LQWFDaDZIWWo4bHF1ZEpBN094UjllTUo?oc=5",
-      "domain": "aljazeera",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260825T200210Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Iran and Oman Propose Temporary Shipping Lane Through Strait of Hormuz",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUZOalZ4bXJaTmhzTnBxbmREOW9KMHQtdEg4WVdqU2h6UDYzUUluOTIxOVA0aUtqOXhrSUdzLWhTbDkxdGV2dldIaUR6ZEN2NU12aU45YTJ4NVJWWlYzTWNaamhGS0pEMnY1cEhPQmJVZTFSSEJ0czBzaGdHWjJ0OXhRTUxqVGdQM09Td3FoMV9FYVZGWGtlcDlZZFFxZjVQclJPUVhBNlFFZw?oc=5",
-      "domain": "themedialine",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T082215Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Usps Proposes Temporary Price Hike For Holiday Shipping Season",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUtuZms5RzA0eTJqMVI1SzluTkFPcy1ROEpjVUtRY1ptNUlyZVdpdW93RC16aW5nYjk0TWFFWnB5WWtPRDJudk1Pb3E1SjNMWlRLUXpwRkthTVFSSFFuZXlQQm9iZlZUc3RHTVhBQ2pNcGl6NHAyQVZmdDJidlhMTnlzOWJkTjdxNTU0WnVYbTBRWGpjU3VVTmc4RGV6Y0o4QUoyY0xxMzRoNGxEdHpNODBwNVVWX0c3eHNuQzRQNGRtemU0?oc=5",
-      "domain": "news12longisland",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T103815Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Shipping Oil Through Hormuz Costs $20 Million, Total CEO Says",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGFqcF9mVjBxWXpaV3lIUmx6QjRVbWNoaHRXNklaQ3BfZ3RIOVBhTzN4ZmZXcXJIeVZWcndDWE5Pa3ExQ0k0aVVsVHo2WnRDSG9nNjVjYkEtRHFFRnNPbjlkOEZCdW9IME1sQ2pmRmNDOG93THpiNzJGblNlSzRKMXJ6dzFfZlZxdS1EcHNR?oc=5",
+      "title": "PENG's Backlog Keeps Growing: Is Revenue Visibility Improving?",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmRMbWljSjVuaVByZ1FNOHNsa0xSdXFFR0cyazFGRkdVSHlCXzlTdHJaRkZzdnU3aXpmdXRjMFgwNDMtelRYUXRhYU5zd0JxYk5INXJ1Z1lJLXRpd1A5Q2s2cjlQY1htSkxsSjFDbTN0T1JINmJIQjltenI0U01Yci1ibTdxaUJuVmNlRlVuWnNuV0RMMDBCRGNKdXJGeDh6?oc=5",
       "domain": "yahoofinance",
       "language": "",
       "tone": 0,
-      "seendate": "20260824T143313Z",
+      "seendate": "20260826T150600Z",
       "source": "GoogleNews"
     },
     {
-      "title": "USPS seeks holiday shipping rate increases for package deliveries",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmxSNXNhV3Jtb0tSODZrZnZqcmt4b2I1WUVoRURQa05za3gyQTA1TEY1Q3JENE1XYUhUR0w1Xy1VOGpBSEFBcnp2Y3dORzduaEUtcmc5TFhMa0Fzd29LV0ZYelNhYmQtY3RqSlNxLUx1ZnFxRnJoOXFCNUpUd3ozQjJLZDFjd002QTMzdURkcmVVRm5rWmJkdUFjUXhSaEEwcnBhc0RDbzl3TnMzSk5peERwWmJ1LUE5LVF6aFJqMWdWMmw2VEdHTTd0ZTFEeEowNlNrazFqT2MtSDR2?oc=5",
-      "domain": "cbs19.tv",
+      "title": "How to cut hidden freight costs and protect your margins",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd0o4c2lkSW8xa3RmaE9fcUd1TEhmSm5PUi1HbnkxdXhZTVpUdlNmUHBXWXhkdGlPTmdFbWVSXzV0VnAwTjNKREJnZkV5UURaU1N1ZkJUVElLLWx0X2ZHcm95a0dzcVdzMzJmLUVUUU5keU90YUJXYkZmZmZha1gxcFMxZU0zNHJDdl9oSW1mR0RYbGJneEtCZklNeWtjUE9lc1d1X2VuRUpRQQ?oc=5",
+      "domain": "newhopenetwork",
       "language": "",
       "tone": 0,
-      "seendate": "20260826T110600Z",
+      "seendate": "20260826T205544Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Battle over cleaning up shipping set to resume at London talks",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVE4eHhNOWVMX1JtUXRsNlE5Y0lhdzZYZjBORmVCRWY5dEF0aGpDbWg2TThmbEFvU1BveEJRTGtEZ29jRkFacUVKWFIyRnRzdzJlcWVCbTRIN1BvcnFSdFd6c2RhejNEeXA2bWdTUDF3aTJVRENQNnp4QlRFZi1HY1ZNdDktWXMxc1U3c1NuWDdwRWc4TGdCZ0sxRHR5LV82N1drYnFMbUZ2NzE3?oc=5",
-      "domain": "climatehomenews",
+      "title": "$124M approved for I-5 freight lanes and safety upgrades in Shasta County",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUWdNd3hTTU43QTNuZUV4ejdfcmVVSG5wdjBnWURfNDE1WFE0XzRFbXZfTTloTmhJSWVSMXhKT1NzMkYyTG1ERFdmSm1qRkxTVGdINmtBNEhQeS1WWlZFRmxmanZTZUw0ZDV6Zkl2ejJ0M3FneG9MWFlXQW5lRnRpRzJ1V0cyMVhidjFubHlxUnZrSXpGTW5pbmVaWWJESnlac3BSZw?oc=5",
+      "domain": "krcr",
       "language": "",
       "tone": 0,
-      "seendate": "20260826T123258Z",
+      "seendate": "20260826T173455Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Legislative committee reviews DA funding formula amid Brown County case backlog",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY2c3WlJvcnF2MWlGcmRxU3k4ZXdydVY0VHY2MW0yZHN1OW1uNUhuTTFnRnl1dExpOG4wZG1seUpMRHMwa0hka1FVMHVjRWFUTXRGV3hQN0RUQlFVVnpIMlBsbVZTV0JfYkstVWdzZkpEZGtyckhZZ0tiYWdveU9ib0dSYXJ0ZnJEYUtaUXllM2hVbGxfY21oakFUdnJzQWhKWnRnMXg3QmxpcjIydDVNX1dR0gHGAUFVX3lxTFBZWmVoMUhwZ212OFQ4VG9WNmpiVHJRcERSVnRMb21jSFV2SWVReDUxXzZESlYzYXdxNFFNOGFid2JnN2hVT0NiZFlQQlNBU2dNWm1PaDNZNUlNWUpqZUEzWURkU3dFWWFOZVFJcmFaLWY5eFB6NmhjcEZUUlV4azVyZjV4eW9yRVdDZmxGZ0RKRkRpeEw1c0ltcFM0RTN1cmxIQ2Z1eUNXWXNTWWtMWnRUUEl5MHZLRHRaRVUtUmt6Wm5nazdJQQ?oc=5",
-      "domain": "wbay",
+      "title": "Push to tackle $23 billion backlog for National Park Service repairs",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVktIOGRXVV9BN19BT0RHakcyOTdmSXRnZ2hOU3ZCSWpNOWNMZ21Ca25mdTk5MEJWQXpTcmJZbHZfRWlfWmRfT2lObldTcVBNTzBEV1Rhd1lSTTQ1aWhJMnNpSGRUaGhFeDJkaWY4bi1rd1ZfSlN5QzJrMUVfY3p1dnB3Vm5nZXRadnJiZWJCZzV6R1VpUmZsN0lmR0syZmFn?oc=5",
+      "domain": "wtopnews",
       "language": "",
       "tone": 0,
-      "seendate": "20260826T031500Z",
+      "seendate": "20260826T165317Z",
       "source": "GoogleNews"
     },
     {
-      "title": "ACHD proposes Star Road widening project to ease Treasure Valley congestion",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0lsUFlsQmRjVFVMVEt1Y1RJTG02a0ZnZXZBYWxXRU1DWERsZXhrWE5kTE9WUHVMU3NkYndYWE5vMEN3QjBTMVhZUWllSFpDMnVMOEJZWDg4VUoyRGFWYWJZUk01Y1RYTlVtMW04ZFYxRkJ3akUtb05NdGw3ZmJTTkZiWEttWnRvTUF2MFdXTk1OcEZ0TlBaV0NZTlNnR2thS1lLcUdR?oc=5",
-      "domain": "idahonews6",
+      "title": "Saudi Arabia considers introducing cheaper insurance to increase shipping in Middle East - report",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CaHdrbXFXR1VRVEFFSjdyYVRtTUg0d1BLN0dYNUVzcWkwOGMwajRydWdZSmZqQnM3b3phaUllMTRGSHJkT1BfclF3ZjhXbk5qenIzYmxVb1gyM1Fq?oc=5",
+      "domain": "thejerusalempost",
       "language": "",
       "tone": 0,
-      "seendate": "20260826T132915Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "New York City Found Congestion Pricing Improves Air Quality",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORllDbXBnVmxXb3FqVE93akJUbXpIdmVoQ0syVGw5Y2JQUjBCVTJMYWdmZi1yYjFqVC1NT1p5dFlWZDZmZlhWVGl5Y3VlQm9tZXM1TjJXcEtwUzc5OHhTZm41dWJVR1NVZGtuZU9jV1NEeTFySE9zbFdtSnA0NjlZRTdnMUJ3MV85cldCX2o2RQ?oc=5",
-      "domain": "cleaningmaintenancemanagement",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T093011Z",
+      "seendate": "20260826T163516Z",
       "source": "GoogleNews"
     }
   ],
