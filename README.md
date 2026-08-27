@@ -1,29 +1,29 @@
 # Port Congestion Pulse
 
-[![Pages](https://github.com/MonarchCastleTech/port-congestion-pulse/actions/workflows/pipeline.yml/badge.svg)](https://github.com/MonarchCastleTech/port-congestion-pulse/actions/workflows/pipeline.yml)
+[![Pipeline and Pages](https://github.com/MonarchCastleTech/port-congestion-pulse/actions/workflows/pipeline.yml/badge.svg)](https://github.com/MonarchCastleTech/port-congestion-pulse/actions/workflows/pipeline.yml)
 
-Port congestion, trade-flow, and shipping pressure indicators.
+Autonomous 0–9 day early warning for global port-disruption pressure.
 
 **Live dashboard:** https://monarchcastletech.github.io/port-congestion-pulse/
 
-## Run locally
+## Model
+
+- 35% IMF PortWatch port-flow distortion
+- 25% IMF PortWatch chokepoint-flow distortion
+- 25% MET Norway/ECMWF seven-day port weather forecast
+- 15% GDACS hazard proximity
+
+No account, API key, or language model is required. Failed components are isolated; a validated component may be retained for at most 72 hours and is labelled retained. Available weights are renormalized.
+
+## Reproduce
 
 ```bash
 python -m pip install -r requirements.txt
+python -m pytest -q
 python pipeline/port_congestion_pulse_pipeline.py
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000`. Direct `file://` access cannot fetch `data/output.json` in modern browsers.
+Open `http://localhost:8000`. Full formulas, assumptions, thresholds, limitations, and primary-source links are published at `/methodology/`.
 
-## Automation
-
-GitHub Actions refreshes public data every six hours and deploys the static dashboard to GitHub Pages. AI briefs are optional: configure `OPENROUTER_API_KEY` as a repository Actions secret. Without it, core collection and dashboard deployment remain available.
-
-## Data notice
-
-Source availability varies. The dashboard identifies its generation time and operating mode in `data/output.json`. Treat indicators as decision-support signals, not verified ground truth.
-
-## Brand
-
-Part of Monarch Castle Technologies. See [BRAND.md](BRAND.md) for approved asset use.
+GitHub Actions tests the model, refreshes public data every six hours, commits the validated snapshot, and deploys GitHub Pages.

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Methodology — Port Congestion Pulse</title>
+  <meta name="description" content="Reproducible methodology for the Port Congestion Pulse early-warning model.">
+  <link rel="icon" href="../assets/product-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <style>
+    .method-main{max-width:1050px}.method-hero{padding:clamp(2rem,6vw,5rem) 0 2rem;border-bottom:1px solid var(--line)}.method-hero h1{max-width:850px}.lead{max-width:820px;color:var(--muted);font-size:1.05rem}.method-section{padding:2rem 0;border-bottom:1px solid var(--line)}.method-section h2{font-size:1.55rem;margin-bottom:1rem}.method-section h3{margin:1.4rem 0 .4rem;font-family:var(--serif)}.method-section p,.method-section li{color:var(--muted)}.method-section li+li{margin-top:.45rem}.equation{overflow-x:auto;padding:1.25rem;background:var(--card);border:1px solid var(--line);color:var(--text);font:14px var(--mono)}.weight-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.7rem}.weight-grid article{padding:1rem;background:var(--card);border:1px solid var(--line)}.weight-grid b{display:block;color:var(--gold);font:24px var(--mono)}.weight-grid span{font-size:11px}.method-table{min-width:680px}.code-line{padding:.9rem 1rem;background:#02080d;border:1px solid var(--line);font:12px var(--mono);overflow-x:auto}.citation-list a{color:var(--gold);text-decoration:underline;text-underline-offset:.2em}@media(max-width:760px){.weight-grid{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../"><img class="mct-mark" src="../assets/mct-mark.png" alt="Monarch Castle Technologies"><span class="brand-rule"></span><img class="product-logo" src="../assets/product-logo.svg" alt="Port Congestion Pulse"></a>
+    <a class="text-link" href="../">← Live warning</a>
+  </header>
+  <main class="method-main">
+    <section class="method-hero">
+      <p class="eyebrow">Version 2.0 · reproducible specification</p>
+      <h1>How the early-warning calculation works</h1>
+      <p class="lead">Port Congestion Pulse estimates global port-disruption pressure over a 0–9 day horizon. It combines abnormal vessel-flow patterns with independent forecast and hazard evidence. It does not claim to measure vessel queues, waiting time, a confirmed closure, or the probability of a specific event.</p>
+    </section>
+
+    <section class="method-section">
+      <h2>Model structure</h2>
+      <div class="weight-grid">
+        <article><b>35%</b><span>Port-flow distortion</span></article>
+        <article><b>25%</b><span>Chokepoint-flow distortion</span></article>
+        <article><b>25%</b><span>Seven-day weather forecast</span></article>
+        <article><b>15%</b><span>Current hazard proximity</span></article>
+      </div>
+      <p class="equation">Score = Σ(wᵢ × componentᵢ) / Σ(wᵢ available) + concurrence bonus</p>
+      <p>Each component is bounded to 0–100. If a source is unavailable, its weight is excluded and remaining weights are renormalized. A failed component may retain its last validated value for no more than 72 hours and is visibly marked retained.</p>
+    </section>
+
+    <section class="method-section">
+      <h2>1. AIS flow components</h2>
+      <p>IMF PortWatch derives daily port and chokepoint activity from Automatic Identification System messages. The model evaluates 12 high-activity ports and eight high-activity maritime passages.</p>
+      <p class="equation">Δ = 100 × (mean[xₜ₋₆ … xₜ] / mean[xₜ₋₃₄ … xₜ₋₇] − 1)<br>pressure = clamp((|Δ| − 5) / 35 × 100, 0, 100)</p>
+      <p>The transformation is two-sided: an unusual surge can indicate bunching or capacity pressure; an unusual shortfall can indicate closure, diversion, demand interruption, or disrupted throughput. Values within ±5% score zero; deviations of 40% or more score 100. Entity scores are combined using 55% activity-weighted mean and 45% mean of the three largest anomalies.</p>
+      <p>PortWatch is an AIS-derived proxy. Reception gaps, ship reporting behaviour, revisions, and calendar effects can affect the series.</p>
+    </section>
+
+    <section class="method-section">
+      <h2>2. Forward weather component</h2>
+      <p>MET Norway Locationforecast supplies a 0–9 day global forecast based on ECMWF data. At ten high-activity port coordinates, the model evaluates the next seven days.</p>
+      <p class="equation">wind = clamp((maximum wind − 12 m/s) / 14 × 100, 0, 100)<br>rain = clamp((maximum daily precipitation − 30 mm) / 90 × 100, 0, 100)<br>site pressure = max(wind, rain)</p>
+      <p>The component is 65% mean of the three most exposed sites plus 35% mean across all evaluated sites. It is a screening indicator; point forecasts do not capture berth-level waves, currents, local operating limits, or port-authority decisions.</p>
+    </section>
+
+    <section class="method-section">
+      <h2>3. Hazard proximity component</h2>
+      <p>Current GDACS tropical cyclones, floods, and earthquakes are matched to the nearest high-activity port using great-circle distance. Event alert level, reported severity, and distance determine pressure. Calibrated inclusion radii are 900 km for cyclones, 300 km for floods, and 350 km for earthquakes. The component equals the mean pressure of up to three highest-scoring matches.</p>
+      <p>Proximity is not impact. GDACS points may represent event centroids, while real hazard footprints are spatially complex.</p>
+    </section>
+
+    <section class="method-section">
+      <h2>Concurrence and alert bands</h2>
+      <p>A +5 point concurrence bonus is applied only when at least one AIS flow component is ≥50 and an independent weather or hazard component is ≥40. This rewards cross-domain confirmation without allowing correlated AIS signals alone to create the bonus.</p>
+      <div class="table-wrap">
+        <table class="method-table"><thead><tr><th>Score</th><th>Band</th><th>Interpretation</th></tr></thead><tbody>
+          <tr><td>0–24.9</td><td>Baseline</td><td>Ordinary variation</td></tr>
+          <tr><td>25–44.9</td><td>Watch</td><td>Monitor emerging pressure</td></tr>
+          <tr><td>45–64.9</td><td>Elevated</td><td>Material cross-system pressure</td></tr>
+          <tr><td>65–79.9</td><td>High</td><td>Strong disruption conditions</td></tr>
+          <tr><td>80–100</td><td>Severe</td><td>Exceptional pressure; verify operationally</td></tr>
+        </tbody></table>
+      </div>
+    </section>
+
+    <section class="method-section">
+      <h2>Reproduction</h2>
+      <p>All transformation code, thresholds, source URLs, generated evidence, and tests are public in the repository. No API key or language model is required.</p>
+      <p class="code-line">python -m pip install -r requirements.txt</p>
+      <p class="code-line">python -m pytest -q</p>
+      <p class="code-line">python pipeline/port_congestion_pulse_pipeline.py</p>
+      <p>The run writes a deterministic schema to <code>data/output.json</code>. Source revisions or later execution time can change observed values. GitHub Actions performs the same commands every six hours and publishes the resulting static site.</p>
+    </section>
+
+    <section class="method-section citation-list">
+      <h2>Primary sources</h2>
+      <ul>
+        <li><a href="https://portwatch.imf.org/">IMF PortWatch</a> — daily AIS-derived port and chokepoint activity.</li>
+        <li><a href="https://www.imf.org/en/publications/wp/issues/2025/05/16/nowcasting-global-trade-from-space-566929">IMF Working Paper: Nowcasting Global Trade from Space</a> — construction and limitations of PortWatch estimates.</li>
+        <li><a href="https://api.met.no/weatherapi/locationforecast/2.0/documentation">MET Norway Locationforecast 2.0</a> — global 0–9 day forecast documentation.</li>
+        <li><a href="https://www.gdacs.org/Documents/2025/GDACS_API_quickstart_v1.pdf">GDACS API quick start</a> — event data and API definitions.</li>
+      </ul>
+    </section>
+  </main>
+  <footer><span>Port Congestion Pulse methodology · version 2.0</span><a href="../">Return to live warning</a></footer>
+</body>
+</html>

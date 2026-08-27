@@ -1,133 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Port Congestion Pulse &mdash; MCT Intelligence</title>
-  <meta name="description" content="Port congestion, trade-flow, and shipping pressure indicators.">
-  <meta name="theme-color" content="#071522">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Port Congestion Pulse — Early Warning</title>
+  <meta name="description" content="Autonomous early warning for global port and maritime chokepoint disruption pressure.">
+  <meta name="theme-color" content="#06131e">
   <link rel="canonical" href="https://monarchcastletech.github.io/port-congestion-pulse/">
-  <link rel="icon" href="assets/product-logo.svg?v=2" type="image/svg+xml">
-  <meta property="og:title" content="Port Congestion Pulse">
-  <meta property="og:description" content="Port congestion, trade-flow, and shipping pressure indicators.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://monarchcastletech.github.io/port-congestion-pulse/">
-  <meta property="og:image" content="https://monarchcastletech.github.io/port-congestion-pulse/assets/mct-mark.png">
+  <link rel="icon" href="assets/product-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<body data-project="port-congestion-pulse">
-  <a class="skip-link" href="#overview">Skip to dashboard</a>
-  <header class="header">
-    <div class="header-brand">
-      <img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
-      <img class="product-logo" src="assets/product-logo.svg?v=2" alt="Port Congestion Pulse">
-      <div>
-        <h1 class="visually-hidden">Port Congestion Pulse</h1>
-      </div>
-    </div>
-    <div class="header-meta">
-      <div class="live-dot"></div>
-      <span id="data-mode">Auto-refresh: 6h</span>
-      <span>|</span>
-      <span>Generated: <span id="generated-time">&mdash;</span></span>
+<body>
+  <a class="skip-link" href="#overview">Skip to warning</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Port Congestion Pulse home">
+      <img class="mct-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
+      <span class="brand-rule" aria-hidden="true"></span>
+      <img class="product-logo" src="assets/product-logo.svg" alt="Port Congestion Pulse">
+    </a>
+    <div class="live-meta">
+      <span class="live-pill"><i></i><span id="mode">Loading</span></span>
+      <span id="generated">—</span>
     </div>
   </header>
 
-  <nav class="nav-tabs" aria-label="Dashboard sections">
-    <a class="nav-tab active" href="#overview">Overview</a>
-    <a class="nav-tab" href="#map">Map</a>
-    <a class="nav-tab" href="#llm-summary">Analysis</a>
-    <a class="nav-tab" href="#sources">Sources</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a class="active" href="#overview">Warning</a>
+    <a href="#pressure">Pressure radar</a>
+    <a href="#outlook">Forward outlook</a>
+    <a href="#sources">Sources</a>
+    <a href="methodology/">Methodology</a>
   </nav>
 
-  <main class="main" id="overview">
-    <div class="alert alert-info" id="status-message">
-      <strong>Intelligence Status:</strong> Real-time global port congestion index with supply chain disruption alerts.
-    </div>
+  <main id="overview">
+    <div class="status-strip" id="status-strip" role="status">Loading validated public data…</div>
 
-    <div class="stat-grid" id="stat-grid"></div>
-
-    <div class="grid grid-map">
-      <div>
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Global Activity Map</div>
-              <div class="card-subtitle">Geolocated coverage Â· updates every 6 hours</div>
-            </div>
-          </div>
-          <div class="map-container" id="map"></div>
+    <section class="warning-panel" aria-labelledby="warning-title">
+      <div class="score-block">
+        <div class="score-ring" id="score-ring">
+          <div><strong id="score">—</strong><span>/100</span></div>
         </div>
-
-        <div class="card" style="margin-top:1.5rem">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Trend Analysis</div>
-              <div class="card-subtitle">Signal activity by hour Â· current snapshot</div>
-            </div>
-          </div>
-          <div class="chart-container" id="timeseries-chart"></div>
+        <div class="score-caption">Disruption pressure</div>
+      </div>
+      <div class="warning-copy">
+        <p class="eyebrow">0–9 day global early warning</p>
+        <div class="warning-heading">
+          <h1 id="warning-title">Port disruption pressure</h1>
+          <span class="state-badge" id="status">—</span>
+        </div>
+        <p class="headline" id="headline">Calculating current signal…</p>
+        <p class="interpretation" id="interpretation"></p>
+        <div class="warning-meta">
+          <span><b id="confidence">—</b> confidence</span>
+          <span><b id="coverage">—</b> feeds</span>
+          <span><b id="bonus">—</b> concurrence</span>
         </div>
       </div>
+    </section>
 
-      <div class="sidebar">
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Source Activity</div>
-              <div class="card-subtitle">Domains ranked by signal count</div>
-            </div>
-          </div>
-          <table class="data-table">
-            <thead>
-              <tr><th>Source</th><th>Tone</th><th>Signals</th><th>Share</th></tr>
-            </thead>
-            <tbody id="entity-rows">
-            </tbody>
+    <section class="component-grid" id="components" aria-label="Warning components"></section>
+
+    <section class="content-grid" id="pressure">
+      <article class="panel panel-wide">
+        <header class="panel-header">
+          <div><p class="eyebrow">AIS activity anomaly</p><h2>Port pressure radar</h2></div>
+          <span class="panel-note">7 days vs prior 28</span>
+        </header>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Port</th><th>Direction</th><th>Change</th><th>Pressure</th></tr></thead>
+            <tbody id="port-rows"></tbody>
           </table>
         </div>
+      </article>
 
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Recent Events</div>
-              <div class="card-subtitle">Last 24 hours</div>
-            </div>
-          </div>
-          <div id="event-list"></div>
+      <article class="panel">
+        <header class="panel-header">
+          <div><p class="eyebrow">Independent validation</p><h2>System markers</h2></div>
+        </header>
+        <div class="marker-list" id="markers"></div>
+      </article>
+    </section>
+
+    <section class="panel section-panel" id="outlook">
+      <header class="panel-header">
+        <div><p class="eyebrow">ECMWF-based forecast</p><h2>Seven-day port weather outlook</h2></div>
+        <span class="panel-note">10 high-activity ports</span>
+      </header>
+      <div class="weather-grid" id="weather-grid"></div>
+    </section>
+
+    <section class="content-grid">
+      <article class="panel panel-wide">
+        <header class="panel-header">
+          <div><p class="eyebrow">Maritime passage activity</p><h2>Chokepoint flow distortion</h2></div>
+          <span class="panel-note">IMF PortWatch</span>
+        </header>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Passage</th><th>Direction</th><th>Change</th><th>Pressure</th></tr></thead>
+            <tbody id="choke-rows"></tbody>
+          </table>
         </div>
+      </article>
 
-        
+      <article class="panel">
+        <header class="panel-header">
+          <div><p class="eyebrow">Current hazard proximity</p><h2>Ports near GDACS events</h2></div>
+        </header>
+        <div class="hazard-list" id="hazards"></div>
+      </article>
+    </section>
 
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title">AI Analysis</div>
-          </div>
-          <div id="llm-summary" style="font-size:0.8125rem;color:var(--text-secondary)">
-            <p>Automated analyst brief will appear here once the next data refresh completes.</p>
-          </div>
-        </div>
+    <section class="panel section-panel">
+      <header class="panel-header">
+        <div><p class="eyebrow">Model memory</p><h2>Warning history</h2></div>
+        <span class="panel-note">Last 60 validated runs</span>
+      </header>
+      <div class="chart" id="history-chart" aria-label="Warning score history"></div>
+    </section>
 
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" id="sources">Data Sources</div>
-          </div>
-              <div id="source-tags">
-        <span class="tag-source">aisstream.io</span>
-              <span class="tag-source">Freightos</span>
-              <span class="tag-source">World Bank PMI</span>
-              <span class="tag-source">UN Comtrade</span>
-      </div>
-      </div>
-      </div>
-    </div>
+    <section class="panel section-panel" id="sources">
+      <header class="panel-header">
+        <div><p class="eyebrow">Reproducible evidence</p><h2>Official public sources</h2></div>
+        <a class="text-link" href="methodology/">Read methodology →</a>
+      </header>
+      <div class="source-grid" id="source-grid"></div>
+    </section>
   </main>
 
-  <footer class="footer">
-    <p>Port Congestion Pulse &mdash; <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p>
-    <p style="margin-top:0.5rem">Auto-refreshed every 6 hours via GitHub Actions &bull; Source data available in <code>data/</code></p>
+  <footer>
+    <span>Port Congestion Pulse</span>
+    <span>Autonomous refresh every 6 hours · <a href="methodology/">Methodology</a></span>
   </footer>
-
   <script src="assets/app.js"></script>
 </body>
 </html>
