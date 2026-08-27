@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-27T22:09:50.601813+00:00",
+    "generated": "2026-08-27T22:33:31.619300+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -410,7 +410,7 @@
           "country": "China",
           "distance_km": 214,
           "pressure": 84.5,
-          "updated": "2026-08-27T21:00:49",
+          "updated": "2026-08-27T22:28:48",
           "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=38&eventtype=TC"
         }
       ]
@@ -429,6 +429,11 @@
     },
     {
       "generated": "2026-08-27T22:09:50.601813+00:00",
+      "score": 39.2,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-08-27T22:33:31.619300+00:00",
       "score": 39.2,
       "status": "WATCH"
     }
