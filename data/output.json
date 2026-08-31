@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-08-31T14:23:03.299483+00:00",
+    "generated": "2026-08-31T23:00:50.385055+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -299,7 +299,7 @@
           "max_wind_ms": 6.6,
           "max_precip_24h_mm": 59.2,
           "pressure": 32.4,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port1188",
@@ -307,10 +307,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 8.6,
-          "max_precip_24h_mm": 4.7,
+          "max_wind_ms": 7.5,
+          "max_precip_24h_mm": 9.9,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port517",
@@ -318,10 +318,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 6.5,
-          "max_precip_24h_mm": 7.4,
+          "max_wind_ms": 7.4,
+          "max_precip_24h_mm": 12.9,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port1114",
@@ -329,10 +329,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 9.0,
-          "max_precip_24h_mm": 5.5,
+          "max_wind_ms": 9.5,
+          "max_precip_24h_mm": 3.9,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port792",
@@ -340,10 +340,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 5.5,
+          "max_wind_ms": 7.5,
+          "max_precip_24h_mm": 7.9,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port57",
@@ -351,10 +351,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 8.5,
-          "max_precip_24h_mm": 1.0,
+          "max_wind_ms": 7.3,
+          "max_precip_24h_mm": 0.8,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -362,10 +362,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 8.9,
-          "max_precip_24h_mm": 2.0,
+          "max_wind_ms": 8.1,
+          "max_precip_24h_mm": 7.8,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port1073",
@@ -373,10 +373,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 7.0,
+          "max_wind_ms": 7.7,
+          "max_precip_24h_mm": 7.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -384,10 +384,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 7.8,
+          "max_wind_ms": 7.8,
+          "max_precip_24h_mm": 12.8,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         },
         {
           "id": "port824",
@@ -395,10 +395,10 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 11.7,
-          "max_precip_24h_mm": 4.9,
+          "max_wind_ms": 9.0,
+          "max_precip_24h_mm": 11.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-07T12:00:00Z"
+          "valid_to": "2026-09-07T18:00:00Z"
         }
       ]
     },
@@ -502,6 +502,11 @@
     },
     {
       "generated": "2026-08-31T14:23:03.299483+00:00",
+      "score": 32.6,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-08-31T23:00:50.385055+00:00",
       "score": 32.6,
       "status": "WATCH"
     }
