@@ -1,21 +1,24 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-09-01T05:36:47.080036+00:00",
-    "mode": "live",
+    "generated": "2026-09-01T11:59:10.262606+00:00",
+    "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–9 days",
     "classification": "port-disruption-pressure-not-measured-vessel-waiting-time-or-closure-probability",
     "coverage": "4/4",
-    "confidence": "HIGH",
-    "source_notes": []
+    "confidence": "MEDIUM",
+    "source_notes": [
+      "port_flow: retained validated snapshot (RuntimeError)",
+      "chokepoint_flow: retained validated snapshot (RuntimeError)"
+    ]
   },
   "warning": {
-    "score": 21.3,
-    "raw_score": 21.3,
-    "concurrence_bonus": 0.0,
-    "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 21.3/100.",
+    "score": 36.3,
+    "raw_score": 31.3,
+    "concurrence_bonus": 5.0,
+    "status": "WATCH",
+    "headline": "Global port disruption pressure is watch at 36.3/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -25,7 +28,7 @@
       "status": "ELEVATED",
       "weight": 0.35,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-08-21",
       "coverage": 12,
       "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
@@ -160,7 +163,8 @@
           "pressure": 0.0,
           "observations": 42
         }
-      ]
+      ],
+      "retained_reason": "Current fetch failed: RuntimeError"
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
@@ -168,7 +172,7 @@
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-08-23",
       "coverage": 8,
       "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
@@ -277,7 +281,8 @@
           "pressure": 0.0,
           "observations": 42
         }
-      ]
+      ],
+      "retained_reason": "Current fetch failed: RuntimeError"
     },
     "weather_forecast": {
       "key": "weather_forecast",
@@ -296,10 +301,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 6.9,
-          "max_precip_24h_mm": 24.6,
+          "max_wind_ms": 7.7,
+          "max_precip_24h_mm": 18.3,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port517",
@@ -307,10 +312,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 14.1,
+          "max_wind_ms": 6.7,
+          "max_precip_24h_mm": 8.2,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port1114",
@@ -318,10 +323,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 9.3,
-          "max_precip_24h_mm": 7.9,
+          "max_wind_ms": 10.0,
+          "max_precip_24h_mm": 4.4,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port792",
@@ -329,10 +334,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 7.1,
-          "max_precip_24h_mm": 12.8,
+          "max_wind_ms": 7.6,
+          "max_precip_24h_mm": 7.8,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port57",
@@ -340,10 +345,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 6.7,
-          "max_precip_24h_mm": 4.5,
+          "max_wind_ms": 7.2,
+          "max_precip_24h_mm": 2.1,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port1201",
@@ -351,10 +356,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 8.1,
-          "max_precip_24h_mm": 0.9,
+          "max_wind_ms": 7.2,
+          "max_precip_24h_mm": 4.3,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port1073",
@@ -362,10 +367,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 7.1,
-          "max_precip_24h_mm": 11.2,
+          "max_wind_ms": 7.7,
+          "max_precip_24h_mm": 7.9,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port425",
@@ -373,10 +378,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 7.0,
-          "max_precip_24h_mm": 8.8,
+          "max_wind_ms": 6.2,
+          "max_precip_24h_mm": 6.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port1425",
@@ -384,10 +389,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 7.1,
-          "max_precip_24h_mm": 12.9,
+          "max_wind_ms": 7.7,
+          "max_precip_24h_mm": 7.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         },
         {
           "id": "port824",
@@ -395,17 +400,17 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 9.3,
-          "max_precip_24h_mm": 7.0,
+          "max_wind_ms": 10.6,
+          "max_precip_24h_mm": 15.9,
           "pressure": 0.0,
-          "valid_to": "2026-09-08T00:00:00Z"
+          "valid_to": "2026-09-08T06:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 14.9,
-      "status": "BASELINE",
+      "score": 81.1,
+      "status": "SEVERE",
       "weight": 0.15,
       "available": true,
       "retained": false,
@@ -414,17 +419,17 @@
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
       "evidence": [
         {
-          "id": "1104133",
-          "type": "FL",
-          "name": "Flood in South Korea",
-          "alert": "Green",
-          "severity": "Magnitude 0 ",
-          "nearest_port": "Pusan",
-          "country": "Korea",
-          "distance_km": 216,
-          "pressure": 14.9,
-          "updated": "2026-09-01T05:16:16",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104133&episodeid=1&eventtype=FL"
+          "id": "1001305",
+          "type": "TC",
+          "name": "Tropical Cyclone SAUDEL-26",
+          "alert": "Orange",
+          "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+          "nearest_port": "Hong Kong",
+          "country": "Hong Kong Special Administrative Region",
+          "distance_km": 262,
+          "pressure": 81.1,
+          "updated": "2026-09-01T10:05:19",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=40&eventtype=TC"
         }
       ]
     }
@@ -514,6 +519,11 @@
       "generated": "2026-09-01T05:36:47.080036+00:00",
       "score": 21.3,
       "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-01T11:59:10.262606+00:00",
+      "score": 36.3,
+      "status": "WATCH"
     }
   ],
   "sources": [
