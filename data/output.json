@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-09-02T16:50:34.952899+00:00",
+    "generated": "2026-09-02T21:15:03.036551+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 33.6,
-    "raw_score": 33.6,
+    "score": 34.2,
+    "raw_score": 34.2,
     "concurrence_bonus": 0.0,
     "status": "WATCH",
-    "headline": "Global port disruption pressure is watch at 33.6/100.",
+    "headline": "Global port disruption pressure is watch at 34.2/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -281,7 +281,7 @@
     },
     "weather_forecast": {
       "key": "weather_forecast",
-      "score": 4.5,
+      "score": 4.7,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
@@ -296,10 +296,10 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 11.8,
+          "max_wind_ms": 10.9,
           "max_precip_24h_mm": 41.0,
           "pressure": 12.2,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port1114",
@@ -307,10 +307,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 12.8,
+          "max_wind_ms": 12.9,
           "max_precip_24h_mm": 11.1,
-          "pressure": 5.7,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "pressure": 6.4,
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port1188",
@@ -318,10 +318,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 8.4,
-          "max_precip_24h_mm": 14.0,
+          "max_wind_ms": 8.2,
+          "max_precip_24h_mm": 14.3,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port517",
@@ -329,10 +329,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 7.0,
+          "max_wind_ms": 6.8,
           "max_precip_24h_mm": 4.4,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port792",
@@ -340,10 +340,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 7.5,
-          "max_precip_24h_mm": 3.1,
+          "max_wind_ms": 7.0,
+          "max_precip_24h_mm": 4.3,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port57",
@@ -351,10 +351,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 9.0,
+          "max_wind_ms": 9.4,
           "max_precip_24h_mm": 8.8,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -362,10 +362,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 8.1,
+          "max_wind_ms": 7.5,
+          "max_precip_24h_mm": 8.2,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port1073",
@@ -373,10 +373,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 7.7,
-          "max_precip_24h_mm": 2.2,
+          "max_wind_ms": 7.5,
+          "max_precip_24h_mm": 2.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port425",
@@ -384,10 +384,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 5.4,
-          "max_precip_24h_mm": 14.4,
+          "max_wind_ms": 5.7,
+          "max_precip_24h_mm": 14.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -395,16 +395,16 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 7.7,
-          "max_precip_24h_mm": 3.0,
+          "max_wind_ms": 7.5,
+          "max_precip_24h_mm": 2.7,
           "pressure": 0.0,
-          "valid_to": "2026-09-09T12:00:00Z"
+          "valid_to": "2026-09-09T18:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 87.4,
+      "score": 91.0,
       "status": "SEVERE",
       "weight": 0.15,
       "available": true,
@@ -418,13 +418,13 @@
           "type": "TC",
           "name": "Tropical Cyclone SAUDEL-26",
           "alert": "Orange",
-          "severity": "Tropical Depression (maximum wind speed of 213 km/h)",
+          "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
           "nearest_port": "Xiamen",
           "country": "China",
-          "distance_km": 175,
-          "pressure": 87.4,
-          "updated": "2026-09-02T14:00:11",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=45&eventtype=TC"
+          "distance_km": 125,
+          "pressure": 91.0,
+          "updated": "2026-09-02T20:04:38",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=46&eventtype=TC"
         }
       ]
     }
@@ -538,6 +538,11 @@
     {
       "generated": "2026-09-02T16:50:34.952899+00:00",
       "score": 33.6,
+      "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-02T21:15:03.036551+00:00",
+      "score": 34.2,
       "status": "WATCH"
     }
   ],
