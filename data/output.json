@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-09-03T16:39:59.347866+00:00",
+    "generated": "2026-09-03T21:18:40.358104+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 26.6,
-    "raw_score": 26.6,
+    "score": 24.7,
+    "raw_score": 24.7,
     "concurrence_bonus": 0.0,
-    "status": "WATCH",
-    "headline": "Global port disruption pressure is watch at 26.6/100.",
+    "status": "BASELINE",
+    "headline": "Global port disruption pressure is baseline at 24.7/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -281,7 +281,7 @@
     },
     "weather_forecast": {
       "key": "weather_forecast",
-      "score": 0.4,
+      "score": 6.4,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
@@ -291,15 +291,26 @@
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
       "evidence": [
         {
+          "id": "port824",
+          "name": "Ningbo",
+          "country": "China",
+          "lat": 29.9208,
+          "lon": 121.8818,
+          "max_wind_ms": 12.0,
+          "max_precip_24h_mm": 49.5,
+          "pressure": 21.7,
+          "valid_to": "2026-09-10T18:00:00Z"
+        },
+        {
           "id": "port1114",
           "name": "Rotterdam",
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 12.2,
+          "max_wind_ms": 12.5,
           "max_precip_24h_mm": 7.6,
-          "pressure": 1.4,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "pressure": 3.6,
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port1188",
@@ -307,10 +318,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 7.9,
-          "max_precip_24h_mm": 5.1,
+          "max_wind_ms": 7.7,
+          "max_precip_24h_mm": 6.3,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port517",
@@ -318,10 +329,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 5.8,
+          "max_wind_ms": 5.9,
           "max_precip_24h_mm": 9.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port792",
@@ -329,10 +340,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 6.8,
+          "max_wind_ms": 6.7,
           "max_precip_24h_mm": 5.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port57",
@@ -340,10 +351,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 8.4,
+          "max_wind_ms": 9.0,
           "max_precip_24h_mm": 4.4,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -351,10 +362,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 7.2,
-          "max_precip_24h_mm": 2.1,
+          "max_wind_ms": 7.5,
+          "max_precip_24h_mm": 5.3,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port1073",
@@ -362,10 +373,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 7.0,
+          "max_wind_ms": 6.5,
           "max_precip_24h_mm": 5.2,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port425",
@@ -374,9 +385,9 @@
           "lat": 23.0275,
           "lon": 113.4836,
           "max_wind_ms": 3.7,
-          "max_precip_24h_mm": 9.1,
+          "max_precip_24h_mm": 17.2,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -384,48 +395,24 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 6.7,
+          "max_wind_ms": 6.5,
           "max_precip_24h_mm": 11.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
-        },
-        {
-          "id": "port824",
-          "name": "Ningbo",
-          "country": "China",
-          "lat": 29.9208,
-          "lon": 121.8818,
-          "max_wind_ms": 11.3,
-          "max_precip_24h_mm": 20.1,
-          "pressure": 0.0,
-          "valid_to": "2026-09-10T12:00:00Z"
+          "valid_to": "2026-09-10T18:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 47.5,
-      "status": "ELEVATED",
+      "score": 24.8,
+      "status": "BASELINE",
       "weight": 0.15,
       "available": true,
       "retained": false,
       "latest_observation": "2026-09-03",
-      "coverage": 3,
+      "coverage": 2,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
       "evidence": [
-        {
-          "id": "1001305",
-          "type": "TC",
-          "name": "Tropical Cyclone SAUDEL-26",
-          "alert": "Orange",
-          "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-          "nearest_port": "Xiamen",
-          "country": "China",
-          "distance_km": 97,
-          "pressure": 93.0,
-          "updated": "2026-09-03T09:04:35",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=47&eventtype=TC"
-        },
         {
           "id": "1104081",
           "type": "FL",
@@ -585,6 +572,11 @@
       "generated": "2026-09-03T16:39:59.347866+00:00",
       "score": 26.6,
       "status": "WATCH"
+    },
+    {
+      "generated": "2026-09-03T21:18:40.358104+00:00",
+      "score": 24.7,
+      "status": "BASELINE"
     }
   ],
   "sources": [
