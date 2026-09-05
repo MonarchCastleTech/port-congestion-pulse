@@ -1,23 +1,21 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-09-05T10:53:56.428241+00:00",
-    "mode": "partial",
+    "generated": "2026-09-05T15:30:41.790281+00:00",
+    "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
     "classification": "port-disruption-pressure-not-measured-vessel-waiting-time-or-closure-probability",
     "coverage": "4/4",
-    "confidence": "MEDIUM",
-    "source_notes": [
-      "hazard_proximity: retained validated snapshot (ConnectTimeout)"
-    ]
+    "confidence": "HIGH",
+    "source_notes": []
   },
   "warning": {
-    "score": 21.9,
-    "raw_score": 21.9,
+    "score": 21.5,
+    "raw_score": 21.5,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 21.9/100.",
+    "headline": "Global port disruption pressure is baseline at 21.5/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -298,10 +296,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 6.5,
-          "max_precip_24h_mm": 2.4,
+          "max_wind_ms": 6.6,
+          "max_precip_24h_mm": 2.9,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port517",
@@ -309,10 +307,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 5.3,
-          "max_precip_24h_mm": 5.1,
+          "max_wind_ms": 4.6,
+          "max_precip_24h_mm": 3.1,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port1114",
@@ -320,10 +318,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 8.8,
-          "max_precip_24h_mm": 16.1,
+          "max_wind_ms": 8.5,
+          "max_precip_24h_mm": 27.1,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port792",
@@ -331,10 +329,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 5.7,
-          "max_precip_24h_mm": 1.2,
+          "max_wind_ms": 5.6,
+          "max_precip_24h_mm": 1.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port57",
@@ -342,10 +340,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 6.8,
-          "max_precip_24h_mm": 9.8,
+          "max_wind_ms": 6.3,
+          "max_precip_24h_mm": 13.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port1201",
@@ -353,10 +351,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 7.0,
+          "max_wind_ms": 7.6,
+          "max_precip_24h_mm": 8.1,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port1073",
@@ -364,10 +362,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 5.8,
-          "max_precip_24h_mm": 1.2,
+          "max_wind_ms": 5.7,
+          "max_precip_24h_mm": 1.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port425",
@@ -375,10 +373,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.5,
-          "max_precip_24h_mm": 11.1,
+          "max_wind_ms": 4.7,
+          "max_precip_24h_mm": 9.4,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port1425",
@@ -386,10 +384,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 5.7,
-          "max_precip_24h_mm": 5.5,
+          "max_wind_ms": 5.3,
+          "max_precip_24h_mm": 4.6,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         },
         {
           "id": "port824",
@@ -397,37 +395,24 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 9.0,
-          "max_precip_24h_mm": 3.5,
+          "max_wind_ms": 8.7,
+          "max_precip_24h_mm": 5.4,
           "pressure": 0.0,
-          "valid_to": "2026-09-12T06:00:00Z"
+          "valid_to": "2026-09-12T12:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 17.2,
+      "score": 14.5,
       "status": "BASELINE",
       "weight": 0.15,
       "available": true,
-      "retained": true,
+      "retained": false,
       "latest_observation": "2026-09-05",
-      "coverage": 2,
+      "coverage": 3,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
       "evidence": [
-        {
-          "id": "1001318",
-          "type": "TC",
-          "name": "Tropical Cyclone KROVANH-26",
-          "alert": "Green",
-          "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
-          "nearest_port": "Zhoushan",
-          "country": "China",
-          "distance_km": 513,
-          "pressure": 17.6,
-          "updated": "2026-09-05T02:19:46",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=16&eventtype=TC"
-        },
         {
           "id": "1104140",
           "type": "FL",
@@ -440,9 +425,34 @@
           "pressure": 16.9,
           "updated": "2026-09-04T11:22:08",
           "url": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=1&eventtype=FL"
+        },
+        {
+          "id": "1001319",
+          "type": "TC",
+          "name": "Tropical Cyclone TWENTYTHREE-26",
+          "alert": "Green",
+          "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+          "nearest_port": "Mizushima Ko",
+          "country": "Japan",
+          "distance_km": 667,
+          "pressure": 14.5,
+          "updated": "2026-09-05T14:28:54",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001319&episodeid=5&eventtype=TC"
+        },
+        {
+          "id": "1001318",
+          "type": "TC",
+          "name": "Tropical Cyclone KROVANH-26",
+          "alert": "Green",
+          "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+          "nearest_port": "Zhoushan",
+          "country": "China",
+          "distance_km": 785,
+          "pressure": 12.1,
+          "updated": "2026-09-05T14:27:13",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=18&eventtype=TC"
         }
-      ],
-      "retained_reason": "Current fetch failed: ConnectTimeout"
+      ]
     }
   },
   "history": [
@@ -609,6 +619,11 @@
     {
       "generated": "2026-09-05T10:53:56.428241+00:00",
       "score": 21.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-05T15:30:41.790281+00:00",
+      "score": 21.5,
       "status": "BASELINE"
     }
   ],
