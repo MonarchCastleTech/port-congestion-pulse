@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-09-13T16:36:23.926548+00:00",
+    "generated": "2026-09-13T21:06:39.627977+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -296,10 +296,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 5.8,
+          "max_wind_ms": 5.9,
           "max_precip_24h_mm": 3.2,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port517",
@@ -307,10 +307,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 4.1,
+          "max_wind_ms": 4.4,
           "max_precip_24h_mm": 2.7,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port1114",
@@ -319,9 +319,9 @@
           "lat": 51.9223,
           "lon": 4.2151,
           "max_wind_ms": 7.9,
-          "max_precip_24h_mm": 6.1,
+          "max_precip_24h_mm": 12.3,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port792",
@@ -332,7 +332,7 @@
           "max_wind_ms": 4.7,
           "max_precip_24h_mm": 2.1,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port57",
@@ -341,9 +341,9 @@
           "lat": 51.2794,
           "lon": 4.3178,
           "max_wind_ms": 7.2,
-          "max_precip_24h_mm": 6.9,
+          "max_precip_24h_mm": 7.7,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -351,10 +351,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 7.3,
+          "max_wind_ms": 6.9,
           "max_precip_24h_mm": 6.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port1073",
@@ -362,10 +362,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 4.6,
+          "max_wind_ms": 4.8,
           "max_precip_24h_mm": 2.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port425",
@@ -373,10 +373,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.7,
-          "max_precip_24h_mm": 6.7,
+          "max_wind_ms": 3.3,
+          "max_precip_24h_mm": 5.1,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -387,7 +387,7 @@
           "max_wind_ms": 4.8,
           "max_precip_24h_mm": 2.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         },
         {
           "id": "port824",
@@ -396,9 +396,9 @@
           "lat": 29.9208,
           "lon": 121.8818,
           "max_wind_ms": 8.2,
-          "max_precip_24h_mm": 2.1,
+          "max_precip_24h_mm": 2.5,
           "pressure": 0.0,
-          "valid_to": "2026-09-20T12:00:00Z"
+          "valid_to": "2026-09-20T18:00:00Z"
         }
       ]
     },
@@ -416,11 +416,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-08-28T22:36:37.065668+00:00",
-      "score": 39.2,
-      "status": "WATCH"
-    },
     {
       "generated": "2026-08-29T07:20:19.123040+00:00",
       "score": 40.8,
@@ -713,6 +708,11 @@
     },
     {
       "generated": "2026-09-13T16:36:23.926548+00:00",
+      "score": 22.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-13T21:06:39.627977+00:00",
       "score": 22.5,
       "status": "BASELINE"
     }
