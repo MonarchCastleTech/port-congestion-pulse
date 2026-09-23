@@ -21,20 +21,20 @@ const ui = {
 
   render() {
     const { meta, warning, components } = this.data;
-    this.text('mode', meta.mode === 'live' ? 'Live · 6h refresh' : 'Retained snapshot');
+    this.text('mode', meta.mode === 'unavailable' ? 'Unavailable' : meta.mode === 'live' ? 'Live · 6h refresh' : 'Retained snapshot');
     this.text('generated', `Updated ${this.date(meta.generated)}`);
-    this.text('score', Number(warning.score).toFixed(1));
+    this.text('score', warning.score == null ? '—' : Number(warning.score).toFixed(1));
     this.text('status', warning.status);
     this.text('headline', warning.headline);
     this.text('interpretation', warning.interpretation);
     this.text('confidence', meta.confidence);
     this.text('coverage', meta.coverage);
-    this.text('bonus', warning.concurrence_bonus ? `+${warning.concurrence_bonus.toFixed(0)}` : '+0');
+    this.text('bonus', warning.concurrence_bonus == null ? '—' : warning.concurrence_bonus ? `+${warning.concurrence_bonus.toFixed(0)}` : '+0');
     document.body.dataset.status = warning.status.toLowerCase();
-    document.getElementById('score-ring').style.setProperty('--score', `${warning.score * 3.6}deg`);
+    document.getElementById('score-ring').style.setProperty('--score', `${warning.score == null ? 0 : warning.score * 3.6}deg`);
 
     const notes = meta.source_notes || [];
-    this.text('status-strip', notes.length
+    this.text('status-strip', meta.mode === 'unavailable' ? 'No current score: all source components are unavailable.' : notes.length
       ? `${meta.coverage} components available. ${notes.join(' ')}`
       : `${meta.coverage} components live · ${meta.confidence.toLowerCase()} confidence · next automated refresh within 6 hours.`);
 

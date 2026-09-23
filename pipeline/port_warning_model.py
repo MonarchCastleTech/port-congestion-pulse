@@ -517,6 +517,10 @@ def main() -> None:
             "concurrence_rule": "+5 only when an AIS flow component is ≥50 and an independent forecast/hazard component is ≥40",
         },
     }
+    if coverage == 0:
+        output["warning"].update(score=None, raw_score=None, concurrence_bonus=None, status="UNAVAILABLE",
+                                 headline="No source-backed port warning score is available.")
+        output["history"] = previous.get("history", [])[-60:]
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"score={score} status={status} coverage={coverage}/4 confidence={confidence}")
