@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-09-24T12:09:43.480904+00:00",
+    "generated": "2026-09-24T17:31:25.928529+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.3,
-    "raw_score": 15.3,
+    "score": 15.9,
+    "raw_score": 15.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 15.3/100.",
+    "headline": "Global port disruption pressure is baseline at 15.9/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -281,7 +281,7 @@
     },
     "weather_forecast": {
       "key": "weather_forecast",
-      "score": 20.3,
+      "score": 22.7,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
@@ -291,25 +291,14 @@
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
       "evidence": [
         {
-          "id": "port517",
-          "name": "Jiangyin",
-          "country": "China",
-          "lat": 31.9324,
-          "lon": 120.1593,
-          "max_wind_ms": 4.8,
-          "max_precip_24h_mm": 58.6,
-          "pressure": 31.8,
-          "valid_to": "2026-10-01T12:00:00Z"
-        },
-        {
           "id": "port792",
           "name": "Nantong",
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
           "max_wind_ms": 5.3,
-          "max_precip_24h_mm": 52.3,
-          "pressure": 24.8,
+          "max_precip_24h_mm": 67.0,
+          "pressure": 41.1,
           "valid_to": "2026-10-01T12:00:00Z"
         },
         {
@@ -319,8 +308,8 @@
           "lat": 31.9983,
           "lon": 120.6176,
           "max_wind_ms": 5.8,
-          "max_precip_24h_mm": 49.9,
-          "pressure": 22.1,
+          "max_precip_24h_mm": 56.6,
+          "pressure": 29.6,
           "valid_to": "2026-10-01T12:00:00Z"
         },
         {
@@ -330,8 +319,19 @@
           "lat": 31.9746,
           "lon": 120.4288,
           "max_wind_ms": 5.6,
-          "max_precip_24h_mm": 42.2,
-          "pressure": 13.6,
+          "max_precip_24h_mm": 46.9,
+          "pressure": 18.8,
+          "valid_to": "2026-10-01T12:00:00Z"
+        },
+        {
+          "id": "port517",
+          "name": "Jiangyin",
+          "country": "China",
+          "lat": 31.9324,
+          "lon": 120.1593,
+          "max_wind_ms": 4.8,
+          "max_precip_24h_mm": 34.7,
+          "pressure": 5.2,
           "valid_to": "2026-10-01T12:00:00Z"
         },
         {
@@ -341,7 +341,7 @@
           "lat": 31.1918,
           "lon": 121.6442,
           "max_wind_ms": 5.5,
-          "max_precip_24h_mm": 11.3,
+          "max_precip_24h_mm": 27.7,
           "pressure": 0.0,
           "valid_to": "2026-10-01T12:00:00Z"
         },
@@ -351,7 +351,7 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 5.7,
+          "max_wind_ms": 5.2,
           "max_precip_24h_mm": 2.1,
           "pressure": 0.0,
           "valid_to": "2026-10-01T12:00:00Z"
@@ -362,7 +362,7 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 4.2,
+          "max_wind_ms": 4.1,
           "max_precip_24h_mm": 3.1,
           "pressure": 0.0,
           "valid_to": "2026-10-01T12:00:00Z"
@@ -373,8 +373,8 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 4.8,
-          "max_precip_24h_mm": 12.4,
+          "max_wind_ms": 5.5,
+          "max_precip_24h_mm": 9.8,
           "pressure": 0.0,
           "valid_to": "2026-10-01T12:00:00Z"
         },
@@ -384,7 +384,7 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.0,
+          "max_wind_ms": 4.2,
           "max_precip_24h_mm": 14.6,
           "pressure": 0.0,
           "valid_to": "2026-10-01T12:00:00Z"
@@ -395,8 +395,8 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 7.0,
-          "max_precip_24h_mm": 7.8,
+          "max_wind_ms": 6.6,
+          "max_precip_24h_mm": 6.8,
           "pressure": 0.0,
           "valid_to": "2026-10-01T12:00:00Z"
         }
@@ -416,11 +416,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-08T21:23:07.882036+00:00",
-      "score": 23.1,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-09T05:11:37.623934+00:00",
       "score": 23.4,
@@ -714,6 +709,11 @@
     {
       "generated": "2026-09-24T12:09:43.480904+00:00",
       "score": 15.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-24T17:31:25.928529+00:00",
+      "score": 15.9,
       "status": "BASELINE"
     }
   ],
