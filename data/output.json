@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-09-28T05:48:37.893396+00:00",
+    "generated": "2026-09-28T14:25:33.844649+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 11.3,
-    "raw_score": 11.3,
+    "score": 14.3,
+    "raw_score": 14.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 11.3/100.",
+    "headline": "Global port disruption pressure is baseline at 14.3/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -281,7 +281,7 @@
     },
     "weather_forecast": {
       "key": "weather_forecast",
-      "score": 4.5,
+      "score": 0.0,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
@@ -296,21 +296,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 6.2,
-          "max_precip_24h_mm": 44.8,
-          "pressure": 16.4,
-          "valid_to": "2026-10-05T00:00:00Z"
-        },
-        {
-          "id": "port824",
-          "name": "Ningbo",
-          "country": "China",
-          "lat": 29.9208,
-          "lon": 121.8818,
-          "max_wind_ms": 6.8,
-          "max_precip_24h_mm": 31.3,
-          "pressure": 1.4,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "max_wind_ms": 6.9,
+          "max_precip_24h_mm": 21.8,
+          "pressure": 0.0,
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port517",
@@ -318,10 +307,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 5.4,
-          "max_precip_24h_mm": 18.0,
+          "max_wind_ms": 5.6,
+          "max_precip_24h_mm": 19.2,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port1114",
@@ -330,9 +319,9 @@
           "lat": 51.9223,
           "lon": 4.2151,
           "max_wind_ms": 5.4,
-          "max_precip_24h_mm": 20.7,
+          "max_precip_24h_mm": 9.6,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port792",
@@ -340,10 +329,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 5.4,
-          "max_precip_24h_mm": 12.2,
+          "max_wind_ms": 6.4,
+          "max_precip_24h_mm": 17.4,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port57",
@@ -351,10 +340,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 4.6,
-          "max_precip_24h_mm": 8.7,
+          "max_wind_ms": 4.1,
+          "max_precip_24h_mm": 12.6,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port1201",
@@ -362,10 +351,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 6.2,
-          "max_precip_24h_mm": 6.5,
+          "max_wind_ms": 5.2,
+          "max_precip_24h_mm": 17.9,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port1073",
@@ -373,10 +362,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 5.8,
-          "max_precip_24h_mm": 10.9,
+          "max_wind_ms": 5.9,
+          "max_precip_24h_mm": 17.4,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port425",
@@ -385,9 +374,9 @@
           "lat": 23.0275,
           "lon": 113.4836,
           "max_wind_ms": 4.2,
-          "max_precip_24h_mm": 11.2,
+          "max_precip_24h_mm": 22.2,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
         },
         {
           "id": "port1425",
@@ -395,32 +384,52 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 5.8,
-          "max_precip_24h_mm": 13.3,
+          "max_wind_ms": 5.9,
+          "max_precip_24h_mm": 14.1,
           "pressure": 0.0,
-          "valid_to": "2026-10-05T00:00:00Z"
+          "valid_to": "2026-10-05T12:00:00Z"
+        },
+        {
+          "id": "port824",
+          "name": "Ningbo",
+          "country": "China",
+          "lat": 29.9208,
+          "lon": 121.8818,
+          "max_wind_ms": 7.6,
+          "max_precip_24h_mm": 21.3,
+          "pressure": 0.0,
+          "valid_to": "2026-10-05T12:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 0.0,
-      "status": "BASELINE",
+      "score": 27.4,
+      "status": "WATCH",
       "weight": 0.15,
       "available": true,
       "retained": false,
       "latest_observation": "2026-09-28",
-      "coverage": 0,
+      "coverage": 1,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
-      "evidence": []
+      "evidence": [
+        {
+          "id": "1001327",
+          "type": "TC",
+          "name": "Tropical Cyclone SURIGAE-26",
+          "alert": "Green",
+          "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+          "nearest_port": "Mizushima Ko",
+          "country": "Japan",
+          "distance_km": 783,
+          "pressure": 27.4,
+          "updated": "2026-09-28T14:10:49",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=22&eventtype=TC"
+        }
+      ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-12T15:47:54.794146+00:00",
-      "score": 22.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-12T20:55:16.384475+00:00",
       "score": 22.5,
@@ -714,6 +723,11 @@
     {
       "generated": "2026-09-28T05:48:37.893396+00:00",
       "score": 11.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-09-28T14:25:33.844649+00:00",
+      "score": 14.3,
       "status": "BASELINE"
     }
   ],
