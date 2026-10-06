@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-05T15:14:11.658090+00:00",
+    "generated": "2026-10-06T00:18:28.320651+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -286,7 +286,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "latest_observation": "2026-10-05",
+      "latest_observation": "2026-10-06",
       "coverage": 10,
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
       "evidence": [
@@ -296,10 +296,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 5.8,
-          "max_precip_24h_mm": 1.6,
+          "max_wind_ms": 5.1,
+          "max_precip_24h_mm": 0.3,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port517",
@@ -307,10 +307,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 2.8,
-          "max_precip_24h_mm": 0.2,
+          "max_wind_ms": 3.0,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port1114",
@@ -318,10 +318,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 10.3,
-          "max_precip_24h_mm": 7.7,
+          "max_wind_ms": 9.8,
+          "max_precip_24h_mm": 13.4,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port792",
@@ -329,10 +329,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 3.6,
+          "max_wind_ms": 3.3,
           "max_precip_24h_mm": 0.2,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port57",
@@ -340,10 +340,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 6.6,
-          "max_precip_24h_mm": 7.2,
+          "max_wind_ms": 7.6,
+          "max_precip_24h_mm": 9.2,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port1201",
@@ -351,10 +351,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 5.6,
-          "max_precip_24h_mm": 10.5,
+          "max_wind_ms": 5.7,
+          "max_precip_24h_mm": 6.0,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port1073",
@@ -363,9 +363,9 @@
           "lat": 31.9983,
           "lon": 120.6176,
           "max_wind_ms": 3.2,
-          "max_precip_24h_mm": 0.0,
+          "max_precip_24h_mm": 0.1,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port425",
@@ -373,10 +373,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.5,
+          "max_wind_ms": 3.7,
           "max_precip_24h_mm": 0.0,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port1425",
@@ -384,10 +384,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 3.0,
+          "max_wind_ms": 3.3,
           "max_precip_24h_mm": 0.0,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         },
         {
           "id": "port824",
@@ -395,10 +395,10 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 8.5,
+          "max_wind_ms": 6.7,
           "max_precip_24h_mm": 0.3,
           "pressure": 0.0,
-          "valid_to": "2026-10-12T12:00:00Z"
+          "valid_to": "2026-10-13T00:00:00Z"
         }
       ]
     },
@@ -409,18 +409,13 @@
       "weight": 0.15,
       "available": true,
       "retained": false,
-      "latest_observation": "2026-10-05",
+      "latest_observation": "2026-10-06",
       "coverage": 0,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
       "evidence": []
     }
   },
   "history": [
-    {
-      "generated": "2026-09-18T16:42:13.003808+00:00",
-      "score": 11.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-18T21:13:08.916709+00:00",
       "score": 11.5,
@@ -713,6 +708,11 @@
     },
     {
       "generated": "2026-10-05T15:14:11.658090+00:00",
+      "score": 9.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-06T00:18:28.320651+00:00",
       "score": 9.9,
       "status": "BASELINE"
     }
