@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-06T18:35:22.368121+00:00",
+    "generated": "2026-10-06T22:47:00.869977+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.6,
-    "raw_score": 15.6,
+    "score": 14.7,
+    "raw_score": 14.7,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 15.6/100.",
+    "headline": "Global port disruption pressure is baseline at 14.7/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -296,7 +296,7 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 3.5,
+          "max_wind_ms": 4.5,
           "max_precip_24h_mm": 0.1,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
@@ -307,7 +307,7 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 3.5,
+          "max_wind_ms": 3.8,
           "max_precip_24h_mm": 0.0,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
@@ -318,8 +318,8 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 9.9,
-          "max_precip_24h_mm": 14.2,
+          "max_wind_ms": 9.7,
+          "max_precip_24h_mm": 11.7,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
         },
@@ -329,7 +329,7 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 3.9,
+          "max_wind_ms": 4.0,
           "max_precip_24h_mm": 0.6,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
@@ -340,8 +340,8 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 7.7,
-          "max_precip_24h_mm": 10.2,
+          "max_wind_ms": 7.3,
+          "max_precip_24h_mm": 10.0,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
         },
@@ -351,7 +351,7 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 5.0,
+          "max_wind_ms": 5.1,
           "max_precip_24h_mm": 13.1,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
@@ -362,7 +362,7 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 3.9,
+          "max_wind_ms": 4.0,
           "max_precip_24h_mm": 0.1,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
@@ -373,7 +373,7 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 3.3,
+          "max_wind_ms": 3.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
@@ -384,7 +384,7 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 3.7,
+          "max_wind_ms": 3.5,
           "max_precip_24h_mm": 0.0,
           "pressure": 0.0,
           "valid_to": "2026-10-13T18:00:00Z"
@@ -404,8 +404,8 @@
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 30.3,
-      "status": "WATCH",
+      "score": 24.1,
+      "status": "BASELINE",
       "weight": 0.15,
       "available": true,
       "retained": false,
@@ -421,20 +421,15 @@
           "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h)",
           "nearest_port": "Chiba Ko",
           "country": "Japan",
-          "distance_km": 720,
-          "pressure": 30.3,
-          "updated": "2026-10-06T18:29:08",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=27&eventtype=TC"
+          "distance_km": 855,
+          "pressure": 24.1,
+          "updated": "2026-10-06T22:44:28",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=28&eventtype=TC"
         }
       ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-19T11:29:23.921385+00:00",
-      "score": 11.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-19T16:02:31.562927+00:00",
       "score": 12.0,
@@ -728,6 +723,11 @@
     {
       "generated": "2026-10-06T18:35:22.368121+00:00",
       "score": 15.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-06T22:47:00.869977+00:00",
+      "score": 14.7,
       "status": "BASELINE"
     }
   ],
