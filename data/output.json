@@ -1,23 +1,21 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-11T13:28:35.411366+00:00",
-    "mode": "partial",
+    "generated": "2026-10-11T22:26:00.200411+00:00",
+    "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
     "classification": "port-disruption-pressure-not-measured-vessel-waiting-time-or-closure-probability",
     "coverage": "4/4",
-    "confidence": "MEDIUM",
-    "source_notes": [
-      "port_flow: retained validated snapshot (RuntimeError)"
-    ]
+    "confidence": "HIGH",
+    "source_notes": []
   },
   "warning": {
-    "score": 11.9,
-    "raw_score": 11.9,
+    "score": 15.9,
+    "raw_score": 15.9,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 11.9/100.",
+    "headline": "Global port disruption pressure is baseline at 15.9/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -27,7 +25,7 @@
       "status": "BASELINE",
       "weight": 0.35,
       "available": true,
-      "retained": true,
+      "retained": false,
       "latest_observation": "2026-10-02",
       "coverage": 12,
       "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
@@ -162,8 +160,7 @@
           "pressure": 0.0,
           "observations": 42
         }
-      ],
-      "retained_reason": "Current fetch failed: RuntimeError"
+      ]
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
@@ -302,7 +299,7 @@
           "max_wind_ms": 4.7,
           "max_precip_24h_mm": 36.4,
           "pressure": 7.1,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -310,10 +307,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 4.5,
+          "max_wind_ms": 4.4,
           "max_precip_24h_mm": 33.8,
           "pressure": 4.2,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port517",
@@ -321,10 +318,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 4.1,
+          "max_wind_ms": 4.0,
           "max_precip_24h_mm": 32.9,
           "pressure": 3.2,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port1188",
@@ -335,7 +332,7 @@
           "max_wind_ms": 5.5,
           "max_precip_24h_mm": 9.7,
           "pressure": 0.0,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port1114",
@@ -343,10 +340,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 9.2,
+          "max_wind_ms": 9.3,
           "max_precip_24h_mm": 3.7,
           "pressure": 0.0,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port792",
@@ -357,7 +354,7 @@
           "max_wind_ms": 5.4,
           "max_precip_24h_mm": 29.3,
           "pressure": 0.0,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port57",
@@ -365,10 +362,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 6.0,
+          "max_wind_ms": 6.3,
           "max_precip_24h_mm": 3.4,
           "pressure": 0.0,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -377,9 +374,9 @@
           "lat": 1.272,
           "lon": 103.7075,
           "max_wind_ms": 6.0,
-          "max_precip_24h_mm": 4.4,
+          "max_precip_24h_mm": 4.6,
           "pressure": 0.0,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port425",
@@ -387,10 +384,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.2,
+          "max_wind_ms": 5.4,
           "max_precip_24h_mm": 0.1,
           "pressure": 0.0,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         },
         {
           "id": "port824",
@@ -398,32 +395,41 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 8.6,
-          "max_precip_24h_mm": 0.3,
+          "max_wind_ms": 8.0,
+          "max_precip_24h_mm": 0.5,
           "pressure": 0.0,
-          "valid_to": "2026-10-18T12:00:00Z"
+          "valid_to": "2026-10-18T18:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 0.0,
-      "status": "BASELINE",
+      "score": 26.2,
+      "status": "WATCH",
       "weight": 0.15,
       "available": true,
       "retained": false,
       "latest_observation": "2026-10-11",
-      "coverage": 0,
+      "coverage": 1,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
-      "evidence": []
+      "evidence": [
+        {
+          "id": "1570844",
+          "type": "EQ",
+          "name": "Earthquake in Japan",
+          "alert": "Green",
+          "severity": "Magnitude 4.7M, Depth:55.788km",
+          "nearest_port": "Chiba Ko",
+          "country": "Japan",
+          "distance_km": 35,
+          "pressure": 26.2,
+          "updated": "2026-10-11T18:10:17",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570844&episodeid=1739286&eventtype=EQ"
+        }
+      ]
     }
   },
   "history": [
-    {
-      "generated": "2026-09-23T17:26:15.095494+00:00",
-      "score": 12.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-23T21:45:29.542102+00:00",
       "score": 12.7,
@@ -717,6 +723,11 @@
     {
       "generated": "2026-10-11T13:28:35.411366+00:00",
       "score": 11.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-11T22:26:00.200411+00:00",
+      "score": 15.9,
       "status": "BASELINE"
     }
   ],
