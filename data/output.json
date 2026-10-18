@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-18T05:05:13.560356+00:00",
+    "generated": "2026-10-18T11:39:50.335378+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 8.7,
-    "raw_score": 8.7,
+    "score": 10.3,
+    "raw_score": 10.3,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 8.7/100.",
+    "headline": "Global port disruption pressure is baseline at 10.3/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -281,7 +281,7 @@
     },
     "weather_forecast": {
       "key": "weather_forecast",
-      "score": 0.6,
+      "score": 7.1,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
@@ -291,37 +291,26 @@
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
       "evidence": [
         {
-          "id": "port517",
-          "name": "Jiangyin",
-          "country": "China",
-          "lat": 31.9324,
-          "lon": 120.1593,
-          "max_wind_ms": 5.8,
-          "max_precip_24h_mm": 31.4,
-          "pressure": 1.6,
-          "valid_to": "2026-10-25T00:00:00Z"
-        },
-        {
-          "id": "port792",
-          "name": "Nantong",
-          "country": "China",
-          "lat": 31.9863,
-          "lon": 120.8374,
-          "max_wind_ms": 6.2,
-          "max_precip_24h_mm": 30.7,
-          "pressure": 0.8,
-          "valid_to": "2026-10-25T00:00:00Z"
-        },
-        {
           "id": "port1188",
           "name": "Shanghai",
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 6.0,
-          "max_precip_24h_mm": 6.0,
-          "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "max_wind_ms": 6.5,
+          "max_precip_24h_mm": 52.1,
+          "pressure": 24.6,
+          "valid_to": "2026-10-25T06:00:00Z"
+        },
+        {
+          "id": "port517",
+          "name": "Jiangyin",
+          "country": "China",
+          "lat": 31.9324,
+          "lon": 120.1593,
+          "max_wind_ms": 5.9,
+          "max_precip_24h_mm": 32.8,
+          "pressure": 3.1,
+          "valid_to": "2026-10-25T06:00:00Z"
         },
         {
           "id": "port1114",
@@ -329,10 +318,21 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 10.4,
-          "max_precip_24h_mm": 18.3,
+          "max_wind_ms": 12.1,
+          "max_precip_24h_mm": 17.2,
+          "pressure": 0.7,
+          "valid_to": "2026-10-25T06:00:00Z"
+        },
+        {
+          "id": "port792",
+          "name": "Nantong",
+          "country": "China",
+          "lat": 31.9863,
+          "lon": 120.8374,
+          "max_wind_ms": 5.9,
+          "max_precip_24h_mm": 29.3,
           "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "valid_to": "2026-10-25T06:00:00Z"
         },
         {
           "id": "port57",
@@ -340,10 +340,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 8.0,
-          "max_precip_24h_mm": 8.2,
+          "max_wind_ms": 9.5,
+          "max_precip_24h_mm": 17.8,
           "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "valid_to": "2026-10-25T06:00:00Z"
         },
         {
           "id": "port1201",
@@ -351,10 +351,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 6.6,
-          "max_precip_24h_mm": 2.8,
+          "max_wind_ms": 6.4,
+          "max_precip_24h_mm": 3.3,
           "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "valid_to": "2026-10-25T06:00:00Z"
         },
         {
           "id": "port1073",
@@ -362,10 +362,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 6.6,
-          "max_precip_24h_mm": 25.8,
+          "max_wind_ms": 6.0,
+          "max_precip_24h_mm": 20.2,
           "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "valid_to": "2026-10-25T06:00:00Z"
         },
         {
           "id": "port425",
@@ -374,9 +374,9 @@
           "lat": 23.0275,
           "lon": 113.4836,
           "max_wind_ms": 5.1,
-          "max_precip_24h_mm": 0.6,
+          "max_precip_24h_mm": 11.4,
           "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "valid_to": "2026-10-25T06:00:00Z"
         },
         {
           "id": "port1425",
@@ -384,10 +384,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 5.9,
-          "max_precip_24h_mm": 26.5,
+          "max_wind_ms": 6.0,
+          "max_precip_24h_mm": 22.8,
           "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "valid_to": "2026-10-25T06:00:00Z"
         },
         {
           "id": "port824",
@@ -395,10 +395,10 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 7.9,
-          "max_precip_24h_mm": 12.1,
+          "max_wind_ms": 10.0,
+          "max_precip_24h_mm": 29.9,
           "pressure": 0.0,
-          "valid_to": "2026-10-25T00:00:00Z"
+          "valid_to": "2026-10-25T06:00:00Z"
         }
       ]
     },
@@ -416,11 +416,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-09-29T22:34:15.065780+00:00",
-      "score": 15.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-09-30T05:56:12.414955+00:00",
       "score": 14.2,
@@ -714,6 +709,11 @@
     {
       "generated": "2026-10-18T05:05:13.560356+00:00",
       "score": 8.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-18T11:39:50.335378+00:00",
+      "score": 10.3,
       "status": "BASELINE"
     }
   ],
