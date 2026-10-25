@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-25T16:47:24.673026+00:00",
+    "generated": "2026-10-25T21:12:22.238754+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.7,
-    "raw_score": 15.7,
+    "score": 15.0,
+    "raw_score": 15.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 15.7/100.",
+    "headline": "Global port disruption pressure is baseline at 15.0/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -281,7 +281,7 @@
     },
     "weather_forecast": {
       "key": "weather_forecast",
-      "score": 1.4,
+      "score": 0.0,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
@@ -291,26 +291,15 @@
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
       "evidence": [
         {
-          "id": "port1114",
-          "name": "Rotterdam",
-          "country": "The Netherlands",
-          "lat": 51.9223,
-          "lon": 4.2151,
-          "max_wind_ms": 12.8,
-          "max_precip_24h_mm": 1.6,
-          "pressure": 5.7,
-          "valid_to": "2026-11-01T12:00:00Z"
-        },
-        {
           "id": "port1188",
           "name": "Shanghai",
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 7.3,
+          "max_wind_ms": 7.6,
           "max_precip_24h_mm": 2.4,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port517",
@@ -321,7 +310,18 @@
           "max_wind_ms": 6.3,
           "max_precip_24h_mm": 0.7,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
+        },
+        {
+          "id": "port1114",
+          "name": "Rotterdam",
+          "country": "The Netherlands",
+          "lat": 51.9223,
+          "lon": 4.2151,
+          "max_wind_ms": 12.0,
+          "max_precip_24h_mm": 2.6,
+          "pressure": 0.0,
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port792",
@@ -329,10 +329,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 6.6,
+          "max_wind_ms": 6.7,
           "max_precip_24h_mm": 0.4,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port57",
@@ -340,10 +340,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 8.0,
-          "max_precip_24h_mm": 1.4,
+          "max_wind_ms": 7.7,
+          "max_precip_24h_mm": 2.4,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -351,10 +351,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 4.2,
-          "max_precip_24h_mm": 14.5,
+          "max_wind_ms": 5.0,
+          "max_precip_24h_mm": 16.2,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port1073",
@@ -362,10 +362,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 6.5,
-          "max_precip_24h_mm": 0.5,
+          "max_wind_ms": 6.6,
+          "max_precip_24h_mm": 0.4,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port425",
@@ -373,10 +373,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.1,
-          "max_precip_24h_mm": 1.9,
+          "max_wind_ms": 4.8,
+          "max_precip_24h_mm": 2.4,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -387,7 +387,7 @@
           "max_wind_ms": 6.3,
           "max_precip_24h_mm": 0.5,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         },
         {
           "id": "port824",
@@ -395,16 +395,16 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 10.7,
-          "max_precip_24h_mm": 1.4,
+          "max_wind_ms": 10.4,
+          "max_precip_24h_mm": 0.7,
           "pressure": 0.0,
-          "valid_to": "2026-11-01T12:00:00Z"
+          "valid_to": "2026-11-01T18:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 51.9,
+      "score": 49.7,
       "status": "ELEVATED",
       "weight": 0.15,
       "available": true,
@@ -419,12 +419,12 @@
           "name": "Tropical Cyclone CHAMPI-26",
           "alert": "Red",
           "severity": "Tropical Storm (maximum wind speed of 296 km/h)",
-          "nearest_port": "Zhoushan",
-          "country": "China",
-          "distance_km": 409,
-          "pressure": 91.6,
-          "updated": "2026-10-25T16:00:50",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=45&eventtype=TC"
+          "nearest_port": "Pusan",
+          "country": "Korea",
+          "distance_km": 456,
+          "pressure": 87.2,
+          "updated": "2026-10-25T20:00:59",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
         },
         {
           "id": "1573737",
@@ -443,11 +443,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-09T06:39:27.524764+00:00",
-      "score": 11.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-09T18:30:05.048039+00:00",
       "score": 11.0,
@@ -741,6 +736,11 @@
     {
       "generated": "2026-10-25T16:47:24.673026+00:00",
       "score": 15.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-25T21:12:22.238754+00:00",
+      "score": 15.0,
       "status": "BASELINE"
     }
   ],
