@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-26T22:51:55.241426+00:00",
+    "generated": "2026-10-27T05:33:03.014365+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 7.6,
-    "raw_score": 7.6,
+    "score": 9.8,
+    "raw_score": 9.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 7.6/100.",
+    "headline": "Global port disruption pressure is baseline at 9.8/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -286,7 +286,7 @@
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "latest_observation": "2026-10-26",
+      "latest_observation": "2026-10-27",
       "coverage": 10,
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
       "evidence": [
@@ -296,10 +296,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 7.6,
-          "max_precip_24h_mm": 1.0,
+          "max_wind_ms": 7.8,
+          "max_precip_24h_mm": 2.5,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port517",
@@ -307,10 +307,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 5.8,
-          "max_precip_24h_mm": 2.2,
+          "max_wind_ms": 5.4,
+          "max_precip_24h_mm": 3.7,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port1114",
@@ -318,10 +318,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 8.4,
-          "max_precip_24h_mm": 3.6,
+          "max_wind_ms": 8.3,
+          "max_precip_24h_mm": 4.6,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port792",
@@ -330,9 +330,9 @@
           "lat": 31.9863,
           "lon": 120.8374,
           "max_wind_ms": 7.1,
-          "max_precip_24h_mm": 3.0,
+          "max_precip_24h_mm": 2.1,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port57",
@@ -341,9 +341,9 @@
           "lat": 51.2794,
           "lon": 4.3178,
           "max_wind_ms": 7.6,
-          "max_precip_24h_mm": 3.1,
+          "max_precip_24h_mm": 3.5,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port1201",
@@ -352,9 +352,9 @@
           "lat": 1.272,
           "lon": 103.7075,
           "max_wind_ms": 5.0,
-          "max_precip_24h_mm": 25.5,
+          "max_precip_24h_mm": 21.2,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port1073",
@@ -362,10 +362,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 6.8,
-          "max_precip_24h_mm": 1.6,
+          "max_wind_ms": 6.5,
+          "max_precip_24h_mm": 2.5,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port425",
@@ -373,10 +373,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.1,
-          "max_precip_24h_mm": 2.2,
+          "max_wind_ms": 3.9,
+          "max_precip_24h_mm": 1.4,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port1425",
@@ -384,10 +384,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 6.5,
-          "max_precip_24h_mm": 2.0,
+          "max_wind_ms": 6.4,
+          "max_precip_24h_mm": 3.3,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         },
         {
           "id": "port824",
@@ -395,32 +395,54 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 9.9,
-          "max_precip_24h_mm": 1.9,
+          "max_wind_ms": 9.8,
+          "max_precip_24h_mm": 2.7,
           "pressure": 0.0,
-          "valid_to": "2026-11-02T18:00:00Z"
+          "valid_to": "2026-11-03T00:00:00Z"
         }
       ]
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 0.0,
+      "score": 14.8,
       "status": "BASELINE",
       "weight": 0.15,
       "available": true,
       "retained": false,
-      "latest_observation": "2026-10-26",
-      "coverage": 0,
+      "latest_observation": "2026-10-27",
+      "coverage": 2,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
-      "evidence": []
+      "evidence": [
+        {
+          "id": "1574056",
+          "type": "EQ",
+          "name": "Earthquake in Japan",
+          "alert": "Green",
+          "severity": "Magnitude 4.8M, Depth:48.93km",
+          "nearest_port": "Chiba Ko",
+          "country": "Japan",
+          "distance_km": 250,
+          "pressure": 15.0,
+          "updated": "2026-10-27T01:05:25",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574056&episodeid=1742912&eventtype=EQ"
+        },
+        {
+          "id": "1574061",
+          "type": "EQ",
+          "name": "Earthquake in Japan",
+          "alert": "Green",
+          "severity": "Magnitude 4.6M, Depth:66.715km",
+          "nearest_port": "Chiba Ko",
+          "country": "Japan",
+          "distance_km": 256,
+          "pressure": 14.7,
+          "updated": "2026-10-27T01:58:08",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574061&episodeid=1742920&eventtype=EQ"
+        }
+      ]
     }
   },
   "history": [
-    {
-      "generated": "2026-10-10T13:00:44.253472+00:00",
-      "score": 11.0,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-10T21:58:31.077727+00:00",
       "score": 11.0,
@@ -714,6 +736,11 @@
     {
       "generated": "2026-10-26T22:51:55.241426+00:00",
       "score": 7.6,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-27T05:33:03.014365+00:00",
+      "score": 9.8,
       "status": "BASELINE"
     }
   ],
