@@ -89,6 +89,32 @@ def test_retained_component_is_marked_and_not_mutated():
     assert previous["components"]["port_flow"].get("retained") is None
 
 
+def test_retained_component_expires_from_original_collection_time():
+    now = datetime.now(timezone.utc)
+    previous = {"meta": {"generated": (now - timedelta(hours=71)).isoformat()},
+                "components": {"port_flow": component("port_flow", 45, .35)}}
+    retained = retained_component(previous, "port_flow", now, RuntimeError("offline"))
+    refreshed = {"meta": {"generated": now.isoformat()}, "components": {"port_flow": retained}}
+    assert retained_component(refreshed, "port_flow", now + timedelta(hours=2), RuntimeError("offline")) is None
+
+
+def test_port_directory_failure_keeps_independent_sources(monkeypatch, tmp_path):
+    import json
+    from pipeline import port_warning_model as model
+
+    monkeypatch.setattr(model, "OUTPUT", tmp_path / "output.json")
+    def fail(*args):
+        raise RuntimeError("port service unavailable")
+    monkeypatch.setattr(model, "directory", fail)
+    monkeypatch.setattr(model, "collect_flow_component", lambda *args, key, **kwargs: component(key, 20, model.WEIGHTS[key]))
+    model.main()
+    output = json.loads(model.OUTPUT.read_text(encoding="utf-8"))
+    assert output["meta"]["mode"] == "partial" and output["meta"]["coverage"] == "2/4"
+    assert not output["components"]["weather_forecast"]["available"]
+    assert not output["components"]["hazard_proximity"]["available"]
+    assert output["components"]["chokepoint_flow"]["source_collected_at"]
+
+
 def test_band_boundaries():
     assert [band(value) for value in (0, 24.9, 25, 45, 65, 80, 100)] == [
         "BASELINE", "BASELINE", "WATCH", "ELEVATED", "HIGH", "SEVERE", "SEVERE"

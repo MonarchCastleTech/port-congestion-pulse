@@ -394,14 +394,18 @@ def valid_previous(previous: dict[str, Any], now: datetime) -> bool:
 
 
 def retained_component(previous: dict[str, Any], key: str, now: datetime, error: Exception) -> dict[str, Any] | None:
-    if not valid_previous(previous, now):
-        return None
     old = (previous.get("components") or {}).get(key)
     if not isinstance(old, dict) or not old.get("available"):
+        return None
+    collected = parse_datetime(old.get("source_collected_at"))
+    if not collected and not old.get("retained"):
+        collected = parse_datetime((previous.get("meta") or {}).get("generated"))
+    if not collected or not timedelta(0) <= now - collected <= timedelta(hours=FALLBACK_HOURS):
         return None
     retained = json.loads(json.dumps(old))
     retained["retained"] = True
     retained["retained_reason"] = f"Current fetch failed: {type(error).__name__}"
+    retained["source_collected_at"] = collected.isoformat()
     return retained
 
 
@@ -460,17 +464,31 @@ def main() -> None:
     previous = load_previous()
     notes: list[str] = []
 
-    port_rows = directory(PORTS, 30)
+    port_rows = []
+    port_error = None
+    try:
+        port_rows = directory(PORTS, 30)
+        if not port_rows:
+            raise RuntimeError("Port directory returned no records")
+    except Exception as error:
+        port_error = error
+
+    def require_ports():
+        if port_error is not None:
+            raise port_error
+        return port_rows
+
     components: dict[str, dict[str, Any]] = {}
     collectors = {
         "port_flow": lambda: collect_flow_component(PORTS, PORT_SERIES, limit=12, value_field="portcalls", key="port_flow"),
         "chokepoint_flow": lambda: collect_flow_component(CHOKEPOINTS, CHOKE_SERIES, limit=8, value_field="n_total", key="chokepoint_flow"),
-        "weather_forecast": lambda: collect_weather_component(port_rows),
-        "hazard_proximity": lambda: collect_hazard_component(port_rows),
+        "weather_forecast": lambda: collect_weather_component(require_ports()),
+        "hazard_proximity": lambda: collect_hazard_component(require_ports()),
     }
     for key, collector in collectors.items():
         try:
             components[key] = collector()
+            components[key]["source_collected_at"] = generated
             print(f"[live] {key}: {components[key]['score']}")
         except Exception as error:  # feed isolation is intentional
             retained = retained_component(previous, key, now, error)
