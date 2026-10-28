@@ -21,7 +21,7 @@ const ui = {
 
   render() {
     const { meta, warning, components } = this.data;
-    this.text('mode', meta.mode === 'unavailable' ? 'Unavailable' : meta.mode === 'live' ? 'Live · 6h refresh' : 'Retained snapshot');
+    this.text('mode', meta.mode === 'unavailable' ? 'Unavailable' : meta.mode === 'live' ? 'Live · 6h refresh' : 'Partial coverage');
     this.text('generated', `Updated ${this.date(meta.generated)}`);
     this.text('score', warning.score == null ? '—' : Number(warning.score).toFixed(1));
     this.text('status', warning.status);
@@ -36,7 +36,7 @@ const ui = {
     const notes = meta.source_notes || [];
     this.text('status-strip', meta.mode === 'unavailable' ? 'No current score: all source components are unavailable.' : notes.length
       ? `${meta.coverage} components available. ${notes.join(' ')}`
-      : `${meta.coverage} components live · ${meta.confidence.toLowerCase()} confidence · next automated refresh within 6 hours.`);
+      : `${meta.coverage} components available · ${meta.confidence.toLowerCase()} confidence · scheduled refresh every 6 hours.`);
 
     this.components(components);
     this.flowTable('port-rows', components.port_flow);
