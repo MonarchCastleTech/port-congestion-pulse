@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-28T06:14:30.953297+00:00",
+    "generated": "2026-10-28T08:15:09.600186+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,49 +11,36 @@
     "source_notes": []
   },
   "warning": {
-    "score": 9.8,
-    "raw_score": 9.8,
+    "score": 22.6,
+    "raw_score": 22.6,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 9.8/100.",
+    "headline": "Global port disruption pressure is baseline at 22.6/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
     "port_flow": {
       "key": "port_flow",
-      "score": 16.0,
-      "status": "BASELINE",
+      "score": 39.1,
+      "status": "WATCH",
       "weight": 0.35,
       "available": true,
       "retained": false,
-      "latest_observation": "2026-10-16",
-      "coverage": 12,
+      "latest_observation": "2026-10-23",
+      "coverage": 10,
       "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
       "evidence": [
-        {
-          "id": "port517",
-          "name": "Jiangyin",
-          "country": "China",
-          "lat": 31.9324,
-          "lon": 120.1593,
-          "recent_mean": 10.7,
-          "baseline_mean": 12.7,
-          "change_pct": -15.5,
-          "direction": "shortfall",
-          "pressure": 30.0,
-          "observations": 42
-        },
         {
           "id": "port1188",
           "name": "Shanghai",
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "recent_mean": 70.7,
-          "baseline_mean": 82.4,
-          "change_pct": -14.2,
+          "recent_mean": 59.4,
+          "baseline_mean": 81.7,
+          "change_pct": -27.3,
           "direction": "shortfall",
-          "pressure": 26.3,
+          "pressure": 63.6,
           "observations": 42
         },
         {
@@ -62,11 +49,11 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "recent_mean": 7.1,
+          "recent_mean": 4.7,
           "baseline_mean": 6.3,
-          "change_pct": 13.6,
-          "direction": "surge",
-          "pressure": 24.7,
+          "change_pct": -25.4,
+          "direction": "shortfall",
+          "pressure": 58.4,
           "observations": 42
         },
         {
@@ -75,24 +62,37 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "recent_mean": 13.7,
-          "baseline_mean": 12.1,
-          "change_pct": 12.9,
-          "direction": "surge",
-          "pressure": 22.7,
+          "recent_mean": 10.3,
+          "baseline_mean": 12.8,
+          "change_pct": -19.8,
+          "direction": "shortfall",
+          "pressure": 42.2,
           "observations": 42
         },
         {
-          "id": "port1073",
-          "name": "Qiwei",
+          "id": "port517",
+          "name": "Jiangyin",
           "country": "China",
-          "lat": 31.9983,
-          "lon": 120.6176,
-          "recent_mean": 13.3,
-          "baseline_mean": 12.2,
-          "change_pct": 8.8,
-          "direction": "surge",
-          "pressure": 10.8,
+          "lat": 31.9324,
+          "lon": 120.1593,
+          "recent_mean": 9.7,
+          "baseline_mean": 11.9,
+          "change_pct": -18.3,
+          "direction": "shortfall",
+          "pressure": 38.1,
+          "observations": 42
+        },
+        {
+          "id": "port824",
+          "name": "Ningbo",
+          "country": "China",
+          "lat": 29.9208,
+          "lon": 121.8818,
+          "recent_mean": 39.4,
+          "baseline_mean": 47.2,
+          "change_pct": -16.5,
+          "direction": "shortfall",
+          "pressure": 32.8,
           "observations": 42
         },
         {
@@ -101,37 +101,24 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "recent_mean": 57.7,
-          "baseline_mean": 53.8,
-          "change_pct": 7.4,
-          "direction": "surge",
-          "pressure": 6.8,
-          "observations": 42
-        },
-        {
-          "id": "port425",
-          "name": "Guangzhou",
-          "country": "China",
-          "lat": 23.0275,
-          "lon": 113.4836,
-          "recent_mean": 29.6,
-          "baseline_mean": 27.6,
-          "change_pct": 7.1,
-          "direction": "surge",
-          "pressure": 6.0,
-          "observations": 42
-        },
-        {
-          "id": "port45",
-          "name": "Amsterdam",
-          "country": "The Netherlands",
-          "lat": 52.4104,
-          "lon": 4.8196,
-          "recent_mean": 20.7,
-          "baseline_mean": 21.9,
-          "change_pct": -5.2,
+          "recent_mean": 48.9,
+          "baseline_mean": 55.6,
+          "change_pct": -12.1,
           "direction": "shortfall",
-          "pressure": 0.7,
+          "pressure": 20.2,
+          "observations": 42
+        },
+        {
+          "id": "port1073",
+          "name": "Qiwei",
+          "country": "China",
+          "lat": 31.9983,
+          "lon": 120.6176,
+          "recent_mean": 11.0,
+          "baseline_mean": 12.3,
+          "change_pct": -10.5,
+          "direction": "shortfall",
+          "pressure": 15.6,
           "observations": 42
         },
         {
@@ -140,115 +127,64 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "recent_mean": 85.0,
-          "baseline_mean": 84.3,
+          "recent_mean": 80.3,
+          "baseline_mean": 84.9,
+          "change_pct": -5.4,
+          "direction": "shortfall",
+          "pressure": 1.1,
+          "observations": 42
+        },
+        {
+          "id": "port425",
+          "name": "Guangzhou",
+          "country": "China",
+          "lat": 23.0275,
+          "lon": 113.4836,
+          "recent_mean": 27.9,
+          "baseline_mean": 27.4,
+          "change_pct": 1.6,
+          "direction": "surge",
+          "pressure": 0.0,
+          "observations": 42
+        },
+        {
+          "id": "port45",
+          "name": "Amsterdam",
+          "country": "The Netherlands",
+          "lat": 52.4104,
+          "lon": 4.8196,
+          "recent_mean": 21.7,
+          "baseline_mean": 21.5,
           "change_pct": 0.8,
           "direction": "surge",
           "pressure": 0.0,
           "observations": 42
-        },
-        {
-          "id": "port1201",
-          "name": "Singapore",
-          "country": "Singapore",
-          "lat": 1.272,
-          "lon": 103.7075,
-          "recent_mean": 116.7,
-          "baseline_mean": 117.5,
-          "change_pct": -0.6,
-          "direction": "shortfall",
-          "pressure": 0.0,
-          "observations": 42
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:15:09.600186+00:00"
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
-      "score": 7.9,
-      "status": "BASELINE",
+      "score": 26.7,
+      "status": "WATCH",
       "weight": 0.25,
       "available": true,
       "retained": false,
-      "latest_observation": "2026-10-18",
+      "latest_observation": "2026-10-25",
       "coverage": 8,
       "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
       "evidence": [
         {
-          "id": "chokepoint6",
-          "name": "Strait of Hormuz",
+          "id": "chokepoint9",
+          "name": "Dover Strait",
           "country": null,
-          "lat": 26.2969,
-          "lon": 56.8598,
-          "recent_mean": 3.7,
-          "baseline_mean": 3.3,
-          "change_pct": 13.0,
-          "direction": "surge",
-          "pressure": 23.0,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint12",
-          "name": "Korea Strait",
-          "country": null,
-          "lat": 34.1308,
-          "lon": 129.2092,
-          "recent_mean": 195.9,
-          "baseline_mean": 215.5,
-          "change_pct": -9.1,
+          "lat": 51.0302,
+          "lon": 1.5058,
+          "recent_mean": 128.7,
+          "baseline_mean": 170.1,
+          "change_pct": -24.3,
           "direction": "shortfall",
-          "pressure": 11.8,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint3",
-          "name": "Bosporus Strait",
-          "country": null,
-          "lat": 41.1693,
-          "lon": 29.0915,
-          "recent_mean": 46.6,
-          "baseline_mean": 50.1,
-          "change_pct": -7.1,
-          "direction": "shortfall",
-          "pressure": 5.9,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint17",
-          "name": "Bohai Strait",
-          "country": null,
-          "lat": 38.373,
-          "lon": 120.9,
-          "recent_mean": 147.6,
-          "baseline_mean": 157.1,
-          "change_pct": -6.0,
-          "direction": "shortfall",
-          "pressure": 3.0,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint8",
-          "name": "Gibraltar Strait",
-          "country": null,
-          "lat": 35.9423,
-          "lon": -5.7549,
-          "recent_mean": 124.4,
-          "baseline_mean": 132.3,
-          "change_pct": -5.9,
-          "direction": "shortfall",
-          "pressure": 2.7,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint5",
-          "name": "Malacca Strait",
-          "country": null,
-          "lat": 1.517,
-          "lon": 102.6651,
-          "recent_mean": 215.1,
-          "baseline_mean": 226.7,
-          "change_pct": -5.1,
-          "direction": "shortfall",
-          "pressure": 0.3,
+          "pressure": 55.2,
           "observations": 42
         },
         {
@@ -257,27 +193,93 @@
           "country": null,
           "lat": 24.7235,
           "lon": 119.8314,
-          "recent_mean": 227.3,
-          "baseline_mean": 229.5,
-          "change_pct": -0.9,
+          "recent_mean": 190.0,
+          "baseline_mean": 230.6,
+          "change_pct": -17.6,
+          "direction": "shortfall",
+          "pressure": 36.0,
+          "observations": 42
+        },
+        {
+          "id": "chokepoint8",
+          "name": "Gibraltar Strait",
+          "country": null,
+          "lat": 35.9423,
+          "lon": -5.7549,
+          "recent_mean": 116.4,
+          "baseline_mean": 131.5,
+          "change_pct": -11.5,
+          "direction": "shortfall",
+          "pressure": 18.5,
+          "observations": 42
+        },
+        {
+          "id": "chokepoint3",
+          "name": "Bosporus Strait",
+          "country": null,
+          "lat": 41.1693,
+          "lon": 29.0915,
+          "recent_mean": 53.7,
+          "baseline_mean": 48.2,
+          "change_pct": 11.5,
+          "direction": "surge",
+          "pressure": 18.5,
+          "observations": 42
+        },
+        {
+          "id": "chokepoint17",
+          "name": "Bohai Strait",
+          "country": null,
+          "lat": 38.373,
+          "lon": 120.9,
+          "recent_mean": 164.0,
+          "baseline_mean": 154.0,
+          "change_pct": 6.5,
+          "direction": "surge",
+          "pressure": 4.3,
+          "observations": 42
+        },
+        {
+          "id": "chokepoint12",
+          "name": "Korea Strait",
+          "country": null,
+          "lat": 34.1308,
+          "lon": 129.2092,
+          "recent_mean": 198.4,
+          "baseline_mean": 208.0,
+          "change_pct": -4.6,
           "direction": "shortfall",
           "pressure": 0.0,
           "observations": 42
         },
         {
-          "id": "chokepoint9",
-          "name": "Dover Strait",
+          "id": "chokepoint5",
+          "name": "Malacca Strait",
           "country": null,
-          "lat": 51.0302,
-          "lon": 1.5058,
-          "recent_mean": 175.0,
-          "baseline_mean": 167.0,
-          "change_pct": 4.8,
+          "lat": 1.517,
+          "lon": 102.6651,
+          "recent_mean": 228.0,
+          "baseline_mean": 223.1,
+          "change_pct": 2.2,
           "direction": "surge",
           "pressure": 0.0,
           "observations": 42
+        },
+        {
+          "id": "chokepoint6",
+          "name": "Strait of Hormuz",
+          "country": null,
+          "lat": 26.2969,
+          "lon": 56.8598,
+          "recent_mean": 3.3,
+          "baseline_mean": 3.4,
+          "change_pct": -4.2,
+          "direction": "shortfall",
+          "pressure": 0.0,
+          "observations": 42
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:15:09.600186+00:00"
     },
     "weather_forecast": {
       "key": "weather_forecast",
@@ -296,7 +298,7 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 5.0,
+          "max_wind_ms": 4.4,
           "max_precip_24h_mm": 7.2,
           "pressure": 0.0,
           "valid_to": "2026-11-04T06:00:00Z"
@@ -318,7 +320,7 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 6.2,
+          "max_wind_ms": 6.6,
           "max_precip_24h_mm": 0.3,
           "pressure": 0.0,
           "valid_to": "2026-11-04T06:00:00Z"
@@ -340,7 +342,7 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 4.3,
+          "max_wind_ms": 4.7,
           "max_precip_24h_mm": 0.7,
           "pressure": 0.0,
           "valid_to": "2026-11-04T06:00:00Z"
@@ -352,7 +354,7 @@
           "lat": 1.272,
           "lon": 103.7075,
           "max_wind_ms": 4.2,
-          "max_precip_24h_mm": 19.9,
+          "max_precip_24h_mm": 15.5,
           "pressure": 0.0,
           "valid_to": "2026-11-04T06:00:00Z"
         },
@@ -400,7 +402,8 @@
           "pressure": 0.0,
           "valid_to": "2026-11-04T06:00:00Z"
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:15:09.600186+00:00"
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
@@ -439,15 +442,11 @@
           "updated": "2026-10-27T01:58:08",
           "url": "https://www.gdacs.org/report.aspx?eventid=1574061&episodeid=1742920&eventtype=EQ"
         }
-      ]
+      ],
+      "source_collected_at": "2026-10-28T08:15:09.600186+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-11T13:28:35.411366+00:00",
-      "score": 11.9,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-11T22:26:00.200411+00:00",
       "score": 15.9,
@@ -741,6 +740,11 @@
     {
       "generated": "2026-10-28T06:14:30.953297+00:00",
       "score": 9.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-28T08:15:09.600186+00:00",
+      "score": 22.6,
       "status": "BASELINE"
     }
   ],
