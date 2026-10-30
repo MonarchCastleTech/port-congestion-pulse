@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-29T22:57:27.896068+00:00",
+    "generated": "2026-10-30T06:23:53.165053+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -10,7 +10,9 @@
     "confidence": "MEDIUM",
     "source_notes": [
       "port_flow: retained validated snapshot (RuntimeError)",
-      "chokepoint_flow: retained validated snapshot (RuntimeError)"
+      "chokepoint_flow: retained validated snapshot (RuntimeError)",
+      "weather_forecast: retained validated snapshot (RuntimeError)",
+      "hazard_proximity: retained validated snapshot (RuntimeError)"
     ]
   },
   "warning": {
@@ -292,7 +294,7 @@
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-10-29",
       "coverage": 10,
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
@@ -408,7 +410,8 @@
           "valid_to": "2026-11-05T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-10-29T22:57:27.896068+00:00"
+      "source_collected_at": "2026-10-29T22:57:27.896068+00:00",
+      "retained_reason": "Current fetch failed: RuntimeError"
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
@@ -416,20 +419,16 @@
       "status": "BASELINE",
       "weight": 0.15,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-10-29",
       "coverage": 0,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
       "evidence": [],
-      "source_collected_at": "2026-10-29T22:57:27.896068+00:00"
+      "source_collected_at": "2026-10-29T22:57:27.896068+00:00",
+      "retained_reason": "Current fetch failed: RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-13T23:06:05.886962+00:00",
-      "score": 14.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-14T05:20:19.070830+00:00",
       "score": 12.7,
@@ -722,6 +721,11 @@
     },
     {
       "generated": "2026-10-29T22:57:27.896068+00:00",
+      "score": 18.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-30T06:23:53.165053+00:00",
       "score": 18.8,
       "status": "BASELINE"
     }
