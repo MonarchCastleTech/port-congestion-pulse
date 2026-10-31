@@ -1,292 +1,52 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-10-31T13:01:11.637199+00:00",
+    "generated": "2026-10-31T21:50:16.190089+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–9 days",
     "classification": "port-disruption-pressure-not-measured-vessel-waiting-time-or-closure-probability",
-    "coverage": "4/4",
-    "confidence": "MEDIUM",
+    "coverage": "2/4",
+    "confidence": "LOW",
     "source_notes": [
-      "port_flow: retained validated snapshot (RuntimeError)",
-      "chokepoint_flow: retained validated snapshot (RuntimeError)",
+      "port_flow: unavailable (RuntimeError)",
+      "chokepoint_flow: unavailable (RuntimeError)",
       "weather_forecast: retained validated snapshot (RuntimeError)",
       "hazard_proximity: retained validated snapshot (RuntimeError)"
     ]
   },
   "warning": {
-    "score": 18.8,
-    "raw_score": 18.8,
+    "score": 0.0,
+    "raw_score": 0.0,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 18.8/100.",
+    "headline": "Global port disruption pressure is baseline at 0.0/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
     "port_flow": {
       "key": "port_flow",
-      "score": 34.7,
-      "status": "WATCH",
+      "score": null,
+      "status": "UNAVAILABLE",
       "weight": 0.35,
-      "available": true,
-      "retained": true,
-      "latest_observation": "2026-10-23",
-      "coverage": 12,
-      "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
-      "evidence": [
-        {
-          "id": "port1188",
-          "name": "Shanghai",
-          "country": "China",
-          "lat": 31.1918,
-          "lon": 121.6442,
-          "recent_mean": 59.4,
-          "baseline_mean": 81.7,
-          "change_pct": -27.3,
-          "direction": "shortfall",
-          "pressure": 63.6,
-          "observations": 42
-        },
-        {
-          "id": "port1425",
-          "name": "Zhangjiangang",
-          "country": "China",
-          "lat": 31.9746,
-          "lon": 120.4288,
-          "recent_mean": 4.7,
-          "baseline_mean": 6.3,
-          "change_pct": -25.4,
-          "direction": "shortfall",
-          "pressure": 58.4,
-          "observations": 42
-        },
-        {
-          "id": "port792",
-          "name": "Nantong",
-          "country": "China",
-          "lat": 31.9863,
-          "lon": 120.8374,
-          "recent_mean": 10.3,
-          "baseline_mean": 12.8,
-          "change_pct": -19.8,
-          "direction": "shortfall",
-          "pressure": 42.2,
-          "observations": 42
-        },
-        {
-          "id": "port517",
-          "name": "Jiangyin",
-          "country": "China",
-          "lat": 31.9324,
-          "lon": 120.1593,
-          "recent_mean": 9.7,
-          "baseline_mean": 11.9,
-          "change_pct": -18.3,
-          "direction": "shortfall",
-          "pressure": 38.1,
-          "observations": 42
-        },
-        {
-          "id": "port824",
-          "name": "Ningbo",
-          "country": "China",
-          "lat": 29.9208,
-          "lon": 121.8818,
-          "recent_mean": 39.4,
-          "baseline_mean": 47.2,
-          "change_pct": -16.5,
-          "direction": "shortfall",
-          "pressure": 32.8,
-          "observations": 42
-        },
-        {
-          "id": "port57",
-          "name": "Antwerp",
-          "country": "Belgium",
-          "lat": 51.2794,
-          "lon": 4.3178,
-          "recent_mean": 48.9,
-          "baseline_mean": 55.6,
-          "change_pct": -12.1,
-          "direction": "shortfall",
-          "pressure": 20.2,
-          "observations": 42
-        },
-        {
-          "id": "port1073",
-          "name": "Qiwei",
-          "country": "China",
-          "lat": 31.9983,
-          "lon": 120.6176,
-          "recent_mean": 11.0,
-          "baseline_mean": 12.3,
-          "change_pct": -10.5,
-          "direction": "shortfall",
-          "pressure": 15.6,
-          "observations": 42
-        },
-        {
-          "id": "port1114",
-          "name": "Rotterdam",
-          "country": "The Netherlands",
-          "lat": 51.9223,
-          "lon": 4.2151,
-          "recent_mean": 80.3,
-          "baseline_mean": 84.9,
-          "change_pct": -5.4,
-          "direction": "shortfall",
-          "pressure": 1.1,
-          "observations": 42
-        },
-        {
-          "id": "port1201",
-          "name": "Singapore",
-          "country": "Singapore",
-          "lat": 1.272,
-          "lon": 103.7075,
-          "recent_mean": 118.0,
-          "baseline_mean": 117.2,
-          "change_pct": 0.7,
-          "direction": "surge",
-          "pressure": 0.0,
-          "observations": 42
-        },
-        {
-          "id": "port425",
-          "name": "Guangzhou",
-          "country": "China",
-          "lat": 23.0275,
-          "lon": 113.4836,
-          "recent_mean": 27.9,
-          "baseline_mean": 27.4,
-          "change_pct": 1.6,
-          "direction": "surge",
-          "pressure": 0.0,
-          "observations": 42
-        }
-      ],
-      "source_collected_at": "2026-10-28T13:29:37.644997+00:00",
-      "retained_reason": "Current fetch failed: RuntimeError"
+      "available": false,
+      "retained": false,
+      "coverage": 0,
+      "method": "Source unavailable; excluded and remaining weights renormalized.",
+      "evidence": [],
+      "error": "RuntimeError"
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
-      "score": 26.7,
-      "status": "WATCH",
+      "score": null,
+      "status": "UNAVAILABLE",
       "weight": 0.25,
-      "available": true,
-      "retained": true,
-      "latest_observation": "2026-10-25",
-      "coverage": 8,
-      "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
-      "evidence": [
-        {
-          "id": "chokepoint9",
-          "name": "Dover Strait",
-          "country": null,
-          "lat": 51.0302,
-          "lon": 1.5058,
-          "recent_mean": 128.7,
-          "baseline_mean": 170.1,
-          "change_pct": -24.3,
-          "direction": "shortfall",
-          "pressure": 55.2,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint11",
-          "name": "Taiwan Strait",
-          "country": null,
-          "lat": 24.7235,
-          "lon": 119.8314,
-          "recent_mean": 190.0,
-          "baseline_mean": 230.6,
-          "change_pct": -17.6,
-          "direction": "shortfall",
-          "pressure": 36.0,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint8",
-          "name": "Gibraltar Strait",
-          "country": null,
-          "lat": 35.9423,
-          "lon": -5.7549,
-          "recent_mean": 116.4,
-          "baseline_mean": 131.5,
-          "change_pct": -11.5,
-          "direction": "shortfall",
-          "pressure": 18.5,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint3",
-          "name": "Bosporus Strait",
-          "country": null,
-          "lat": 41.1693,
-          "lon": 29.0915,
-          "recent_mean": 53.7,
-          "baseline_mean": 48.2,
-          "change_pct": 11.5,
-          "direction": "surge",
-          "pressure": 18.5,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint17",
-          "name": "Bohai Strait",
-          "country": null,
-          "lat": 38.373,
-          "lon": 120.9,
-          "recent_mean": 164.0,
-          "baseline_mean": 154.0,
-          "change_pct": 6.5,
-          "direction": "surge",
-          "pressure": 4.3,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint12",
-          "name": "Korea Strait",
-          "country": null,
-          "lat": 34.1308,
-          "lon": 129.2092,
-          "recent_mean": 198.4,
-          "baseline_mean": 208.0,
-          "change_pct": -4.6,
-          "direction": "shortfall",
-          "pressure": 0.0,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint5",
-          "name": "Malacca Strait",
-          "country": null,
-          "lat": 1.517,
-          "lon": 102.6651,
-          "recent_mean": 228.0,
-          "baseline_mean": 223.1,
-          "change_pct": 2.2,
-          "direction": "surge",
-          "pressure": 0.0,
-          "observations": 42
-        },
-        {
-          "id": "chokepoint6",
-          "name": "Strait of Hormuz",
-          "country": null,
-          "lat": 26.2969,
-          "lon": 56.8598,
-          "recent_mean": 3.3,
-          "baseline_mean": 3.4,
-          "change_pct": -4.2,
-          "direction": "shortfall",
-          "pressure": 0.0,
-          "observations": 42
-        }
-      ],
-      "source_collected_at": "2026-10-28T13:29:37.644997+00:00",
-      "retained_reason": "Current fetch failed: RuntimeError"
+      "available": false,
+      "retained": false,
+      "coverage": 0,
+      "method": "Source unavailable; excluded and remaining weights renormalized.",
+      "evidence": [],
+      "error": "RuntimeError"
     },
     "weather_forecast": {
       "key": "weather_forecast",
@@ -429,11 +189,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-15T05:07:44.371272+00:00",
-      "score": 8.5,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-15T12:03:35.577812+00:00",
       "score": 8.5,
@@ -727,6 +482,11 @@
     {
       "generated": "2026-10-31T13:01:11.637199+00:00",
       "score": 18.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-10-31T21:50:16.190089+00:00",
+      "score": 0.0,
       "status": "BASELINE"
     }
   ],
