@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-11-03T07:12:21.758254+00:00",
+    "generated": "2026-11-03T19:46:58.862248+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -9,7 +9,10 @@
     "coverage": "3/4",
     "confidence": "MEDIUM",
     "source_notes": [
-      "chokepoint_flow: unavailable (RuntimeError)"
+      "port_flow: retained validated snapshot (RuntimeError)",
+      "chokepoint_flow: unavailable (RuntimeError)",
+      "weather_forecast: retained validated snapshot (RuntimeError)",
+      "hazard_proximity: retained validated snapshot (RuntimeError)"
     ]
   },
   "warning": {
@@ -27,7 +30,7 @@
       "status": "WATCH",
       "weight": 0.35,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-10-23",
       "coverage": 12,
       "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
@@ -163,7 +166,8 @@
           "observations": 42
         }
       ],
-      "source_collected_at": "2026-11-03T07:12:21.758254+00:00"
+      "source_collected_at": "2026-11-03T07:12:21.758254+00:00",
+      "retained_reason": "Current fetch failed: RuntimeError"
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
@@ -183,7 +187,7 @@
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-11-03",
       "coverage": 10,
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
@@ -299,7 +303,8 @@
           "valid_to": "2026-11-10T06:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-03T07:12:21.758254+00:00"
+      "source_collected_at": "2026-11-03T07:12:21.758254+00:00",
+      "retained_reason": "Current fetch failed: RuntimeError"
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
@@ -307,7 +312,7 @@
       "status": "BASELINE",
       "weight": 0.15,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-11-03",
       "coverage": 2,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
@@ -339,15 +344,11 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1575227&episodeid=1744248&eventtype=EQ"
         }
       ],
-      "source_collected_at": "2026-11-03T07:12:21.758254+00:00"
+      "source_collected_at": "2026-11-03T07:12:21.758254+00:00",
+      "retained_reason": "Current fetch failed: RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-16T16:54:58.680065+00:00",
-      "score": 12.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-16T21:40:05.225206+00:00",
       "score": 13.5,
@@ -640,6 +641,11 @@
     },
     {
       "generated": "2026-11-03T07:12:21.758254+00:00",
+      "score": 18.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-03T19:46:58.862248+00:00",
       "score": 18.7,
       "status": "BASELINE"
     }
