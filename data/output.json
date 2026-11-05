@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-11-04T19:59:42.226287+00:00",
+    "generated": "2026-11-05T07:20:35.756019+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,16 +11,15 @@
     "source_notes": [
       "port_flow: retained validated snapshot (RuntimeError)",
       "chokepoint_flow: unavailable (RuntimeError)",
-      "weather_forecast: retained validated snapshot (RuntimeError)",
-      "hazard_proximity: retained validated snapshot (RuntimeError)"
+      "weather_forecast: retained validated snapshot (HTTPError)"
     ]
   },
   "warning": {
-    "score": 18.7,
-    "raw_score": 18.7,
+    "score": 21.4,
+    "raw_score": 21.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 18.7/100.",
+    "headline": "Global port disruption pressure is baseline at 21.4/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -304,56 +303,37 @@
         }
       ],
       "source_collected_at": "2026-11-03T07:12:21.758254+00:00",
-      "retained_reason": "Current fetch failed: RuntimeError"
+      "retained_reason": "Current fetch failed: HTTPError"
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 12.7,
-      "status": "BASELINE",
+      "score": 25.9,
+      "status": "WATCH",
       "weight": 0.15,
       "available": true,
-      "retained": true,
-      "latest_observation": "2026-11-03",
-      "coverage": 2,
+      "retained": false,
+      "latest_observation": "2026-11-05",
+      "coverage": 1,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
       "evidence": [
         {
-          "id": "1575190",
-          "type": "EQ",
-          "name": "Earthquake in Taiwan",
+          "id": "1001343",
+          "type": "TC",
+          "name": "Tropical Cyclone IN-FA-26",
           "alert": "Green",
-          "severity": "Magnitude 4.5M, Depth:55.087km",
-          "nearest_port": "Kao Hsiung",
-          "country": "Taiwan Province of China",
-          "distance_km": 272,
-          "pressure": 13.8,
-          "updated": "2026-11-02T03:25:23",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1575190&episodeid=1744203&eventtype=EQ"
-        },
-        {
-          "id": "1575227",
-          "type": "EQ",
-          "name": "Earthquake in Philippines",
-          "alert": "Green",
-          "severity": "Magnitude 4.7M, Depth:35km",
-          "nearest_port": "Kao Hsiung",
-          "country": "Taiwan Province of China",
-          "distance_km": 318,
-          "pressure": 11.5,
-          "updated": "2026-11-02T09:37:49",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1575227&episodeid=1744248&eventtype=EQ"
+          "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+          "nearest_port": "Yokohama Ko",
+          "country": "Japan",
+          "distance_km": 815,
+          "pressure": 25.9,
+          "updated": "2026-11-05T02:35:53",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=51&eventtype=TC"
         }
       ],
-      "source_collected_at": "2026-11-03T07:12:21.758254+00:00",
-      "retained_reason": "Current fetch failed: RuntimeError"
+      "source_collected_at": "2026-11-05T07:20:35.756019+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-17T11:08:37.486599+00:00",
-      "score": 9.6,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-17T15:55:03.119268+00:00",
       "score": 10.0,
@@ -647,6 +627,11 @@
     {
       "generated": "2026-11-04T19:59:42.226287+00:00",
       "score": 18.7,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-05T07:20:35.756019+00:00",
+      "score": 21.4,
       "status": "BASELINE"
     }
   ],
