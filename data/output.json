@@ -1,171 +1,40 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-11-05T20:14:37.250536+00:00",
+    "generated": "2026-11-06T07:21:32.604571+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–9 days",
     "classification": "port-disruption-pressure-not-measured-vessel-waiting-time-or-closure-probability",
-    "coverage": "3/4",
-    "confidence": "MEDIUM",
+    "coverage": "2/4",
+    "confidence": "LOW",
     "source_notes": [
-      "port_flow: retained validated snapshot (RuntimeError)",
-      "chokepoint_flow: unavailable (RuntimeError)"
+      "port_flow: unavailable (RuntimeError)",
+      "chokepoint_flow: unavailable (RuntimeError)",
+      "weather_forecast: retained validated snapshot (RuntimeError)",
+      "hazard_proximity: retained validated snapshot (RuntimeError)"
     ]
   },
   "warning": {
-    "score": 22.5,
-    "raw_score": 22.5,
+    "score": 11.8,
+    "raw_score": 11.8,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 22.5/100.",
+    "headline": "Global port disruption pressure is baseline at 11.8/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
     "port_flow": {
       "key": "port_flow",
-      "score": 34.7,
-      "status": "WATCH",
+      "score": null,
+      "status": "UNAVAILABLE",
       "weight": 0.35,
-      "available": true,
-      "retained": true,
-      "latest_observation": "2026-10-23",
-      "coverage": 12,
-      "method": "Seven-day mean versus preceding 28-day mean; two-sided 5–40% anomaly scale.",
-      "evidence": [
-        {
-          "id": "port1188",
-          "name": "Shanghai",
-          "country": "China",
-          "lat": 31.1918,
-          "lon": 121.6442,
-          "recent_mean": 59.4,
-          "baseline_mean": 81.7,
-          "change_pct": -27.3,
-          "direction": "shortfall",
-          "pressure": 63.6,
-          "observations": 42
-        },
-        {
-          "id": "port1425",
-          "name": "Zhangjiangang",
-          "country": "China",
-          "lat": 31.9746,
-          "lon": 120.4288,
-          "recent_mean": 4.7,
-          "baseline_mean": 6.3,
-          "change_pct": -25.4,
-          "direction": "shortfall",
-          "pressure": 58.4,
-          "observations": 42
-        },
-        {
-          "id": "port792",
-          "name": "Nantong",
-          "country": "China",
-          "lat": 31.9863,
-          "lon": 120.8374,
-          "recent_mean": 10.3,
-          "baseline_mean": 12.8,
-          "change_pct": -19.8,
-          "direction": "shortfall",
-          "pressure": 42.2,
-          "observations": 42
-        },
-        {
-          "id": "port517",
-          "name": "Jiangyin",
-          "country": "China",
-          "lat": 31.9324,
-          "lon": 120.1593,
-          "recent_mean": 9.7,
-          "baseline_mean": 11.9,
-          "change_pct": -18.3,
-          "direction": "shortfall",
-          "pressure": 38.1,
-          "observations": 42
-        },
-        {
-          "id": "port824",
-          "name": "Ningbo",
-          "country": "China",
-          "lat": 29.9208,
-          "lon": 121.8818,
-          "recent_mean": 39.4,
-          "baseline_mean": 47.2,
-          "change_pct": -16.5,
-          "direction": "shortfall",
-          "pressure": 32.8,
-          "observations": 42
-        },
-        {
-          "id": "port57",
-          "name": "Antwerp",
-          "country": "Belgium",
-          "lat": 51.2794,
-          "lon": 4.3178,
-          "recent_mean": 48.9,
-          "baseline_mean": 55.6,
-          "change_pct": -12.1,
-          "direction": "shortfall",
-          "pressure": 20.2,
-          "observations": 42
-        },
-        {
-          "id": "port1073",
-          "name": "Qiwei",
-          "country": "China",
-          "lat": 31.9983,
-          "lon": 120.6176,
-          "recent_mean": 11.0,
-          "baseline_mean": 12.3,
-          "change_pct": -10.5,
-          "direction": "shortfall",
-          "pressure": 15.6,
-          "observations": 42
-        },
-        {
-          "id": "port1114",
-          "name": "Rotterdam",
-          "country": "The Netherlands",
-          "lat": 51.9223,
-          "lon": 4.2151,
-          "recent_mean": 80.3,
-          "baseline_mean": 84.9,
-          "change_pct": -5.4,
-          "direction": "shortfall",
-          "pressure": 1.1,
-          "observations": 42
-        },
-        {
-          "id": "port1201",
-          "name": "Singapore",
-          "country": "Singapore",
-          "lat": 1.272,
-          "lon": 103.7075,
-          "recent_mean": 118.0,
-          "baseline_mean": 117.2,
-          "change_pct": 0.7,
-          "direction": "surge",
-          "pressure": 0.0,
-          "observations": 42
-        },
-        {
-          "id": "port425",
-          "name": "Guangzhou",
-          "country": "China",
-          "lat": 23.0275,
-          "lon": 113.4836,
-          "recent_mean": 27.9,
-          "baseline_mean": 27.4,
-          "change_pct": 1.6,
-          "direction": "surge",
-          "pressure": 0.0,
-          "observations": 42
-        }
-      ],
-      "source_collected_at": "2026-11-03T07:12:21.758254+00:00",
-      "retained_reason": "Current fetch failed: RuntimeError"
+      "available": false,
+      "retained": false,
+      "coverage": 0,
+      "method": "Source unavailable; excluded and remaining weights renormalized.",
+      "evidence": [],
+      "error": "RuntimeError"
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
@@ -185,7 +54,7 @@
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-11-05",
       "coverage": 10,
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
@@ -301,7 +170,8 @@
           "valid_to": "2026-11-12T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-05T20:14:37.250536+00:00"
+      "source_collected_at": "2026-11-05T20:14:37.250536+00:00",
+      "retained_reason": "Current fetch failed: RuntimeError"
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
@@ -309,7 +179,7 @@
       "status": "WATCH",
       "weight": 0.15,
       "available": true,
-      "retained": false,
+      "retained": true,
       "latest_observation": "2026-11-05",
       "coverage": 1,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
@@ -328,15 +198,11 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=52&eventtype=TC"
         }
       ],
-      "source_collected_at": "2026-11-05T20:14:37.250536+00:00"
+      "source_collected_at": "2026-11-05T20:14:37.250536+00:00",
+      "retained_reason": "Current fetch failed: RuntimeError"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-17T20:54:54.172591+00:00",
-      "score": 14.4,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-18T05:05:13.560356+00:00",
       "score": 8.7,
@@ -630,6 +496,11 @@
     {
       "generated": "2026-11-05T20:14:37.250536+00:00",
       "score": 22.5,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-06T07:21:32.604571+00:00",
+      "score": 11.8,
       "status": "BASELINE"
     }
   ],
