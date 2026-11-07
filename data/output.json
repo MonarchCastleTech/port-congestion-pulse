@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-11-06T19:39:54.901795+00:00",
+    "generated": "2026-11-07T06:33:20.984087+00:00",
     "mode": "partial",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -203,11 +203,6 @@
     }
   },
   "history": [
-    {
-      "generated": "2026-10-18T11:39:50.335378+00:00",
-      "score": 10.3,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-18T16:06:47.469749+00:00",
       "score": 10.3,
@@ -500,6 +495,11 @@
     },
     {
       "generated": "2026-11-06T19:39:54.901795+00:00",
+      "score": 11.8,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-07T06:33:20.984087+00:00",
       "score": 11.8,
       "status": "BASELINE"
     }
