@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-11-09T07:08:04.400262+00:00",
+    "generated": "2026-11-09T22:40:40.666533+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -11,11 +11,11 @@
     "source_notes": []
   },
   "warning": {
-    "score": 15.9,
-    "raw_score": 15.9,
+    "score": 17.4,
+    "raw_score": 17.4,
     "concurrence_bonus": 0.0,
     "status": "BASELINE",
-    "headline": "Global port disruption pressure is baseline at 15.9/100.",
+    "headline": "Global port disruption pressure is baseline at 17.4/100.",
     "interpretation": "The index combines abnormal vessel-flow patterns with independent forward weather and hazard exposure. It is an early-warning pressure measure, not observed vessel waiting time."
   },
   "components": {
@@ -161,7 +161,7 @@
           "observations": 42
         }
       ],
-      "source_collected_at": "2026-11-09T07:08:04.400262+00:00"
+      "source_collected_at": "2026-11-09T22:40:40.666533+00:00"
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
@@ -279,11 +279,11 @@
           "observations": 42
         }
       ],
-      "source_collected_at": "2026-11-09T07:08:04.400262+00:00"
+      "source_collected_at": "2026-11-09T22:40:40.666533+00:00"
     },
     "weather_forecast": {
       "key": "weather_forecast",
-      "score": 2.9,
+      "score": 6.6,
       "status": "BASELINE",
       "weight": 0.25,
       "available": true,
@@ -293,15 +293,15 @@
       "method": "Seven-day maximum wind and rolling daily precipitation at ten high-activity ports.",
       "evidence": [
         {
-          "id": "port824",
-          "name": "Ningbo",
+          "id": "port425",
+          "name": "Guangzhou",
           "country": "China",
-          "lat": 29.9208,
-          "lon": 121.8818,
-          "max_wind_ms": 13.6,
-          "max_precip_24h_mm": 23.0,
-          "pressure": 11.4,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "lat": 23.0275,
+          "lon": 113.4836,
+          "max_wind_ms": 5.2,
+          "max_precip_24h_mm": 53.5,
+          "pressure": 26.1,
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port1188",
@@ -309,10 +309,10 @@
           "country": "China",
           "lat": 31.1918,
           "lon": 121.6442,
-          "max_wind_ms": 10.1,
-          "max_precip_24h_mm": 7.6,
+          "max_wind_ms": 6.9,
+          "max_precip_24h_mm": 5.9,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port517",
@@ -320,10 +320,10 @@
           "country": "China",
           "lat": 31.9324,
           "lon": 120.1593,
-          "max_wind_ms": 7.0,
-          "max_precip_24h_mm": 8.9,
+          "max_wind_ms": 4.4,
+          "max_precip_24h_mm": 6.0,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port1114",
@@ -331,10 +331,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 5.4,
-          "max_precip_24h_mm": 4.2,
+          "max_wind_ms": 8.7,
+          "max_precip_24h_mm": 7.6,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port792",
@@ -342,10 +342,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 8.9,
-          "max_precip_24h_mm": 4.9,
+          "max_wind_ms": 4.5,
+          "max_precip_24h_mm": 23.3,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port57",
@@ -353,10 +353,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 4.6,
-          "max_precip_24h_mm": 5.0,
+          "max_wind_ms": 7.6,
+          "max_precip_24h_mm": 7.2,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -364,10 +364,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 4.6,
-          "max_precip_24h_mm": 19.7,
+          "max_wind_ms": 5.1,
+          "max_precip_24h_mm": 13.4,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port1073",
@@ -375,21 +375,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 8.1,
-          "max_precip_24h_mm": 6.3,
+          "max_wind_ms": 5.2,
+          "max_precip_24h_mm": 10.2,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
-        },
-        {
-          "id": "port425",
-          "name": "Guangzhou",
-          "country": "China",
-          "lat": 23.0275,
-          "lon": 113.4836,
-          "max_wind_ms": 7.4,
-          "max_precip_24h_mm": 14.3,
-          "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -397,23 +386,34 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 7.8,
-          "max_precip_24h_mm": 8.9,
+          "max_wind_ms": 4.5,
+          "max_precip_24h_mm": 5.7,
           "pressure": 0.0,
-          "valid_to": "2026-11-16T06:00:00Z"
+          "valid_to": "2026-11-16T18:00:00Z"
+        },
+        {
+          "id": "port824",
+          "name": "Ningbo",
+          "country": "China",
+          "lat": 29.9208,
+          "lon": 121.8818,
+          "max_wind_ms": 11.0,
+          "max_precip_24h_mm": 2.5,
+          "pressure": 0.0,
+          "valid_to": "2026-11-16T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-09T07:08:04.400262+00:00"
+      "source_collected_at": "2026-11-09T22:40:40.666533+00:00"
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
-      "score": 18.6,
+      "score": 22.3,
       "status": "BASELINE",
       "weight": 0.15,
       "available": true,
       "retained": false,
       "latest_observation": "2026-11-09",
-      "coverage": 3,
+      "coverage": 2,
       "method": "Current GDACS cyclone, flood, and earthquake distance to high-activity ports.",
       "evidence": [
         {
@@ -441,30 +441,12 @@
           "pressure": 19.4,
           "updated": "2026-11-09T05:42:10",
           "url": "https://www.gdacs.org/report.aspx?eventid=1576376&episodeid=1745517&eventtype=EQ"
-        },
-        {
-          "id": "1576178",
-          "type": "EQ",
-          "name": "Earthquake in Japan",
-          "alert": "Green",
-          "severity": "Magnitude 4.5M, Depth:10km",
-          "nearest_port": "Pusan",
-          "country": "Korea",
-          "distance_km": 321,
-          "pressure": 11.3,
-          "updated": "2026-11-08T02:43:45",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576178&episodeid=1745312&eventtype=EQ"
         }
       ],
-      "source_collected_at": "2026-11-09T07:08:04.400262+00:00"
+      "source_collected_at": "2026-11-09T22:40:40.666533+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-20T12:05:53.394046+00:00",
-      "score": 10.7,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-20T17:29:42.248491+00:00",
       "score": 11.3,
@@ -758,6 +740,11 @@
     {
       "generated": "2026-11-09T07:08:04.400262+00:00",
       "score": 15.9,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-09T22:40:40.666533+00:00",
+      "score": 17.4,
       "status": "BASELINE"
     }
   ],
