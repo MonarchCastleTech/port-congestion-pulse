@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "port-congestion-pulse",
-    "generated": "2026-11-26T08:51:31.753781+00:00",
+    "generated": "2026-11-26T21:53:43.823516+00:00",
     "mode": "live",
     "version": "2.0.0",
     "horizon": "0–9 days",
@@ -161,7 +161,7 @@
           "observations": 42
         }
       ],
-      "source_collected_at": "2026-11-26T08:51:31.753781+00:00"
+      "source_collected_at": "2026-11-26T21:53:43.823516+00:00"
     },
     "chokepoint_flow": {
       "key": "chokepoint_flow",
@@ -279,7 +279,7 @@
           "observations": 42
         }
       ],
-      "source_collected_at": "2026-11-26T08:51:31.753781+00:00"
+      "source_collected_at": "2026-11-26T21:53:43.823516+00:00"
     },
     "weather_forecast": {
       "key": "weather_forecast",
@@ -299,9 +299,9 @@
           "lat": 31.1918,
           "lon": 121.6442,
           "max_wind_ms": 7.3,
-          "max_precip_24h_mm": 0.0,
+          "max_precip_24h_mm": 1.1,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port517",
@@ -310,9 +310,9 @@
           "lat": 31.9324,
           "lon": 120.1593,
           "max_wind_ms": 5.6,
-          "max_precip_24h_mm": 0.6,
+          "max_precip_24h_mm": 0.4,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port1114",
@@ -320,10 +320,10 @@
           "country": "The Netherlands",
           "lat": 51.9223,
           "lon": 4.2151,
-          "max_wind_ms": 6.3,
-          "max_precip_24h_mm": 4.7,
+          "max_wind_ms": 6.6,
+          "max_precip_24h_mm": 8.3,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port792",
@@ -331,10 +331,10 @@
           "country": "China",
           "lat": 31.9863,
           "lon": 120.8374,
-          "max_wind_ms": 6.4,
-          "max_precip_24h_mm": 0.3,
+          "max_wind_ms": 6.2,
+          "max_precip_24h_mm": 0.4,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port57",
@@ -342,10 +342,10 @@
           "country": "Belgium",
           "lat": 51.2794,
           "lon": 4.3178,
-          "max_wind_ms": 4.6,
-          "max_precip_24h_mm": 5.2,
+          "max_wind_ms": 5.2,
+          "max_precip_24h_mm": 8.8,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port1201",
@@ -353,10 +353,10 @@
           "country": "Singapore",
           "lat": 1.272,
           "lon": 103.7075,
-          "max_wind_ms": 6.1,
-          "max_precip_24h_mm": 17.6,
+          "max_wind_ms": 4.4,
+          "max_precip_24h_mm": 13.3,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port1073",
@@ -364,10 +364,10 @@
           "country": "China",
           "lat": 31.9983,
           "lon": 120.6176,
-          "max_wind_ms": 6.7,
-          "max_precip_24h_mm": 0.5,
+          "max_wind_ms": 6.5,
+          "max_precip_24h_mm": 1.1,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port425",
@@ -375,10 +375,10 @@
           "country": "China",
           "lat": 23.0275,
           "lon": 113.4836,
-          "max_wind_ms": 4.2,
-          "max_precip_24h_mm": 0.1,
+          "max_wind_ms": 4.0,
+          "max_precip_24h_mm": 0.2,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port1425",
@@ -386,10 +386,10 @@
           "country": "China",
           "lat": 31.9746,
           "lon": 120.4288,
-          "max_wind_ms": 6.7,
-          "max_precip_24h_mm": 0.9,
+          "max_wind_ms": 6.5,
+          "max_precip_24h_mm": 1.5,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         },
         {
           "id": "port824",
@@ -397,13 +397,13 @@
           "country": "China",
           "lat": 29.9208,
           "lon": 121.8818,
-          "max_wind_ms": 10.9,
-          "max_precip_24h_mm": 0.1,
+          "max_wind_ms": 10.7,
+          "max_precip_24h_mm": 2.3,
           "pressure": 0.0,
-          "valid_to": "2026-12-03T06:00:00Z"
+          "valid_to": "2026-12-03T18:00:00Z"
         }
       ],
-      "source_collected_at": "2026-11-26T08:51:31.753781+00:00"
+      "source_collected_at": "2026-11-26T21:53:43.823516+00:00"
     },
     "hazard_proximity": {
       "key": "hazard_proximity",
@@ -430,15 +430,10 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1579182&episodeid=1748641&eventtype=EQ"
         }
       ],
-      "source_collected_at": "2026-11-26T08:51:31.753781+00:00"
+      "source_collected_at": "2026-11-26T21:53:43.823516+00:00"
     }
   },
   "history": [
-    {
-      "generated": "2026-10-30T06:23:53.165053+00:00",
-      "score": 18.8,
-      "status": "BASELINE"
-    },
     {
       "generated": "2026-10-30T13:29:40.566528+00:00",
       "score": 18.8,
@@ -731,6 +726,11 @@
     },
     {
       "generated": "2026-11-26T08:51:31.753781+00:00",
+      "score": 12.3,
+      "status": "BASELINE"
+    },
+    {
+      "generated": "2026-11-26T21:53:43.823516+00:00",
       "score": 12.3,
       "status": "BASELINE"
     }
